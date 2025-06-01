@@ -9,14 +9,14 @@ const PORT = 3000;
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-// Serve index.html from /site
+// Serve index.html from /docs
 app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname, '../site/index.html'));
+  res.sendFile(path.join(__dirname, '../docs/index.html'));
 });
 
-// Serve ubereats.json from /site
+// Serve ubereats.json from /docs
 app.get('/ubereats.json', (req, res) => {
-  res.sendFile(path.join(__dirname, '../site/ubereats.json'));
+  res.sendFile(path.join(__dirname, '../docs/ubereats.json'));
 });
 
 app.listen(PORT, () => {

@@ -86,15 +86,16 @@ try {
     }
 
     // Ensure the directory exists
-    const outputDir = path.resolve('./site');
+    const outputDir = path.resolve('./docs');
     if (!fs.existsSync(outputDir)) {
         fs.mkdirSync(outputDir, { recursive: true });
     }
 
-    // Save the scraped data to site/ubereats.json in the correct structure
+    // Save the scraped data to docs/ubereats.json in the correct structure
     const outputPath = path.join(outputDir, 'ubereats.json');
     fs.writeFileSync(outputPath, JSON.stringify({ deals: allCompiled }, null, 2));
-    console.log('Scraping complete! Data saved to site/ubereats.json');
+    console.log('Scraping complete! Data saved to docs/ubereats.json');
+
 
 
 } finally {
