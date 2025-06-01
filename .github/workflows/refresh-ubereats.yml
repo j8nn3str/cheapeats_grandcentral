@@ -2,7 +2,7 @@ name: Refresh UberEats Data
 
 on:
   schedule:
-    - cron: '0 15-18 * * 1-5'
+    - cron: '0 * * * *' # Runs every hour
   workflow_dispatch:
 
 permissions:
