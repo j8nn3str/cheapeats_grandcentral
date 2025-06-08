@@ -93,8 +93,13 @@ try {
 
     // Save the scraped data to docs/ubereats.json in the correct structure
     const outputPath = path.join(outputDir, 'ubereats.json');
-    fs.writeFileSync(outputPath, JSON.stringify({ deals: allCompiled }, null, 2));
+    const outputData = {
+        refreshDateTime: new Date().toISOString(),
+        deals: allCompiled
+    };
+    fs.writeFileSync(outputPath, JSON.stringify(outputData, null, 2));
     console.log('Scraping complete! Data saved to docs/ubereats.json');
+
 
 
 
