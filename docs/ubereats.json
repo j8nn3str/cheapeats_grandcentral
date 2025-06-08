@@ -15820,306 +15820,6 @@
     {
       "@context": "https://schema.org",
       "@type": "Restaurant",
-      "@id": "https://www.ubereats.com/store/smash-house-37th-st-37th-st-new-york/451Zr--dWXaYYWeGvI6ftg",
-      "name": "Smash House- 37th St. (37th St, New York)",
-      "servesCuisine": [
-        "Burgers",
-        "American",
-        "Sandwiches",
-        "Kosher"
-      ],
-      "priceRange": "",
-      "image": [
-        "https://tb-static.uber.com/prod/image-proc/processed_images/346175c28cc3b413b6fe6f5e344946cc/fa23f51b9c499b035a68831c96e1821e.jpeg",
-        "https://tb-static.uber.com/prod/image-proc/processed_images/346175c28cc3b413b6fe6f5e344946cc/7835428b286acb57646a256c897c0e9e.jpeg",
-        "https://tb-static.uber.com/prod/image-proc/processed_images/346175c28cc3b413b6fe6f5e344946cc/0c09274e3b12c8246a05970e1ef9d835.jpeg",
-        "https://tb-static.uber.com/prod/image-proc/processed_images/346175c28cc3b413b6fe6f5e344946cc/d9be3fc772fc6c0fd6b3471e291aa823.jpeg",
-        "https://tb-static.uber.com/prod/image-proc/processed_images/346175c28cc3b413b6fe6f5e344946cc/cc592037c936600295e9961933037e19.jpeg",
-        "https://tb-static.uber.com/prod/image-proc/processed_images/346175c28cc3b413b6fe6f5e344946cc/30be7d11a3ed6f6183354d1933fbb6c7.jpeg"
-      ],
-      "potentialAction": {
-        "@type": "OrderAction",
-        "target": {
-          "@type": "EntryPoint",
-          "urlTemplate": "https://www.ubereats.com/store/smash-house-37th-st-37th-st-new-york/451Zr--dWXaYYWeGvI6ftg?utm_campaign=order-action&amp;utm_medium=organic",
-          "inLanguage": "English",
-          "actionPlatform": [
-            "https://schema.org/DesktopWebPlatform",
-            "https://schema.org/MobileWebPlatform"
-          ]
-        },
-        "deliveryMethod": [
-          "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
-          "http://purl.org/goodrelations/v1#DeliveryModePickUp"
-        ]
-      },
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "New York",
-        "addressRegion": "NY",
-        "postalCode": "10018",
-        "addressCountry": "US",
-        "streetAddress": "63 West 37th Street"
-      },
-      "geo": {
-        "@type": "GeoCoordinates",
-        "latitude": 40.7516676,
-        "longitude": -73.9860876
-      },
-      "telephone": "+17864327286",
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": 4.5,
-        "reviewCount": "220"
-      },
-      "openingHoursSpecification": [
-        {
-          "@type": "OpeningHoursSpecification",
-          "dayOfWeek": "Sunday",
-          "opens": "0:0",
-          "closes": "0:45"
-        },
-        {
-          "@type": "OpeningHoursSpecification",
-          "dayOfWeek": [
-            "Wednesday",
-            "Thursday"
-          ],
-          "opens": "11:0",
-          "closes": "22:45"
-        },
-        {
-          "@type": "OpeningHoursSpecification",
-          "dayOfWeek": "Friday",
-          "opens": "11:0",
-          "closes": "15:45"
-        },
-        {
-          "@type": "OpeningHoursSpecification",
-          "dayOfWeek": "Saturday",
-          "opens": "22:0",
-          "closes": "23:59"
-        }
-      ],
-      "deals": [
-        {
-          "uuid": "d86f5050-8ceb-5c5b-929d-3e8f5ad998b6",
-          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/4f3373410571678e54d5d86fd512b24b/5143f1e218c67c20fe5a4cd33d90b07b.jpeg",
-          "title": "Crispy Coated Wings",
-          "itemDescription": "Wings coated in our Signature Batter with option of Spice and Choice of Sauces on the Side",
-          "price": 2000,
-          "priceTagline": {
-            "text": "$20.00",
-            "textFormat": "<span>$20.00</span>",
-            "accessibilityText": "$20.00"
-          },
-          "spanCount": 2,
-          "displayType": "LIST",
-          "titleBadge": {
-            "text": "Crispy Coated Wings",
-            "textFormat": "<span>Crispy Coated Wings</span>",
-            "accessibilityText": "Crispy Coated Wings"
-          },
-          "isSoldOut": false,
-          "hasCustomizations": true,
-          "itemPromotion": {
-            "buyXGetYItemPromotion": {
-              "buyQuantity": 1,
-              "getQuantity": 1,
-              "maxRedemptionCount": 10
-            },
-            "type": "buyXGetYItemPromotion"
-          },
-          "itemDescriptionBadge": {
-            "text": "Wings coated in our Signature Batter with option of Spice and Choice of Sauces on the Side",
-            "textFormat": "<span style=\"color:#757575\">Wings coated in our Signature Batter with option of Spice and Choice of Sauces on the Side</span>"
-          },
-          "subsectionUuid": "87052a53-b742-5a59-a75b-dd079041837c",
-          "isAvailable": true,
-          "purchaseInfo": {
-            "purchaseOptions": [
-              {
-                "itemQuantityAbbreviation": "",
-                "quantityConstraintsV2": {
-                  "minPermitted": {
-                    "base": {
-                      "high": 0,
-                      "low": 1,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "maxPermitted": {
-                    "base": {
-                      "high": 0,
-                      "low": 999,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "increment": {
-                    "base": {
-                      "high": 0,
-                      "low": 1,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "defaultQuantity": {
-                    "base": {
-                      "high": 0,
-                      "low": 2,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "minPermittedNumber": 1,
-                  "maxPermittedNumber": 999,
-                  "incrementNumber": 1,
-                  "defaultQuantityNumber": 2
-                }
-              }
-            ],
-            "pricingInfo": {}
-          },
-          "sectionUuid": "5f7a32bc-6875-5b0d-8c91-1972882ad41a",
-          "promoInfo": {
-            "promotionUUID": "a9234653-a7cb-4d1d-aa18-9813bf3ceab7",
-            "promoBadge": {
-              "content": {
-                "richText": {
-                  "richTextElements": [
-                    {
-                      "text": {
-                        "text": {
-                          "text": "Buy 1, Get 1 Free",
-                          "font": {
-                            "style": "LABEL_X_SMALL",
-                            "weight": "MEDIUM"
-                          },
-                          "color": "BRAND_CONTENT_ON_PRIMARY"
-                        },
-                        "predefinedDecorations": null
-                      },
-                      "type": "text"
-                    }
-                  ],
-                  "accessibilityText": "Buy 1, Get 1 Free"
-                },
-                "type": "richText"
-              },
-              "hierarchy": "PRIMARY",
-              "color": {
-                "custom": {
-                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
-                },
-                "type": "custom"
-              },
-              "shape": "RECTANGLE",
-              "accessibilityText": "Buy 1, Get 1 Free"
-            }
-          },
-          "quickAddConfig": {
-            "shouldShow": true,
-            "isInteractionEnabled": false,
-            "position": "BOTTOM_TRAILING"
-          },
-          "labelPrimary": {
-            "richTextElements": [
-              {
-                "text": {
-                  "text": {
-                    "text": "$20.00",
-                    "font": {
-                      "style": "PARAGRAPH_SMALL",
-                      "weight": "NORMAL"
-                    },
-                    "color": "CONTENT_PRIMARY"
-                  },
-                  "predefinedDecorations": null
-                },
-                "type": "text"
-              },
-              {
-                "text": {
-                  "text": {
-                    "text": " • ",
-                    "font": {
-                      "style": "PARAGRAPH_SMALL",
-                      "weight": "NORMAL"
-                    },
-                    "color": "CONTENT_PRIMARY"
-                  },
-                  "predefinedDecorations": null
-                },
-                "type": "text"
-              },
-              {
-                "icon": {
-                  "icon": {
-                    "icon": "THUMB_UP_OUTLINE",
-                    "color": "PRIMARY",
-                    "size": "SPACING_UNIT_1_5X"
-                  },
-                  "alignment": "CENTERED"
-                },
-                "type": "icon"
-              },
-              {
-                "text": {
-                  "text": {
-                    "text": " 88% (17)",
-                    "font": {
-                      "style": "PARAGRAPH_SMALL",
-                      "weight": "NORMAL"
-                    },
-                    "color": "CONTENT_PRIMARY"
-                  },
-                  "predefinedDecorations": null
-                },
-                "type": "text"
-              }
-            ],
-            "accessibilityText": "$20.00, 88% of customers liked this based on 17 reviews."
-          },
-          "headingPrimary": {
-            "richTextElements": [
-              {
-                "text": {
-                  "text": {
-                    "text": "Crispy Coated Wings",
-                    "font": {
-                      "style": "LABEL_DEFAULT",
-                      "weight": "MEDIUM"
-                    },
-                    "color": "CONTENT_PRIMARY"
-                  },
-                  "predefinedDecorations": null
-                },
-                "type": "text"
-              }
-            ],
-            "accessibilityText": "Crispy Coated Wings"
-          },
-          "itemAvailabilityState": "UNKNOWN",
-          "catalogItemAnalyticsData": {
-            "catalogSectionItemPosition": 0,
-            "endorsementMetadata": {
-              "endorsementType": "ratings",
-              "rating": "88%",
-              "numRatings": 17
-            },
-            "promoType": "BOGO"
-          },
-          "imageOverlayElements": null,
-          "itemThumbnailElements": null,
-          "isWebPdpSupported": false
-        }
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Restaurant",
       "@id": "https://www.ubereats.com/store/popeyes-1530-broadway/QeO7mZ0YWSq1d2dMRa6kSQ",
       "name": "Popeyes  (1530 Broadway)",
       "servesCuisine": [
@@ -22514,6 +22214,5172 @@
           "productInfo": {
             "productUuid": "824e8b2e-b9b3-54eb-b57c-cc3589c68cfb"
           },
+          "isWebPdpSupported": false
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Restaurant",
+      "@id": "https://www.ubereats.com/store/ny-bakery-%26-desserts-midtown-ii/m3TC0JbtTSukmpiGNQ6wEw",
+      "name": "NY Bakery &amp; Desserts Midtown II",
+      "servesCuisine": [
+        "Specialty Foods",
+        "Desserts",
+        "Bakery",
+        "Sandwich",
+        "Coffee and Tea",
+        "Gift Store"
+      ],
+      "priceRange": "",
+      "image": [
+        "https://tb-static.uber.com/prod/image-proc/processed_images/fb4d8413cb1d856d449edd86b2587a67/e08b0b609562fdad757d8c76c3b20f19.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/fb4d8413cb1d856d449edd86b2587a67/4eed3468b168fc6e31dff0bb81a347bc.jpeg"
+      ],
+      "potentialAction": {
+        "@type": "OrderAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.ubereats.com/store/ny-bakery-%26-desserts-midtown-ii/m3TC0JbtTSukmpiGNQ6wEw?utm_campaign=order-action&amp;utm_medium=organic",
+          "inLanguage": "English",
+          "actionPlatform": [
+            "https://schema.org/DesktopWebPlatform",
+            "https://schema.org/MobileWebPlatform"
+          ]
+        },
+        "deliveryMethod": [
+          "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+          "http://purl.org/goodrelations/v1#DeliveryModePickUp"
+        ]
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "New York",
+        "addressRegion": "NY",
+        "postalCode": "10036",
+        "addressCountry": "US",
+        "streetAddress": "1580 Broadway"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 40.759645,
+        "longitude": -73.984854
+      },
+      "telephone": "+19295079222",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4,
+        "reviewCount": "800"
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "opens": "0:0",
+          "closes": "23:59"
+        }
+      ],
+      "deals": [
+        {
+          "uuid": "83c7d25c-3bd6-5b78-8a47-a15c0ebe242e",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/6464158106adbbe9106c76ec5bcbe07e/f9586c36ab7db84d09b777cee8c829b1.jpeg",
+          "title": "Fresh Organic % 100 Belgian Chocolate Covered Strawberries",
+          "itemDescription": "This specially put together box will include chocolate covered strawberries with white and milk chocolate to add color to your day.",
+          "price": 290,
+          "priceTagline": {
+            "text": "$2.90",
+            "textFormat": "<span>$2.90</span>",
+            "accessibilityText": "$2.90"
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "Fresh Organic % 100 Belgian Chocolate Covered Strawberries",
+            "textFormat": "<span>Fresh Organic % 100 Belgian Chocolate Covered Strawberries</span>",
+            "accessibilityText": "Fresh Organic % 100 Belgian Chocolate Covered Strawberries"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": true,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "This specially put together box will include chocolate covered strawberries with white and milk chocolate to add color to your day.",
+            "textFormat": "<span style=\"color:#757575\">This specially put together box will include chocolate covered strawberries with white and milk chocolate to add color to your day.</span>"
+          },
+          "subsectionUuid": "be2d0578-c418-5290-9f58-d6e088f3a271",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "soldByUnit": {
+                  "measurementType": "MEASUREMENT_TYPE_COUNT"
+                },
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": 100000,
+                    "exponent": -5
+                  },
+                  "maxPermitted": {
+                    "base": 25000000,
+                    "exponent": -5
+                  },
+                  "increment": {
+                    "base": 100000,
+                    "exponent": -5
+                  },
+                  "defaultQuantity": {
+                    "base": 100000,
+                    "exponent": -5
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 250,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 1
+                },
+                "purchasePriceV2": {
+                  "base": {
+                    "high": 0,
+                    "low": 290,
+                    "unsigned": false
+                  },
+                  "exponent": -2
+                },
+                "pricedByToSoldByUnitConversionInfo": {
+                  "conversionRate": {
+                    "base": {
+                      "high": 0,
+                      "low": 100000,
+                      "unsigned": false
+                    },
+                    "exponent": -5
+                  }
+                }
+              }
+            ],
+            "pricingInfo": {
+              "pricedByUnit": {
+                "measurementType": "MEASUREMENT_TYPE_COUNT"
+              }
+            }
+          },
+          "sectionUuid": "11b1f9a7-f61b-5745-af7f-45e60f2292e4",
+          "promoInfo": {
+            "promotionUUID": "be02e25e-ccdf-476a-9e3d-ac1501dca5aa",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "2 for 1",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "2 for 1"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "RECTANGLE",
+              "accessibilityText": "2 for 1"
+            }
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$2.90",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$2.90"
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "Fresh Organic % 100 Belgian Chocolate Covered Strawberries",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "Fresh Organic % 100 Belgian Chocolate Covered Strawberries"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 7,
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "productInfo": {
+            "productUuid": "3588dd73-c66f-577e-b525-4852fc548adc"
+          },
+          "isWebPdpSupported": false
+        },
+        {
+          "uuid": "e1b712bd-dcca-4ec9-a4f9-32ebdb621bd0",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/5de83198353ab36b01b94232acad982c/f9586c36ab7db84d09b777cee8c829b1.jpeg",
+          "title": "Fresh Pistachio Bomboloni",
+          "itemDescription": "Light and fluffy Italian donuts with homemade pistachio cream!",
+          "price": 990,
+          "priceTagline": {
+            "text": "$9.90",
+            "textFormat": "<span>$9.90</span>",
+            "accessibilityText": "$9.90"
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "Fresh Pistachio Bomboloni",
+            "textFormat": "<span>Fresh Pistachio Bomboloni</span>",
+            "accessibilityText": "Fresh Pistachio Bomboloni"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": true,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "Light and fluffy Italian donuts with homemade pistachio cream!",
+            "textFormat": "<span style=\"color:#757575\">Light and fluffy Italian donuts with homemade pistachio cream!</span>"
+          },
+          "subsectionUuid": "dc4af682-5345-5891-9503-afcde03a92dd",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "soldByUnit": {
+                  "measurementType": "MEASUREMENT_TYPE_COUNT"
+                },
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": 100000,
+                    "exponent": -5
+                  },
+                  "maxPermitted": {
+                    "base": 25000000,
+                    "exponent": -5
+                  },
+                  "increment": {
+                    "base": 100000,
+                    "exponent": -5
+                  },
+                  "defaultQuantity": {
+                    "base": 100000,
+                    "exponent": -5
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 250,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 1
+                },
+                "purchasePriceV2": {
+                  "base": {
+                    "high": 0,
+                    "low": 990,
+                    "unsigned": false
+                  },
+                  "exponent": -2
+                },
+                "pricedByToSoldByUnitConversionInfo": {
+                  "conversionRate": {
+                    "base": {
+                      "high": 0,
+                      "low": 100000,
+                      "unsigned": false
+                    },
+                    "exponent": -5
+                  }
+                }
+              }
+            ],
+            "pricingInfo": {
+              "pricedByUnit": {
+                "measurementType": "MEASUREMENT_TYPE_COUNT"
+              }
+            }
+          },
+          "sectionUuid": "11b1f9a7-f61b-5745-af7f-45e60f2292e4",
+          "promoInfo": {
+            "promotionUUID": "be02e25e-ccdf-476a-9e3d-ac1501dca5aa",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "2 for 1",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "2 for 1"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "RECTANGLE",
+              "accessibilityText": "2 for 1"
+            }
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$9.90",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$9.90"
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "Fresh Pistachio Bomboloni",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "Fresh Pistachio Bomboloni"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 29,
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "productInfo": {
+            "productUuid": "415d2d8e-1fc7-55a2-a623-b3e2bd810381"
+          },
+          "isWebPdpSupported": false
+        },
+        {
+          "uuid": "5df0bc95-7021-54d6-b911-40015b173aec",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/9bda0b1b83a22122742a8b4b7edb5c9a/f9586c36ab7db84d09b777cee8c829b1.jpeg",
+          "title": "Fresh Milky Tres Leche Slice",
+          "itemDescription": "For those who have not tried our Tres Leches Cake let us describe it as a moist, creamy and sweet Latin-American cake. The combination of the three different milk ..",
+          "price": 890,
+          "priceTagline": {
+            "text": "$8.90",
+            "textFormat": "<span>$8.90</span>",
+            "accessibilityText": "$8.90"
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "Fresh Milky Tres Leche Slice",
+            "textFormat": "<span>Fresh Milky Tres Leche Slice</span>",
+            "accessibilityText": "Fresh Milky Tres Leche Slice"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": true,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "For those who have not tried our Tres Leches Cake let us describe it as a moist, creamy and sweet Latin-American cake. The combination of the three different milk ..",
+            "textFormat": "<span style=\"color:#757575\">For those who have not tried our Tres Leches Cake let us describe it as a moist, creamy and sweet Latin-American cake. The combination of the three different milk ..</span>"
+          },
+          "subsectionUuid": "dc4af682-5345-5891-9503-afcde03a92dd",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "soldByUnit": {
+                  "measurementType": "MEASUREMENT_TYPE_COUNT"
+                },
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": 100000,
+                    "exponent": -5
+                  },
+                  "maxPermitted": {
+                    "base": 25000000,
+                    "exponent": -5
+                  },
+                  "increment": {
+                    "base": 100000,
+                    "exponent": -5
+                  },
+                  "defaultQuantity": {
+                    "base": 100000,
+                    "exponent": -5
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 250,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 1
+                },
+                "purchasePriceV2": {
+                  "base": {
+                    "high": 0,
+                    "low": 890,
+                    "unsigned": false
+                  },
+                  "exponent": -2
+                },
+                "pricedByToSoldByUnitConversionInfo": {
+                  "conversionRate": {
+                    "base": {
+                      "high": 0,
+                      "low": 100000,
+                      "unsigned": false
+                    },
+                    "exponent": -5
+                  }
+                }
+              }
+            ],
+            "pricingInfo": {
+              "pricedByUnit": {
+                "measurementType": "MEASUREMENT_TYPE_COUNT"
+              }
+            }
+          },
+          "sectionUuid": "11b1f9a7-f61b-5745-af7f-45e60f2292e4",
+          "promoInfo": {
+            "promotionUUID": "be02e25e-ccdf-476a-9e3d-ac1501dca5aa",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "2 for 1",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "2 for 1"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "RECTANGLE",
+              "accessibilityText": "2 for 1"
+            }
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$8.90",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$8.90"
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "Fresh Milky Tres Leche Slice",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "Fresh Milky Tres Leche Slice"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 15,
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "productInfo": {
+            "productUuid": "a9d6046a-78e5-5f36-b83c-0a84f15e5eb0"
+          },
+          "isWebPdpSupported": false
+        },
+        {
+          "uuid": "0e296d2b-0f8c-499e-b6b1-86466a5ddfb6",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/7775a4716b087dd766e74d6c8fa1d3ec/f9586c36ab7db84d09b777cee8c829b1.jpeg",
+          "title": "Fresh Handmade Strawberry Filled Croissant",
+          "itemDescription": "French flaky and buttery pastry filled with homemade strawberry cream filling!",
+          "price": 890,
+          "priceTagline": {
+            "text": "$8.90",
+            "textFormat": "<span>$8.90</span>",
+            "accessibilityText": "$8.90"
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "Fresh Handmade Strawberry Filled Croissant",
+            "textFormat": "<span>Fresh Handmade Strawberry Filled Croissant</span>",
+            "accessibilityText": "Fresh Handmade Strawberry Filled Croissant"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": true,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "French flaky and buttery pastry filled with homemade strawberry cream filling!",
+            "textFormat": "<span style=\"color:#757575\">French flaky and buttery pastry filled with homemade strawberry cream filling!</span>"
+          },
+          "subsectionUuid": "dc4af682-5345-5891-9503-afcde03a92dd",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "soldByUnit": {
+                  "measurementType": "MEASUREMENT_TYPE_COUNT"
+                },
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": 100000,
+                    "exponent": -5
+                  },
+                  "maxPermitted": {
+                    "base": 25000000,
+                    "exponent": -5
+                  },
+                  "increment": {
+                    "base": 100000,
+                    "exponent": -5
+                  },
+                  "defaultQuantity": {
+                    "base": 100000,
+                    "exponent": -5
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 250,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 1
+                },
+                "purchasePriceV2": {
+                  "base": {
+                    "high": 0,
+                    "low": 890,
+                    "unsigned": false
+                  },
+                  "exponent": -2
+                },
+                "pricedByToSoldByUnitConversionInfo": {
+                  "conversionRate": {
+                    "base": {
+                      "high": 0,
+                      "low": 100000,
+                      "unsigned": false
+                    },
+                    "exponent": -5
+                  }
+                }
+              }
+            ],
+            "pricingInfo": {
+              "pricedByUnit": {
+                "measurementType": "MEASUREMENT_TYPE_COUNT"
+              }
+            }
+          },
+          "sectionUuid": "11b1f9a7-f61b-5745-af7f-45e60f2292e4",
+          "promoInfo": {
+            "promotionUUID": "be02e25e-ccdf-476a-9e3d-ac1501dca5aa",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "2 for 1",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "2 for 1"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "RECTANGLE",
+              "accessibilityText": "2 for 1"
+            }
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$8.90",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$8.90"
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "Fresh Handmade Strawberry Filled Croissant",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "Fresh Handmade Strawberry Filled Croissant"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 32,
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "productInfo": {
+            "productUuid": "161953bc-2182-5932-a206-35b5cb71ddfc"
+          },
+          "isWebPdpSupported": false
+        },
+        {
+          "uuid": "59ae4922-1319-542f-bb2b-d29d400ce756",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/157e752724c1622b38f07b236f342ca9/f9586c36ab7db84d09b777cee8c829b1.jpeg",
+          "title": "Marble Pound Cake",
+          "itemDescription": "Rich, buttery pound cake swirled with chocolate and vanilla for the perfect balance of flavor. Moist, dense, and delicious in every slice.",
+          "price": 590,
+          "priceTagline": {
+            "text": "$5.90",
+            "textFormat": "<span>$5.90</span>",
+            "accessibilityText": "$5.90"
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "Marble Pound Cake",
+            "textFormat": "<span>Marble Pound Cake</span>",
+            "accessibilityText": "Marble Pound Cake"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": true,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "Rich, buttery pound cake swirled with chocolate and vanilla for the perfect balance of flavor. Moist, dense, and delicious in every slice.",
+            "textFormat": "<span style=\"color:#757575\">Rich, buttery pound cake swirled with chocolate and vanilla for the perfect balance of flavor. Moist, dense, and delicious in every slice.</span>"
+          },
+          "subsectionUuid": "dc4af682-5345-5891-9503-afcde03a92dd",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "soldByUnit": {
+                  "measurementType": "MEASUREMENT_TYPE_COUNT"
+                },
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": 100000,
+                    "exponent": -5
+                  },
+                  "maxPermitted": {
+                    "base": 25000000,
+                    "exponent": -5
+                  },
+                  "increment": {
+                    "base": 100000,
+                    "exponent": -5
+                  },
+                  "defaultQuantity": {
+                    "base": 100000,
+                    "exponent": -5
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 250,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 1
+                },
+                "purchasePriceV2": {
+                  "base": {
+                    "high": 0,
+                    "low": 590,
+                    "unsigned": false
+                  },
+                  "exponent": -2
+                },
+                "pricedByToSoldByUnitConversionInfo": {
+                  "conversionRate": {
+                    "base": {
+                      "high": 0,
+                      "low": 100000,
+                      "unsigned": false
+                    },
+                    "exponent": -5
+                  }
+                }
+              }
+            ],
+            "pricingInfo": {
+              "pricedByUnit": {
+                "measurementType": "MEASUREMENT_TYPE_COUNT"
+              }
+            }
+          },
+          "sectionUuid": "11b1f9a7-f61b-5745-af7f-45e60f2292e4",
+          "promoInfo": {
+            "promotionUUID": "be02e25e-ccdf-476a-9e3d-ac1501dca5aa",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "2 for 1",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "2 for 1"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "RECTANGLE",
+              "accessibilityText": "2 for 1"
+            }
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$5.90",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$5.90"
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "Marble Pound Cake",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "Marble Pound Cake"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 65,
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "productInfo": {
+            "productUuid": "59ae4922-1319-542f-bb2b-d29d400ce756"
+          },
+          "isWebPdpSupported": false
+        },
+        {
+          "uuid": "ad9abd0a-2bd9-56d0-869a-300895e6bba4",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/1b275ca4682efbc1b6fda11245b8d827/f9586c36ab7db84d09b777cee8c829b1.jpeg",
+          "title": "Fresh Handmade Vanilla Cupcake",
+          "itemDescription": "Hand-made and irresistible, our vanilla cupcakes may not last long. Good thing they’re nutritionally balanced and, of course, peanut-free!",
+          "price": 590,
+          "priceTagline": {
+            "text": "$5.90",
+            "textFormat": "<span>$5.90</span>",
+            "accessibilityText": "$5.90"
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "Fresh Handmade Vanilla Cupcake",
+            "textFormat": "<span>Fresh Handmade Vanilla Cupcake</span>",
+            "accessibilityText": "Fresh Handmade Vanilla Cupcake"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": true,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "Hand-made and irresistible, our vanilla cupcakes may not last long. Good thing they’re nutritionally balanced and, of course, peanut-free!",
+            "textFormat": "<span style=\"color:#757575\">Hand-made and irresistible, our vanilla cupcakes may not last long. Good thing they’re nutritionally balanced and, of course, peanut-free!</span>"
+          },
+          "subsectionUuid": "ea332aed-8066-5d40-a078-c429f1f5b986",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "soldByUnit": {
+                  "measurementType": "MEASUREMENT_TYPE_COUNT"
+                },
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": 100000,
+                    "exponent": -5
+                  },
+                  "maxPermitted": {
+                    "base": 25000000,
+                    "exponent": -5
+                  },
+                  "increment": {
+                    "base": 100000,
+                    "exponent": -5
+                  },
+                  "defaultQuantity": {
+                    "base": 100000,
+                    "exponent": -5
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 250,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 1
+                },
+                "purchasePriceV2": {
+                  "base": {
+                    "high": 0,
+                    "low": 590,
+                    "unsigned": false
+                  },
+                  "exponent": -2
+                },
+                "pricedByToSoldByUnitConversionInfo": {
+                  "conversionRate": {
+                    "base": {
+                      "high": 0,
+                      "low": 100000,
+                      "unsigned": false
+                    },
+                    "exponent": -5
+                  }
+                }
+              }
+            ],
+            "pricingInfo": {
+              "pricedByUnit": {
+                "measurementType": "MEASUREMENT_TYPE_COUNT"
+              }
+            }
+          },
+          "sectionUuid": "11b1f9a7-f61b-5745-af7f-45e60f2292e4",
+          "promoInfo": {
+            "promotionUUID": "be02e25e-ccdf-476a-9e3d-ac1501dca5aa",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "2 for 1",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "2 for 1"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "RECTANGLE",
+              "accessibilityText": "2 for 1"
+            }
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$5.90",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$5.90"
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "Fresh Handmade Vanilla Cupcake",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "Fresh Handmade Vanilla Cupcake"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 8,
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "productInfo": {
+            "productUuid": "b81d234b-3ad3-5e5d-820c-11c0ab0d5bb8"
+          },
+          "isWebPdpSupported": false
+        },
+        {
+          "uuid": "3105c36d-e7be-5ac5-8431-c2cba4aece06",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/c4ba3f18624aacff63390f15bc6fcf6a/f9586c36ab7db84d09b777cee8c829b1.jpeg",
+          "title": "Fresh. X-L Classic Original Banana Pudding",
+          "itemDescription": "A New York classic pudding made with a original recipe! Topped with crashed Graham cookies, made with highest quality ingridients!",
+          "price": 890,
+          "priceTagline": {
+            "text": "$8.90",
+            "textFormat": "<span>$8.90</span>",
+            "accessibilityText": "$8.90"
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "Fresh. X-L Classic Original Banana Pudding",
+            "textFormat": "<span>Fresh. X-L Classic Original Banana Pudding <img src=\"https://d4p17acsd5wyj.cloudfront.net/bazaar/grain.png\" width=\"14\" height=\"14\" vertical-align=\"middle\"/></span>",
+            "accessibilityText": "Fresh. X-L Classic Original Banana Pudding, GLUTEN_FREE"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": true,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "A New York classic pudding made with a original recipe! Topped with crashed Graham cookies, made with highest quality ingridients!",
+            "textFormat": "<span style=\"color:#757575\">A New York classic pudding made with a original recipe! Topped with crashed Graham cookies, made with highest quality ingridients!</span>"
+          },
+          "subsectionUuid": "dc4af682-5345-5891-9503-afcde03a92dd",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "soldByUnit": {
+                  "measurementType": "MEASUREMENT_TYPE_COUNT"
+                },
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": 100000,
+                    "exponent": -5
+                  },
+                  "maxPermitted": {
+                    "base": 25000000,
+                    "exponent": -5
+                  },
+                  "increment": {
+                    "base": 100000,
+                    "exponent": -5
+                  },
+                  "defaultQuantity": {
+                    "base": 100000,
+                    "exponent": -5
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 250,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 1
+                },
+                "purchasePriceV2": {
+                  "base": {
+                    "high": 0,
+                    "low": 890,
+                    "unsigned": false
+                  },
+                  "exponent": -2
+                },
+                "pricedByToSoldByUnitConversionInfo": {
+                  "conversionRate": {
+                    "base": {
+                      "high": 0,
+                      "low": 100000,
+                      "unsigned": false
+                    },
+                    "exponent": -5
+                  }
+                }
+              }
+            ],
+            "pricingInfo": {
+              "pricedByUnit": {
+                "measurementType": "MEASUREMENT_TYPE_COUNT"
+              }
+            }
+          },
+          "sectionUuid": "11b1f9a7-f61b-5745-af7f-45e60f2292e4",
+          "promoInfo": {
+            "promotionUUID": "be02e25e-ccdf-476a-9e3d-ac1501dca5aa",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "2 for 1",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "2 for 1"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "RECTANGLE",
+              "accessibilityText": "2 for 1"
+            }
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$8.90",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$8.90"
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "Fresh. X-L Classic Original Banana Pudding",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "Fresh. X-L Classic Original Banana Pudding"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 20,
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "productInfo": {
+            "productUuid": "fe594587-1771-5614-88b2-ccdfb6598134"
+          },
+          "isWebPdpSupported": false
+        },
+        {
+          "uuid": "a540ceb8-b649-5426-9727-776c027bca1d",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/a00456a124e5c0ec0bdb6f0c62580501/f9586c36ab7db84d09b777cee8c829b1.jpeg",
+          "title": "Handmade X-Large Box of Assorted Funfetti Cookies",
+          "itemDescription": "Chewy, colorful funfetti cookies made from scratch! Bundle of multiple designs!",
+          "price": 890,
+          "priceTagline": {
+            "text": "$8.90",
+            "textFormat": "<span>$8.90</span>",
+            "accessibilityText": "$8.90"
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "Handmade X-Large Box of Assorted Funfetti Cookies",
+            "textFormat": "<span>Handmade X-Large Box of Assorted Funfetti Cookies</span>",
+            "accessibilityText": "Handmade X-Large Box of Assorted Funfetti Cookies"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": true,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "Chewy, colorful funfetti cookies made from scratch! Bundle of multiple designs!",
+            "textFormat": "<span style=\"color:#757575\">Chewy, colorful funfetti cookies made from scratch! Bundle of multiple designs!</span>"
+          },
+          "subsectionUuid": "dc4af682-5345-5891-9503-afcde03a92dd",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "soldByUnit": {
+                  "measurementType": "MEASUREMENT_TYPE_COUNT"
+                },
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": 100000,
+                    "exponent": -5
+                  },
+                  "maxPermitted": {
+                    "base": 25000000,
+                    "exponent": -5
+                  },
+                  "increment": {
+                    "base": 100000,
+                    "exponent": -5
+                  },
+                  "defaultQuantity": {
+                    "base": 100000,
+                    "exponent": -5
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 250,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 1
+                },
+                "purchasePriceV2": {
+                  "base": {
+                    "high": 0,
+                    "low": 890,
+                    "unsigned": false
+                  },
+                  "exponent": -2
+                },
+                "pricedByToSoldByUnitConversionInfo": {
+                  "conversionRate": {
+                    "base": {
+                      "high": 0,
+                      "low": 100000,
+                      "unsigned": false
+                    },
+                    "exponent": -5
+                  }
+                }
+              }
+            ],
+            "pricingInfo": {
+              "pricedByUnit": {
+                "measurementType": "MEASUREMENT_TYPE_COUNT"
+              }
+            }
+          },
+          "sectionUuid": "11b1f9a7-f61b-5745-af7f-45e60f2292e4",
+          "promoInfo": {
+            "promotionUUID": "be02e25e-ccdf-476a-9e3d-ac1501dca5aa",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "2 for 1",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "2 for 1"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "RECTANGLE",
+              "accessibilityText": "2 for 1"
+            }
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$8.90",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$8.90"
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "Handmade X-Large Box of Assorted Funfetti Cookies",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "Handmade X-Large Box of Assorted Funfetti Cookies"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 42,
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "productInfo": {
+            "productUuid": "8f87a5b3-c713-5079-8644-d3cc7136263c"
+          },
+          "isWebPdpSupported": false
+        },
+        {
+          "uuid": "354d4699-f105-5ad7-b8b0-db367214a2ba",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/49e11f0f8f466fb898a995ed20b83b78/f9586c36ab7db84d09b777cee8c829b1.jpeg",
+          "title": "Fresh Movie Style Popcorn",
+          "itemDescription": "I have good news: you no longer need to go to the movie theater to eat movie theater style popcorn! We serve you the best movie popcorn you ever eat.",
+          "price": 990,
+          "priceTagline": {
+            "text": "$9.90",
+            "textFormat": "<span>$9.90</span>",
+            "accessibilityText": "$9.90"
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "Fresh Movie Style Popcorn",
+            "textFormat": "<span>Fresh Movie Style Popcorn</span>",
+            "accessibilityText": "Fresh Movie Style Popcorn"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": true,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "I have good news: you no longer need to go to the movie theater to eat movie theater style popcorn! We serve you the best movie popcorn you ever eat.",
+            "textFormat": "<span style=\"color:#757575\">I have good news: you no longer need to go to the movie theater to eat movie theater style popcorn! We serve you the best movie popcorn you ever eat.</span>"
+          },
+          "subsectionUuid": "85cab889-6d1a-5aea-af2c-ce860fe96a34",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "soldByUnit": {
+                  "measurementType": "MEASUREMENT_TYPE_COUNT"
+                },
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": 100000,
+                    "exponent": -5
+                  },
+                  "maxPermitted": {
+                    "base": 25000000,
+                    "exponent": -5
+                  },
+                  "increment": {
+                    "base": 100000,
+                    "exponent": -5
+                  },
+                  "defaultQuantity": {
+                    "base": 100000,
+                    "exponent": -5
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 250,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 1
+                },
+                "purchasePriceV2": {
+                  "base": {
+                    "high": 0,
+                    "low": 990,
+                    "unsigned": false
+                  },
+                  "exponent": -2
+                },
+                "pricedByToSoldByUnitConversionInfo": {
+                  "conversionRate": {
+                    "base": {
+                      "high": 0,
+                      "low": 100000,
+                      "unsigned": false
+                    },
+                    "exponent": -5
+                  }
+                }
+              }
+            ],
+            "pricingInfo": {
+              "pricedByUnit": {
+                "measurementType": "MEASUREMENT_TYPE_COUNT"
+              }
+            }
+          },
+          "sectionUuid": "11b1f9a7-f61b-5745-af7f-45e60f2292e4",
+          "promoInfo": {
+            "promotionUUID": "be02e25e-ccdf-476a-9e3d-ac1501dca5aa",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "2 for 1",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "2 for 1"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "RECTANGLE",
+              "accessibilityText": "2 for 1"
+            }
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$9.90",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$9.90"
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "Fresh Movie Style Popcorn",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "Fresh Movie Style Popcorn"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 1,
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "productInfo": {
+            "productUuid": "6623785b-fc90-534f-91e4-a1409b2861b0"
+          },
+          "isWebPdpSupported": false
+        },
+        {
+          "uuid": "940289c4-2da9-59f6-8c37-d83dab24a7aa",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/91037d74bd35cb1569fc896d73fbb4a5/f9586c36ab7db84d09b777cee8c829b1.jpeg",
+          "title": "Fresh Handmade % 100 Strawberry Drink",
+          "itemDescription": "Handmade drink with organic berries! Daily made for the best taste! Refreshing!!",
+          "price": 500,
+          "priceTagline": {
+            "text": "$5.00",
+            "textFormat": "<span>$5.00</span>",
+            "accessibilityText": "$5.00"
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "Fresh Handmade % 100 Strawberry Drink",
+            "textFormat": "<span>Fresh Handmade % 100 Strawberry Drink <img src=\"https://d4p17acsd5wyj.cloudfront.net/bazaar/vegan.png\" width=\"14\" height=\"14\" vertical-align=\"middle\"/> <img src=\"https://d4p17acsd5wyj.cloudfront.net/bazaar/leaf.png\" width=\"14\" height=\"14\" vertical-align=\"middle\"/></span>",
+            "accessibilityText": "Fresh Handmade % 100 Strawberry Drink, VEGAN, VEGETARIAN"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": false,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "Handmade drink with organic berries! Daily made for the best taste! Refreshing!!",
+            "textFormat": "<span style=\"color:#757575\">Handmade drink with organic berries! Daily made for the best taste! Refreshing!!</span>"
+          },
+          "subsectionUuid": "06a833af-c4a0-5811-b2a1-1e0dd5c04baf",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "soldByUnit": {
+                  "measurementType": "MEASUREMENT_TYPE_COUNT"
+                },
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": 100000,
+                    "exponent": -5
+                  },
+                  "maxPermitted": {
+                    "base": 25000000,
+                    "exponent": -5
+                  },
+                  "increment": {
+                    "base": 100000,
+                    "exponent": -5
+                  },
+                  "defaultQuantity": {
+                    "base": 100000,
+                    "exponent": -5
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 250,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 1
+                },
+                "purchasePriceV2": {
+                  "base": {
+                    "high": 0,
+                    "low": 500,
+                    "unsigned": false
+                  },
+                  "exponent": -2
+                },
+                "pricedByToSoldByUnitConversionInfo": {
+                  "conversionRate": {
+                    "base": {
+                      "high": 0,
+                      "low": 100000,
+                      "unsigned": false
+                    },
+                    "exponent": -5
+                  }
+                }
+              }
+            ],
+            "pricingInfo": {
+              "pricedByUnit": {
+                "measurementType": "MEASUREMENT_TYPE_COUNT"
+              }
+            }
+          },
+          "sectionUuid": "11b1f9a7-f61b-5745-af7f-45e60f2292e4",
+          "promoInfo": {
+            "promotionUUID": "be02e25e-ccdf-476a-9e3d-ac1501dca5aa",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "2 for 1",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "2 for 1"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "RECTANGLE",
+              "accessibilityText": "2 for 1"
+            }
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": true,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$5.00",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$5.00"
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "Fresh Handmade % 100 Strawberry Drink",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "Fresh Handmade % 100 Strawberry Drink"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 1,
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "productInfo": {
+            "productUuid": "e70d158d-5cf4-5bcc-91c9-c6a531e0be06"
+          },
+          "isWebPdpSupported": false
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Restaurant",
+      "@id": "https://www.ubereats.com/store/ny-patisserie-times-square/tLuvwkfIUmKTBHxWYg49eQ",
+      "name": "NY Patisserie Times Square",
+      "servesCuisine": [
+        "Bakery",
+        "Desserts",
+        "Italian",
+        "American",
+        "Breakfast and Brunch",
+        "Specialty Foods"
+      ],
+      "priceRange": "",
+      "image": [
+        "https://tb-static.uber.com/prod/image-proc/processed_images/8106157e320405015e1682abdcd9ee0d/e08b0b609562fdad757d8c76c3b20f19.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/8106157e320405015e1682abdcd9ee0d/4eed3468b168fc6e31dff0bb81a347bc.jpeg"
+      ],
+      "potentialAction": {
+        "@type": "OrderAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.ubereats.com/store/ny-patisserie-times-square/tLuvwkfIUmKTBHxWYg49eQ?utm_campaign=order-action&amp;utm_medium=organic",
+          "inLanguage": "English",
+          "actionPlatform": [
+            "https://schema.org/DesktopWebPlatform",
+            "https://schema.org/MobileWebPlatform"
+          ]
+        },
+        "deliveryMethod": [
+          "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+          "http://purl.org/goodrelations/v1#DeliveryModePickUp"
+        ]
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "New York",
+        "addressRegion": "NY",
+        "postalCode": "10036",
+        "addressCountry": "US",
+        "streetAddress": "1580 Broadway"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 40.7596972,
+        "longitude": -73.9848248
+      },
+      "telephone": "+19295079222",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4.2,
+        "reviewCount": "68"
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "opens": "0:0",
+          "closes": "23:59"
+        }
+      ],
+      "deals": [
+        {
+          "uuid": "ac0b0c3d-d83a-5dd2-974f-49ff13eb6e6d",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/50b9908fe90366ab4777dcb3c48f701f/f9586c36ab7db84d09b777cee8c829b1.jpeg",
+          "title": "Special 3 Belgian Chocolate Covered Strawberries and 3 French Macarons",
+          "itemDescription": "This Bundle includes 3 Chocolate Covered Strawberries and 3 Organic Macarons, it's a great mix and match.",
+          "price": 1790,
+          "priceTagline": {
+            "text": "$17.90",
+            "textFormat": "<span>$17.90</span>",
+            "accessibilityText": "$17.90"
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "Special 3 Belgian Chocolate Covered Strawberries and 3 French Macarons",
+            "textFormat": "<span>Special 3 Belgian Chocolate Covered Strawberries and 3 French Macarons</span>",
+            "accessibilityText": "Special 3 Belgian Chocolate Covered Strawberries and 3 French Macarons"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": true,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "This Bundle includes 3 Chocolate Covered Strawberries and 3 Organic Macarons, it's a great mix and match.",
+            "textFormat": "<span style=\"color:#757575\">This Bundle includes 3 Chocolate Covered Strawberries and 3 Organic Macarons, it&#39;s a great mix and match.</span>"
+          },
+          "subsectionUuid": "f258b52d-b3ca-5964-83fb-f39d1a714a0f",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "soldByUnit": {
+                  "measurementType": "MEASUREMENT_TYPE_COUNT"
+                },
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": 100000,
+                    "exponent": -5
+                  },
+                  "maxPermitted": {
+                    "base": 25000000,
+                    "exponent": -5
+                  },
+                  "increment": {
+                    "base": 100000,
+                    "exponent": -5
+                  },
+                  "defaultQuantity": {
+                    "base": 100000,
+                    "exponent": -5
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 250,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 1
+                },
+                "purchasePriceV2": {
+                  "base": {
+                    "high": 0,
+                    "low": 1790,
+                    "unsigned": false
+                  },
+                  "exponent": -2
+                },
+                "pricedByToSoldByUnitConversionInfo": {
+                  "conversionRate": {
+                    "base": {
+                      "high": 0,
+                      "low": 100000,
+                      "unsigned": false
+                    },
+                    "exponent": -5
+                  }
+                }
+              }
+            ],
+            "pricingInfo": {
+              "pricedByUnit": {
+                "measurementType": "MEASUREMENT_TYPE_COUNT"
+              }
+            }
+          },
+          "sectionUuid": "e6ebc178-e187-5ec3-adc0-7aad7321c66b",
+          "promoInfo": {
+            "promotionUUID": "c4cfd96f-5099-4b74-b29e-3e81d2a819ff",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "2 for 1",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "2 for 1"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "RECTANGLE",
+              "accessibilityText": "2 for 1"
+            }
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$17.90",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$17.90"
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "Special 3 Belgian Chocolate Covered Strawberries and 3 French Macarons",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "Special 3 Belgian Chocolate Covered Strawberries and 3 French Macarons"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 4,
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "productInfo": {
+            "productUuid": "2800b4a0-b839-5196-b789-568ec0763287"
+          },
+          "isWebPdpSupported": false
+        },
+        {
+          "uuid": "41366985-99f2-5d6b-a18f-b86f12166304",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/ba3025b17185c3aaa6dbd9ad6acaec25/f9586c36ab7db84d09b777cee8c829b1.jpeg",
+          "title": "Red Velvet Cake Slice with Whip Cream",
+          "itemDescription": "This smooth and delicious red velvet cake is going to make you want more! Made with creamcheese filling!",
+          "price": 990,
+          "priceTagline": {
+            "text": "$9.90",
+            "textFormat": "<span>$9.90</span>",
+            "accessibilityText": "$9.90"
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "Red Velvet Cake Slice with Whip Cream",
+            "textFormat": "<span>Red Velvet Cake Slice with Whip Cream</span>",
+            "accessibilityText": "Red Velvet Cake Slice with Whip Cream"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": true,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "This smooth and delicious red velvet cake is going to make you want more! Made with creamcheese filling!",
+            "textFormat": "<span style=\"color:#757575\">This smooth and delicious red velvet cake is going to make you want more! Made with creamcheese filling!</span>"
+          },
+          "subsectionUuid": "80c9c3b9-2bc2-585f-88aa-670c8a56a814",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "soldByUnit": {
+                  "measurementType": "MEASUREMENT_TYPE_COUNT"
+                },
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": 100000,
+                    "exponent": -5
+                  },
+                  "maxPermitted": {
+                    "base": 25000000,
+                    "exponent": -5
+                  },
+                  "increment": {
+                    "base": 100000,
+                    "exponent": -5
+                  },
+                  "defaultQuantity": {
+                    "base": 100000,
+                    "exponent": -5
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 250,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 1
+                },
+                "purchasePriceV2": {
+                  "base": {
+                    "high": 0,
+                    "low": 990,
+                    "unsigned": false
+                  },
+                  "exponent": -2
+                },
+                "pricedByToSoldByUnitConversionInfo": {
+                  "conversionRate": {
+                    "base": {
+                      "high": 0,
+                      "low": 100000,
+                      "unsigned": false
+                    },
+                    "exponent": -5
+                  }
+                }
+              }
+            ],
+            "pricingInfo": {
+              "pricedByUnit": {
+                "measurementType": "MEASUREMENT_TYPE_COUNT"
+              }
+            }
+          },
+          "sectionUuid": "e6ebc178-e187-5ec3-adc0-7aad7321c66b",
+          "promoInfo": {
+            "promotionUUID": "c4cfd96f-5099-4b74-b29e-3e81d2a819ff",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "2 for 1",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "2 for 1"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "RECTANGLE",
+              "accessibilityText": "2 for 1"
+            }
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$9.90",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$9.90"
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "Red Velvet Cake Slice with Whip Cream",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "Red Velvet Cake Slice with Whip Cream"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 8,
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "productInfo": {
+            "productUuid": "75584652-4705-5433-8a3f-8efe3dfde55a"
+          },
+          "isWebPdpSupported": false
+        },
+        {
+          "uuid": "967cd8e5-ea2b-5d4f-ad55-0363ea068d74",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/11df5d3890358b27531eaad7b9f4f8a8/f9586c36ab7db84d09b777cee8c829b1.jpeg",
+          "title": "Handmade Chocolate Croissant",
+          "itemDescription": "This croissant is one of the best one you can ever find in NYC, made by our talented cheffs specially for you!",
+          "price": 990,
+          "priceTagline": {
+            "text": "$9.90",
+            "textFormat": "<span>$9.90</span>",
+            "accessibilityText": "$9.90"
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "Handmade Chocolate Croissant",
+            "textFormat": "<span>Handmade Chocolate Croissant</span>",
+            "accessibilityText": "Handmade Chocolate Croissant"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": true,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "This croissant is one of the best one you can ever find in NYC, made by our talented cheffs specially for you!",
+            "textFormat": "<span style=\"color:#757575\">This croissant is one of the best one you can ever find in NYC, made by our talented cheffs specially for you!</span>"
+          },
+          "subsectionUuid": "f258b52d-b3ca-5964-83fb-f39d1a714a0f",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "soldByUnit": {
+                  "measurementType": "MEASUREMENT_TYPE_COUNT"
+                },
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": 100000,
+                    "exponent": -5
+                  },
+                  "maxPermitted": {
+                    "base": 25000000,
+                    "exponent": -5
+                  },
+                  "increment": {
+                    "base": 100000,
+                    "exponent": -5
+                  },
+                  "defaultQuantity": {
+                    "base": 100000,
+                    "exponent": -5
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 250,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 1
+                },
+                "purchasePriceV2": {
+                  "base": {
+                    "high": 0,
+                    "low": 990,
+                    "unsigned": false
+                  },
+                  "exponent": -2
+                },
+                "pricedByToSoldByUnitConversionInfo": {
+                  "conversionRate": {
+                    "base": {
+                      "high": 0,
+                      "low": 100000,
+                      "unsigned": false
+                    },
+                    "exponent": -5
+                  }
+                }
+              }
+            ],
+            "pricingInfo": {
+              "pricedByUnit": {
+                "measurementType": "MEASUREMENT_TYPE_COUNT"
+              }
+            }
+          },
+          "sectionUuid": "e6ebc178-e187-5ec3-adc0-7aad7321c66b",
+          "promoInfo": {
+            "promotionUUID": "c4cfd96f-5099-4b74-b29e-3e81d2a819ff",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "2 for 1",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "2 for 1"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "RECTANGLE",
+              "accessibilityText": "2 for 1"
+            }
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$9.90",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$9.90"
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "Handmade Chocolate Croissant",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "Handmade Chocolate Croissant"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 45,
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "productInfo": {
+            "productUuid": "8b1b8378-57b5-5ecf-965b-e09d0d35281e"
+          },
+          "isWebPdpSupported": false
+        },
+        {
+          "uuid": "bbe42c6d-86e4-5ae0-82cf-3aef345d28e3",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/a00456a124e5c0ec0bdb6f0c62580501/f9586c36ab7db84d09b777cee8c829b1.jpeg",
+          "title": "Assorted Italian Butter Funfetti Cookies",
+          "itemDescription": "Chewy, colorful funfetti cookies made from scratch! Bundle of multiple designs!",
+          "price": 890,
+          "priceTagline": {
+            "text": "$8.90",
+            "textFormat": "<span>$8.90</span>",
+            "accessibilityText": "$8.90"
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "Assorted Italian Butter Funfetti Cookies",
+            "textFormat": "<span>Assorted Italian Butter Funfetti Cookies</span>",
+            "accessibilityText": "Assorted Italian Butter Funfetti Cookies"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": true,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "Chewy, colorful funfetti cookies made from scratch! Bundle of multiple designs!",
+            "textFormat": "<span style=\"color:#757575\">Chewy, colorful funfetti cookies made from scratch! Bundle of multiple designs!</span>"
+          },
+          "subsectionUuid": "f258b52d-b3ca-5964-83fb-f39d1a714a0f",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "soldByUnit": {
+                  "measurementType": "MEASUREMENT_TYPE_COUNT"
+                },
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": 100000,
+                    "exponent": -5
+                  },
+                  "maxPermitted": {
+                    "base": 25000000,
+                    "exponent": -5
+                  },
+                  "increment": {
+                    "base": 100000,
+                    "exponent": -5
+                  },
+                  "defaultQuantity": {
+                    "base": 100000,
+                    "exponent": -5
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 250,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 1
+                },
+                "purchasePriceV2": {
+                  "base": {
+                    "high": 0,
+                    "low": 890,
+                    "unsigned": false
+                  },
+                  "exponent": -2
+                },
+                "pricedByToSoldByUnitConversionInfo": {
+                  "conversionRate": {
+                    "base": {
+                      "high": 0,
+                      "low": 100000,
+                      "unsigned": false
+                    },
+                    "exponent": -5
+                  }
+                }
+              }
+            ],
+            "pricingInfo": {
+              "pricedByUnit": {
+                "measurementType": "MEASUREMENT_TYPE_COUNT"
+              }
+            }
+          },
+          "sectionUuid": "e6ebc178-e187-5ec3-adc0-7aad7321c66b",
+          "promoInfo": {
+            "promotionUUID": "c4cfd96f-5099-4b74-b29e-3e81d2a819ff",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "2 for 1",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "2 for 1"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "RECTANGLE",
+              "accessibilityText": "2 for 1"
+            }
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$8.90",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$8.90"
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "Assorted Italian Butter Funfetti Cookies",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "Assorted Italian Butter Funfetti Cookies"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 61,
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "productInfo": {
+            "productUuid": "68f326b0-7bb6-5840-976f-f1688a14c9ee"
+          },
+          "isWebPdpSupported": false
+        },
+        {
+          "uuid": "bfc2e429-7e32-58d7-a2ca-91193c6a9a51",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/6766dd078b955b6a43346329ba299c2a/f9586c36ab7db84d09b777cee8c829b1.jpeg",
+          "title": "Handmade Butter Croissant",
+          "itemDescription": "Buttery, flaky, and fresh croissants! Handrolled for perfection by our French and world famous chef!",
+          "price": 690,
+          "priceTagline": {
+            "text": "$6.90",
+            "textFormat": "<span>$6.90</span>",
+            "accessibilityText": "$6.90"
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "Handmade Butter Croissant",
+            "textFormat": "<span>Handmade Butter Croissant</span>",
+            "accessibilityText": "Handmade Butter Croissant"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": true,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "Buttery, flaky, and fresh croissants! Handrolled for perfection by our French and world famous chef!",
+            "textFormat": "<span style=\"color:#757575\">Buttery, flaky, and fresh croissants! Handrolled for perfection by our French and world famous chef!</span>"
+          },
+          "subsectionUuid": "f258b52d-b3ca-5964-83fb-f39d1a714a0f",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "soldByUnit": {
+                  "measurementType": "MEASUREMENT_TYPE_COUNT"
+                },
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": 100000,
+                    "exponent": -5
+                  },
+                  "maxPermitted": {
+                    "base": 25000000,
+                    "exponent": -5
+                  },
+                  "increment": {
+                    "base": 100000,
+                    "exponent": -5
+                  },
+                  "defaultQuantity": {
+                    "base": 100000,
+                    "exponent": -5
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 250,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 1
+                },
+                "purchasePriceV2": {
+                  "base": {
+                    "high": 0,
+                    "low": 690,
+                    "unsigned": false
+                  },
+                  "exponent": -2
+                },
+                "pricedByToSoldByUnitConversionInfo": {
+                  "conversionRate": {
+                    "base": {
+                      "high": 0,
+                      "low": 100000,
+                      "unsigned": false
+                    },
+                    "exponent": -5
+                  }
+                }
+              }
+            ],
+            "pricingInfo": {
+              "pricedByUnit": {
+                "measurementType": "MEASUREMENT_TYPE_COUNT"
+              }
+            }
+          },
+          "sectionUuid": "e6ebc178-e187-5ec3-adc0-7aad7321c66b",
+          "promoInfo": {
+            "promotionUUID": "c4cfd96f-5099-4b74-b29e-3e81d2a819ff",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "2 for 1",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "2 for 1"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "RECTANGLE",
+              "accessibilityText": "2 for 1"
+            }
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$6.90",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$6.90"
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "Handmade Butter Croissant",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "Handmade Butter Croissant"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 47,
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "productInfo": {
+            "productUuid": "438fb39a-af1a-5888-92f9-cc20945d6b49"
+          },
+          "isWebPdpSupported": false
+        },
+        {
+          "uuid": "05ddba38-ebc1-4ce1-8d94-3527aefe578e",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/27d99c67d35567d6c179eee9aa15b589/f9586c36ab7db84d09b777cee8c829b1.jpeg",
+          "title": "New French Mango Mousse Cake",
+          "itemDescription": "Mango mousse cake is an easy summer dessert featuring a layer of fresh mango mousse and swirls of mango puree.",
+          "price": 890,
+          "priceTagline": {
+            "text": "$8.90",
+            "textFormat": "<span>$8.90</span>",
+            "accessibilityText": "$8.90"
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "New French Mango Mousse Cake",
+            "textFormat": "<span>New French Mango Mousse Cake</span>",
+            "accessibilityText": "New French Mango Mousse Cake"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": true,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "Mango mousse cake is an easy summer dessert featuring a layer of fresh mango mousse and swirls of mango puree.",
+            "textFormat": "<span style=\"color:#757575\">Mango mousse cake is an easy summer dessert featuring a layer of fresh mango mousse and swirls of mango puree.</span>"
+          },
+          "subsectionUuid": "f258b52d-b3ca-5964-83fb-f39d1a714a0f",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "soldByUnit": {
+                  "measurementType": "MEASUREMENT_TYPE_COUNT"
+                },
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": 100000,
+                    "exponent": -5
+                  },
+                  "maxPermitted": {
+                    "base": 25000000,
+                    "exponent": -5
+                  },
+                  "increment": {
+                    "base": 100000,
+                    "exponent": -5
+                  },
+                  "defaultQuantity": {
+                    "base": 100000,
+                    "exponent": -5
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 250,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 1
+                },
+                "purchasePriceV2": {
+                  "base": {
+                    "high": 0,
+                    "low": 890,
+                    "unsigned": false
+                  },
+                  "exponent": -2
+                },
+                "pricedByToSoldByUnitConversionInfo": {
+                  "conversionRate": {
+                    "base": {
+                      "high": 0,
+                      "low": 100000,
+                      "unsigned": false
+                    },
+                    "exponent": -5
+                  }
+                }
+              }
+            ],
+            "pricingInfo": {
+              "pricedByUnit": {
+                "measurementType": "MEASUREMENT_TYPE_COUNT"
+              }
+            }
+          },
+          "sectionUuid": "e6ebc178-e187-5ec3-adc0-7aad7321c66b",
+          "promoInfo": {
+            "promotionUUID": "c4cfd96f-5099-4b74-b29e-3e81d2a819ff",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "2 for 1",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "2 for 1"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "RECTANGLE",
+              "accessibilityText": "2 for 1"
+            }
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$8.90",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$8.90"
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "New French Mango Mousse Cake",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "New French Mango Mousse Cake"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 5,
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "productInfo": {
+            "productUuid": "62952f73-5306-5ab1-a3e0-f10c7d16b793"
+          },
+          "isWebPdpSupported": false
+        },
+        {
+          "uuid": "b88642e8-b2d4-571f-9c35-c4b51e7be084",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/49e11f0f8f466fb898a995ed20b83b78/f9586c36ab7db84d09b777cee8c829b1.jpeg",
+          "title": "Fresh Movie Style Popcorn",
+          "itemDescription": "I have good news: you no longer need to go to the movie theater to eat movie theater style popcorn! We serve you the best movie popcorn you ever eat.",
+          "price": 990,
+          "priceTagline": {
+            "text": "$9.90",
+            "textFormat": "<span>$9.90</span>",
+            "accessibilityText": "$9.90"
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "Fresh Movie Style Popcorn",
+            "textFormat": "<span>Fresh Movie Style Popcorn</span>",
+            "accessibilityText": "Fresh Movie Style Popcorn"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": true,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "I have good news: you no longer need to go to the movie theater to eat movie theater style popcorn! We serve you the best movie popcorn you ever eat.",
+            "textFormat": "<span style=\"color:#757575\">I have good news: you no longer need to go to the movie theater to eat movie theater style popcorn! We serve you the best movie popcorn you ever eat.</span>"
+          },
+          "subsectionUuid": "85cab889-6d1a-5aea-af2c-ce860fe96a34",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "soldByUnit": {
+                  "measurementType": "MEASUREMENT_TYPE_COUNT"
+                },
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": 100000,
+                    "exponent": -5
+                  },
+                  "maxPermitted": {
+                    "base": 25000000,
+                    "exponent": -5
+                  },
+                  "increment": {
+                    "base": 100000,
+                    "exponent": -5
+                  },
+                  "defaultQuantity": {
+                    "base": 100000,
+                    "exponent": -5
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 250,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 1
+                },
+                "purchasePriceV2": {
+                  "base": {
+                    "high": 0,
+                    "low": 990,
+                    "unsigned": false
+                  },
+                  "exponent": -2
+                },
+                "pricedByToSoldByUnitConversionInfo": {
+                  "conversionRate": {
+                    "base": {
+                      "high": 0,
+                      "low": 100000,
+                      "unsigned": false
+                    },
+                    "exponent": -5
+                  }
+                }
+              }
+            ],
+            "pricingInfo": {
+              "pricedByUnit": {
+                "measurementType": "MEASUREMENT_TYPE_COUNT"
+              }
+            }
+          },
+          "sectionUuid": "e6ebc178-e187-5ec3-adc0-7aad7321c66b",
+          "promoInfo": {
+            "promotionUUID": "c4cfd96f-5099-4b74-b29e-3e81d2a819ff",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "2 for 1",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "2 for 1"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "RECTANGLE",
+              "accessibilityText": "2 for 1"
+            }
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$9.90",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$9.90"
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "Fresh Movie Style Popcorn",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "Fresh Movie Style Popcorn"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 2,
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "productInfo": {
+            "productUuid": "6972c81a-49fb-5c7c-9f0e-96d2eef2f540"
+          },
+          "isWebPdpSupported": false
+        },
+        {
+          "uuid": "abf5880c-644c-5ca4-aea8-690b2a88c98a",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/0936e59142ff35a45bbaacbb27d2bf13/f9586c36ab7db84d09b777cee8c829b1.jpeg",
+          "title": "Homemade Lemonade",
+          "itemDescription": "This lemonade has been made fresh for you with organic lemons by our talented chefs to refresh you the best way!",
+          "price": 500,
+          "priceTagline": {
+            "text": "$5.00",
+            "textFormat": "<span>$5.00</span>",
+            "accessibilityText": "$5.00"
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "Homemade Lemonade",
+            "textFormat": "<span>Homemade Lemonade</span>",
+            "accessibilityText": "Homemade Lemonade"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": false,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "This lemonade has been made fresh for you with organic lemons by our talented chefs to refresh you the best way!",
+            "textFormat": "<span style=\"color:#757575\">This lemonade has been made fresh for you with organic lemons by our talented chefs to refresh you the best way!</span>"
+          },
+          "subsectionUuid": "f258b52d-b3ca-5964-83fb-f39d1a714a0f",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "soldByUnit": {
+                  "measurementType": "MEASUREMENT_TYPE_COUNT"
+                },
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": 100000,
+                    "exponent": -5
+                  },
+                  "maxPermitted": {
+                    "base": 25000000,
+                    "exponent": -5
+                  },
+                  "increment": {
+                    "base": 100000,
+                    "exponent": -5
+                  },
+                  "defaultQuantity": {
+                    "base": 100000,
+                    "exponent": -5
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 250,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 1
+                },
+                "purchasePriceV2": {
+                  "base": {
+                    "high": 0,
+                    "low": 500,
+                    "unsigned": false
+                  },
+                  "exponent": -2
+                },
+                "pricedByToSoldByUnitConversionInfo": {
+                  "conversionRate": {
+                    "base": {
+                      "high": 0,
+                      "low": 100000,
+                      "unsigned": false
+                    },
+                    "exponent": -5
+                  }
+                }
+              }
+            ],
+            "pricingInfo": {
+              "pricedByUnit": {
+                "measurementType": "MEASUREMENT_TYPE_COUNT"
+              }
+            }
+          },
+          "sectionUuid": "e6ebc178-e187-5ec3-adc0-7aad7321c66b",
+          "promoInfo": {
+            "promotionUUID": "c4cfd96f-5099-4b74-b29e-3e81d2a819ff",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "2 for 1",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "2 for 1"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "RECTANGLE",
+              "accessibilityText": "2 for 1"
+            }
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": true,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$5.00",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$5.00"
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "Homemade Lemonade",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "Homemade Lemonade"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 55,
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "productInfo": {
+            "productUuid": "5f9f7d01-a1c9-5082-854d-534db36df056"
+          },
+          "isWebPdpSupported": false
+        },
+        {
+          "uuid": "f1bdc741-4696-5d95-bba2-1dc964bcb4f0",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/e41e67120ae89e507d379c9cfa622263/f9586c36ab7db84d09b777cee8c829b1.jpeg",
+          "title": "Hand-rolled Chocolate Cake Pop",
+          "itemDescription": "1 of the best ways to enjoy the taste of chocolate pure and simple - these rich, dark and moist chocolate cake pops are just incredibly decadent!",
+          "price": 490,
+          "priceTagline": {
+            "text": "$4.90",
+            "textFormat": "<span>$4.90</span>",
+            "accessibilityText": "$4.90"
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "Hand-rolled Chocolate Cake Pop",
+            "textFormat": "<span>Hand-rolled Chocolate Cake Pop</span>",
+            "accessibilityText": "Hand-rolled Chocolate Cake Pop"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": true,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "1 of the best ways to enjoy the taste of chocolate pure and simple - these rich, dark and moist chocolate cake pops are just incredibly decadent!",
+            "textFormat": "<span style=\"color:#757575\">1 of the best ways to enjoy the taste of chocolate pure and simple - these rich, dark and moist chocolate cake pops are just incredibly decadent!</span>"
+          },
+          "subsectionUuid": "f258b52d-b3ca-5964-83fb-f39d1a714a0f",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "soldByUnit": {
+                  "measurementType": "MEASUREMENT_TYPE_COUNT"
+                },
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": 100000,
+                    "exponent": -5
+                  },
+                  "maxPermitted": {
+                    "base": 25000000,
+                    "exponent": -5
+                  },
+                  "increment": {
+                    "base": 100000,
+                    "exponent": -5
+                  },
+                  "defaultQuantity": {
+                    "base": 100000,
+                    "exponent": -5
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 250,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 1
+                },
+                "purchasePriceV2": {
+                  "base": {
+                    "high": 0,
+                    "low": 490,
+                    "unsigned": false
+                  },
+                  "exponent": -2
+                },
+                "pricedByToSoldByUnitConversionInfo": {
+                  "conversionRate": {
+                    "base": {
+                      "high": 0,
+                      "low": 100000,
+                      "unsigned": false
+                    },
+                    "exponent": -5
+                  }
+                }
+              }
+            ],
+            "pricingInfo": {
+              "pricedByUnit": {
+                "measurementType": "MEASUREMENT_TYPE_COUNT"
+              }
+            }
+          },
+          "sectionUuid": "e6ebc178-e187-5ec3-adc0-7aad7321c66b",
+          "promoInfo": {
+            "promotionUUID": "c4cfd96f-5099-4b74-b29e-3e81d2a819ff",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "2 for 1",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "2 for 1"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "RECTANGLE",
+              "accessibilityText": "2 for 1"
+            }
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$4.90",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$4.90"
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "Hand-rolled Chocolate Cake Pop",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "Hand-rolled Chocolate Cake Pop"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 51,
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "productInfo": {
+            "productUuid": "9cf4ac74-9f08-5f25-8851-ba12f7765d26"
+          },
+          "isWebPdpSupported": false
+        },
+        {
+          "uuid": "34f73dda-26cb-4ee8-bf08-2e2eb957d7be",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/5de83198353ab36b01b94232acad982c/f9586c36ab7db84d09b777cee8c829b1.jpeg",
+          "title": "Pistachio Bomboloni",
+          "itemDescription": "Light and fluffy Italian donuts with homemade pistachio cream!",
+          "price": 990,
+          "priceTagline": {
+            "text": "$9.90",
+            "textFormat": "<span>$9.90</span>",
+            "accessibilityText": "$9.90"
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "Pistachio Bomboloni",
+            "textFormat": "<span>Pistachio Bomboloni</span>",
+            "accessibilityText": "Pistachio Bomboloni"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": true,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "Light and fluffy Italian donuts with homemade pistachio cream!",
+            "textFormat": "<span style=\"color:#757575\">Light and fluffy Italian donuts with homemade pistachio cream!</span>"
+          },
+          "subsectionUuid": "f258b52d-b3ca-5964-83fb-f39d1a714a0f",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "soldByUnit": {
+                  "measurementType": "MEASUREMENT_TYPE_COUNT"
+                },
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": 100000,
+                    "exponent": -5
+                  },
+                  "maxPermitted": {
+                    "base": 25000000,
+                    "exponent": -5
+                  },
+                  "increment": {
+                    "base": 100000,
+                    "exponent": -5
+                  },
+                  "defaultQuantity": {
+                    "base": 100000,
+                    "exponent": -5
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 250,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 1
+                },
+                "purchasePriceV2": {
+                  "base": {
+                    "high": 0,
+                    "low": 990,
+                    "unsigned": false
+                  },
+                  "exponent": -2
+                },
+                "pricedByToSoldByUnitConversionInfo": {
+                  "conversionRate": {
+                    "base": {
+                      "high": 0,
+                      "low": 100000,
+                      "unsigned": false
+                    },
+                    "exponent": -5
+                  }
+                }
+              }
+            ],
+            "pricingInfo": {
+              "pricedByUnit": {
+                "measurementType": "MEASUREMENT_TYPE_COUNT"
+              }
+            }
+          },
+          "sectionUuid": "e6ebc178-e187-5ec3-adc0-7aad7321c66b",
+          "promoInfo": {
+            "promotionUUID": "4ac4f35e-d7f6-43e9-9dbe-20690ce12487",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "2 for 1",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "2 for 1"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "RECTANGLE",
+              "accessibilityText": "2 for 1"
+            }
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$9.90",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$9.90"
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "Pistachio Bomboloni",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "Pistachio Bomboloni"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 43,
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "productInfo": {
+            "productUuid": "0f9785f1-cced-5d1b-bdce-8815f4dbd2b8"
+          },
+          "isWebPdpSupported": false
+        },
+        {
+          "uuid": "e857ce6c-5832-4533-abdd-081e5f0eb33f",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/5291b892a0b58480dead39013122fdf5/f9586c36ab7db84d09b777cee8c829b1.jpeg",
+          "title": "Freshly Baked Strawberry Bomboloni",
+          "itemDescription": "Light and delicious Italian doughnut filled with homemade strawberry cream filling!",
+          "price": 890,
+          "priceTagline": {
+            "text": "$8.90",
+            "textFormat": "<span>$8.90</span>",
+            "accessibilityText": "$8.90"
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "Freshly Baked Strawberry Bomboloni",
+            "textFormat": "<span>Freshly Baked Strawberry Bomboloni</span>",
+            "accessibilityText": "Freshly Baked Strawberry Bomboloni"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": true,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "Light and delicious Italian doughnut filled with homemade strawberry cream filling!",
+            "textFormat": "<span style=\"color:#757575\">Light and delicious Italian doughnut filled with homemade strawberry cream filling!</span>"
+          },
+          "subsectionUuid": "f258b52d-b3ca-5964-83fb-f39d1a714a0f",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "soldByUnit": {
+                  "measurementType": "MEASUREMENT_TYPE_COUNT"
+                },
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": 100000,
+                    "exponent": -5
+                  },
+                  "maxPermitted": {
+                    "base": 25000000,
+                    "exponent": -5
+                  },
+                  "increment": {
+                    "base": 100000,
+                    "exponent": -5
+                  },
+                  "defaultQuantity": {
+                    "base": 100000,
+                    "exponent": -5
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 250,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 1
+                },
+                "purchasePriceV2": {
+                  "base": {
+                    "high": 0,
+                    "low": 890,
+                    "unsigned": false
+                  },
+                  "exponent": -2
+                },
+                "pricedByToSoldByUnitConversionInfo": {
+                  "conversionRate": {
+                    "base": {
+                      "high": 0,
+                      "low": 100000,
+                      "unsigned": false
+                    },
+                    "exponent": -5
+                  }
+                }
+              }
+            ],
+            "pricingInfo": {
+              "pricedByUnit": {
+                "measurementType": "MEASUREMENT_TYPE_COUNT"
+              }
+            }
+          },
+          "sectionUuid": "e6ebc178-e187-5ec3-adc0-7aad7321c66b",
+          "promoInfo": {
+            "promotionUUID": "4ac4f35e-d7f6-43e9-9dbe-20690ce12487",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "2 for 1",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "2 for 1"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "RECTANGLE",
+              "accessibilityText": "2 for 1"
+            }
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$8.90",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$8.90"
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "Freshly Baked Strawberry Bomboloni",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "Freshly Baked Strawberry Bomboloni"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 42,
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "productInfo": {
+            "productUuid": "28365a2b-663b-5bee-bbb8-04fd9136dae2"
+          },
+          "isWebPdpSupported": false
+        },
+        {
+          "uuid": "233d5453-c1cc-5da2-be2d-db2026fce9e5",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/157e752724c1622b38f07b236f342ca9/f9586c36ab7db84d09b777cee8c829b1.jpeg",
+          "title": "Marble Pound Cake",
+          "itemDescription": "Rich, buttery pound cake swirled with chocolate and vanilla for the perfect balance of flavor. Moist, dense, and delicious in every slice.",
+          "price": 590,
+          "priceTagline": {
+            "text": "$5.90",
+            "textFormat": "<span>$5.90</span>",
+            "accessibilityText": "$5.90"
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "Marble Pound Cake",
+            "textFormat": "<span>Marble Pound Cake</span>",
+            "accessibilityText": "Marble Pound Cake"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": true,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "Rich, buttery pound cake swirled with chocolate and vanilla for the perfect balance of flavor. Moist, dense, and delicious in every slice.",
+            "textFormat": "<span style=\"color:#757575\">Rich, buttery pound cake swirled with chocolate and vanilla for the perfect balance of flavor. Moist, dense, and delicious in every slice.</span>"
+          },
+          "subsectionUuid": "f258b52d-b3ca-5964-83fb-f39d1a714a0f",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "soldByUnit": {
+                  "measurementType": "MEASUREMENT_TYPE_COUNT"
+                },
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": 100000,
+                    "exponent": -5
+                  },
+                  "maxPermitted": {
+                    "base": 25000000,
+                    "exponent": -5
+                  },
+                  "increment": {
+                    "base": 100000,
+                    "exponent": -5
+                  },
+                  "defaultQuantity": {
+                    "base": 100000,
+                    "exponent": -5
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 250,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 1
+                },
+                "purchasePriceV2": {
+                  "base": {
+                    "high": 0,
+                    "low": 590,
+                    "unsigned": false
+                  },
+                  "exponent": -2
+                },
+                "pricedByToSoldByUnitConversionInfo": {
+                  "conversionRate": {
+                    "base": {
+                      "high": 0,
+                      "low": 100000,
+                      "unsigned": false
+                    },
+                    "exponent": -5
+                  }
+                }
+              }
+            ],
+            "pricingInfo": {
+              "pricedByUnit": {
+                "measurementType": "MEASUREMENT_TYPE_COUNT"
+              }
+            }
+          },
+          "sectionUuid": "e6ebc178-e187-5ec3-adc0-7aad7321c66b",
+          "promoInfo": {
+            "promotionUUID": "4ac4f35e-d7f6-43e9-9dbe-20690ce12487",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "2 for 1",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "2 for 1"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "RECTANGLE",
+              "accessibilityText": "2 for 1"
+            }
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$5.90",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$5.90"
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "Marble Pound Cake",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "Marble Pound Cake"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 73,
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "productInfo": {
+            "productUuid": "233d5453-c1cc-5da2-be2d-db2026fce9e5"
+          },
+          "isWebPdpSupported": false
+        },
+        {
+          "uuid": "a82bd247-a850-4684-8351-db760d575156",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/4035c1ee4c92a7675ca72a03b1de13f3/f9586c36ab7db84d09b777cee8c829b1.jpeg",
+          "title": "X-Large Fresh Cinnamon Roll",
+          "itemDescription": "Delicious cinnamon roll topped with classic icing glaze!",
+          "price": 890,
+          "priceTagline": {
+            "text": "$8.90",
+            "textFormat": "<span>$8.90</span>",
+            "accessibilityText": "$8.90"
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "X-Large Fresh Cinnamon Roll",
+            "textFormat": "<span>X-Large Fresh Cinnamon Roll</span>",
+            "accessibilityText": "X-Large Fresh Cinnamon Roll"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": true,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "Delicious cinnamon roll topped with classic icing glaze!",
+            "textFormat": "<span style=\"color:#757575\">Delicious cinnamon roll topped with classic icing glaze!</span>"
+          },
+          "subsectionUuid": "f258b52d-b3ca-5964-83fb-f39d1a714a0f",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "soldByUnit": {
+                  "measurementType": "MEASUREMENT_TYPE_COUNT"
+                },
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": 100000,
+                    "exponent": -5
+                  },
+                  "maxPermitted": {
+                    "base": 25000000,
+                    "exponent": -5
+                  },
+                  "increment": {
+                    "base": 100000,
+                    "exponent": -5
+                  },
+                  "defaultQuantity": {
+                    "base": 100000,
+                    "exponent": -5
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 250,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 1
+                },
+                "purchasePriceV2": {
+                  "base": {
+                    "high": 0,
+                    "low": 890,
+                    "unsigned": false
+                  },
+                  "exponent": -2
+                },
+                "pricedByToSoldByUnitConversionInfo": {
+                  "conversionRate": {
+                    "base": {
+                      "high": 0,
+                      "low": 100000,
+                      "unsigned": false
+                    },
+                    "exponent": -5
+                  }
+                }
+              }
+            ],
+            "pricingInfo": {
+              "pricedByUnit": {
+                "measurementType": "MEASUREMENT_TYPE_COUNT"
+              }
+            }
+          },
+          "sectionUuid": "e6ebc178-e187-5ec3-adc0-7aad7321c66b",
+          "promoInfo": {
+            "promotionUUID": "4ac4f35e-d7f6-43e9-9dbe-20690ce12487",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "2 for 1",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "2 for 1"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "RECTANGLE",
+              "accessibilityText": "2 for 1"
+            }
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$8.90",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$8.90"
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "X-Large Fresh Cinnamon Roll",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "X-Large Fresh Cinnamon Roll"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 40,
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "productInfo": {
+            "productUuid": "44043686-eb4b-5690-a1e9-663c14c1338f"
+          },
+          "isWebPdpSupported": false
+        },
+        {
+          "uuid": "644424fd-5c98-58c6-8c60-c854e100ea30",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/931610634502dbfaa807d43062ff46ab/f9586c36ab7db84d09b777cee8c829b1.jpeg",
+          "title": "Fresh Jumbo Strawberry Shortcake Cups",
+          "itemDescription": "All the flavors of the classic strawberry shortcake but with a soft cake layer instead of biscuit as well as hand whipped cream!",
+          "price": 890,
+          "priceTagline": {
+            "text": "$8.90",
+            "textFormat": "<span>$8.90</span>",
+            "accessibilityText": "$8.90"
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "Fresh Jumbo Strawberry Shortcake Cups",
+            "textFormat": "<span>Fresh Jumbo Strawberry Shortcake Cups</span>",
+            "accessibilityText": "Fresh Jumbo Strawberry Shortcake Cups"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": true,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "All the flavors of the classic strawberry shortcake but with a soft cake layer instead of biscuit as well as hand whipped cream!",
+            "textFormat": "<span style=\"color:#757575\">All the flavors of the classic strawberry shortcake but with a soft cake layer instead of biscuit as well as hand whipped cream!</span>"
+          },
+          "subsectionUuid": "f258b52d-b3ca-5964-83fb-f39d1a714a0f",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "soldByUnit": {
+                  "measurementType": "MEASUREMENT_TYPE_COUNT"
+                },
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": 100000,
+                    "exponent": -5
+                  },
+                  "maxPermitted": {
+                    "base": 25000000,
+                    "exponent": -5
+                  },
+                  "increment": {
+                    "base": 100000,
+                    "exponent": -5
+                  },
+                  "defaultQuantity": {
+                    "base": 100000,
+                    "exponent": -5
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 250,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 1
+                },
+                "purchasePriceV2": {
+                  "base": {
+                    "high": 0,
+                    "low": 890,
+                    "unsigned": false
+                  },
+                  "exponent": -2
+                },
+                "pricedByToSoldByUnitConversionInfo": {
+                  "conversionRate": {
+                    "base": {
+                      "high": 0,
+                      "low": 100000,
+                      "unsigned": false
+                    },
+                    "exponent": -5
+                  }
+                }
+              }
+            ],
+            "pricingInfo": {
+              "pricedByUnit": {
+                "measurementType": "MEASUREMENT_TYPE_COUNT"
+              }
+            }
+          },
+          "sectionUuid": "e6ebc178-e187-5ec3-adc0-7aad7321c66b",
+          "promoInfo": {
+            "promotionUUID": "4ac4f35e-d7f6-43e9-9dbe-20690ce12487",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "2 for 1",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "2 for 1"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "RECTANGLE",
+              "accessibilityText": "2 for 1"
+            }
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$8.90",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$8.90"
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "Fresh Jumbo Strawberry Shortcake Cups",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "Fresh Jumbo Strawberry Shortcake Cups"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 9,
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "productInfo": {
+            "productUuid": "697dae77-7719-55d0-b426-2fb7efeb5f72"
+          },
+          "isWebPdpSupported": false
+        },
+        {
+          "uuid": "6809eef5-5954-4deb-b438-c24a1acc398a",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/cf4de4afc0976e284d0d88ec290cc68b/f9586c36ab7db84d09b777cee8c829b1.jpeg",
+          "title": "Homemade Fried Donut",
+          "itemDescription": "Classic American donut covered in white and milk",
+          "price": 890,
+          "priceTagline": {
+            "text": "$8.90",
+            "textFormat": "<span>$8.90</span>",
+            "accessibilityText": "$8.90"
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "Homemade Fried Donut",
+            "textFormat": "<span>Homemade Fried Donut</span>",
+            "accessibilityText": "Homemade Fried Donut"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": true,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "Classic American donut covered in white and milk",
+            "textFormat": "<span style=\"color:#757575\">Classic American donut covered in white and milk</span>"
+          },
+          "subsectionUuid": "f258b52d-b3ca-5964-83fb-f39d1a714a0f",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "soldByUnit": {
+                  "measurementType": "MEASUREMENT_TYPE_COUNT"
+                },
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": 100000,
+                    "exponent": -5
+                  },
+                  "maxPermitted": {
+                    "base": 25000000,
+                    "exponent": -5
+                  },
+                  "increment": {
+                    "base": 100000,
+                    "exponent": -5
+                  },
+                  "defaultQuantity": {
+                    "base": 100000,
+                    "exponent": -5
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 250,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 1
+                },
+                "purchasePriceV2": {
+                  "base": {
+                    "high": 0,
+                    "low": 890,
+                    "unsigned": false
+                  },
+                  "exponent": -2
+                },
+                "pricedByToSoldByUnitConversionInfo": {
+                  "conversionRate": {
+                    "base": {
+                      "high": 0,
+                      "low": 100000,
+                      "unsigned": false
+                    },
+                    "exponent": -5
+                  }
+                }
+              }
+            ],
+            "pricingInfo": {
+              "pricedByUnit": {
+                "measurementType": "MEASUREMENT_TYPE_COUNT"
+              }
+            }
+          },
+          "sectionUuid": "e6ebc178-e187-5ec3-adc0-7aad7321c66b",
+          "promoInfo": {
+            "promotionUUID": "4ac4f35e-d7f6-43e9-9dbe-20690ce12487",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "2 for 1",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "2 for 1"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "RECTANGLE",
+              "accessibilityText": "2 for 1"
+            }
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$8.90",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$8.90"
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "Homemade Fried Donut",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "Homemade Fried Donut"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 44,
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "productInfo": {
+            "productUuid": "147b8421-5851-5c9a-a2bb-b50632f088ca"
+          },
+          "isWebPdpSupported": false
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Restaurant",
+      "@id": "https://www.ubereats.com/store/bonchon-chicken-325-5th-ave/L066F9L1TBSUMe6PUZONgw",
+      "name": "Bonchon Chicken (325 5th Ave)",
+      "servesCuisine": [
+        "Wings",
+        "Asian",
+        "Chicken",
+        "Family Friendly"
+      ],
+      "priceRange": "$$",
+      "image": [
+        "https://tb-static.uber.com/prod/image-proc/processed_images/2b93f5743ff2d69d0761b0306dd5dfba/e39556ef1e4c4565bc6c7dbd8b90869c.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/2b93f5743ff2d69d0761b0306dd5dfba/7915c4a78a9f94ed56316c7c4dc0ec89.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/2b93f5743ff2d69d0761b0306dd5dfba/67b1ce06a25a64dc4a71581bb39c36c6.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/2b93f5743ff2d69d0761b0306dd5dfba/f3376a06b92224efbe50167fb7cb61e4.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/2b93f5743ff2d69d0761b0306dd5dfba/50446f64f31cbefe66558fc47f50a9d6.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/2b93f5743ff2d69d0761b0306dd5dfba/c9252e6c6cd289c588c3381bc77b1dfc.jpeg"
+      ],
+      "potentialAction": {
+        "@type": "OrderAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.ubereats.com/store/bonchon-chicken-325-5th-ave/L066F9L1TBSUMe6PUZONgw?utm_campaign=order-action&amp;utm_medium=organic",
+          "inLanguage": "English",
+          "actionPlatform": [
+            "https://schema.org/DesktopWebPlatform",
+            "https://schema.org/MobileWebPlatform"
+          ]
+        },
+        "deliveryMethod": [
+          "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+          "http://purl.org/goodrelations/v1#DeliveryModePickUp"
+        ]
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "New York",
+        "addressRegion": "NY",
+        "postalCode": "10016",
+        "addressCountry": "US",
+        "streetAddress": "325 5th Ave"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 40.7474696,
+        "longitude": -73.9850699
+      },
+      "telephone": "+12126868282",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4.7,
+        "reviewCount": "7000"
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Sunday",
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday"
+          ],
+          "opens": "10:30",
+          "closes": "1:0"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Friday",
+            "Saturday"
+          ],
+          "opens": "10:30",
+          "closes": "2:0"
+        }
+      ],
+      "deals": [
+        {
+          "uuid": "34d1034d-40c9-560e-958e-c54bd79dc48f",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/c10c7f65348e1d5edd628b2ad20e016f/5143f1e218c67c20fe5a4cd33d90b07b.jpeg",
+          "title": "Grape Juice Can",
+          "itemDescription": "",
+          "price": 579,
+          "priceTagline": {
+            "text": "$5.79",
+            "textFormat": "<span>$5.79</span>",
+            "accessibilityText": "$5.79"
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "Grape Juice Can",
+            "textFormat": "<span>Grape Juice Can</span>",
+            "accessibilityText": "Grape Juice Can"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": false,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "subsectionUuid": "6af60005-745c-5aa6-adb0-ce8940d543ac",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "soldByUnit": {
+                  "measurementType": "MEASUREMENT_TYPE_COUNT"
+                },
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": 100000,
+                    "exponent": -5
+                  },
+                  "maxPermitted": {
+                    "base": 25000000,
+                    "exponent": -5
+                  },
+                  "increment": {
+                    "base": 100000,
+                    "exponent": -5
+                  },
+                  "defaultQuantity": {
+                    "base": {
+                      "high": 0,
+                      "low": 2,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 250,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 2
+                },
+                "purchasePriceV2": {
+                  "base": {
+                    "high": 0,
+                    "low": 579,
+                    "unsigned": false
+                  },
+                  "exponent": -2
+                }
+              }
+            ],
+            "pricingInfo": {}
+          },
+          "sectionUuid": "95ce533e-862b-5caa-9609-895f9c2d1594",
+          "promoInfo": {
+            "promotionUUID": "2f5f9d65-f4ce-49c1-91b3-b56a04f67101",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "Buy 1, Get 1 Free",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "Buy 1, Get 1 Free"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "RECTANGLE",
+              "accessibilityText": "Buy 1, Get 1 Free"
+            }
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": true,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$5.79",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": " • ",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "icon": {
+                  "icon": {
+                    "icon": "THUMB_UP_OUTLINE",
+                    "color": "PRIMARY",
+                    "size": "SPACING_UNIT_1_5X"
+                  },
+                  "alignment": "CENTERED"
+                },
+                "type": "icon"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": " 100% (8)",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$5.79, 100% of customers liked this based on 8 reviews."
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "Grape Juice Can",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "Grape Juice Can"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 8,
+            "endorsementMetadata": {
+              "endorsementType": "ratings",
+              "rating": "100%",
+              "numRatings": 8
+            },
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "isWebPdpSupported": false
+        },
+        {
+          "uuid": "dea74955-a779-5114-bf00-588bcf8772c4",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/b416aed6edfea626dbfd837c40a4f38e/5143f1e218c67c20fe5a4cd33d90b07b.jpeg",
+          "title": "Pear Juice Can",
+          "itemDescription": "",
+          "price": 579,
+          "priceTagline": {
+            "text": "$5.79",
+            "textFormat": "<span>$5.79</span>",
+            "accessibilityText": "$5.79"
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "Pear Juice Can",
+            "textFormat": "<span>Pear Juice Can</span>",
+            "accessibilityText": "Pear Juice Can"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": false,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "subsectionUuid": "6af60005-745c-5aa6-adb0-ce8940d543ac",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "soldByUnit": {
+                  "measurementType": "MEASUREMENT_TYPE_COUNT"
+                },
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": 100000,
+                    "exponent": -5
+                  },
+                  "maxPermitted": {
+                    "base": 25000000,
+                    "exponent": -5
+                  },
+                  "increment": {
+                    "base": 100000,
+                    "exponent": -5
+                  },
+                  "defaultQuantity": {
+                    "base": {
+                      "high": 0,
+                      "low": 2,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 250,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 2
+                },
+                "purchasePriceV2": {
+                  "base": {
+                    "high": 0,
+                    "low": 579,
+                    "unsigned": false
+                  },
+                  "exponent": -2
+                }
+              }
+            ],
+            "pricingInfo": {}
+          },
+          "sectionUuid": "95ce533e-862b-5caa-9609-895f9c2d1594",
+          "promoInfo": {
+            "promotionUUID": "2f5f9d65-f4ce-49c1-91b3-b56a04f67101",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "Buy 1, Get 1 Free",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "Buy 1, Get 1 Free"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "RECTANGLE",
+              "accessibilityText": "Buy 1, Get 1 Free"
+            }
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": true,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$5.79",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": " • ",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "icon": {
+                  "icon": {
+                    "icon": "THUMB_UP_OUTLINE",
+                    "color": "PRIMARY",
+                    "size": "SPACING_UNIT_1_5X"
+                  },
+                  "alignment": "CENTERED"
+                },
+                "type": "icon"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": " 90% (21)",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$5.79, 90% of customers liked this based on 21 reviews."
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "Pear Juice Can",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "Pear Juice Can"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 9,
+            "endorsementMetadata": {
+              "endorsementType": "ratings",
+              "rating": "90%",
+              "numRatings": 21
+            },
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
           "isWebPdpSupported": false
         }
       ]
