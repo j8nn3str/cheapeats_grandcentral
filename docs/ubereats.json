@@ -1,5 +1,5 @@
 {
-  "refreshDateTime": "2025-06-22T19:15:43.102Z",
+  "refreshDateTime": "2025-06-22T20:20:49.246Z",
   "deals": [
     {
       "@context": "https://schema.org",
@@ -3902,6 +3902,7 @@
         {
           "uuid": "6d79d9f2-c7be-419e-9ae3-3e921e626abd",
           "title": "Ice Coffee",
+          "itemDescription": "Brewed coffee served chilled.",
           "price": 499,
           "priceTagline": {
             "text": "$4.99",
@@ -3925,6 +3926,10 @@
               "maxRedemptionCount": 3
             },
             "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "Brewed coffee served chilled.",
+            "textFormat": "<span style=\"color:#757575\">Brewed coffee served chilled.</span>"
           },
           "subsectionUuid": "56721343-25f7-4e0a-bba1-7d8602c2a27a",
           "isAvailable": true,
@@ -5087,6 +5092,7 @@
         {
           "uuid": "8c69ed13-e779-4777-b03c-37bd7d81d0f2",
           "title": "Mango, Pineapple, and Strawberry blended with Ice",
+          "itemDescription": "Blend of mango, pineapple, and strawberry.",
           "price": 995,
           "priceTagline": {
             "text": "$9.95",
@@ -5110,6 +5116,10 @@
               "maxRedemptionCount": 3
             },
             "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "Blend of mango, pineapple, and strawberry.",
+            "textFormat": "<span style=\"color:#757575\">Blend of mango, pineapple, and strawberry.</span>"
           },
           "subsectionUuid": "93dc48bc-d05e-42c3-a60a-c4983d8a5a61",
           "isAvailable": true,
@@ -5679,6 +5689,7 @@
         {
           "uuid": "704a3add-ed7a-4c20-9f48-f6a9a267dfbf",
           "title": "Watermelon Juice",
+          "itemDescription": "Refreshing and hydrating juice made from fresh watermelon.",
           "price": 995,
           "priceTagline": {
             "text": "$9.95",
@@ -5701,6 +5712,10 @@
               "maxRedemptionCount": 3
             },
             "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "Refreshing and hydrating juice made from fresh watermelon.",
+            "textFormat": "<span style=\"color:#757575\">Refreshing and hydrating juice made from fresh watermelon.</span>"
           },
           "subsectionUuid": "36ab3901-7684-422b-99a5-73a842a9534b",
           "isAvailable": true,
@@ -8235,6 +8250,7 @@
         {
           "uuid": "34d6df35-e9dd-48e3-856d-1e224602cdc5",
           "title": "Fresh Cracked Coconut Water (16 oz)",
+          "itemDescription": "Refreshing and hydrating young coconut water.",
           "price": 995,
           "priceTagline": {
             "text": "$9.95",
@@ -8258,6 +8274,10 @@
               "maxRedemptionCount": 10
             },
             "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "Refreshing and hydrating young coconut water.",
+            "textFormat": "<span style=\"color:#757575\">Refreshing and hydrating young coconut water.</span>"
           },
           "subsectionUuid": "82333bb9-13f9-474a-98ce-d5365ddfcf3c",
           "isAvailable": true,
@@ -30535,6 +30555,579 @@
             "catalogSectionItemPosition": 2,
             "endorsementMetadata": {
               "endorsementType": "most_liked"
+            },
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "isWebPdpSupported": false
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Restaurant",
+      "@id": "https://www.ubereats.com/store/pressed-41st-%26-lexington/5vmXbg-PQFqaN1TXroOsxA",
+      "name": "Pressed - 41st &amp; Lexington",
+      "servesCuisine": [
+        "Juice and Smoothies",
+        "Healthy",
+        "Breakfast and Brunch",
+        "Açaí",
+        "Cafe",
+        "Vegan",
+        "Vegetarian"
+      ],
+      "priceRange": "$$",
+      "image": [
+        "https://tb-static.uber.com/prod/image-proc/processed_images/edd8bf8a9a9e504d9f9d002f2c8b425a/08829600257ed8168dd856cafb7446c8.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/edd8bf8a9a9e504d9f9d002f2c8b425a/560a11f5d26e4cb83686f7810a5f5fe2.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/edd8bf8a9a9e504d9f9d002f2c8b425a/35927095c71455a8eb90d48f0168bf20.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/edd8bf8a9a9e504d9f9d002f2c8b425a/66345bbe137cfe4e15769c434c6c397c.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/edd8bf8a9a9e504d9f9d002f2c8b425a/b92d4926516c2635a39581f43cd533a0.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/edd8bf8a9a9e504d9f9d002f2c8b425a/885ba8620d45ab36746a0e8c7b85ee66.jpeg"
+      ],
+      "potentialAction": {
+        "@type": "OrderAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.ubereats.com/store/pressed-41st-%26-lexington/5vmXbg-PQFqaN1TXroOsxA?utm_campaign=order-action&amp;utm_medium=organic",
+          "inLanguage": "English",
+          "actionPlatform": [
+            "https://schema.org/DesktopWebPlatform",
+            "https://schema.org/MobileWebPlatform"
+          ]
+        },
+        "deliveryMethod": [
+          "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+          "http://purl.org/goodrelations/v1#DeliveryModePickUp"
+        ]
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "New York",
+        "addressRegion": "NY",
+        "postalCode": "10017",
+        "addressCountry": "US",
+        "streetAddress": "369 Lexington Avenue"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 40.750629,
+        "longitude": -73.9767728
+      },
+      "telephone": "+12129220208",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4.9,
+        "reviewCount": "280"
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Sunday",
+          "opens": "8:0",
+          "closes": "17:30"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "7:0",
+          "closes": "19:30"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Saturday",
+          "opens": "8:0",
+          "closes": "19:30"
+        }
+      ],
+      "deals": [
+        {
+          "uuid": "b8531526-c55a-5ac7-8932-acfbf01e6182",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/a48dd3716b3831d71876d2631ee59f2a/0fb376d1da56c05644450062d25c5c84.jpeg",
+          "title": "Detox Tonic: Lemon Lavender",
+          "itemDescription": "Rejuvenate your body + mind with our Lemon Lavender Detox Tonic, a soothing blend of lavender and live probiotics. Enhanced with milk thistle, this tonic supports digestion, immunity, and liver function, promoting a balanced + revitalized system from within.",
+          "price": 794,
+          "priceTagline": {
+            "text": "$7.94",
+            "textFormat": "<span>$7.94</span>",
+            "accessibilityText": "$7.94"
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "Detox Tonic: Lemon Lavender",
+            "textFormat": "<span>Detox Tonic: Lemon Lavender</span>",
+            "accessibilityText": "Detox Tonic: Lemon Lavender"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": false,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "Rejuvenate your body + mind with our Lemon Lavender Detox Tonic, a soothing blend of lavender and live probiotics. Enhanced with milk thistle, this tonic supports digestion, immunity, and liver function, promoting a balanced + revitalized system from within.",
+            "textFormat": "<span style=\"color:#757575\">Rejuvenate your body + mind with our Lemon Lavender Detox Tonic, a soothing blend of lavender and live probiotics. Enhanced with milk thistle, this tonic supports digestion, immunity, and liver function, promoting a balanced + revitalized system from within.</span>"
+          },
+          "subsectionUuid": "b2592450-6366-5c57-8199-def6e49e6d10",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "soldByUnit": {
+                  "measurementType": "MEASUREMENT_TYPE_COUNT"
+                },
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": 100000,
+                    "exponent": -5
+                  },
+                  "maxPermitted": {
+                    "base": 25000000,
+                    "exponent": -5
+                  },
+                  "increment": {
+                    "base": 100000,
+                    "exponent": -5
+                  },
+                  "defaultQuantity": {
+                    "base": {
+                      "high": 0,
+                      "low": 2,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 250,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 2
+                },
+                "purchasePriceV2": {
+                  "base": {
+                    "high": 0,
+                    "low": 794,
+                    "unsigned": false
+                  },
+                  "exponent": -2
+                }
+              }
+            ],
+            "pricingInfo": {}
+          },
+          "sectionUuid": "2ecaf790-e0c8-5a86-a4eb-22bec912d3c2",
+          "promoInfo": {
+            "promotionUUID": "9d94af80-e30b-432a-ba97-863e9228468e",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "Buy 1, Get 1 Free",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "Buy 1, Get 1 Free"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "RECTANGLE",
+              "accessibilityText": "Buy 1, Get 1 Free"
+            }
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": true,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$7.94",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$7.94"
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "Detox Tonic: Lemon Lavender",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "Detox Tonic: Lemon Lavender"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 2,
+            "endorsementMetadata": {
+              "endorsementType": "most_liked"
+            },
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "isWebPdpSupported": false
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Restaurant",
+      "@id": "https://www.ubereats.com/store/aji-sushi/q53DBzPZVHqWiSfJ39lD9g",
+      "name": "Aji Sushi",
+      "servesCuisine": [
+        "Japanese",
+        "Sushi",
+        "Alcohol",
+        "Group Friendly"
+      ],
+      "priceRange": "",
+      "image": [
+        "https://tb-static.uber.com/prod/image-proc/processed_images/6884f337448432c84f172dbefa2fc99a/289197f4b252306213575a01442f7b66.webp",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/6884f337448432c84f172dbefa2fc99a/f7e27f77a1abfdaa9fab9b4ae7dab7cb.webp",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/6884f337448432c84f172dbefa2fc99a/63fd65eea364e21ed668f3bae8d7f85f.webp",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/6884f337448432c84f172dbefa2fc99a/357bb8cd86dabbaef837e6fb8fd17922.webp",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/6884f337448432c84f172dbefa2fc99a/f493b917841caa2281121494c004e237.webp",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/6884f337448432c84f172dbefa2fc99a/9ba9ffab5f885fc3dac87838b3357014.webp"
+      ],
+      "potentialAction": {
+        "@type": "OrderAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.ubereats.com/store/aji-sushi/q53DBzPZVHqWiSfJ39lD9g?utm_campaign=order-action&amp;utm_medium=organic",
+          "inLanguage": "English",
+          "actionPlatform": [
+            "https://schema.org/DesktopWebPlatform",
+            "https://schema.org/MobileWebPlatform"
+          ]
+        },
+        "deliveryMethod": [
+          "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+          "http://purl.org/goodrelations/v1#DeliveryModePickUp"
+        ]
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "New York",
+        "addressRegion": "NY",
+        "postalCode": "10017",
+        "addressCountry": "US",
+        "streetAddress": "838 2nd Avenue"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 40.7514552,
+        "longitude": -73.9708219
+      },
+      "telephone": "+12122272108",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4.8,
+        "reviewCount": "800"
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Sunday",
+          "opens": "15:30",
+          "closes": "21:45"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "11:30",
+          "closes": "15:30"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "16:30",
+          "closes": "21:45"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "11:30",
+          "closes": "15:30"
+        }
+      ],
+      "deals": [
+        {
+          "uuid": "5ed0d344-42a5-4399-9c12-94b8712eb390",
+          "title": "Edamame",
+          "itemDescription": "Boiled soybeans in their pods, a traditional Japanese appetizer.",
+          "price": 650,
+          "priceTagline": {
+            "text": "$6.50",
+            "textFormat": "<span>$6.50</span>",
+            "accessibilityText": "$6.50"
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "Edamame",
+            "textFormat": "<span>Edamame</span>",
+            "accessibilityText": "Edamame"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": false,
+          "numAlcoholicItems": 0,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 10
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "Boiled soybeans in their pods, a traditional Japanese appetizer.",
+            "textFormat": "<span style=\"color:#757575\">Boiled soybeans in their pods, a traditional Japanese appetizer.</span>"
+          },
+          "subsectionUuid": "d52d8fbe-3035-4fa0-8d0e-da84ec732e9e",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "maxPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 999,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "increment": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "defaultQuantity": {
+                    "base": {
+                      "high": 0,
+                      "low": 2,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 999,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 2
+                }
+              }
+            ],
+            "pricingInfo": {}
+          },
+          "sectionUuid": "88fc0295-7250-4d93-a9f7-18ab27f50f51",
+          "promoInfo": {
+            "promotionUUID": "60d8a05a-dd61-4bc1-a42e-bcc978e2c540",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "Buy 1, Get 1 Free",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "Buy 1, Get 1 Free"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "RECTANGLE",
+              "accessibilityText": "Buy 1, Get 1 Free"
+            }
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$6.50",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": " • ",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "icon": {
+                  "icon": {
+                    "icon": "THUMB_UP_OUTLINE",
+                    "color": "PRIMARY",
+                    "size": "SPACING_UNIT_1_5X"
+                  },
+                  "alignment": "CENTERED"
+                },
+                "type": "icon"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": " 100% (29)",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$6.50, 100% of customers liked this based on 29 reviews."
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "Edamame",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "Edamame"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 0,
+            "endorsementMetadata": {
+              "endorsementType": "ratings",
+              "rating": "100%",
+              "numRatings": 29
             },
             "promoType": "BOGO"
           },
