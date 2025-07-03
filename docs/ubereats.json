@@ -1,5 +1,5 @@
 {
-  "refreshDateTime": "2025-07-03T22:19:25.990Z",
+  "refreshDateTime": "2025-07-03T23:19:26.542Z",
   "deals": [
     {
       "@context": "https://schema.org",
@@ -30565,6 +30565,854 @@
           "itemAvailabilityState": "UNKNOWN",
           "catalogItemAnalyticsData": {
             "catalogSectionItemPosition": 2,
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "isWebPdpSupported": false
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Restaurant",
+      "@id": "https://www.ubereats.com/store/thai-chella/cO1zWM7VQsC9Tdq4cnHsGQ",
+      "name": "Thai Chella",
+      "servesCuisine": [
+        "Thai",
+        "Asian",
+        "Noodles",
+        "Family Friendly",
+        "eats xl",
+        "Group Friendly"
+      ],
+      "priceRange": "$$",
+      "image": [
+        "https://tb-static.uber.com/prod/image-proc/processed_images/6c43f1fc5f78484bde75226ecd3e7714/08829600257ed8168dd856cafb7446c8.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/6c43f1fc5f78484bde75226ecd3e7714/560a11f5d26e4cb83686f7810a5f5fe2.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/6c43f1fc5f78484bde75226ecd3e7714/35927095c71455a8eb90d48f0168bf20.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/6c43f1fc5f78484bde75226ecd3e7714/66345bbe137cfe4e15769c434c6c397c.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/6c43f1fc5f78484bde75226ecd3e7714/b92d4926516c2635a39581f43cd533a0.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/6c43f1fc5f78484bde75226ecd3e7714/885ba8620d45ab36746a0e8c7b85ee66.jpeg"
+      ],
+      "potentialAction": {
+        "@type": "OrderAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.ubereats.com/store/thai-chella/cO1zWM7VQsC9Tdq4cnHsGQ?utm_campaign=order-action&amp;utm_medium=organic",
+          "inLanguage": "English",
+          "actionPlatform": [
+            "https://schema.org/DesktopWebPlatform",
+            "https://schema.org/MobileWebPlatform"
+          ]
+        },
+        "deliveryMethod": [
+          "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+          "http://purl.org/goodrelations/v1#DeliveryModePickUp"
+        ]
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "New York",
+        "addressRegion": "NY",
+        "postalCode": "10017",
+        "addressCountry": "US",
+        "streetAddress": "251 East 45th Street"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 40.7517849,
+        "longitude": -73.9711135
+      },
+      "telephone": "+16468632226",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4.7,
+        "reviewCount": "1000"
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Sunday",
+          "opens": "11:30",
+          "closes": "21:15"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "11:0",
+          "closes": "21:45"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "11:30",
+          "closes": "16:0"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Saturday",
+          "opens": "11:30",
+          "closes": "21:15"
+        }
+      ],
+      "deals": [
+        {
+          "uuid": "49349ad7-7201-4508-92aa-58e97ce5fb91",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/3373dc9bc116cca0eeb122464a888b13/4218ca1d09174218364162cd0b1a8cc1.jpeg",
+          "title": "Crispy Spring Roll",
+          "itemDescription": "4 pcs.",
+          "price": 1200,
+          "priceTagline": {
+            "text": "$12.00",
+            "textFormat": "<span>$12.00</span>",
+            "accessibilityText": "$12.00"
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "Crispy Spring Roll",
+            "textFormat": "<span>Crispy Spring Roll</span>",
+            "accessibilityText": "Crispy Spring Roll"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": false,
+          "numAlcoholicItems": 0,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "4 pcs.",
+            "textFormat": "<span style=\"color:#757575\">4 pcs.</span>"
+          },
+          "subsectionUuid": "06d47e11-d8e7-463e-be46-2bf99c179178",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "maxPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 999,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "increment": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "defaultQuantity": {
+                    "base": {
+                      "high": 0,
+                      "low": 2,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 999,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 2
+                }
+              }
+            ],
+            "pricingInfo": {}
+          },
+          "sectionUuid": "96992cda-a1e8-41a0-9aad-36f884b1c70d",
+          "promoInfo": {
+            "promotionUUID": "2635e60f-76ef-455a-bdda-8f99b257f311",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "Buy 1, Get 1 Free",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "Buy 1, Get 1 Free"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "RECTANGLE",
+              "accessibilityText": "Buy 1, Get 1 Free"
+            }
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$12.00",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": " • ",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "icon": {
+                  "icon": {
+                    "icon": "THUMB_UP_OUTLINE",
+                    "color": "PRIMARY",
+                    "size": "SPACING_UNIT_1_5X"
+                  },
+                  "alignment": "CENTERED"
+                },
+                "type": "icon"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": " 91% (82)",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$12.00, 91% of customers liked this based on 82 reviews."
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "Crispy Spring Roll",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "Crispy Spring Roll"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 8,
+            "endorsementMetadata": {
+              "endorsementType": "ratings",
+              "rating": "91%",
+              "numRatings": 82
+            },
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "isWebPdpSupported": false
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Restaurant",
+      "@id": "https://www.ubereats.com/store/herbs-thai-bistro-midtown-east/CV_fDGlNS9mWC9Y-41Cx6A",
+      "name": "Herbs Thai Bistro - Midtown East",
+      "servesCuisine": [
+        "Thai",
+        "Northern Thai",
+        "Vegetarian",
+        "Healthy"
+      ],
+      "priceRange": "$",
+      "image": [
+        "https://tb-static.uber.com/prod/image-proc/processed_images/9b54ad71f586598c764d2e9bb1ccc13b/08829600257ed8168dd856cafb7446c8.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/9b54ad71f586598c764d2e9bb1ccc13b/560a11f5d26e4cb83686f7810a5f5fe2.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/9b54ad71f586598c764d2e9bb1ccc13b/35927095c71455a8eb90d48f0168bf20.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/9b54ad71f586598c764d2e9bb1ccc13b/66345bbe137cfe4e15769c434c6c397c.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/9b54ad71f586598c764d2e9bb1ccc13b/b92d4926516c2635a39581f43cd533a0.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/9b54ad71f586598c764d2e9bb1ccc13b/885ba8620d45ab36746a0e8c7b85ee66.jpeg"
+      ],
+      "potentialAction": {
+        "@type": "OrderAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.ubereats.com/store/herbs-thai-bistro-midtown-east/CV_fDGlNS9mWC9Y-41Cx6A?utm_campaign=order-action&amp;utm_medium=organic",
+          "inLanguage": "English",
+          "actionPlatform": [
+            "https://schema.org/DesktopWebPlatform",
+            "https://schema.org/MobileWebPlatform"
+          ]
+        },
+        "deliveryMethod": [
+          "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+          "http://purl.org/goodrelations/v1#DeliveryModePickUp"
+        ]
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "New York",
+        "addressRegion": "NY",
+        "postalCode": "10017",
+        "addressCountry": "US",
+        "streetAddress": "251 E 45th St"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 40.7517845,
+        "longitude": -73.9711127
+      },
+      "telephone": "+12128089388",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4.7,
+        "reviewCount": "5000"
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Sunday",
+          "opens": "11:30",
+          "closes": "21:15"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Sunday",
+          "opens": "11:30",
+          "closes": "15:0"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "11:0",
+          "closes": "21:45"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "11:0",
+          "closes": "15:0"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Saturday",
+          "opens": "11:30",
+          "closes": "21:15"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Saturday",
+          "opens": "11:30",
+          "closes": "15:0"
+        }
+      ],
+      "deals": [
+        {
+          "uuid": "4a25de3a-76df-475e-92ab-031531d9c40a",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/f703095c8e42738aec3252f00c1e8d3c/4218ca1d09174218364162cd0b1a8cc1.jpeg",
+          "title": "Vegetable Dumplings",
+          "itemDescription": "Four pieces.",
+          "price": 1300,
+          "priceTagline": {
+            "text": "$13.00",
+            "textFormat": "<span>$13.00</span>",
+            "accessibilityText": "$13.00"
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "Vegetable Dumplings",
+            "textFormat": "<span>Vegetable Dumplings</span>",
+            "accessibilityText": "Vegetable Dumplings"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": false,
+          "numAlcoholicItems": 0,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "Four pieces.",
+            "textFormat": "<span style=\"color:#757575\">Four pieces.</span>"
+          },
+          "subsectionUuid": "1ac7ee11-7634-4acd-91c6-0136317b529d",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "maxPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 999,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "increment": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "defaultQuantity": {
+                    "base": {
+                      "high": 0,
+                      "low": 2,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 999,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 2
+                }
+              }
+            ],
+            "pricingInfo": {}
+          },
+          "sectionUuid": "30dc374c-773a-4ca8-b75a-22ffa3d3f077",
+          "promoInfo": {
+            "promotionUUID": "4c6b0620-ce05-4663-9cbb-7227f5221bd6",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "Buy 1, Get 1 Free",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "Buy 1, Get 1 Free"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "RECTANGLE",
+              "accessibilityText": "Buy 1, Get 1 Free"
+            }
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$13.00",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": " • ",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "icon": {
+                  "icon": {
+                    "icon": "THUMB_UP_OUTLINE",
+                    "color": "PRIMARY",
+                    "size": "SPACING_UNIT_1_5X"
+                  },
+                  "alignment": "CENTERED"
+                },
+                "type": "icon"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": " 84% (75)",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$13.00, 84% of customers liked this based on 75 reviews."
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "Vegetable Dumplings",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "Vegetable Dumplings"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 6,
+            "endorsementMetadata": {
+              "endorsementType": "ratings",
+              "rating": "84%",
+              "numRatings": 75
+            },
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "isWebPdpSupported": false
+        },
+        {
+          "uuid": "dd4b6977-16f8-45da-a84e-ba1f34af71fe",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/ef985090a52425d66d78c4feba9f8d39/4218ca1d09174218364162cd0b1a8cc1.jpeg",
+          "title": "Chicken Mixed Shrimp Dumplings",
+          "itemDescription": "Four pieces.",
+          "price": 1300,
+          "priceTagline": {
+            "text": "$13.00",
+            "textFormat": "<span>$13.00</span>",
+            "accessibilityText": "$13.00"
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "Chicken Mixed Shrimp Dumplings",
+            "textFormat": "<span>Chicken Mixed Shrimp Dumplings</span>",
+            "accessibilityText": "Chicken Mixed Shrimp Dumplings"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": false,
+          "numAlcoholicItems": 0,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "Four pieces.",
+            "textFormat": "<span style=\"color:#757575\">Four pieces.</span>"
+          },
+          "subsectionUuid": "1ac7ee11-7634-4acd-91c6-0136317b529d",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "maxPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 999,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "increment": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "defaultQuantity": {
+                    "base": {
+                      "high": 0,
+                      "low": 2,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 999,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 2
+                }
+              }
+            ],
+            "pricingInfo": {}
+          },
+          "sectionUuid": "30dc374c-773a-4ca8-b75a-22ffa3d3f077",
+          "promoInfo": {
+            "promotionUUID": "4c6b0620-ce05-4663-9cbb-7227f5221bd6",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "Buy 1, Get 1 Free",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "Buy 1, Get 1 Free"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "RECTANGLE",
+              "accessibilityText": "Buy 1, Get 1 Free"
+            }
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$13.00",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": " • ",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "icon": {
+                  "icon": {
+                    "icon": "THUMB_UP_OUTLINE",
+                    "color": "PRIMARY",
+                    "size": "SPACING_UNIT_1_5X"
+                  },
+                  "alignment": "CENTERED"
+                },
+                "type": "icon"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": " 91% (278)",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$13.00, 91% of customers liked this based on 278 reviews."
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "Chicken Mixed Shrimp Dumplings",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "Chicken Mixed Shrimp Dumplings"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 1,
+            "endorsementMetadata": {
+              "endorsementType": "ratings",
+              "rating": "91%",
+              "numRatings": 278
+            },
             "promoType": "BOGO"
           },
           "imageOverlayElements": null,
