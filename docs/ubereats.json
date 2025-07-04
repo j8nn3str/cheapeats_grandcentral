@@ -1,5 +1,5 @@
 {
-  "refreshDateTime": "2025-07-04T16:23:44.618Z",
+  "refreshDateTime": "2025-07-04T17:17:31.074Z",
   "deals": [
     {
       "@context": "https://schema.org",
@@ -1030,11 +1030,224 @@
           },
           "itemAvailabilityState": "UNKNOWN",
           "catalogItemAnalyticsData": {
-            "catalogSectionItemPosition": 2,
+            "catalogSectionItemPosition": 3,
             "endorsementMetadata": {
               "endorsementType": "ratings",
               "rating": "86%",
               "numRatings": 243
+            },
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "isWebPdpSupported": false
+        },
+        {
+          "uuid": "0f6b03a7-6e36-5a75-8c37-66bc610ff597",
+          "imageUrl": "https://cn-geo1.uber.com/static/mobile-content/eats/placeholder_images/placeholder_image_restaurants_300x300.png",
+          "title": "Shumai",
+          "itemDescription": "Steamed Japanese shrimp dumpling.",
+          "price": 750,
+          "priceTagline": {
+            "text": "$7.50",
+            "textFormat": "<span>$7.50</span>",
+            "accessibilityText": "$7.50"
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "Shumai",
+            "textFormat": "<span>Shumai</span>",
+            "accessibilityText": "Shumai"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": false,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "Steamed Japanese shrimp dumpling.",
+            "textFormat": "<span style=\"color:#757575\">Steamed Japanese shrimp dumpling.</span>"
+          },
+          "subsectionUuid": "be0c7d9a-8563-5a28-adf2-862aeecebabb",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "maxPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 999,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "increment": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "defaultQuantity": {
+                    "base": {
+                      "high": 0,
+                      "low": 2,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 999,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 2
+                }
+              }
+            ],
+            "pricingInfo": {}
+          },
+          "sectionUuid": "a8c51187-6d0d-5edf-9fa1-8caccc5a95d2",
+          "promoInfo": {
+            "promotionUUID": "21aca75c-0c34-4181-851b-88cf1a49dc0b",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "Buy 1, Get 1 Free",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "Buy 1, Get 1 Free"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "RECTANGLE",
+              "accessibilityText": "Buy 1, Get 1 Free"
+            }
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$7.50",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": " • ",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "icon": {
+                  "icon": {
+                    "icon": "THUMB_UP_OUTLINE",
+                    "color": "PRIMARY",
+                    "size": "SPACING_UNIT_1_5X"
+                  },
+                  "alignment": "CENTERED"
+                },
+                "type": "icon"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": " 82% (297)",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$7.50, 82% of customers liked this based on 297 reviews."
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "Shumai",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "Shumai"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 0,
+            "endorsementMetadata": {
+              "endorsementType": "ratings",
+              "rating": "82%",
+              "numRatings": 297
             },
             "promoType": "BOGO"
           },
@@ -1244,7 +1457,7 @@
           },
           "itemAvailabilityState": "UNKNOWN",
           "catalogItemAnalyticsData": {
-            "catalogSectionItemPosition": 3,
+            "catalogSectionItemPosition": 4,
             "endorsementMetadata": {
               "endorsementType": "ratings",
               "rating": "89%",
@@ -1457,223 +1670,11 @@
           },
           "itemAvailabilityState": "UNKNOWN",
           "catalogItemAnalyticsData": {
-            "catalogSectionItemPosition": 4,
+            "catalogSectionItemPosition": 5,
             "endorsementMetadata": {
               "endorsementType": "ratings",
               "rating": "96%",
               "numRatings": 219
-            },
-            "promoType": "BOGO"
-          },
-          "imageOverlayElements": null,
-          "itemThumbnailElements": null,
-          "isWebPdpSupported": false
-        },
-        {
-          "uuid": "0f6b03a7-6e36-5a75-8c37-66bc610ff597",
-          "title": "Shumai",
-          "itemDescription": "Steamed Japanese shrimp dumpling.",
-          "price": 750,
-          "priceTagline": {
-            "text": "$7.50",
-            "textFormat": "<span>$7.50</span>",
-            "accessibilityText": "$7.50"
-          },
-          "spanCount": 2,
-          "displayType": "LIST",
-          "titleBadge": {
-            "text": "Shumai",
-            "textFormat": "<span>Shumai</span>",
-            "accessibilityText": "Shumai"
-          },
-          "isSoldOut": false,
-          "hasCustomizations": false,
-          "itemPromotion": {
-            "buyXGetYItemPromotion": {
-              "buyQuantity": 1,
-              "getQuantity": 1,
-              "maxRedemptionCount": 3
-            },
-            "type": "buyXGetYItemPromotion"
-          },
-          "itemDescriptionBadge": {
-            "text": "Steamed Japanese shrimp dumpling.",
-            "textFormat": "<span style=\"color:#757575\">Steamed Japanese shrimp dumpling.</span>"
-          },
-          "subsectionUuid": "be0c7d9a-8563-5a28-adf2-862aeecebabb",
-          "isAvailable": true,
-          "purchaseInfo": {
-            "purchaseOptions": [
-              {
-                "itemQuantityAbbreviation": "",
-                "quantityConstraintsV2": {
-                  "minPermitted": {
-                    "base": {
-                      "high": 0,
-                      "low": 1,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "maxPermitted": {
-                    "base": {
-                      "high": 0,
-                      "low": 999,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "increment": {
-                    "base": {
-                      "high": 0,
-                      "low": 1,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "defaultQuantity": {
-                    "base": {
-                      "high": 0,
-                      "low": 2,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "minPermittedNumber": 1,
-                  "maxPermittedNumber": 999,
-                  "incrementNumber": 1,
-                  "defaultQuantityNumber": 2
-                }
-              }
-            ],
-            "pricingInfo": {}
-          },
-          "sectionUuid": "a8c51187-6d0d-5edf-9fa1-8caccc5a95d2",
-          "promoInfo": {
-            "promotionUUID": "21aca75c-0c34-4181-851b-88cf1a49dc0b",
-            "promoBadge": {
-              "content": {
-                "richText": {
-                  "richTextElements": [
-                    {
-                      "text": {
-                        "text": {
-                          "text": "Buy 1, Get 1 Free",
-                          "font": {
-                            "style": "LABEL_X_SMALL",
-                            "weight": "MEDIUM"
-                          },
-                          "color": "BRAND_CONTENT_ON_PRIMARY"
-                        },
-                        "predefinedDecorations": null
-                      },
-                      "type": "text"
-                    }
-                  ],
-                  "accessibilityText": "Buy 1, Get 1 Free"
-                },
-                "type": "richText"
-              },
-              "hierarchy": "PRIMARY",
-              "color": {
-                "custom": {
-                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
-                },
-                "type": "custom"
-              },
-              "shape": "RECTANGLE",
-              "accessibilityText": "Buy 1, Get 1 Free"
-            }
-          },
-          "quickAddConfig": {
-            "shouldShow": true,
-            "isInteractionEnabled": false,
-            "position": "BOTTOM_TRAILING"
-          },
-          "labelPrimary": {
-            "richTextElements": [
-              {
-                "text": {
-                  "text": {
-                    "text": "$7.50",
-                    "font": {
-                      "style": "PARAGRAPH_SMALL",
-                      "weight": "NORMAL"
-                    },
-                    "color": "CONTENT_PRIMARY"
-                  },
-                  "predefinedDecorations": null
-                },
-                "type": "text"
-              },
-              {
-                "text": {
-                  "text": {
-                    "text": " • ",
-                    "font": {
-                      "style": "PARAGRAPH_SMALL",
-                      "weight": "NORMAL"
-                    },
-                    "color": "CONTENT_PRIMARY"
-                  },
-                  "predefinedDecorations": null
-                },
-                "type": "text"
-              },
-              {
-                "icon": {
-                  "icon": {
-                    "icon": "THUMB_UP_OUTLINE",
-                    "color": "PRIMARY",
-                    "size": "SPACING_UNIT_1_5X"
-                  },
-                  "alignment": "CENTERED"
-                },
-                "type": "icon"
-              },
-              {
-                "text": {
-                  "text": {
-                    "text": " 82% (297)",
-                    "font": {
-                      "style": "PARAGRAPH_SMALL",
-                      "weight": "NORMAL"
-                    },
-                    "color": "CONTENT_PRIMARY"
-                  },
-                  "predefinedDecorations": null
-                },
-                "type": "text"
-              }
-            ],
-            "accessibilityText": "$7.50, 82% of customers liked this based on 297 reviews."
-          },
-          "headingPrimary": {
-            "richTextElements": [
-              {
-                "text": {
-                  "text": {
-                    "text": "Shumai",
-                    "font": {
-                      "style": "LABEL_DEFAULT",
-                      "weight": "MEDIUM"
-                    },
-                    "color": "CONTENT_PRIMARY"
-                  },
-                  "predefinedDecorations": null
-                },
-                "type": "text"
-              }
-            ],
-            "accessibilityText": "Shumai"
-          },
-          "itemAvailabilityState": "UNKNOWN",
-          "catalogItemAnalyticsData": {
-            "catalogSectionItemPosition": 9,
-            "endorsementMetadata": {
-              "endorsementType": "ratings",
-              "rating": "82%",
-              "numRatings": 297
             },
             "promoType": "BOGO"
           },
@@ -2998,6 +2999,7 @@
       "deals": [
         {
           "uuid": "1f059002-d561-427a-ad44-e832f87c171e",
+          "imageUrl": "https://cn-geo1.uber.com/static/mobile-content/eats/placeholder_images/placeholder_image_restaurants_300x300.png",
           "title": "Cleanser Juice",
           "itemDescription": "Beet, watermelon, and pineapple.",
           "price": 1395,
@@ -3169,6 +3171,7 @@
         },
         {
           "uuid": "3d6f861b-94dc-4074-9947-131cc988370c",
+          "imageUrl": "https://cn-geo1.uber.com/static/mobile-content/eats/placeholder_images/placeholder_image_restaurants_300x300.png",
           "title": "Chocolate Peanut Butter Protein Smoothie",
           "itemDescription": "Chocolate protein blended with peanut butter, strawberry, banana, and almond milk. Protein Smoothie.",
           "price": 1195,
@@ -3382,6 +3385,7 @@
         },
         {
           "uuid": "4488e380-d781-495e-9cdb-33473239889d",
+          "imageUrl": "https://cn-geo1.uber.com/static/mobile-content/eats/placeholder_images/placeholder_image_restaurants_300x300.png",
           "title": "Acai Berry Bowl (16 oz)",
           "itemDescription": "Organic acai blended with strawberry, blueberry, & banana . Topped with granola, banana and strawberry.",
           "price": 1895,
@@ -3581,7 +3585,7 @@
           },
           "itemAvailabilityState": "UNKNOWN",
           "catalogItemAnalyticsData": {
-            "catalogSectionItemPosition": 3,
+            "catalogSectionItemPosition": 2,
             "endorsementMetadata": {
               "endorsementType": "ratings",
               "rating": "95%",
@@ -3595,6 +3599,7 @@
         },
         {
           "uuid": "6d79d9f2-c7be-419e-9ae3-3e921e626abd",
+          "imageUrl": "https://cn-geo1.uber.com/static/mobile-content/eats/placeholder_images/placeholder_image_restaurants_300x300.png",
           "title": "Ice Coffee",
           "itemDescription": "Brewed coffee served chilled.",
           "price": 499,
@@ -3764,6 +3769,7 @@
         },
         {
           "uuid": "38965acf-ab17-403d-aeee-541bc3766f09",
+          "imageUrl": "https://cn-geo1.uber.com/static/mobile-content/eats/placeholder_images/placeholder_image_restaurants_300x300.png",
           "title": "The Green",
           "itemDescription": "Apple, cucumber, celery, and kale.",
           "price": 1395,
@@ -3976,6 +3982,7 @@
         },
         {
           "uuid": "b50f8f6c-818e-4764-8bb1-5dec9104e886",
+          "imageUrl": "https://cn-geo1.uber.com/static/mobile-content/eats/placeholder_images/placeholder_image_restaurants_300x300.png",
           "title": "Green Detox Smoothie",
           "itemDescription": "Kiwi, banana, pineapple, celery, and spinach.",
           "price": 1395,
@@ -4189,6 +4196,7 @@
         },
         {
           "uuid": "cd8fc0a7-cc45-474d-bfc8-b95a207db6a4",
+          "imageUrl": "https://cn-geo1.uber.com/static/mobile-content/eats/placeholder_images/placeholder_image_restaurants_300x300.png",
           "title": "Peanut Butter Smoothie",
           "itemDescription": "Banana, strawberry, almond milk, and peanut butter blended with ice.",
           "price": 1095,
@@ -4402,6 +4410,7 @@
         },
         {
           "uuid": "ab16d475-c4a0-4438-8a90-c64eb09bc8fd",
+          "imageUrl": "https://cn-geo1.uber.com/static/mobile-content/eats/placeholder_images/placeholder_image_restaurants_300x300.png",
           "title": "Blueberry Strawberry Yogurt Shake",
           "itemDescription": "Fruits blended with fat free frozen yogurt or regular yogurt, and skim milk and ice.",
           "price": 995,
@@ -4614,6 +4623,7 @@
         },
         {
           "uuid": "dc949bc5-57bc-4fde-8ca4-c83249624445",
+          "imageUrl": "https://cn-geo1.uber.com/static/mobile-content/eats/placeholder_images/placeholder_image_restaurants_300x300.png",
           "title": "Hangover Peanut Butter Smoothie",
           "itemDescription": "Peanut butter, cocoa, banana, and almond milk.",
           "price": 1395,
@@ -4785,6 +4795,7 @@
         },
         {
           "uuid": "8c69ed13-e779-4777-b03c-37bd7d81d0f2",
+          "imageUrl": "https://cn-geo1.uber.com/static/mobile-content/eats/placeholder_images/placeholder_image_restaurants_300x300.png",
           "title": "Mango, Pineapple, and Strawberry blended with Ice",
           "itemDescription": "Blend of mango, pineapple, and strawberry.",
           "price": 995,
@@ -4998,6 +5009,7 @@
         },
         {
           "uuid": "926e6a2b-ee72-4c49-a785-64414c4db008",
+          "imageUrl": "https://cn-geo1.uber.com/static/mobile-content/eats/placeholder_images/placeholder_image_restaurants_300x300.png",
           "title": "Protein Smoothie",
           "itemDescription": "Banana, strawberry, protein powder, and almond milk blended with ice.",
           "price": 1195,
@@ -5211,6 +5223,7 @@
         },
         {
           "uuid": "3b2b2f40-e7e7-41d6-9a2f-222598443bcb",
+          "imageUrl": "https://cn-geo1.uber.com/static/mobile-content/eats/placeholder_images/placeholder_image_restaurants_300x300.png",
           "title": "Banana , Strawberry, and Watermelon Frosty",
           "itemDescription": "Mango, papaya, banana, and blended with ice.",
           "price": 995,
@@ -5379,6 +5392,7 @@
         },
         {
           "uuid": "704a3add-ed7a-4c20-9f48-f6a9a267dfbf",
+          "imageUrl": "https://cn-geo1.uber.com/static/mobile-content/eats/placeholder_images/placeholder_image_restaurants_300x300.png",
           "title": "Watermelon Juice",
           "itemDescription": "Refreshing and hydrating juice made from fresh watermelon.",
           "price": 995,
@@ -5547,6 +5561,7 @@
         },
         {
           "uuid": "c99c7631-f916-49ae-8555-5207b13b2234",
+          "imageUrl": "https://cn-geo1.uber.com/static/mobile-content/eats/placeholder_images/placeholder_image_restaurants_300x300.png",
           "title": "Green Smoothie",
           "itemDescription": "Kale, spinach, banana, mango, and pineapple blended with ice.",
           "price": 995,
@@ -5759,6 +5774,7 @@
         },
         {
           "uuid": "cb7a3460-2ef9-4194-adea-81bbd651a59a",
+          "imageUrl": "https://cn-geo1.uber.com/static/mobile-content/eats/placeholder_images/placeholder_image_restaurants_300x300.png",
           "title": "Cold Buster",
           "itemDescription": "Spinach, orange, pineapple, and kale.",
           "price": 1395,
@@ -6196,6 +6212,7 @@
         },
         {
           "uuid": "e0ed0533-71e8-478f-bd26-d87d5ef62f85",
+          "imageUrl": "https://cn-geo1.uber.com/static/mobile-content/eats/placeholder_images/placeholder_image_restaurants_300x300.png",
           "title": "Tropical Acai Bowl (16 oz)",
           "itemDescription": "Organic acai blended with mango, and banana . Topped with granola, mango, banana, and coconut flakes.",
           "price": 1895,
@@ -6356,7 +6373,7 @@
           },
           "itemAvailabilityState": "UNKNOWN",
           "catalogItemAnalyticsData": {
-            "catalogSectionItemPosition": 2,
+            "catalogSectionItemPosition": 1,
             "endorsementMetadata": {
               "endorsementType": "most_liked"
             },
@@ -6368,6 +6385,7 @@
         },
         {
           "uuid": "9f72e7c7-93b5-48d0-862e-4bd880d37e49",
+          "imageUrl": "https://cn-geo1.uber.com/static/mobile-content/eats/placeholder_images/placeholder_image_restaurants_300x300.png",
           "title": "Weight Loss Smoothie",
           "itemDescription": "Strawberry, blueberry, banana, and peanut butter.",
           "price": 1395,
@@ -6580,6 +6598,7 @@
         },
         {
           "uuid": "991a60ca-8524-45e7-81f5-ea95aea775ad",
+          "imageUrl": "https://cn-geo1.uber.com/static/mobile-content/eats/placeholder_images/placeholder_image_restaurants_300x300.png",
           "title": "The Hangover",
           "itemDescription": "Orange, lemon, grapefruit, and pineapple.",
           "price": 1395,
@@ -6793,6 +6812,7 @@
         },
         {
           "uuid": "bc5e958c-4470-4d19-b814-ddcda3243089",
+          "imageUrl": "https://cn-geo1.uber.com/static/mobile-content/eats/placeholder_images/placeholder_image_restaurants_300x300.png",
           "title": "The Skinny Weight Loss",
           "itemDescription": "Pineapple, beet, orange, and lemon.",
           "price": 1595,
@@ -6962,6 +6982,7 @@
         },
         {
           "uuid": "ca4e0029-9497-46b9-83b9-c56f1f072ea2",
+          "imageUrl": "https://cn-geo1.uber.com/static/mobile-content/eats/placeholder_images/placeholder_image_restaurants_300x300.png",
           "title": "Energy Juice",
           "itemDescription": "Carrot, apple, and spinach.",
           "price": 1395,
@@ -7130,6 +7151,7 @@
         },
         {
           "uuid": "a3f3656b-1ea5-42bf-8d13-5751846b810f",
+          "imageUrl": "https://cn-geo1.uber.com/static/mobile-content/eats/placeholder_images/placeholder_image_restaurants_300x300.png",
           "title": "Super Protein Bowl",
           "itemDescription": "Blended banana, mango, blueberry, and protein powder (22gr). Topped with strawberry mango and granola.",
           "price": 1995,
@@ -7298,6 +7320,7 @@
         },
         {
           "uuid": "a8ea6565-412d-403e-bc56-51d68fafc5dd",
+          "imageUrl": "https://cn-geo1.uber.com/static/mobile-content/eats/placeholder_images/placeholder_image_restaurants_300x300.png",
           "title": "PB Protein Smoothie",
           "itemDescription": "Protein powder, banana, strawberry, almond milk, and peanut butter.",
           "price": 1295,
@@ -7511,6 +7534,7 @@
         },
         {
           "uuid": "0b823f17-50d9-4c8b-81f8-ac4b847413b6",
+          "imageUrl": "https://cn-geo1.uber.com/static/mobile-content/eats/placeholder_images/placeholder_image_restaurants_300x300.png",
           "title": "Topical Protein Smoothie",
           "itemDescription": "Fresh, mango, pineapple, strawberry. Blended with vanilla protein powder. Protein smoothie.",
           "price": 1195,
@@ -7724,6 +7748,7 @@
         },
         {
           "uuid": "5714e815-d731-4784-be94-a2841b9d8457",
+          "imageUrl": "https://cn-geo1.uber.com/static/mobile-content/eats/placeholder_images/placeholder_image_restaurants_300x300.png",
           "title": "Green Machine Juice",
           "itemDescription": "Kale, spinach, parsley, celery, cucumber, and green apple.",
           "price": 995,
@@ -7937,6 +7962,7 @@
         },
         {
           "uuid": "34d6df35-e9dd-48e3-856d-1e224602cdc5",
+          "imageUrl": "https://cn-geo1.uber.com/static/mobile-content/eats/placeholder_images/placeholder_image_restaurants_300x300.png",
           "title": "Fresh Cracked Coconut Water (16 oz)",
           "itemDescription": "Refreshing and hydrating young coconut water.",
           "price": 995,
@@ -8109,6 +8135,7 @@
         },
         {
           "uuid": "0cba0da7-caec-4b96-a51c-0aae23d7e2af",
+          "imageUrl": "https://cn-geo1.uber.com/static/mobile-content/eats/placeholder_images/placeholder_image_restaurants_300x300.png",
           "title": "Hot Coffee",
           "itemDescription": "hot coffee",
           "price": 395,
@@ -15933,6 +15960,7 @@
           "uuid": "a4b8360e-afbf-434f-bc94-741246dfd257",
           "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/dc8b26d3e910b297892c97ecda4de391/a19bb09692310dfd41e49a96c424b3a6.jpeg",
           "title": "Mango, Banana and Pineapple Juice",
+          "itemDescription": "Blend of tropical mango, banana, and pineapple flavors.",
           "price": 995,
           "priceTagline": {
             "text": "$9.95",
@@ -15956,6 +15984,10 @@
               "maxRedemptionCount": 3
             },
             "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "Blend of tropical mango, banana, and pineapple flavors.",
+            "textFormat": "<span style=\"color:#757575\">Blend of tropical mango, banana, and pineapple flavors.</span>"
           },
           "subsectionUuid": "ea18cf0f-eb4a-4007-aa8f-f9e1b8444667",
           "isAvailable": true,
@@ -19595,6 +19627,7 @@
         {
           "uuid": "b9d88a5b-831c-4b21-9aea-b325649e204f",
           "title": "Iced Coffee",
+          "itemDescription": "Brewed coffee served over ice.",
           "price": 495,
           "priceTagline": {
             "text": "$4.95",
@@ -19618,6 +19651,10 @@
               "maxRedemptionCount": 3
             },
             "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "Brewed coffee served over ice.",
+            "textFormat": "<span style=\"color:#757575\">Brewed coffee served over ice.</span>"
           },
           "subsectionUuid": "e3f24cb1-de1b-4595-87db-9ad9dc4c97ea",
           "isAvailable": true,
@@ -19803,6 +19840,7 @@
         {
           "uuid": "3017ff96-eb43-4c24-8237-d8ab49f6e8d3",
           "title": "Organic Seaweed Snacks",
+          "itemDescription": "Crunchy seaweed bites, perfect for a healthy snack.",
           "price": 499,
           "priceTagline": {
             "text": "$4.99",
@@ -19826,6 +19864,10 @@
               "maxRedemptionCount": 10
             },
             "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "Crunchy seaweed bites, perfect for a healthy snack.",
+            "textFormat": "<span style=\"color:#757575\">Crunchy seaweed bites, perfect for a healthy snack.</span>"
           },
           "subsectionUuid": "bc8cbee8-c466-462f-be7a-8304738428b9",
           "isAvailable": true,
@@ -24965,6 +25007,179 @@
       ],
       "deals": [
         {
+          "uuid": "8d1f793d-a664-5678-8d6e-e93e8a0b4fcb",
+          "imageUrl": "https://cn-geo1.uber.com/static/mobile-content/eats/placeholder_images/placeholder_image_restaurants_300x300.png",
+          "title": "Spring Roll (3pcs)",
+          "itemDescription": "Crispy spring rolls, typically filled with a mixture of vegetables, wrapped in a thin pastry shell. Served in a set of three pieces.",
+          "price": 570,
+          "priceTagline": {
+            "text": "$5.70",
+            "textFormat": "<span>$5.70</span>",
+            "accessibilityText": "$5.70"
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "Spring Roll (3pcs)",
+            "textFormat": "<span>Spring Roll (3pcs)</span>",
+            "accessibilityText": "Spring Roll (3pcs)"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": false,
+          "numAlcoholicItems": 0,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "Crispy spring rolls, typically filled with a mixture of vegetables, wrapped in a thin pastry shell. Served in a set of three pieces.",
+            "textFormat": "<span style=\"color:#757575\">Crispy spring rolls, typically filled with a mixture of vegetables, wrapped in a thin pastry shell. Served in a set of three pieces.</span>"
+          },
+          "subsectionUuid": "b44ddee6-5ed1-480e-946f-7c76ecdcf624",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "maxPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 999,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "increment": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "defaultQuantity": {
+                    "base": {
+                      "high": 0,
+                      "low": 2,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 999,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 2
+                }
+              }
+            ],
+            "pricingInfo": {}
+          },
+          "sectionUuid": "cf83381d-60ec-5e5b-b752-33f08de327db",
+          "promoInfo": {
+            "promotionUUID": "cf494371-4dd1-4868-95ac-70fda02af0b3",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "Buy 1, Get 1 Free",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "Buy 1, Get 1 Free"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "RECTANGLE",
+              "accessibilityText": "Buy 1, Get 1 Free"
+            }
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$5.70",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$5.70"
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "Spring Roll (3pcs)",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "Spring Roll (3pcs)"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 4,
+            "endorsementMetadata": {
+              "endorsementType": "most_liked"
+            },
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "isWebPdpSupported": false
+        },
+        {
           "uuid": "1f959d4c-e4fd-40c1-9382-fee7abb2d91e",
           "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/177c846a4fb1a1fdffed47a0d1109be5/0fb376d1da56c05644450062d25c5c84.jpeg",
           "title": "Chicken Fried Rice",
@@ -25151,179 +25366,8 @@
           "isWebPdpSupported": false
         },
         {
-          "uuid": "8d1f793d-a664-5678-8d6e-e93e8a0b4fcb",
-          "title": "Spring Roll (3pcs)",
-          "itemDescription": "Crispy spring rolls, typically filled with a mixture of vegetables, wrapped in a thin pastry shell. Served in a set of three pieces.",
-          "price": 570,
-          "priceTagline": {
-            "text": "$5.70",
-            "textFormat": "<span>$5.70</span>",
-            "accessibilityText": "$5.70"
-          },
-          "spanCount": 2,
-          "displayType": "LIST",
-          "titleBadge": {
-            "text": "Spring Roll (3pcs)",
-            "textFormat": "<span>Spring Roll (3pcs)</span>",
-            "accessibilityText": "Spring Roll (3pcs)"
-          },
-          "isSoldOut": false,
-          "hasCustomizations": false,
-          "numAlcoholicItems": 0,
-          "itemPromotion": {
-            "buyXGetYItemPromotion": {
-              "buyQuantity": 1,
-              "getQuantity": 1,
-              "maxRedemptionCount": 3
-            },
-            "type": "buyXGetYItemPromotion"
-          },
-          "itemDescriptionBadge": {
-            "text": "Crispy spring rolls, typically filled with a mixture of vegetables, wrapped in a thin pastry shell. Served in a set of three pieces.",
-            "textFormat": "<span style=\"color:#757575\">Crispy spring rolls, typically filled with a mixture of vegetables, wrapped in a thin pastry shell. Served in a set of three pieces.</span>"
-          },
-          "subsectionUuid": "b44ddee6-5ed1-480e-946f-7c76ecdcf624",
-          "isAvailable": true,
-          "purchaseInfo": {
-            "purchaseOptions": [
-              {
-                "itemQuantityAbbreviation": "",
-                "quantityConstraintsV2": {
-                  "minPermitted": {
-                    "base": {
-                      "high": 0,
-                      "low": 1,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "maxPermitted": {
-                    "base": {
-                      "high": 0,
-                      "low": 999,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "increment": {
-                    "base": {
-                      "high": 0,
-                      "low": 1,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "defaultQuantity": {
-                    "base": {
-                      "high": 0,
-                      "low": 2,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "minPermittedNumber": 1,
-                  "maxPermittedNumber": 999,
-                  "incrementNumber": 1,
-                  "defaultQuantityNumber": 2
-                }
-              }
-            ],
-            "pricingInfo": {}
-          },
-          "sectionUuid": "cf83381d-60ec-5e5b-b752-33f08de327db",
-          "promoInfo": {
-            "promotionUUID": "cf494371-4dd1-4868-95ac-70fda02af0b3",
-            "promoBadge": {
-              "content": {
-                "richText": {
-                  "richTextElements": [
-                    {
-                      "text": {
-                        "text": {
-                          "text": "Buy 1, Get 1 Free",
-                          "font": {
-                            "style": "LABEL_X_SMALL",
-                            "weight": "MEDIUM"
-                          },
-                          "color": "BRAND_CONTENT_ON_PRIMARY"
-                        },
-                        "predefinedDecorations": null
-                      },
-                      "type": "text"
-                    }
-                  ],
-                  "accessibilityText": "Buy 1, Get 1 Free"
-                },
-                "type": "richText"
-              },
-              "hierarchy": "PRIMARY",
-              "color": {
-                "custom": {
-                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
-                },
-                "type": "custom"
-              },
-              "shape": "RECTANGLE",
-              "accessibilityText": "Buy 1, Get 1 Free"
-            }
-          },
-          "quickAddConfig": {
-            "shouldShow": true,
-            "isInteractionEnabled": false,
-            "position": "BOTTOM_TRAILING"
-          },
-          "labelPrimary": {
-            "richTextElements": [
-              {
-                "text": {
-                  "text": {
-                    "text": "$5.70",
-                    "font": {
-                      "style": "PARAGRAPH_SMALL",
-                      "weight": "NORMAL"
-                    },
-                    "color": "CONTENT_PRIMARY"
-                  },
-                  "predefinedDecorations": null
-                },
-                "type": "text"
-              }
-            ],
-            "accessibilityText": "$5.70"
-          },
-          "headingPrimary": {
-            "richTextElements": [
-              {
-                "text": {
-                  "text": {
-                    "text": "Spring Roll (3pcs)",
-                    "font": {
-                      "style": "LABEL_DEFAULT",
-                      "weight": "MEDIUM"
-                    },
-                    "color": "CONTENT_PRIMARY"
-                  },
-                  "predefinedDecorations": null
-                },
-                "type": "text"
-              }
-            ],
-            "accessibilityText": "Spring Roll (3pcs)"
-          },
-          "itemAvailabilityState": "UNKNOWN",
-          "catalogItemAnalyticsData": {
-            "catalogSectionItemPosition": 5,
-            "endorsementMetadata": {
-              "endorsementType": "most_liked"
-            },
-            "promoType": "BOGO"
-          },
-          "imageOverlayElements": null,
-          "itemThumbnailElements": null,
-          "isWebPdpSupported": false
-        },
-        {
           "uuid": "d611628f-7846-5870-b8b1-034578fbf4b0",
+          "imageUrl": "https://cn-geo1.uber.com/static/mobile-content/eats/placeholder_images/placeholder_image_restaurants_300x300.png",
           "title": "Chicken Broccoli Over Rice",
           "itemDescription": "Chicken broccoli served over steamed rice. Choose one beverage or soup side: soft drinks in cans, bottle water, miso soup, or hot & sour soup.",
           "price": 1495,
@@ -25732,7 +25776,7 @@
           },
           "itemAvailabilityState": "UNKNOWN",
           "catalogItemAnalyticsData": {
-            "catalogSectionItemPosition": 0,
+            "catalogSectionItemPosition": 1,
             "endorsementMetadata": {
               "endorsementType": "most_liked"
             },
@@ -31115,7 +31159,6 @@
         {
           "uuid": "69f11531-4512-4dd6-bee7-81f7ecd070e2",
           "title": "2. Sesame Chicken 芝麻雞",
-          "itemDescription": "Crispy chicken tossed in a savory sesame sauce.",
           "price": 1995,
           "priceTagline": {
             "text": "$19.95",
@@ -31139,10 +31182,6 @@
               "maxRedemptionCount": 10
             },
             "type": "buyXGetYItemPromotion"
-          },
-          "itemDescriptionBadge": {
-            "text": "Crispy chicken tossed in a savory sesame sauce.",
-            "textFormat": "<span style=\"color:#757575\">Crispy chicken tossed in a savory sesame sauce.</span>"
           },
           "subsectionUuid": "b2f25941-7864-4682-897f-2794c6e632c3",
           "isAvailable": true,
