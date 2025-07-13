@@ -1,5 +1,5 @@
 {
-  "refreshDateTime": "2025-07-13T21:06:49.550Z",
+  "refreshDateTime": "2025-07-13T22:07:25.412Z",
   "deals": [
     {
       "@context": "https://schema.org",
@@ -27374,6 +27374,19 @@
           },
           "isSoldOut": false,
           "hasCustomizations": true,
+          "endorsement": {
+            "backgroundColor": {
+              "alpha": 1,
+              "color": "#0E8345"
+            },
+            "text": "#3 most liked",
+            "textColor": {
+              "alpha": 1,
+              "color": "#FFFFF"
+            },
+            "accessibilityText": "#3 most liked",
+            "textBorder": "PILL"
+          },
           "itemPromotion": {
             "buyXGetYItemPromotion": {
               "buyQuantity": 1,
@@ -27553,9 +27566,7 @@
           "catalogItemAnalyticsData": {
             "catalogSectionItemPosition": 0,
             "endorsementMetadata": {
-              "endorsementType": "ratings",
-              "rating": "91%",
-              "numRatings": 118
+              "endorsementType": "most_liked"
             },
             "promoType": "BOGO"
           },
