@@ -1,5 +1,5 @@
 {
-  "refreshDateTime": "2025-07-18T18:08:29.831Z",
+  "refreshDateTime": "2025-07-18T19:07:18.547Z",
   "deals": [
     {
       "@context": "https://schema.org",
@@ -24569,8 +24569,8 @@
       "telephone": "+15167762918",
       "aggregateRating": {
         "@type": "AggregateRating",
-        "ratingValue": 4.4,
-        "reviewCount": "56"
+        "ratingValue": 4.5,
+        "reviewCount": "58"
       },
       "openingHoursSpecification": [
         {
@@ -26136,6 +26136,292 @@
           "itemAvailabilityState": "UNKNOWN",
           "catalogItemAnalyticsData": {
             "catalogSectionItemPosition": 2,
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "isWebPdpSupported": false
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Restaurant",
+      "@id": "https://www.ubereats.com/store/blue-park-kitchen-midtown/uOrA3YA6X2S-fh7gDTWZTA",
+      "name": "Blue Park Kitchen - Midtown",
+      "servesCuisine": [
+        "Group Friendly",
+        "Healthy",
+        "Salads",
+        "American",
+        "Salads"
+      ],
+      "priceRange": "",
+      "image": [
+        "https://tb-static.uber.com/prod/image-proc/processed_images/cfef747e16b39b75db71b3beffc4075a/ffd640b0f9bc72838f2ebbee501a5d4b.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/cfef747e16b39b75db71b3beffc4075a/820883a48567670acbd720bc76391291.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/cfef747e16b39b75db71b3beffc4075a/1153e79d90aa7e9dd2351e1aa8dc4e16.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/cfef747e16b39b75db71b3beffc4075a/1651207c9cb2a7942b37b3f3e4a0b899.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/cfef747e16b39b75db71b3beffc4075a/445a4b2618e10f7db95d4f17a85b117d.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/cfef747e16b39b75db71b3beffc4075a/c73ecc27d2a9eaa735b1ee95304ba588.jpeg"
+      ],
+      "potentialAction": {
+        "@type": "OrderAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.ubereats.com/store/blue-park-kitchen-midtown/uOrA3YA6X2S-fh7gDTWZTA?utm_campaign=order-action&amp;utm_medium=organic",
+          "inLanguage": "English",
+          "actionPlatform": [
+            "https://schema.org/DesktopWebPlatform",
+            "https://schema.org/MobileWebPlatform"
+          ]
+        },
+        "deliveryMethod": [
+          "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+          "http://purl.org/goodrelations/v1#DeliveryModePickUp"
+        ]
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "New York",
+        "addressRegion": "NY",
+        "postalCode": "10017",
+        "addressCountry": "US",
+        "streetAddress": "666 3rd Avenue"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 40.7516294,
+        "longitude": -73.9746311
+      },
+      "telephone": "+16467602168",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4.7,
+        "reviewCount": "1000"
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "11:0",
+          "closes": "21:0"
+        }
+      ],
+      "deals": [
+        {
+          "uuid": "11da4b98-763e-5f2d-a3a9-6bcfb56ab2be",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/0fe1532b9c7ad1550f47b213c47626d0/5954bcb006b10dbfd0bc160f6370faf3.jpeg",
+          "title": "Turkey Meatballs & Lemon Ricotta",
+          "itemDescription": "Couscous, Arugula, Balsamic Vinaigrette, Charred Broccoli, Turkey Meatballs, Lemon Ricotta, Toasted Chickpeas, Radish",
+          "price": 1625,
+          "priceTagline": {
+            "text": "$16.25",
+            "textFormat": "<span>$16.25</span>",
+            "accessibilityText": "$16.25"
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "Turkey Meatballs & Lemon Ricotta",
+            "textFormat": "<span>Turkey Meatballs &amp; Lemon Ricotta</span>",
+            "accessibilityText": "Turkey Meatballs & Lemon Ricotta"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": true,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "Couscous, Arugula, Balsamic Vinaigrette, Charred Broccoli, Turkey Meatballs, Lemon Ricotta, Toasted Chickpeas, Radish",
+            "textFormat": "<span style=\"color:#757575\">Couscous, Arugula, Balsamic Vinaigrette, Charred Broccoli, Turkey Meatballs, Lemon Ricotta, Toasted Chickpeas, Radish</span>"
+          },
+          "subsectionUuid": "c4a117ab-c78c-54e0-a3fd-2b5fa51048a1",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "maxPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 999,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "increment": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "defaultQuantity": {
+                    "base": {
+                      "high": 0,
+                      "low": 2,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 999,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 2
+                }
+              }
+            ],
+            "pricingInfo": {}
+          },
+          "sectionUuid": "a2d51589-dccb-5518-84cd-01f9fa84e367",
+          "promoInfo": {
+            "promotionUUID": "3e3ce125-f90a-4179-b3ff-917a381469fe",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "Buy 1, Get 1 Free",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "Buy 1, Get 1 Free"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "RECTANGLE",
+              "accessibilityText": "Buy 1, Get 1 Free"
+            }
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$16.25",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": " • ",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "icon": {
+                  "icon": {
+                    "icon": "THUMB_UP_OUTLINE",
+                    "color": "PRIMARY",
+                    "size": "SPACING_UNIT_1_5X"
+                  },
+                  "alignment": "CENTERED"
+                },
+                "type": "icon"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": " 93% (66)",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$16.25, 93% of customers liked this based on 66 reviews."
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "Turkey Meatballs & Lemon Ricotta",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "Turkey Meatballs & Lemon Ricotta"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 1,
+            "endorsementMetadata": {
+              "endorsementType": "ratings",
+              "rating": "93%",
+              "numRatings": 66
+            },
             "promoType": "BOGO"
           },
           "imageOverlayElements": null,
