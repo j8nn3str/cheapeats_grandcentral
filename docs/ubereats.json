@@ -1,5 +1,5 @@
 {
-  "refreshDateTime": "2025-07-29T21:07:09.082Z",
+  "refreshDateTime": "2025-07-29T22:07:18.667Z",
   "deals": [
     {
       "@context": "https://schema.org",
@@ -4618,6 +4618,7 @@
           "uuid": "6d79d9f2-c7be-419e-9ae3-3e921e626abd",
           "imageUrl": "https://cn-geo1.uber.com/static/mobile-content/eats/placeholder_images/placeholder_image_restaurants_300x300.png",
           "title": "Ice Coffee",
+          "itemDescription": "Brewed coffee served chilled.",
           "price": 499,
           "priceTagline": {
             "text": "$4.99",
@@ -4641,6 +4642,10 @@
               "maxRedemptionCount": 3
             },
             "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "Brewed coffee served chilled.",
+            "textFormat": "<span style=\"color:#757575\">Brewed coffee served chilled.</span>"
           },
           "subsectionUuid": "56721343-25f7-4e0a-bba1-7d8602c2a27a",
           "isAvailable": true,
@@ -5806,6 +5811,7 @@
           "uuid": "8c69ed13-e779-4777-b03c-37bd7d81d0f2",
           "imageUrl": "https://cn-geo1.uber.com/static/mobile-content/eats/placeholder_images/placeholder_image_restaurants_300x300.png",
           "title": "Mango, Pineapple, and Strawberry blended with Ice",
+          "itemDescription": "Blend of mango, pineapple, and strawberry.",
           "price": 995,
           "priceTagline": {
             "text": "$9.95",
@@ -5829,6 +5835,10 @@
               "maxRedemptionCount": 3
             },
             "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "Blend of mango, pineapple, and strawberry.",
+            "textFormat": "<span style=\"color:#757575\">Blend of mango, pineapple, and strawberry.</span>"
           },
           "subsectionUuid": "93dc48bc-d05e-42c3-a60a-c4983d8a5a61",
           "isAvailable": true,
@@ -6398,6 +6408,7 @@
           "uuid": "704a3add-ed7a-4c20-9f48-f6a9a267dfbf",
           "imageUrl": "https://cn-geo1.uber.com/static/mobile-content/eats/placeholder_images/placeholder_image_restaurants_300x300.png",
           "title": "Watermelon Juice",
+          "itemDescription": "Refreshing and hydrating juice made from fresh watermelon.",
           "price": 995,
           "priceTagline": {
             "text": "$9.95",
@@ -6420,6 +6431,10 @@
               "maxRedemptionCount": 3
             },
             "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "Refreshing and hydrating juice made from fresh watermelon.",
+            "textFormat": "<span style=\"color:#757575\">Refreshing and hydrating juice made from fresh watermelon.</span>"
           },
           "subsectionUuid": "36ab3901-7684-422b-99a5-73a842a9534b",
           "isAvailable": true,
@@ -8963,6 +8978,7 @@
           "uuid": "34d6df35-e9dd-48e3-856d-1e224602cdc5",
           "imageUrl": "https://cn-geo1.uber.com/static/mobile-content/eats/placeholder_images/placeholder_image_restaurants_300x300.png",
           "title": "Fresh Cracked Coconut Water (16 oz)",
+          "itemDescription": "Refreshing and hydrating young coconut water.",
           "price": 995,
           "priceTagline": {
             "text": "$9.95",
@@ -8986,6 +9002,10 @@
               "maxRedemptionCount": 10
             },
             "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "Refreshing and hydrating young coconut water.",
+            "textFormat": "<span style=\"color:#757575\">Refreshing and hydrating young coconut water.</span>"
           },
           "subsectionUuid": "82333bb9-13f9-474a-98ce-d5365ddfcf3c",
           "isAvailable": true,
@@ -27524,891 +27544,6 @@
     {
       "@context": "https://schema.org",
       "@type": "Restaurant",
-      "@id": "https://www.ubereats.com/store/juice-generation-grand-central/lsPdCEGvTD2k60QnvJ0c_g",
-      "name": "Juice Generation - Grand Central",
-      "servesCuisine": [
-        "Juice and Smoothies",
-        "Healthy",
-        "Gluten Free Friendly",
-        "Vegan"
-      ],
-      "priceRange": "$",
-      "image": [
-        "https://tb-static.uber.com/prod/image-proc/processed_images/5a07ba64e97fd9efaf2cf164c041f85e/4f48e715b6c05b9b00c3fc436b4eb65f.jpeg",
-        "https://tb-static.uber.com/prod/image-proc/processed_images/5a07ba64e97fd9efaf2cf164c041f85e/df577d3a0807d3bb859f2fb53aefcd86.jpeg"
-      ],
-      "potentialAction": {
-        "@type": "OrderAction",
-        "target": {
-          "@type": "EntryPoint",
-          "urlTemplate": "https://www.ubereats.com/store/juice-generation-grand-central/lsPdCEGvTD2k60QnvJ0c_g?utm_campaign=order-action&amp;utm_medium=organic",
-          "inLanguage": "English",
-          "actionPlatform": [
-            "https://schema.org/DesktopWebPlatform",
-            "https://schema.org/MobileWebPlatform"
-          ]
-        },
-        "deliveryMethod": [
-          "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
-          "http://purl.org/goodrelations/v1#DeliveryModePickUp"
-        ]
-      },
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "New York",
-        "addressRegion": "NY",
-        "postalCode": "10168",
-        "addressCountry": "US",
-        "streetAddress": "122 E 42nd St"
-      },
-      "geo": {
-        "@type": "GeoCoordinates",
-        "latitude": 40.7514553,
-        "longitude": -73.9764186
-      },
-      "telephone": "+12125311110",
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": 4.8,
-        "reviewCount": "600"
-      },
-      "openingHoursSpecification": [
-        {
-          "@type": "OpeningHoursSpecification",
-          "dayOfWeek": "Sunday",
-          "opens": "8:0",
-          "closes": "18:30"
-        },
-        {
-          "@type": "OpeningHoursSpecification",
-          "dayOfWeek": [
-            "Monday",
-            "Tuesday",
-            "Wednesday",
-            "Thursday",
-            "Friday"
-          ],
-          "opens": "7:0",
-          "closes": "20:30"
-        },
-        {
-          "@type": "OpeningHoursSpecification",
-          "dayOfWeek": "Saturday",
-          "opens": "8:0",
-          "closes": "18:30"
-        }
-      ],
-      "deals": [
-        {
-          "uuid": "9d977b45-7c48-55e9-91d0-a337bcb67526",
-          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/900e23c2dba3d616f9d28543f2398f36/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
-          "title": "The Metabolizer® H20",
-          "itemDescription": "Pineapple, ginger, sea moss, butterfly pea flower, plant enzymes, filtered water16 oz · Cold Pressed Juice + H2O",
-          "price": 595,
-          "priceTagline": {
-            "text": "$5.95",
-            "textFormat": "<span>$5.95</span>",
-            "accessibilityText": "$5.95"
-          },
-          "spanCount": 2,
-          "displayType": "LIST",
-          "titleBadge": {
-            "text": "The Metabolizer® H20",
-            "textFormat": "<span>The Metabolizer® H20</span>",
-            "accessibilityText": "The Metabolizer® H20"
-          },
-          "isSoldOut": false,
-          "hasCustomizations": false,
-          "itemPromotion": {
-            "buyXGetYItemPromotion": {
-              "buyQuantity": 1,
-              "getQuantity": 1,
-              "maxRedemptionCount": 3
-            },
-            "type": "buyXGetYItemPromotion"
-          },
-          "itemDescriptionBadge": {
-            "text": "Pineapple, ginger, sea moss, butterfly pea flower, plant enzymes, filtered water16 oz · Cold Pressed Juice + H2O",
-            "textFormat": "<span style=\"color:#757575\">Pineapple, ginger, sea moss, butterfly pea flower, plant enzymes, filtered water16 oz · Cold Pressed Juice + H2O</span>"
-          },
-          "subsectionUuid": "c89a81a7-ee6d-52bf-959a-32b0d2f0fc4f",
-          "isAvailable": true,
-          "purchaseInfo": {
-            "purchaseOptions": [
-              {
-                "soldByUnit": {
-                  "measurementType": "MEASUREMENT_TYPE_COUNT"
-                },
-                "itemQuantityAbbreviation": "",
-                "quantityConstraintsV2": {
-                  "minPermitted": {
-                    "base": 100000,
-                    "exponent": -5
-                  },
-                  "maxPermitted": {
-                    "base": 25000000,
-                    "exponent": -5
-                  },
-                  "increment": {
-                    "base": 100000,
-                    "exponent": -5
-                  },
-                  "defaultQuantity": {
-                    "base": {
-                      "high": 0,
-                      "low": 2,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "minPermittedNumber": 1,
-                  "maxPermittedNumber": 250,
-                  "incrementNumber": 1,
-                  "defaultQuantityNumber": 2
-                },
-                "purchasePriceV2": {
-                  "base": {
-                    "high": 0,
-                    "low": 595,
-                    "unsigned": false
-                  },
-                  "exponent": -2
-                }
-              }
-            ],
-            "pricingInfo": {}
-          },
-          "sectionUuid": "66a13cd5-5011-51cb-a6d5-58f1915d242e",
-          "promoInfo": {
-            "promotionUUID": "fce0afd5-f3e7-47fb-bd64-2afb008d9f69",
-            "promoBadge": {
-              "content": {
-                "richText": {
-                  "richTextElements": [
-                    {
-                      "text": {
-                        "text": {
-                          "text": "Buy 1, Get 1 Free",
-                          "font": {
-                            "style": "LABEL_X_SMALL",
-                            "weight": "MEDIUM"
-                          },
-                          "color": "BRAND_CONTENT_ON_PRIMARY"
-                        },
-                        "predefinedDecorations": null
-                      },
-                      "type": "text"
-                    }
-                  ],
-                  "accessibilityText": "Buy 1, Get 1 Free"
-                },
-                "type": "richText"
-              },
-              "hierarchy": "PRIMARY",
-              "color": {
-                "custom": {
-                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
-                },
-                "type": "custom"
-              },
-              "shape": "RECTANGLE",
-              "accessibilityText": "Buy 1, Get 1 Free"
-            }
-          },
-          "quickAddConfig": {
-            "shouldShow": true,
-            "isInteractionEnabled": true,
-            "position": "BOTTOM_TRAILING"
-          },
-          "labelPrimary": {
-            "richTextElements": [
-              {
-                "text": {
-                  "text": {
-                    "text": "$5.95",
-                    "font": {
-                      "style": "PARAGRAPH_SMALL",
-                      "weight": "NORMAL"
-                    },
-                    "color": "CONTENT_PRIMARY"
-                  },
-                  "predefinedDecorations": null
-                },
-                "type": "text"
-              }
-            ],
-            "accessibilityText": "$5.95"
-          },
-          "headingPrimary": {
-            "richTextElements": [
-              {
-                "text": {
-                  "text": {
-                    "text": "The Metabolizer® H20",
-                    "font": {
-                      "style": "LABEL_DEFAULT",
-                      "weight": "MEDIUM"
-                    },
-                    "color": "CONTENT_PRIMARY"
-                  },
-                  "predefinedDecorations": null
-                },
-                "type": "text"
-              }
-            ],
-            "accessibilityText": "The Metabolizer® H20"
-          },
-          "itemAvailabilityState": "UNKNOWN",
-          "catalogItemAnalyticsData": {
-            "catalogSectionItemPosition": 5,
-            "promoType": "BOGO"
-          },
-          "imageOverlayElements": null,
-          "itemThumbnailElements": null,
-          "isWebPdpSupported": false
-        },
-        {
-          "uuid": "09e334be-4f91-5ca1-8fa2-9b60ad6971b7",
-          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/1d002d4886d96562de4c865f3a46ec8a/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
-          "title": "The Defender® H20",
-          "itemDescription": "Ginger, turmeric, lemon, cayenne pepper, oil of oregano, filtered water16 oz · Cold Pressed Juice + H2O",
-          "price": 595,
-          "priceTagline": {
-            "text": "$5.95",
-            "textFormat": "<span>$5.95</span>",
-            "accessibilityText": "$5.95"
-          },
-          "spanCount": 2,
-          "displayType": "LIST",
-          "titleBadge": {
-            "text": "The Defender® H20",
-            "textFormat": "<span>The Defender® H20</span>",
-            "accessibilityText": "The Defender® H20"
-          },
-          "isSoldOut": false,
-          "hasCustomizations": false,
-          "numAlcoholicItems": 0,
-          "itemPromotion": {
-            "buyXGetYItemPromotion": {
-              "buyQuantity": 1,
-              "getQuantity": 1,
-              "maxRedemptionCount": 3
-            },
-            "type": "buyXGetYItemPromotion"
-          },
-          "itemDescriptionBadge": {
-            "text": "Ginger, turmeric, lemon, cayenne pepper, oil of oregano, filtered water16 oz · Cold Pressed Juice + H2O",
-            "textFormat": "<span style=\"color:#757575\">Ginger, turmeric, lemon, cayenne pepper, oil of oregano, filtered water16 oz · Cold Pressed Juice + H2O</span>"
-          },
-          "subsectionUuid": "c89a81a7-ee6d-52bf-959a-32b0d2f0fc4f",
-          "isAvailable": true,
-          "purchaseInfo": {
-            "purchaseOptions": [
-              {
-                "soldByUnit": {
-                  "measurementType": "MEASUREMENT_TYPE_COUNT"
-                },
-                "itemQuantityAbbreviation": "",
-                "quantityConstraintsV2": {
-                  "minPermitted": {
-                    "base": 100000,
-                    "exponent": -5
-                  },
-                  "maxPermitted": {
-                    "base": 25000000,
-                    "exponent": -5
-                  },
-                  "increment": {
-                    "base": 100000,
-                    "exponent": -5
-                  },
-                  "defaultQuantity": {
-                    "base": {
-                      "high": 0,
-                      "low": 2,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "minPermittedNumber": 1,
-                  "maxPermittedNumber": 250,
-                  "incrementNumber": 1,
-                  "defaultQuantityNumber": 2
-                },
-                "purchasePriceV2": {
-                  "base": {
-                    "high": 0,
-                    "low": 595,
-                    "unsigned": false
-                  },
-                  "exponent": -2
-                }
-              }
-            ],
-            "pricingInfo": {}
-          },
-          "sectionUuid": "66a13cd5-5011-51cb-a6d5-58f1915d242e",
-          "promoInfo": {
-            "promotionUUID": "fce0afd5-f3e7-47fb-bd64-2afb008d9f69",
-            "promoBadge": {
-              "content": {
-                "richText": {
-                  "richTextElements": [
-                    {
-                      "text": {
-                        "text": {
-                          "text": "Buy 1, Get 1 Free",
-                          "font": {
-                            "style": "LABEL_X_SMALL",
-                            "weight": "MEDIUM"
-                          },
-                          "color": "BRAND_CONTENT_ON_PRIMARY"
-                        },
-                        "predefinedDecorations": null
-                      },
-                      "type": "text"
-                    }
-                  ],
-                  "accessibilityText": "Buy 1, Get 1 Free"
-                },
-                "type": "richText"
-              },
-              "hierarchy": "PRIMARY",
-              "color": {
-                "custom": {
-                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
-                },
-                "type": "custom"
-              },
-              "shape": "RECTANGLE",
-              "accessibilityText": "Buy 1, Get 1 Free"
-            }
-          },
-          "quickAddConfig": {
-            "shouldShow": true,
-            "isInteractionEnabled": true,
-            "position": "BOTTOM_TRAILING"
-          },
-          "labelPrimary": {
-            "richTextElements": [
-              {
-                "text": {
-                  "text": {
-                    "text": "$5.95",
-                    "font": {
-                      "style": "PARAGRAPH_SMALL",
-                      "weight": "NORMAL"
-                    },
-                    "color": "CONTENT_PRIMARY"
-                  },
-                  "predefinedDecorations": null
-                },
-                "type": "text"
-              }
-            ],
-            "accessibilityText": "$5.95"
-          },
-          "headingPrimary": {
-            "richTextElements": [
-              {
-                "text": {
-                  "text": {
-                    "text": "The Defender® H20",
-                    "font": {
-                      "style": "LABEL_DEFAULT",
-                      "weight": "MEDIUM"
-                    },
-                    "color": "CONTENT_PRIMARY"
-                  },
-                  "predefinedDecorations": null
-                },
-                "type": "text"
-              }
-            ],
-            "accessibilityText": "The Defender® H20"
-          },
-          "itemAvailabilityState": "UNKNOWN",
-          "catalogItemAnalyticsData": {
-            "catalogSectionItemPosition": 3,
-            "promoType": "BOGO"
-          },
-          "imageOverlayElements": null,
-          "itemThumbnailElements": null,
-          "isWebPdpSupported": false
-        }
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Restaurant",
-      "@id": "https://www.ubereats.com/store/gregorys-coffee-122-east-42nd-st/z94QqR1vROO6qnmcBoARDA",
-      "name": "Gregorys Coffee (122 East 42nd St)",
-      "servesCuisine": [
-        "Coffee and Tea",
-        "American",
-        "Breakfast and Brunch"
-      ],
-      "priceRange": "$",
-      "image": [
-        "https://tb-static.uber.com/prod/image-proc/processed_images/170b443eca7f3420b3634979d8b3e2d2/dfe73df3a8123af1971eabf3eeff9ac1.jpeg",
-        "https://tb-static.uber.com/prod/image-proc/processed_images/170b443eca7f3420b3634979d8b3e2d2/63d18745892c100be9e4ef3c560c9204.jpeg",
-        "https://tb-static.uber.com/prod/image-proc/processed_images/170b443eca7f3420b3634979d8b3e2d2/20fa9288fdc01be28055baedd768dc37.jpeg",
-        "https://tb-static.uber.com/prod/image-proc/processed_images/170b443eca7f3420b3634979d8b3e2d2/b15c9ad51e970f3ee593eca3d03cee54.jpeg",
-        "https://tb-static.uber.com/prod/image-proc/processed_images/170b443eca7f3420b3634979d8b3e2d2/492abbfd79da0fd117a23fd2a6cf3df9.jpeg",
-        "https://tb-static.uber.com/prod/image-proc/processed_images/170b443eca7f3420b3634979d8b3e2d2/db809eadd12d21eb61044e0f3bf7c9b7.jpeg"
-      ],
-      "potentialAction": {
-        "@type": "OrderAction",
-        "target": {
-          "@type": "EntryPoint",
-          "urlTemplate": "https://www.ubereats.com/store/gregorys-coffee-122-east-42nd-st/z94QqR1vROO6qnmcBoARDA?utm_campaign=order-action&amp;utm_medium=organic",
-          "inLanguage": "English",
-          "actionPlatform": [
-            "https://schema.org/DesktopWebPlatform",
-            "https://schema.org/MobileWebPlatform"
-          ]
-        },
-        "deliveryMethod": [
-          "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
-          "http://purl.org/goodrelations/v1#DeliveryModePickUp"
-        ]
-      },
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "New York",
-        "addressRegion": "NY",
-        "postalCode": "10168",
-        "addressCountry": "US",
-        "streetAddress": "122 East 42nd Street"
-      },
-      "geo": {
-        "@type": "GeoCoordinates",
-        "latitude": 40.7515075,
-        "longitude": -73.9765396
-      },
-      "telephone": "+18772170162",
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": 4.7,
-        "reviewCount": "170"
-      },
-      "openingHoursSpecification": [
-        {
-          "@type": "OpeningHoursSpecification",
-          "dayOfWeek": "Sunday",
-          "opens": "8:0",
-          "closes": "17:0"
-        },
-        {
-          "@type": "OpeningHoursSpecification",
-          "dayOfWeek": [
-            "Monday",
-            "Tuesday",
-            "Wednesday",
-            "Thursday",
-            "Friday"
-          ],
-          "opens": "6:30",
-          "closes": "18:0"
-        },
-        {
-          "@type": "OpeningHoursSpecification",
-          "dayOfWeek": "Saturday",
-          "opens": "8:0",
-          "closes": "17:0"
-        }
-      ],
-      "deals": [
-        {
-          "uuid": "ca6899d1-546a-528d-afae-1813cfee958f",
-          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/cf8dea82ccb52f24b603bf3184d2116d/a19bb09692310dfd41e49a96c424b3a6.jpeg",
-          "title": "Blueberry Muffin",
-          "itemDescription": "Our house-made blueberry muffin is crafted to have a light and fluffy base dotted throughout with fresh blueberries for a hint of natural sweetness480 cal *contains milk, wheat and egg",
-          "price": 525,
-          "priceTagline": {
-            "text": "$5.25",
-            "textFormat": "<span>$5.25</span>",
-            "accessibilityText": "$5.25"
-          },
-          "spanCount": 2,
-          "displayType": "LIST",
-          "titleBadge": {
-            "text": "Blueberry Muffin",
-            "textFormat": "<span>Blueberry Muffin</span>",
-            "accessibilityText": "Blueberry Muffin"
-          },
-          "isSoldOut": false,
-          "hasCustomizations": true,
-          "itemPromotion": {
-            "buyXGetYItemPromotion": {
-              "buyQuantity": 1,
-              "getQuantity": 1,
-              "maxRedemptionCount": 3
-            },
-            "type": "buyXGetYItemPromotion"
-          },
-          "itemDescriptionBadge": {
-            "text": "Our house-made blueberry muffin is crafted to have a light and fluffy base dotted throughout with fresh blueberries for a hint of natural sweetness480 cal *contains milk, wheat and egg",
-            "textFormat": "<span style=\"color:#757575\">Our house-made blueberry muffin is crafted to have a light and fluffy base dotted throughout with fresh blueberries for a hint of natural sweetness480 cal *contains milk, wheat and egg</span>"
-          },
-          "subsectionUuid": "33b20ffa-4cbc-5bcd-a229-7de9c4357185",
-          "isAvailable": true,
-          "purchaseInfo": {
-            "purchaseOptions": [
-              {
-                "itemQuantityAbbreviation": "",
-                "quantityConstraintsV2": {
-                  "minPermitted": {
-                    "base": {
-                      "high": 0,
-                      "low": 1,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "maxPermitted": {
-                    "base": {
-                      "high": 0,
-                      "low": 999,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "increment": {
-                    "base": {
-                      "high": 0,
-                      "low": 1,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "defaultQuantity": {
-                    "base": {
-                      "high": 0,
-                      "low": 2,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "minPermittedNumber": 1,
-                  "maxPermittedNumber": 999,
-                  "incrementNumber": 1,
-                  "defaultQuantityNumber": 2
-                }
-              }
-            ],
-            "pricingInfo": {}
-          },
-          "sectionUuid": "e0fc783e-c61b-5dc2-b440-a43bdf8cb113",
-          "promoInfo": {
-            "promotionUUID": "c08b2b08-d960-4f86-9312-79a11a6bfebb",
-            "promoBadge": {
-              "content": {
-                "richText": {
-                  "richTextElements": [
-                    {
-                      "text": {
-                        "text": {
-                          "text": "Buy 1, Get 1 Free",
-                          "font": {
-                            "style": "LABEL_X_SMALL",
-                            "weight": "MEDIUM"
-                          },
-                          "color": "BRAND_CONTENT_ON_PRIMARY"
-                        },
-                        "predefinedDecorations": null
-                      },
-                      "type": "text"
-                    }
-                  ],
-                  "accessibilityText": "Buy 1, Get 1 Free"
-                },
-                "type": "richText"
-              },
-              "hierarchy": "PRIMARY",
-              "color": {
-                "custom": {
-                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
-                },
-                "type": "custom"
-              },
-              "shape": "RECTANGLE",
-              "accessibilityText": "Buy 1, Get 1 Free"
-            }
-          },
-          "quickAddConfig": {
-            "shouldShow": true,
-            "isInteractionEnabled": false,
-            "position": "BOTTOM_TRAILING"
-          },
-          "labelPrimary": {
-            "richTextElements": [
-              {
-                "text": {
-                  "text": {
-                    "text": "$5.25",
-                    "font": {
-                      "style": "PARAGRAPH_SMALL",
-                      "weight": "NORMAL"
-                    },
-                    "color": "CONTENT_PRIMARY"
-                  },
-                  "predefinedDecorations": null
-                },
-                "type": "text"
-              }
-            ],
-            "accessibilityText": "$5.25"
-          },
-          "headingPrimary": {
-            "richTextElements": [
-              {
-                "text": {
-                  "text": {
-                    "text": "Blueberry Muffin",
-                    "font": {
-                      "style": "LABEL_DEFAULT",
-                      "weight": "MEDIUM"
-                    },
-                    "color": "CONTENT_PRIMARY"
-                  },
-                  "predefinedDecorations": null
-                },
-                "type": "text"
-              }
-            ],
-            "accessibilityText": "Blueberry Muffin"
-          },
-          "itemAvailabilityState": "UNKNOWN",
-          "catalogItemAnalyticsData": {
-            "catalogSectionItemPosition": 7,
-            "endorsementMetadata": {
-              "endorsementType": "most_liked"
-            },
-            "promoType": "BOGO"
-          },
-          "imageOverlayElements": null,
-          "itemThumbnailElements": null,
-          "isWebPdpSupported": false
-        },
-        {
-          "uuid": "01598504-d52a-5f45-af33-e77605caa636",
-          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/a9f886ac9becf552a998f7ccdcdff232/a19bb09692310dfd41e49a96c424b3a6.jpeg",
-          "title": "The Skinny",
-          "itemDescription": "Egg whites scrambled with organic turkey bacon and white cheddar cheese served on Ezekiel® sprouted grain english muffin. 24 grams of protein 💪340 cal *contains soy, wheat, sesame, milk",
-          "price": 745,
-          "priceTagline": {
-            "text": "$7.45",
-            "textFormat": "<span>$7.45</span>",
-            "accessibilityText": "$7.45"
-          },
-          "spanCount": 2,
-          "displayType": "LIST",
-          "titleBadge": {
-            "text": "The Skinny",
-            "textFormat": "<span>The Skinny</span>",
-            "accessibilityText": "The Skinny"
-          },
-          "isSoldOut": false,
-          "hasCustomizations": true,
-          "itemPromotion": {
-            "buyXGetYItemPromotion": {
-              "buyQuantity": 1,
-              "getQuantity": 1,
-              "maxRedemptionCount": 3
-            },
-            "type": "buyXGetYItemPromotion"
-          },
-          "itemDescriptionBadge": {
-            "text": "Egg whites scrambled with organic turkey bacon and white cheddar cheese served on Ezekiel® sprouted grain english muffin. 24 grams of protein 💪340 cal *contains soy, wheat, sesame, milk",
-            "textFormat": "<span style=\"color:#757575\">Egg whites scrambled with organic turkey bacon and white cheddar cheese served on Ezekiel® sprouted grain english muffin. 24 grams of protein 💪340 cal *contains soy, wheat, sesame, milk</span>"
-          },
-          "subsectionUuid": "7b4a98e6-fa93-5d3e-bd8d-dc562c1908ce",
-          "isAvailable": true,
-          "purchaseInfo": {
-            "purchaseOptions": [
-              {
-                "itemQuantityAbbreviation": "",
-                "quantityConstraintsV2": {
-                  "minPermitted": {
-                    "base": {
-                      "high": 0,
-                      "low": 1,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "maxPermitted": {
-                    "base": {
-                      "high": 0,
-                      "low": 999,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "increment": {
-                    "base": {
-                      "high": 0,
-                      "low": 1,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "defaultQuantity": {
-                    "base": {
-                      "high": 0,
-                      "low": 2,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "minPermittedNumber": 1,
-                  "maxPermittedNumber": 999,
-                  "incrementNumber": 1,
-                  "defaultQuantityNumber": 2
-                }
-              }
-            ],
-            "pricingInfo": {}
-          },
-          "sectionUuid": "e0fc783e-c61b-5dc2-b440-a43bdf8cb113",
-          "promoInfo": {
-            "promotionUUID": "0e7ddf3a-3708-4f5f-827c-1367bf1377be",
-            "promoBadge": {
-              "content": {
-                "richText": {
-                  "richTextElements": [
-                    {
-                      "text": {
-                        "text": {
-                          "text": "Buy 1, Get 1 Free",
-                          "font": {
-                            "style": "LABEL_X_SMALL",
-                            "weight": "MEDIUM"
-                          },
-                          "color": "BRAND_CONTENT_ON_PRIMARY"
-                        },
-                        "predefinedDecorations": null
-                      },
-                      "type": "text"
-                    }
-                  ],
-                  "accessibilityText": "Buy 1, Get 1 Free"
-                },
-                "type": "richText"
-              },
-              "hierarchy": "PRIMARY",
-              "color": {
-                "custom": {
-                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
-                },
-                "type": "custom"
-              },
-              "shape": "RECTANGLE",
-              "accessibilityText": "Buy 1, Get 1 Free"
-            }
-          },
-          "quickAddConfig": {
-            "shouldShow": true,
-            "isInteractionEnabled": false,
-            "position": "BOTTOM_TRAILING"
-          },
-          "labelPrimary": {
-            "richTextElements": [
-              {
-                "text": {
-                  "text": {
-                    "text": "$7.45",
-                    "font": {
-                      "style": "PARAGRAPH_SMALL",
-                      "weight": "NORMAL"
-                    },
-                    "color": "CONTENT_PRIMARY"
-                  },
-                  "predefinedDecorations": null
-                },
-                "type": "text"
-              },
-              {
-                "text": {
-                  "text": {
-                    "text": " • ",
-                    "font": {
-                      "style": "PARAGRAPH_SMALL",
-                      "weight": "NORMAL"
-                    },
-                    "color": "CONTENT_PRIMARY"
-                  },
-                  "predefinedDecorations": null
-                },
-                "type": "text"
-              },
-              {
-                "icon": {
-                  "icon": {
-                    "icon": "THUMB_UP_OUTLINE",
-                    "color": "PRIMARY",
-                    "size": "SPACING_UNIT_1_5X"
-                  },
-                  "alignment": "CENTERED"
-                },
-                "type": "icon"
-              },
-              {
-                "text": {
-                  "text": {
-                    "text": " 66% (3)",
-                    "font": {
-                      "style": "PARAGRAPH_SMALL",
-                      "weight": "NORMAL"
-                    },
-                    "color": "CONTENT_PRIMARY"
-                  },
-                  "predefinedDecorations": null
-                },
-                "type": "text"
-              }
-            ],
-            "accessibilityText": "$7.45, 66% of customers liked this based on 3 reviews."
-          },
-          "headingPrimary": {
-            "richTextElements": [
-              {
-                "text": {
-                  "text": {
-                    "text": "The Skinny",
-                    "font": {
-                      "style": "LABEL_DEFAULT",
-                      "weight": "MEDIUM"
-                    },
-                    "color": "CONTENT_PRIMARY"
-                  },
-                  "predefinedDecorations": null
-                },
-                "type": "text"
-              }
-            ],
-            "accessibilityText": "The Skinny"
-          },
-          "itemAvailabilityState": "UNKNOWN",
-          "catalogItemAnalyticsData": {
-            "catalogSectionItemPosition": 2,
-            "endorsementMetadata": {
-              "endorsementType": "ratings",
-              "rating": "66%",
-              "numRatings": 3
-            },
-            "promoType": "BOGO"
-          },
-          "imageOverlayElements": null,
-          "itemThumbnailElements": null,
-          "isWebPdpSupported": false
-        }
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Restaurant",
       "@id": "https://www.ubereats.com/store/baked-by-melissa-grand-central/cVCxliiNRsWJF_zNtB8JQA",
       "name": "Baked By Melissa - Grand Central",
       "servesCuisine": [
@@ -29226,7 +28361,7 @@
       "deals": [
         {
           "uuid": "0d9f263a-84bb-5cd1-bc5e-8a92297251c9",
-          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/971f14e284ee165f4fdff9d4ecb74e76/f47cec1eac1d3b43eccf2318d065819a.jpeg",
+          "imageUrl": "https://cn-geo1.uber.com/static/mobile-content/eats/placeholder_images/placeholder_image_restaurants_300x300.png",
           "title": "Samosas",
           "itemDescription": "Traditional Spiced Potato and pea turnover flavored with pomegranate seeds",
           "price": 1200,
@@ -29664,6 +28799,19 @@
           },
           "isSoldOut": false,
           "hasCustomizations": true,
+          "endorsement": {
+            "backgroundColor": {
+              "alpha": 1,
+              "color": "#0E8345"
+            },
+            "text": "#3 most liked",
+            "textColor": {
+              "alpha": 1,
+              "color": "#FFFFF"
+            },
+            "accessibilityText": "#3 most liked",
+            "textBorder": "PILL"
+          },
           "itemPromotion": {
             "buyXGetYItemPromotion": {
               "buyQuantity": 1,
@@ -29843,9 +28991,7 @@
           "catalogItemAnalyticsData": {
             "catalogSectionItemPosition": 0,
             "endorsementMetadata": {
-              "endorsementType": "ratings",
-              "rating": "91%",
-              "numRatings": 121
+              "endorsementType": "most_liked"
             },
             "promoType": "BOGO"
           },
@@ -30068,7 +29214,7 @@
         },
         {
           "uuid": "e56d4564-6161-5e6e-a53c-847545f5ae55",
-          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/e34307cd23c2ad75504568edb7d5d340/f47cec1eac1d3b43eccf2318d065819a.jpeg",
+          "imageUrl": "https://cn-geo1.uber.com/static/mobile-content/eats/placeholder_images/placeholder_image_restaurants_300x300.png",
           "title": "Yellow Dal Tarka",
           "itemDescription": "Yellow lenthils tempered with mustard seeds, cumin and whole dry chilies",
           "price": 2000,
@@ -30983,12 +30129,12 @@
       ],
       "priceRange": "$",
       "image": [
-        "https://tb-static.uber.com/prod/image-proc/processed_images/9b54ad71f586598c764d2e9bb1ccc13b/08829600257ed8168dd856cafb7446c8.jpeg",
-        "https://tb-static.uber.com/prod/image-proc/processed_images/9b54ad71f586598c764d2e9bb1ccc13b/560a11f5d26e4cb83686f7810a5f5fe2.jpeg",
-        "https://tb-static.uber.com/prod/image-proc/processed_images/9b54ad71f586598c764d2e9bb1ccc13b/35927095c71455a8eb90d48f0168bf20.jpeg",
-        "https://tb-static.uber.com/prod/image-proc/processed_images/9b54ad71f586598c764d2e9bb1ccc13b/66345bbe137cfe4e15769c434c6c397c.jpeg",
-        "https://tb-static.uber.com/prod/image-proc/processed_images/9b54ad71f586598c764d2e9bb1ccc13b/b92d4926516c2635a39581f43cd533a0.jpeg",
-        "https://tb-static.uber.com/prod/image-proc/processed_images/9b54ad71f586598c764d2e9bb1ccc13b/885ba8620d45ab36746a0e8c7b85ee66.jpeg"
+        "https://tb-static.uber.com/prod/enhanced-images/image-touchup-v1/2765eb4f490766b3a57947255c31510a/83ca14ad0eb5d6dd1c0cd5cd62035d80.jpeg",
+        "https://tb-static.uber.com/prod/enhanced-images/image-touchup-v1/2c255b842ffef5d426146cf3036ee09f/9e72c8c288f2a27371fd32c2cd906bf1.jpeg",
+        "https://tb-static.uber.com/prod/enhanced-images/image-touchup-v1/d36f1c0ff7ddda8a87aaa69f752c9701/8693d21cf0799df246a6789a315ac579.jpeg",
+        "https://tb-static.uber.com/prod/enhanced-images/image-touchup-v1/9f3433802c225dc2f55534e090af4cb1/7452104c7803ef3f504fb05e5578c4d9.jpeg",
+        "https://tb-static.uber.com/prod/enhanced-images/image-touchup-v1/77b973ed99860ce38141f1e5d3de84a9/7bd3137ba2d1b284c336dde3dda8e5c1.jpeg",
+        "https://tb-static.uber.com/prod/enhanced-images/image-touchup-v1/cd26a47d1e4dc88f99bdd1c3440d3b31/e26a1feab1ec04c77cd47604a3e22a42.jpeg"
       ],
       "potentialAction": {
         "@type": "OrderAction",
@@ -31292,7 +30438,7 @@
         },
         {
           "uuid": "dd4b6977-16f8-45da-a84e-ba1f34af71fe",
-          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/ef985090a52425d66d78c4feba9f8d39/4218ca1d09174218364162cd0b1a8cc1.jpeg",
+          "imageUrl": "https://tb-static.uber.com/prod/enhanced-images/image-touchup-v1/eb20e9172329aeb534287b69f58a08ea/ab60425aee0518fbb75617e0a995b9e3.jpeg",
           "title": "Chicken Mixed Shrimp Dumplings",
           "itemDescription": "Four pieces.",
           "price": 1300,
@@ -31497,6 +30643,2662 @@
               "endorsementType": "ratings",
               "rating": "91%",
               "numRatings": 280
+            },
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "isWebPdpSupported": false
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Restaurant",
+      "@id": "https://www.ubereats.com/store/charcoal-eats/V5ZWJhyUWqWGjchHy4YSNg",
+      "name": "Charcoal Eats ",
+      "servesCuisine": [
+        "Indian",
+        "Pakistani"
+      ],
+      "priceRange": "$$",
+      "image": [
+        "https://tb-static.uber.com/prod/image-proc/processed_images/51b69bc688eb1c056e2f4239ed6c5d2b/e08b0b609562fdad757d8c76c3b20f19.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/51b69bc688eb1c056e2f4239ed6c5d2b/4eed3468b168fc6e31dff0bb81a347bc.jpeg"
+      ],
+      "potentialAction": {
+        "@type": "OrderAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.ubereats.com/store/charcoal-eats/V5ZWJhyUWqWGjchHy4YSNg?utm_campaign=order-action&amp;utm_medium=organic",
+          "inLanguage": "English",
+          "actionPlatform": [
+            "https://schema.org/DesktopWebPlatform",
+            "https://schema.org/MobileWebPlatform"
+          ]
+        },
+        "deliveryMethod": [
+          "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+          "http://purl.org/goodrelations/v1#DeliveryModePickUp"
+        ]
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "New York",
+        "addressRegion": "NY",
+        "postalCode": "10017",
+        "addressCountry": "US",
+        "streetAddress": "Lexington Avenue &amp; East 41st Street"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 40.7508594,
+        "longitude": -73.9769303
+      },
+      "telephone": "+16463516904",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4.4,
+        "reviewCount": "360"
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "opens": "11:0",
+          "closes": "21:0"
+        }
+      ],
+      "deals": [
+        {
+          "uuid": "5440bfda-7661-53bc-aa97-78d4ba174534",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/563e6a78cc8b5451d56bf18868c77687/0fb376d1da56c05644450062d25c5c84.jpeg",
+          "title": "Butter Chicken Biryani Bowl",
+          "itemDescription": "Tender tandoor-grilled chicken in a creamy tomato-butter sauce, layered with fragrant basmati rice and aromatic spices. Served with mint yogurt for a perfect balance of richness and freshness.",
+          "price": 1967,
+          "priceTagline": {
+            "text": "$19.67",
+            "textFormat": "<span>$19.67</span>",
+            "accessibilityText": "$19.67"
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "Butter Chicken Biryani Bowl",
+            "textFormat": "<span>Butter Chicken Biryani Bowl</span>",
+            "accessibilityText": "Butter Chicken Biryani Bowl"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": true,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "Tender tandoor-grilled chicken in a creamy tomato-butter sauce, layered with fragrant basmati rice and aromatic spices. Served with mint yogurt for a perfect balance of richness and freshness.",
+            "textFormat": "<span style=\"color:#757575\">Tender tandoor-grilled chicken in a creamy tomato-butter sauce, layered with fragrant basmati rice and aromatic spices. Served with mint yogurt for a perfect balance of richness and freshness.</span>"
+          },
+          "subsectionUuid": "426acef4-aa37-54d1-8c1d-ab6be03ce595",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "maxPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 999,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "increment": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "defaultQuantity": {
+                    "base": {
+                      "high": 0,
+                      "low": 2,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 999,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 2
+                }
+              }
+            ],
+            "pricingInfo": {}
+          },
+          "sectionUuid": "7a56a9b8-9787-5135-a033-1fb078fb86c2",
+          "promoInfo": {
+            "promotionUUID": "433094d6-7fdd-4d87-89ea-a6dc7766b354",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "Buy 1, Get 1 Free",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "Buy 1, Get 1 Free"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "RECTANGLE",
+              "accessibilityText": "Buy 1, Get 1 Free"
+            }
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$19.67",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": " • ",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "icon": {
+                  "icon": {
+                    "icon": "THUMB_UP_OUTLINE",
+                    "color": "PRIMARY",
+                    "size": "SPACING_UNIT_1_5X"
+                  },
+                  "alignment": "CENTERED"
+                },
+                "type": "icon"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": " 76% (17)",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$19.67, 76% of customers liked this based on 17 reviews."
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "Butter Chicken Biryani Bowl",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "Butter Chicken Biryani Bowl"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 1,
+            "endorsementMetadata": {
+              "endorsementType": "ratings",
+              "rating": "76%",
+              "numRatings": 17
+            },
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "isWebPdpSupported": false
+        },
+        {
+          "uuid": "7244c658-b2e4-5519-8c7e-c4eaf54ff0cb",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/e6c1a3f9f3fa4c65a6613ee6e62cf479/0fb376d1da56c05644450062d25c5c84.jpeg",
+          "title": "Paneer Makhani Kati Roll",
+          "itemDescription": "A rich, creamy, and mildly spiced paneer dressed with butter sauce, fresh bell peppers, onions perfectly well seasoned served in a fresh paratha. Comes with a fresh mint yogurt side.",
+          "price": 921,
+          "priceTagline": {
+            "text": "$9.21",
+            "textFormat": "<span>$9.21</span>",
+            "accessibilityText": "$9.21"
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "Paneer Makhani Kati Roll",
+            "textFormat": "<span>Paneer Makhani Kati Roll</span>",
+            "accessibilityText": "Paneer Makhani Kati Roll"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": false,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "A rich, creamy, and mildly spiced paneer dressed with butter sauce, fresh bell peppers, onions perfectly well seasoned served in a fresh paratha. Comes with a fresh mint yogurt side.",
+            "textFormat": "<span style=\"color:#757575\">A rich, creamy, and mildly spiced paneer dressed with butter sauce, fresh bell peppers, onions perfectly well seasoned served in a fresh paratha. Comes with a fresh mint yogurt side.</span>"
+          },
+          "subsectionUuid": "ef1a3a9d-a994-5b87-8a83-482f503d76b8",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "maxPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 999,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "increment": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "defaultQuantity": {
+                    "base": {
+                      "high": 0,
+                      "low": 2,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 999,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 2
+                }
+              }
+            ],
+            "pricingInfo": {}
+          },
+          "sectionUuid": "7a56a9b8-9787-5135-a033-1fb078fb86c2",
+          "promoInfo": {
+            "promotionUUID": "433094d6-7fdd-4d87-89ea-a6dc7766b354",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "Buy 1, Get 1 Free",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "Buy 1, Get 1 Free"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "RECTANGLE",
+              "accessibilityText": "Buy 1, Get 1 Free"
+            }
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$9.21",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": " • ",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "icon": {
+                  "icon": {
+                    "icon": "THUMB_UP_OUTLINE",
+                    "color": "PRIMARY",
+                    "size": "SPACING_UNIT_1_5X"
+                  },
+                  "alignment": "CENTERED"
+                },
+                "type": "icon"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": " 88% (9)",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$9.21, 88% of customers liked this based on 9 reviews."
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "Paneer Makhani Kati Roll",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "Paneer Makhani Kati Roll"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 4,
+            "endorsementMetadata": {
+              "endorsementType": "ratings",
+              "rating": "88%",
+              "numRatings": 9
+            },
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "isWebPdpSupported": false
+        },
+        {
+          "uuid": "fd101d16-f54e-5f97-a900-c883b796f8eb",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/585d08ffd14c8376e56c199542d078be/0fb376d1da56c05644450062d25c5c84.jpeg",
+          "title": "Spicy Tandoori Chicken Kati Roll",
+          "itemDescription": "Succulent tandoori chicken marinated in yogurt, with fresh bell peppers, onions perfectly well seasoned served in a fresh paratha. Comes with a fresh mint yogurt side.",
+          "price": 921,
+          "priceTagline": {
+            "text": "$9.21",
+            "textFormat": "<span>$9.21</span>",
+            "accessibilityText": "$9.21"
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "Spicy Tandoori Chicken Kati Roll",
+            "textFormat": "<span>Spicy Tandoori Chicken Kati Roll</span>",
+            "accessibilityText": "Spicy Tandoori Chicken Kati Roll"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": false,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "Succulent tandoori chicken marinated in yogurt, with fresh bell peppers, onions perfectly well seasoned served in a fresh paratha. Comes with a fresh mint yogurt side.",
+            "textFormat": "<span style=\"color:#757575\">Succulent tandoori chicken marinated in yogurt, with fresh bell peppers, onions perfectly well seasoned served in a fresh paratha. Comes with a fresh mint yogurt side.</span>"
+          },
+          "subsectionUuid": "ef1a3a9d-a994-5b87-8a83-482f503d76b8",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "maxPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 999,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "increment": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "defaultQuantity": {
+                    "base": {
+                      "high": 0,
+                      "low": 2,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 999,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 2
+                }
+              }
+            ],
+            "pricingInfo": {}
+          },
+          "sectionUuid": "7a56a9b8-9787-5135-a033-1fb078fb86c2",
+          "promoInfo": {
+            "promotionUUID": "433094d6-7fdd-4d87-89ea-a6dc7766b354",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "Buy 1, Get 1 Free",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "Buy 1, Get 1 Free"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "RECTANGLE",
+              "accessibilityText": "Buy 1, Get 1 Free"
+            }
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$9.21",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$9.21"
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "Spicy Tandoori Chicken Kati Roll",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "Spicy Tandoori Chicken Kati Roll"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 1,
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "isWebPdpSupported": false
+        },
+        {
+          "uuid": "d5faa7ff-2962-558e-b7c5-ce8441dc5d7b",
+          "imageUrl": "https://cn-geo1.uber.com/static/mobile-content/eats/placeholder_images/placeholder_image_restaurants_300x300.png",
+          "title": "Build your own Bowl",
+          "price": 1721,
+          "priceTagline": {
+            "text": "$17.21",
+            "textFormat": "<span>$17.21</span>",
+            "accessibilityText": "$17.21"
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "Build your own Bowl",
+            "textFormat": "<span>Build your own Bowl</span>",
+            "accessibilityText": "Build your own Bowl"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": true,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "subsectionUuid": "3e6fadab-fe8f-5df8-8a0e-b1e090061e01",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "maxPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 999,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "increment": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "defaultQuantity": {
+                    "base": {
+                      "high": 0,
+                      "low": 2,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 999,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 2
+                }
+              }
+            ],
+            "pricingInfo": {}
+          },
+          "sectionUuid": "7a56a9b8-9787-5135-a033-1fb078fb86c2",
+          "promoInfo": {
+            "promotionUUID": "433094d6-7fdd-4d87-89ea-a6dc7766b354",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "Buy 1, Get 1 Free",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "Buy 1, Get 1 Free"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "RECTANGLE",
+              "accessibilityText": "Buy 1, Get 1 Free"
+            }
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$17.21",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": " • ",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "icon": {
+                  "icon": {
+                    "icon": "THUMB_UP_OUTLINE",
+                    "color": "PRIMARY",
+                    "size": "SPACING_UNIT_1_5X"
+                  },
+                  "alignment": "CENTERED"
+                },
+                "type": "icon"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": " 62% (8)",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$17.21, 62% of customers liked this based on 8 reviews."
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "Build your own Bowl",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "Build your own Bowl"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 2,
+            "endorsementMetadata": {
+              "endorsementType": "ratings",
+              "rating": "62%",
+              "numRatings": 8
+            },
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "isWebPdpSupported": false
+        },
+        {
+          "uuid": "a7400126-69f8-51e9-99d8-7b06fed95810",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/e6c1a3f9f3fa4c65a6613ee6e62cf479/0fb376d1da56c05644450062d25c5c84.jpeg",
+          "title": "Butter Chicken Kati Roll.",
+          "itemDescription": "Tender tandoor-grilled chicken in a creamy tomato butter sauce marinated in yogurt with fresh bell peppers, onions perfectly well seasoned served in a fresh paratha. Comes with a fresh mint yogurt side.",
+          "price": 921,
+          "priceTagline": {
+            "text": "$9.21",
+            "textFormat": "<span>$9.21</span>",
+            "accessibilityText": "$9.21"
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "Butter Chicken Kati Roll.",
+            "textFormat": "<span>Butter Chicken Kati Roll.</span>",
+            "accessibilityText": "Butter Chicken Kati Roll."
+          },
+          "isSoldOut": false,
+          "hasCustomizations": false,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "Tender tandoor-grilled chicken in a creamy tomato butter sauce marinated in yogurt with fresh bell peppers, onions perfectly well seasoned served in a fresh paratha. Comes with a fresh mint yogurt side.",
+            "textFormat": "<span style=\"color:#757575\">Tender tandoor-grilled chicken in a creamy tomato butter sauce marinated in yogurt with fresh bell peppers, onions perfectly well seasoned served in a fresh paratha. Comes with a fresh mint yogurt side.</span>"
+          },
+          "subsectionUuid": "ef1a3a9d-a994-5b87-8a83-482f503d76b8",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "maxPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 999,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "increment": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "defaultQuantity": {
+                    "base": {
+                      "high": 0,
+                      "low": 2,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 999,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 2
+                }
+              }
+            ],
+            "pricingInfo": {}
+          },
+          "sectionUuid": "7a56a9b8-9787-5135-a033-1fb078fb86c2",
+          "promoInfo": {
+            "promotionUUID": "433094d6-7fdd-4d87-89ea-a6dc7766b354",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "Buy 1, Get 1 Free",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "Buy 1, Get 1 Free"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "RECTANGLE",
+              "accessibilityText": "Buy 1, Get 1 Free"
+            }
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$9.21",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": " • ",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "icon": {
+                  "icon": {
+                    "icon": "THUMB_UP_OUTLINE",
+                    "color": "PRIMARY",
+                    "size": "SPACING_UNIT_1_5X"
+                  },
+                  "alignment": "CENTERED"
+                },
+                "type": "icon"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": " 64% (17)",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$9.21, 64% of customers liked this based on 17 reviews."
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "Butter Chicken Kati Roll.",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "Butter Chicken Kati Roll."
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 0,
+            "endorsementMetadata": {
+              "endorsementType": "ratings",
+              "rating": "64%",
+              "numRatings": 17
+            },
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "isWebPdpSupported": false
+        },
+        {
+          "uuid": "4f268589-b626-5d38-80fb-4f6097da954b",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/f2731f6b69d50636edd6d3f60e5037ab/0fb376d1da56c05644450062d25c5c84.jpeg",
+          "title": "Spicy Tandoori Paneer Biryani Bowl",
+          "itemDescription": "A blend of spicy paneer tikka, marinated in yogurt, garlic, and aromatic spices, layered with fragrant, saffron-infused basmati rice. Slow-cooked with caramelized onions, roasted cumin, and a hint of ghee, served with cooling mint yogurt.",
+          "price": 1844,
+          "priceTagline": {
+            "text": "$18.44",
+            "textFormat": "<span>$18.44</span>",
+            "accessibilityText": "$18.44"
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "Spicy Tandoori Paneer Biryani Bowl",
+            "textFormat": "<span>Spicy Tandoori Paneer Biryani Bowl</span>",
+            "accessibilityText": "Spicy Tandoori Paneer Biryani Bowl"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": true,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "A blend of spicy paneer tikka, marinated in yogurt, garlic, and aromatic spices, layered with fragrant, saffron-infused basmati rice. Slow-cooked with caramelized onions, roasted cumin, and a hint of ghee, served with cooling mint yogurt.",
+            "textFormat": "<span style=\"color:#757575\">A blend of spicy paneer tikka, marinated in yogurt, garlic, and aromatic spices, layered with fragrant, saffron-infused basmati rice. Slow-cooked with caramelized onions, roasted cumin, and a hint of ghee, served with cooling mint yogurt.</span>"
+          },
+          "subsectionUuid": "426acef4-aa37-54d1-8c1d-ab6be03ce595",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "maxPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 999,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "increment": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "defaultQuantity": {
+                    "base": {
+                      "high": 0,
+                      "low": 2,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 999,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 2
+                }
+              }
+            ],
+            "pricingInfo": {}
+          },
+          "sectionUuid": "7a56a9b8-9787-5135-a033-1fb078fb86c2",
+          "promoInfo": {
+            "promotionUUID": "433094d6-7fdd-4d87-89ea-a6dc7766b354",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "Buy 1, Get 1 Free",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "Buy 1, Get 1 Free"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "RECTANGLE",
+              "accessibilityText": "Buy 1, Get 1 Free"
+            }
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$18.44",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": " • ",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "icon": {
+                  "icon": {
+                    "icon": "THUMB_UP_OUTLINE",
+                    "color": "PRIMARY",
+                    "size": "SPACING_UNIT_1_5X"
+                  },
+                  "alignment": "CENTERED"
+                },
+                "type": "icon"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": " 75% (4)",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$18.44, 75% of customers liked this based on 4 reviews."
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "Spicy Tandoori Paneer Biryani Bowl",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "Spicy Tandoori Paneer Biryani Bowl"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 5,
+            "endorsementMetadata": {
+              "endorsementType": "ratings",
+              "rating": "75%",
+              "numRatings": 4
+            },
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "isWebPdpSupported": false
+        },
+        {
+          "uuid": "c2e78fef-827f-5eae-bd3f-f6ce0b14c36c",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/563e6a78cc8b5451d56bf18868c77687/0fb376d1da56c05644450062d25c5c84.jpeg",
+          "title": "Dum Chicken Tikka Biryani Bowl",
+          "itemDescription": "A blend of succulent chicken, saffron-infused basmati rice dum cooked with garlic, and aromatic spices, served with cooling mint yogurt.",
+          "price": 1967,
+          "priceTagline": {
+            "text": "$19.67",
+            "textFormat": "<span>$19.67</span>",
+            "accessibilityText": "$19.67"
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "Dum Chicken Tikka Biryani Bowl",
+            "textFormat": "<span>Dum Chicken Tikka Biryani Bowl</span>",
+            "accessibilityText": "Dum Chicken Tikka Biryani Bowl"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": true,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "A blend of succulent chicken, saffron-infused basmati rice dum cooked with garlic, and aromatic spices, served with cooling mint yogurt.",
+            "textFormat": "<span style=\"color:#757575\">A blend of succulent chicken, saffron-infused basmati rice dum cooked with garlic, and aromatic spices, served with cooling mint yogurt.</span>"
+          },
+          "subsectionUuid": "426acef4-aa37-54d1-8c1d-ab6be03ce595",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "maxPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 999,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "increment": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "defaultQuantity": {
+                    "base": {
+                      "high": 0,
+                      "low": 2,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 999,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 2
+                }
+              }
+            ],
+            "pricingInfo": {}
+          },
+          "sectionUuid": "7a56a9b8-9787-5135-a033-1fb078fb86c2",
+          "promoInfo": {
+            "promotionUUID": "433094d6-7fdd-4d87-89ea-a6dc7766b354",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "Buy 1, Get 1 Free",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "Buy 1, Get 1 Free"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "RECTANGLE",
+              "accessibilityText": "Buy 1, Get 1 Free"
+            }
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$19.67",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": " • ",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "icon": {
+                  "icon": {
+                    "icon": "THUMB_UP_OUTLINE",
+                    "color": "PRIMARY",
+                    "size": "SPACING_UNIT_1_5X"
+                  },
+                  "alignment": "CENTERED"
+                },
+                "type": "icon"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": " 66% (9)",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$19.67, 66% of customers liked this based on 9 reviews."
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "Dum Chicken Tikka Biryani Bowl",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "Dum Chicken Tikka Biryani Bowl"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 3,
+            "endorsementMetadata": {
+              "endorsementType": "ratings",
+              "rating": "66%",
+              "numRatings": 9
+            },
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "isWebPdpSupported": false
+        },
+        {
+          "uuid": "a1f4f1f9-0d14-51e4-bf5e-ccde309f7a37",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/c0fca9c726271982b3b62b61dacf60aa/0fb376d1da56c05644450062d25c5c84.jpeg",
+          "title": "Grilled Cheese Veggie Sandwich",
+          "itemDescription": "A medley of spiced vegetables—capsicum, onions, tomatoes, and corn—tossed in Indian masalas, layered with gooey melted cheese and zesty green chutney, grilled between golden, buttered bread. Crispy, cheesy, and full of desi flavor.",
+          "price": 860,
+          "priceTagline": {
+            "text": "$8.60",
+            "textFormat": "<span>$8.60</span>",
+            "accessibilityText": "$8.60"
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "Grilled Cheese Veggie Sandwich",
+            "textFormat": "<span>Grilled Cheese Veggie Sandwich</span>",
+            "accessibilityText": "Grilled Cheese Veggie Sandwich"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": false,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "A medley of spiced vegetables—capsicum, onions, tomatoes, and corn—tossed in Indian masalas, layered with gooey melted cheese and zesty green chutney, grilled between golden, buttered bread. Crispy, cheesy, and full of desi flavor.",
+            "textFormat": "<span style=\"color:#757575\">A medley of spiced vegetables—capsicum, onions, tomatoes, and corn—tossed in Indian masalas, layered with gooey melted cheese and zesty green chutney, grilled between golden, buttered bread. Crispy, cheesy, and full of desi flavor.</span>"
+          },
+          "subsectionUuid": "3ea11974-dbf7-5783-b07a-1a4b822382c9",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "maxPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 999,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "increment": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "defaultQuantity": {
+                    "base": {
+                      "high": 0,
+                      "low": 2,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 999,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 2
+                }
+              }
+            ],
+            "pricingInfo": {}
+          },
+          "sectionUuid": "7a56a9b8-9787-5135-a033-1fb078fb86c2",
+          "promoInfo": {
+            "promotionUUID": "433094d6-7fdd-4d87-89ea-a6dc7766b354",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "Buy 1, Get 1 Free",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "Buy 1, Get 1 Free"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "RECTANGLE",
+              "accessibilityText": "Buy 1, Get 1 Free"
+            }
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$8.60",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": " • ",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "icon": {
+                  "icon": {
+                    "icon": "THUMB_UP_OUTLINE",
+                    "color": "PRIMARY",
+                    "size": "SPACING_UNIT_1_5X"
+                  },
+                  "alignment": "CENTERED"
+                },
+                "type": "icon"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": " 100% (4)",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$8.60, 100% of customers liked this based on 4 reviews."
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "Grilled Cheese Veggie Sandwich",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "Grilled Cheese Veggie Sandwich"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 1,
+            "endorsementMetadata": {
+              "endorsementType": "ratings",
+              "rating": "100%",
+              "numRatings": 4
+            },
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "isWebPdpSupported": false
+        },
+        {
+          "uuid": "e374cfd5-adf4-5c69-845d-36d162d15452",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/c0fca9c726271982b3b62b61dacf60aa/0fb376d1da56c05644450062d25c5c84.jpeg",
+          "title": "Grilled Cheese Sandwich with Paneer",
+          "itemDescription": "Spiced paneer slices grilled to perfection, layered with melted cheese, onions, tomatoes, and tangy green chutney, served between butter-toasted bread. A vegetarian street-food classic packed with bold, desi flavors.",
+          "price": 1044,
+          "priceTagline": {
+            "text": "$10.44",
+            "textFormat": "<span>$10.44</span>",
+            "accessibilityText": "$10.44"
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "Grilled Cheese Sandwich with Paneer",
+            "textFormat": "<span>Grilled Cheese Sandwich with Paneer</span>",
+            "accessibilityText": "Grilled Cheese Sandwich with Paneer"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": false,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "Spiced paneer slices grilled to perfection, layered with melted cheese, onions, tomatoes, and tangy green chutney, served between butter-toasted bread. A vegetarian street-food classic packed with bold, desi flavors.",
+            "textFormat": "<span style=\"color:#757575\">Spiced paneer slices grilled to perfection, layered with melted cheese, onions, tomatoes, and tangy green chutney, served between butter-toasted bread. A vegetarian street-food classic packed with bold, desi flavors.</span>"
+          },
+          "subsectionUuid": "3ea11974-dbf7-5783-b07a-1a4b822382c9",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "maxPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 999,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "increment": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "defaultQuantity": {
+                    "base": {
+                      "high": 0,
+                      "low": 2,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 999,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 2
+                }
+              }
+            ],
+            "pricingInfo": {}
+          },
+          "sectionUuid": "7a56a9b8-9787-5135-a033-1fb078fb86c2",
+          "promoInfo": {
+            "promotionUUID": "433094d6-7fdd-4d87-89ea-a6dc7766b354",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "Buy 1, Get 1 Free",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "Buy 1, Get 1 Free"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "RECTANGLE",
+              "accessibilityText": "Buy 1, Get 1 Free"
+            }
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$10.44",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": " • ",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "icon": {
+                  "icon": {
+                    "icon": "THUMB_UP_OUTLINE",
+                    "color": "PRIMARY",
+                    "size": "SPACING_UNIT_1_5X"
+                  },
+                  "alignment": "CENTERED"
+                },
+                "type": "icon"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": " 85% (7)",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$10.44, 85% of customers liked this based on 7 reviews."
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "Grilled Cheese Sandwich with Paneer",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "Grilled Cheese Sandwich with Paneer"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 2,
+            "endorsementMetadata": {
+              "endorsementType": "ratings",
+              "rating": "85%",
+              "numRatings": 7
+            },
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "isWebPdpSupported": false
+        },
+        {
+          "uuid": "e6de42d0-0fcf-586a-b826-b0ba674ac8ed",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/0ebbcab918f1151cb3f4b9d48f265658/0fb376d1da56c05644450062d25c5c84.jpeg",
+          "title": "Afghani Chicken Korma Biryani Bowl",
+          "itemDescription": "A rich, creamy, and mildly spiced delicacy with aromatic basmati rice, charcoal-grilled chicken, and a velvety texture. Served with mint yogurt for the perfect flavor balance.",
+          "price": 1967,
+          "priceTagline": {
+            "text": "$19.67",
+            "textFormat": "<span>$19.67</span>",
+            "accessibilityText": "$19.67"
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "Afghani Chicken Korma Biryani Bowl",
+            "textFormat": "<span>Afghani Chicken Korma Biryani Bowl</span>",
+            "accessibilityText": "Afghani Chicken Korma Biryani Bowl"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": true,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "A rich, creamy, and mildly spiced delicacy with aromatic basmati rice, charcoal-grilled chicken, and a velvety texture. Served with mint yogurt for the perfect flavor balance.",
+            "textFormat": "<span style=\"color:#757575\">A rich, creamy, and mildly spiced delicacy with aromatic basmati rice, charcoal-grilled chicken, and a velvety texture. Served with mint yogurt for the perfect flavor balance.</span>"
+          },
+          "subsectionUuid": "426acef4-aa37-54d1-8c1d-ab6be03ce595",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "maxPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 999,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "increment": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "defaultQuantity": {
+                    "base": {
+                      "high": 0,
+                      "low": 2,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 999,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 2
+                }
+              }
+            ],
+            "pricingInfo": {}
+          },
+          "sectionUuid": "7a56a9b8-9787-5135-a033-1fb078fb86c2",
+          "promoInfo": {
+            "promotionUUID": "433094d6-7fdd-4d87-89ea-a6dc7766b354",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "Buy 1, Get 1 Free",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "Buy 1, Get 1 Free"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "RECTANGLE",
+              "accessibilityText": "Buy 1, Get 1 Free"
+            }
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$19.67",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$19.67"
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "Afghani Chicken Korma Biryani Bowl",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "Afghani Chicken Korma Biryani Bowl"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 0,
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "isWebPdpSupported": false
+        },
+        {
+          "uuid": "a2c01478-2bf4-5a0f-b8d9-2e7e87f0786b",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/c0fca9c726271982b3b62b61dacf60aa/0fb376d1da56c05644450062d25c5c84.jpeg",
+          "title": "Grilled Chicken Cheese Sandwich",
+          "itemDescription": "Tender grilled chicken marinated in Indian spices, paired with melted cheese, sliced onions, tomatoes, and green chutney, all pressed between butter-toasted bread. A flavorful fusion of street-style comfort and hearty satisfaction.",
+          "price": 1044,
+          "priceTagline": {
+            "text": "$10.44",
+            "textFormat": "<span>$10.44</span>",
+            "accessibilityText": "$10.44"
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "Grilled Chicken Cheese Sandwich",
+            "textFormat": "<span>Grilled Chicken Cheese Sandwich</span>",
+            "accessibilityText": "Grilled Chicken Cheese Sandwich"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": false,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "Tender grilled chicken marinated in Indian spices, paired with melted cheese, sliced onions, tomatoes, and green chutney, all pressed between butter-toasted bread. A flavorful fusion of street-style comfort and hearty satisfaction.",
+            "textFormat": "<span style=\"color:#757575\">Tender grilled chicken marinated in Indian spices, paired with melted cheese, sliced onions, tomatoes, and green chutney, all pressed between butter-toasted bread. A flavorful fusion of street-style comfort and hearty satisfaction.</span>"
+          },
+          "subsectionUuid": "3ea11974-dbf7-5783-b07a-1a4b822382c9",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "maxPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 999,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "increment": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "defaultQuantity": {
+                    "base": {
+                      "high": 0,
+                      "low": 2,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 999,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 2
+                }
+              }
+            ],
+            "pricingInfo": {}
+          },
+          "sectionUuid": "7a56a9b8-9787-5135-a033-1fb078fb86c2",
+          "promoInfo": {
+            "promotionUUID": "28b3e504-668f-467d-beef-0f0b7a788806",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "Buy 1, Get 1 Free",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "Buy 1, Get 1 Free"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "RECTANGLE",
+              "accessibilityText": "Buy 1, Get 1 Free"
+            }
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$10.44",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$10.44"
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "Grilled Chicken Cheese Sandwich",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "Grilled Chicken Cheese Sandwich"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 0,
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "isWebPdpSupported": false
+        },
+        {
+          "uuid": "1d5b96f4-75bf-5206-9b47-e6c93e63f0e1",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/075311cf31f85e0334e354e7209c003e/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+          "title": "Puff Chicken Samosa",
+          "itemDescription": "Crispy, golden pastry pockets filled with a savory blend of spiced Chicken and aromatic herbs. Served with tangy tamarind chutney.",
+          "price": 737,
+          "priceTagline": {
+            "text": "$7.37",
+            "textFormat": "<span>$7.37</span>",
+            "accessibilityText": "$7.37"
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "Puff Chicken Samosa",
+            "textFormat": "<span>Puff Chicken Samosa</span>",
+            "accessibilityText": "Puff Chicken Samosa"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": false,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "Crispy, golden pastry pockets filled with a savory blend of spiced Chicken and aromatic herbs. Served with tangy tamarind chutney.",
+            "textFormat": "<span style=\"color:#757575\">Crispy, golden pastry pockets filled with a savory blend of spiced Chicken and aromatic herbs. Served with tangy tamarind chutney.</span>"
+          },
+          "subsectionUuid": "3ea11974-dbf7-5783-b07a-1a4b822382c9",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "maxPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 999,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "increment": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "defaultQuantity": {
+                    "base": {
+                      "high": 0,
+                      "low": 2,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 999,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 2
+                }
+              }
+            ],
+            "pricingInfo": {}
+          },
+          "sectionUuid": "7a56a9b8-9787-5135-a033-1fb078fb86c2",
+          "promoInfo": {
+            "promotionUUID": "28b3e504-668f-467d-beef-0f0b7a788806",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "Buy 1, Get 1 Free",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "Buy 1, Get 1 Free"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "RECTANGLE",
+              "accessibilityText": "Buy 1, Get 1 Free"
+            }
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$7.37",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$7.37"
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "Puff Chicken Samosa",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "Puff Chicken Samosa"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 3,
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "isWebPdpSupported": false
+        },
+        {
+          "uuid": "807d8e5e-4a0b-5804-9524-140e0868d5db",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/1188756073b48fdf42321073cabeae31/0fb376d1da56c05644450062d25c5c84.jpeg",
+          "title": "Puff Potatoes Samosa",
+          "itemDescription": "Crispy, golden puff pastry pockets filled with a savory blend of spiced potatoes, peas, and aromatic herbs. Served with tangy tamarind chutney.",
+          "price": 614,
+          "priceTagline": {
+            "text": "$6.14",
+            "textFormat": "<span>$6.14</span>",
+            "accessibilityText": "$6.14"
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "Puff Potatoes Samosa",
+            "textFormat": "<span>Puff Potatoes Samosa</span>",
+            "accessibilityText": "Puff Potatoes Samosa"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": false,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "Crispy, golden puff pastry pockets filled with a savory blend of spiced potatoes, peas, and aromatic herbs. Served with tangy tamarind chutney.",
+            "textFormat": "<span style=\"color:#757575\">Crispy, golden puff pastry pockets filled with a savory blend of spiced potatoes, peas, and aromatic herbs. Served with tangy tamarind chutney.</span>"
+          },
+          "subsectionUuid": "3ea11974-dbf7-5783-b07a-1a4b822382c9",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "maxPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 999,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "increment": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "defaultQuantity": {
+                    "base": {
+                      "high": 0,
+                      "low": 2,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 999,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 2
+                }
+              }
+            ],
+            "pricingInfo": {}
+          },
+          "sectionUuid": "7a56a9b8-9787-5135-a033-1fb078fb86c2",
+          "promoInfo": {
+            "promotionUUID": "28b3e504-668f-467d-beef-0f0b7a788806",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "Buy 1, Get 1 Free",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "Buy 1, Get 1 Free"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "RECTANGLE",
+              "accessibilityText": "Buy 1, Get 1 Free"
+            }
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$6.14",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": " • ",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "icon": {
+                  "icon": {
+                    "icon": "THUMB_UP_OUTLINE",
+                    "color": "PRIMARY",
+                    "size": "SPACING_UNIT_1_5X"
+                  },
+                  "alignment": "CENTERED"
+                },
+                "type": "icon"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": " 71% (7)",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$6.14, 71% of customers liked this based on 7 reviews."
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "Puff Potatoes Samosa",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "Puff Potatoes Samosa"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 4,
+            "endorsementMetadata": {
+              "endorsementType": "ratings",
+              "rating": "71%",
+              "numRatings": 7
             },
             "promoType": "BOGO"
           },
