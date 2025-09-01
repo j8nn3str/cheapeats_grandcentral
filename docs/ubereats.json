@@ -1,6 +1,631 @@
 {
-  "refreshDateTime": "2025-09-01T11:05:48.356Z",
+  "refreshDateTime": "2025-09-01T12:09:26.237Z",
   "deals": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Restaurant",
+      "@id": "https://www.ubereats.com/store/dos-toros-grand-central/tb450BAHQd2tTGaKleaNTw",
+      "name": "Dos Toros - Grand Central",
+      "servesCuisine": [
+        "Mexican",
+        "Fast Food",
+        "Latin American",
+        "Group Friendly"
+      ],
+      "priceRange": "$$",
+      "image": [
+        "https://tb-static.uber.com/prod/image-proc/processed_images/336a0e7eba2256b50bda3d12e15f8d49/fa23f51b9c499b035a68831c96e1821e.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/336a0e7eba2256b50bda3d12e15f8d49/7835428b286acb57646a256c897c0e9e.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/336a0e7eba2256b50bda3d12e15f8d49/0c09274e3b12c8246a05970e1ef9d835.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/336a0e7eba2256b50bda3d12e15f8d49/d9be3fc772fc6c0fd6b3471e291aa823.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/336a0e7eba2256b50bda3d12e15f8d49/cc592037c936600295e9961933037e19.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/336a0e7eba2256b50bda3d12e15f8d49/30be7d11a3ed6f6183354d1933fbb6c7.jpeg"
+      ],
+      "potentialAction": {
+        "@type": "OrderAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.ubereats.com/store/dos-toros-grand-central/tb450BAHQd2tTGaKleaNTw?utm_campaign=order-action&amp;utm_medium=organic",
+          "inLanguage": "English",
+          "actionPlatform": [
+            "https://schema.org/DesktopWebPlatform",
+            "https://schema.org/MobileWebPlatform"
+          ]
+        },
+        "deliveryMethod": [
+          "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+          "http://purl.org/goodrelations/v1#DeliveryModePickUp"
+        ]
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "New York",
+        "addressRegion": "NY",
+        "postalCode": "10017",
+        "addressCountry": "US",
+        "streetAddress": "466 Lexington Avenue"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 40.7537963,
+        "longitude": -73.9744293
+      },
+      "telephone": "+13473943844",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4.7,
+        "reviewCount": "1500"
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Sunday",
+          "opens": "11:0",
+          "closes": "20:0"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Sunday",
+          "opens": "8:0",
+          "closes": "11:0"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday"
+          ],
+          "opens": "10:30",
+          "closes": "22:0"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday"
+          ],
+          "opens": "7:30",
+          "closes": "10:30"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Friday",
+          "opens": "10:30",
+          "closes": "20:0"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Friday",
+          "opens": "7:30",
+          "closes": "10:30"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Saturday",
+          "opens": "11:0",
+          "closes": "20:0"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Saturday",
+          "opens": "8:0",
+          "closes": "11:0"
+        }
+      ],
+      "deals": [
+        {
+          "uuid": "43c4f458-aa1e-503a-b4d3-d80746b4de9d",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/b0ea2f2d90a2cde0b97662ceaacc1def/0fb376d1da56c05644450062d25c5c84.jpeg",
+          "title": "Bacon Breakfast Burrito",
+          "itemDescription": "Crispy bacon wrapped inside a steamed tortilla with scrambled eggs, refried beans, and melted Monterey Jack cheese.",
+          "price": 775,
+          "priceTagline": {
+            "text": "$7.75",
+            "textFormat": "<span>$7.75</span>",
+            "accessibilityText": "$7.75"
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "Bacon Breakfast Burrito",
+            "textFormat": "<span>Bacon Breakfast Burrito</span>",
+            "accessibilityText": "Bacon Breakfast Burrito"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": false,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "Crispy bacon wrapped inside a steamed tortilla with scrambled eggs, refried beans, and melted Monterey Jack cheese.",
+            "textFormat": "<span style=\"color:#757575\">Crispy bacon wrapped inside a steamed tortilla with scrambled eggs, refried beans, and melted Monterey Jack cheese.</span>"
+          },
+          "subsectionUuid": "75a79c1a-6fbc-5467-a6f6-dbd25d62c5c3",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "maxPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 999,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "increment": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "defaultQuantity": {
+                    "base": {
+                      "high": 0,
+                      "low": 2,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 999,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 2
+                }
+              }
+            ],
+            "pricingInfo": {}
+          },
+          "sectionUuid": "a0f706ba-ddf6-583e-b325-688929a6a691",
+          "promoInfo": {
+            "promotionUUID": "2f7a754b-bebb-460d-b5f8-4d4a70f0efbe",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "Buy 1, Get 1 Free",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "Buy 1, Get 1 Free"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "RECTANGLE",
+              "accessibilityText": "Buy 1, Get 1 Free"
+            }
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$7.75",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$7.75"
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "Bacon Breakfast Burrito",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "Bacon Breakfast Burrito"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 1,
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "isWebPdpSupported": false
+        },
+        {
+          "uuid": "69a0c5a7-d750-5c26-b793-a49a15765c28",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/d18ff076d46c3d946f6969f60f737ff0/0fb376d1da56c05644450062d25c5c84.jpeg",
+          "title": "Bean & Cheese Breakfast Burrito",
+          "itemDescription": "A vegetarian-friendly option wrapped in a steamed tortilla and scrambled eggs, refried beans, and melted Monterey Jack cheese.",
+          "price": 609,
+          "priceTagline": {
+            "text": "$6.09",
+            "textFormat": "<span>$6.09</span>",
+            "accessibilityText": "$6.09"
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "Bean & Cheese Breakfast Burrito",
+            "textFormat": "<span>Bean &amp; Cheese Breakfast Burrito</span>",
+            "accessibilityText": "Bean & Cheese Breakfast Burrito"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": false,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "A vegetarian-friendly option wrapped in a steamed tortilla and scrambled eggs, refried beans, and melted Monterey Jack cheese.",
+            "textFormat": "<span style=\"color:#757575\">A vegetarian-friendly option wrapped in a steamed tortilla and scrambled eggs, refried beans, and melted Monterey Jack cheese.</span>"
+          },
+          "subsectionUuid": "75a79c1a-6fbc-5467-a6f6-dbd25d62c5c3",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "maxPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 999,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "increment": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "defaultQuantity": {
+                    "base": {
+                      "high": 0,
+                      "low": 2,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 999,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 2
+                }
+              }
+            ],
+            "pricingInfo": {}
+          },
+          "sectionUuid": "a0f706ba-ddf6-583e-b325-688929a6a691",
+          "promoInfo": {
+            "promotionUUID": "2f7a754b-bebb-460d-b5f8-4d4a70f0efbe",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "Buy 1, Get 1 Free",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "Buy 1, Get 1 Free"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "RECTANGLE",
+              "accessibilityText": "Buy 1, Get 1 Free"
+            }
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$6.09",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$6.09"
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "Bean & Cheese Breakfast Burrito",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "Bean & Cheese Breakfast Burrito"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 3,
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "isWebPdpSupported": false
+        },
+        {
+          "uuid": "bf9c6108-dc9c-5837-9d38-57f9c4c6829a",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/7df83aa5430f29308971585e53415a89/0fb376d1da56c05644450062d25c5c84.jpeg",
+          "title": "Chorizo Breakfast Burrito",
+          "itemDescription": "Spiced chorizo wrapped inside a steamed tortilla with scrambled eggs, refried beans, and melted Monterey Jack cheese.",
+          "price": 775,
+          "priceTagline": {
+            "text": "$7.75",
+            "textFormat": "<span>$7.75</span>",
+            "accessibilityText": "$7.75"
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "Chorizo Breakfast Burrito",
+            "textFormat": "<span>Chorizo Breakfast Burrito</span>",
+            "accessibilityText": "Chorizo Breakfast Burrito"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": false,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "Spiced chorizo wrapped inside a steamed tortilla with scrambled eggs, refried beans, and melted Monterey Jack cheese.",
+            "textFormat": "<span style=\"color:#757575\">Spiced chorizo wrapped inside a steamed tortilla with scrambled eggs, refried beans, and melted Monterey Jack cheese.</span>"
+          },
+          "subsectionUuid": "75a79c1a-6fbc-5467-a6f6-dbd25d62c5c3",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "maxPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 999,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "increment": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "defaultQuantity": {
+                    "base": {
+                      "high": 0,
+                      "low": 2,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 999,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 2
+                }
+              }
+            ],
+            "pricingInfo": {}
+          },
+          "sectionUuid": "a0f706ba-ddf6-583e-b325-688929a6a691",
+          "promoInfo": {
+            "promotionUUID": "2f7a754b-bebb-460d-b5f8-4d4a70f0efbe",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "Buy 1, Get 1 Free",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "Buy 1, Get 1 Free"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "RECTANGLE",
+              "accessibilityText": "Buy 1, Get 1 Free"
+            }
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$7.75",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$7.75"
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "Chorizo Breakfast Burrito",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "Chorizo Breakfast Burrito"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 0,
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "isWebPdpSupported": false
+        }
+      ]
+    },
     {
       "@context": "https://schema.org",
       "@type": "Restaurant",
@@ -5395,12 +6020,12 @@
       ],
       "priceRange": "$",
       "image": [
-        "https://tb-static.uber.com/prod/image-proc/processed_images/a9b90c2f9e12077ca5e2e8f6b811083b/f6deb0afc24fee6f4bd31a35e6bcbd47.jpeg",
-        "https://tb-static.uber.com/prod/image-proc/processed_images/a9b90c2f9e12077ca5e2e8f6b811083b/9b3aae4cf90f897799a5ed357d60e09d.jpeg",
-        "https://tb-static.uber.com/prod/image-proc/processed_images/a9b90c2f9e12077ca5e2e8f6b811083b/fdf52d66534809b650058f41d517d74a.jpeg",
-        "https://tb-static.uber.com/prod/image-proc/processed_images/a9b90c2f9e12077ca5e2e8f6b811083b/8a42ee7a692dfa4155879820804a277f.jpeg",
-        "https://tb-static.uber.com/prod/image-proc/processed_images/a9b90c2f9e12077ca5e2e8f6b811083b/783282f6131ef2258e5bcd87c46aa87e.jpeg",
-        "https://tb-static.uber.com/prod/image-proc/processed_images/a9b90c2f9e12077ca5e2e8f6b811083b/fb86662148be855d931b37d6c1e5fcbe.jpeg"
+        "https://tb-static.uber.com/prod/enhanced-images/image-touchup-v1/bedd7c73c42cf825fa4655f48232cb5f/e2f2799f7d1f582e4ca6e27495c3f80f.jpeg",
+        "https://tb-static.uber.com/prod/enhanced-images/image-touchup-v1/effd032bc4cf8610b75f079dbc466dca/83d55f683a46b2e59225ab8869ebf5bb.jpeg",
+        "https://tb-static.uber.com/prod/enhanced-images/image-touchup-v1/5a414c44e3d9d9f56a6e61c19338e512/d0055b4268a4b26f8c1c5c6615439d39.jpeg",
+        "https://tb-static.uber.com/prod/enhanced-images/image-touchup-v1/83e41bc76b25abae5e5502072f6f335d/f4571f1ba4ee45742d9589572f85d8a7.jpeg",
+        "https://tb-static.uber.com/prod/enhanced-images/image-touchup-v1/577f670d0dc60beb5a7ec79784c847d8/e8d5ad12e8c0acfbe1766a665de0f351.jpeg",
+        "https://tb-static.uber.com/prod/enhanced-images/image-touchup-v1/d2b1161679a2a0ac6c6bd4b35db608cf/a78dd9633c78e20c4716b66268b14d41.jpeg"
       ],
       "potentialAction": {
         "@type": "OrderAction",
@@ -8436,7 +9061,7 @@
         },
         {
           "uuid": "a35d5ed5-c860-4644-bb17-57683fecebd8",
-          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/beb6b63e75b54f199681d4bf44245830/bc9c318a9c96996e2d990faf2b0c65f6.jpeg",
+          "imageUrl": "https://tb-static.uber.com/prod/enhanced-images/image-touchup-v1/f7936495bdc21a281a089f83f8685ac8/e461e3579a1d67b7ac1fbe9a5fc0aedb.jpeg",
           "title": "Peanut Butter Acai Bowl",
           "itemDescription": "Organic Acai blended with-Banana, peanut butter, blueberry, and strawberry topped with- Granola, strawberry, peanut butter, and banana.",
           "price": 1995,
@@ -21533,6 +22158,515 @@
     {
       "@context": "https://schema.org",
       "@type": "Restaurant",
+      "@id": "https://www.ubereats.com/store/juice-press-at-rockefeller-plaza/XTdffcquUwGhb10QRd6hvg",
+      "name": "Juice Press at Rockefeller Plaza",
+      "servesCuisine": [
+        "Juice and Smoothies",
+        "Breakfast and Brunch",
+        "Vegetarian"
+      ],
+      "priceRange": "",
+      "image": [
+        "https://tb-static.uber.com/prod/image-proc/processed_images/ee35ec7da26926383aa0b2fab5f1a849/97ef7458dde62fa918635bc21265d9f5.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/ee35ec7da26926383aa0b2fab5f1a849/a70f5c9df440d10213e93244e9eb7cad.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/ee35ec7da26926383aa0b2fab5f1a849/97e6648b3593c29cb4a6335f976e6d84.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/ee35ec7da26926383aa0b2fab5f1a849/93b5fd796682c6d5302cd5bec164fe90.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/ee35ec7da26926383aa0b2fab5f1a849/719c6bd2757b08684c0faae44d43159d.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/ee35ec7da26926383aa0b2fab5f1a849/3ac2b39ad528f8c8c5dc77c59abb683d.jpeg"
+      ],
+      "potentialAction": {
+        "@type": "OrderAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.ubereats.com/store/juice-press-at-rockefeller-plaza/XTdffcquUwGhb10QRd6hvg?utm_campaign=order-action&amp;utm_medium=organic",
+          "inLanguage": "English",
+          "actionPlatform": [
+            "https://schema.org/DesktopWebPlatform",
+            "https://schema.org/MobileWebPlatform"
+          ]
+        },
+        "deliveryMethod": [
+          "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+          "http://purl.org/goodrelations/v1#DeliveryModePickUp"
+        ]
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "New York",
+        "addressRegion": "NY",
+        "postalCode": "10112",
+        "addressCountry": "US",
+        "streetAddress": "30 Rockefeller Plz"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 40.7587179,
+        "longitude": -73.9790763
+      },
+      "telephone": "+19294967881",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4.7,
+        "reviewCount": "120"
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Sunday",
+          "opens": "9:30",
+          "closes": "16:30"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "7:30",
+          "closes": "17:30"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Saturday",
+          "opens": "9:30",
+          "closes": "16:30"
+        }
+      ],
+      "deals": [
+        {
+          "uuid": "b9629d47-fee5-5373-b6b4-1b6d83e8006a",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/67ee24fbcee327126e38d090e7c4fcd9/5954bcb006b10dbfd0bc160f6370faf3.jpeg",
+          "title": "Advanced Berry Blend",
+          "itemDescription": "Strawberry, mango, raspberry, banana, pomegranate powder, and maple+water.",
+          "price": 1247,
+          "priceTagline": {
+            "text": "$12.47",
+            "textFormat": "<span>$12.47</span>",
+            "accessibilityText": "$12.47"
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "Advanced Berry Blend",
+            "textFormat": "<span>Advanced Berry Blend</span>",
+            "accessibilityText": "Advanced Berry Blend"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": true,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "Strawberry, mango, raspberry, banana, pomegranate powder, and maple+water.",
+            "textFormat": "<span style=\"color:#757575\">Strawberry, mango, raspberry, banana, pomegranate powder, and maple+water.</span>"
+          },
+          "subsectionUuid": "d49e386f-a705-5410-a539-4ada5b80a995",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "maxPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 999,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "increment": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "defaultQuantity": {
+                    "base": {
+                      "high": 0,
+                      "low": 2,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 999,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 2
+                }
+              }
+            ],
+            "pricingInfo": {}
+          },
+          "sectionUuid": "4ba375e3-16d7-5169-8457-fcb18e75f392",
+          "promoInfo": {
+            "promotionUUID": "e54d9b45-54f2-48af-a320-17b796a2e185",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "Buy 1, Get 1 Free",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "Buy 1, Get 1 Free"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "RECTANGLE",
+              "accessibilityText": "Buy 1, Get 1 Free"
+            }
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$12.47",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": " • ",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "icon": {
+                  "icon": {
+                    "icon": "THUMB_UP_OUTLINE",
+                    "color": "PRIMARY",
+                    "size": "SPACING_UNIT_1_5X"
+                  },
+                  "alignment": "CENTERED"
+                },
+                "type": "icon"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": " 100% (5)",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$12.47, 100% of customers liked this based on 5 reviews."
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "Advanced Berry Blend",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "Advanced Berry Blend"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 1,
+            "endorsementMetadata": {
+              "endorsementType": "ratings",
+              "rating": "100%",
+              "numRatings": 5
+            },
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "isWebPdpSupported": false
+        },
+        {
+          "uuid": "66f14959-74b5-565f-b31b-40b6dbea66f3",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/463d8ac249ee9b00d8bc95a55d4ec8f2/5954bcb006b10dbfd0bc160f6370faf3.jpeg",
+          "title": "Strawberry Banana",
+          "itemDescription": "Strawberry, banana, flaxseed, chia, vanilla, hemp seed, date, plant protein, and almond milk.",
+          "price": 1247,
+          "priceTagline": {
+            "text": "$12.47",
+            "textFormat": "<span>$12.47</span>",
+            "accessibilityText": "$12.47"
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "Strawberry Banana",
+            "textFormat": "<span>Strawberry Banana</span>",
+            "accessibilityText": "Strawberry Banana"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": true,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "Strawberry, banana, flaxseed, chia, vanilla, hemp seed, date, plant protein, and almond milk.",
+            "textFormat": "<span style=\"color:#757575\">Strawberry, banana, flaxseed, chia, vanilla, hemp seed, date, plant protein, and almond milk.</span>"
+          },
+          "subsectionUuid": "b8380d3e-9b91-5387-aa9a-3e29a6088dc2",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "maxPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 999,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "increment": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "defaultQuantity": {
+                    "base": {
+                      "high": 0,
+                      "low": 2,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 999,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 2
+                }
+              }
+            ],
+            "pricingInfo": {}
+          },
+          "sectionUuid": "4ba375e3-16d7-5169-8457-fcb18e75f392",
+          "promoInfo": {
+            "promotionUUID": "e54d9b45-54f2-48af-a320-17b796a2e185",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "Buy 1, Get 1 Free",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "Buy 1, Get 1 Free"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "RECTANGLE",
+              "accessibilityText": "Buy 1, Get 1 Free"
+            }
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$12.47",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": " • ",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "icon": {
+                  "icon": {
+                    "icon": "THUMB_UP_OUTLINE",
+                    "color": "PRIMARY",
+                    "size": "SPACING_UNIT_1_5X"
+                  },
+                  "alignment": "CENTERED"
+                },
+                "type": "icon"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": " 64% (14)",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$12.47, 64% of customers liked this based on 14 reviews."
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "Strawberry Banana",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "Strawberry Banana"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 5,
+            "endorsementMetadata": {
+              "endorsementType": "ratings",
+              "rating": "64%",
+              "numRatings": 14
+            },
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "isWebPdpSupported": false
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Restaurant",
       "@id": "https://www.ubereats.com/store/baya-bar-murray-hill/EjQ3XUXkWGCiu2FAi4GTYw",
       "name": "Baya Bar - Murray Hill",
       "servesCuisine": [
@@ -21613,7 +22747,7 @@
       "deals": [
         {
           "uuid": "6dcfee68-568e-5010-9579-f3fd4a925d18",
-          "imageUrl": "https://tb-static.uber.com/prod/enhanced-images/image-touchup-v1/8fc4294304a7e280a491010c332fb605/77780f6dc4db2a0e121e3c954d5f1812.jpeg",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/7c6ecebb1f684b7de6b40250449b65fd/5143f1e218c67c20fe5a4cd33d90b07b.jpeg",
           "title": "Immune Booster Shot",
           "itemDescription": "Lemon, Ginger, Turmeric, Honey",
           "price": 450,
@@ -21827,7 +22961,7 @@
         },
         {
           "uuid": "8fc22d26-d5a2-5d51-af92-fdb6c5350851",
-          "imageUrl": "https://tb-static.uber.com/prod/enhanced-images/image-touchup-v1/124a0ccddb2ccd0cc7c125bc69098d63/bb3870fffa8c299a4a6f7a1246f8445e.jpeg",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/cad1991dcaa634a9294c3828a14720b3/5143f1e218c67c20fe5a4cd33d90b07b.jpeg",
           "title": "Vanilla Protein Shake",
           "itemDescription": "Banana, Vanilla Whey Protein, Strawberry, Organic Almond Milk",
           "price": 1400,
@@ -21997,7 +23131,7 @@
         },
         {
           "uuid": "f1b1b429-a0ea-5093-ad33-6742642ee596",
-          "imageUrl": "https://tb-static.uber.com/prod/enhanced-images/image-touchup-v1/124a0ccddb2ccd0cc7c125bc69098d63/bb3870fffa8c299a4a6f7a1246f8445e.jpeg",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/cad1991dcaa634a9294c3828a14720b3/5143f1e218c67c20fe5a4cd33d90b07b.jpeg",
           "title": "Brooklyn Smoothie",
           "itemDescription": "Strawberry, Banana, Vanilla Whey Protein, Fresh Squeezed Orange Juice, Organic Coconut Milk, Honey",
           "price": 1400,
@@ -22167,7 +23301,7 @@
         },
         {
           "uuid": "6b2fbb6b-f95a-5d54-b17b-457cab98a17c",
-          "imageUrl": "https://tb-static.uber.com/prod/enhanced-images/image-touchup-v1/c360d0e2f249683d6f8800acbd6285a1/c1bd548aa6918491e9e0e0bed270b1fc.jpeg",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/33b6075584fc67214b60fcda2dff0deb/5143f1e218c67c20fe5a4cd33d90b07b.jpeg",
           "title": "Chocolate Protein Shake",
           "itemDescription": "Banana, Chocolate Whey Protein, Natural Peanut Butter, Organic Almond Milk",
           "price": 1400,
@@ -22340,7 +23474,7 @@
         },
         {
           "uuid": "1a9d09ef-3ee6-594c-9003-dee81a24fd24",
-          "imageUrl": "https://tb-static.uber.com/prod/enhanced-images/image-touchup-v1/5dc93c46e266962d7e1f494de9a46edb/07f15df12b418c70d7faa7ae548ddda7.jpeg",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/a532e0ae24a920a76fecc661057ab7ae/5143f1e218c67c20fe5a4cd33d90b07b.jpeg",
           "title": "Flu Fighter Juice",
           "itemDescription": "Carrot, Beet, Orange, Lemon, Ginger, Turmeric, Cayenne",
           "price": 1199,
