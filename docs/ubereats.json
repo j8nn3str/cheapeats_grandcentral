@@ -1,6 +1,604 @@
 {
-  "refreshDateTime": "2025-10-20T11:06:40.805Z",
+  "refreshDateTime": "2025-10-20T12:10:00.917Z",
   "deals": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Restaurant",
+      "@id": "https://www.ubereats.com/store/ten-thousand-coffee-750-3rd-ave/ZUuAj1M-W1aSkOIkn9RbGg",
+      "name": "TEN THOUSAND COFFEE (750 3rd Ave)",
+      "servesCuisine": [
+        "Coffee and Tea",
+        "Breakfast and Brunch",
+        "Desserts"
+      ],
+      "priceRange": "$",
+      "image": [
+        "https://tb-static.uber.com/prod/image-proc/processed_images/0557a72ef53b861df53bb6cb663ff395/19ec62ba51fde35ba0aff5b84321c5af.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/0557a72ef53b861df53bb6cb663ff395/c67d558c633281f9c71fc6a90ef470ae.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/0557a72ef53b861df53bb6cb663ff395/8681e511c0910e0052cb155c50f01f89.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/0557a72ef53b861df53bb6cb663ff395/6ea4f72e303000fbf403bbb36f971f85.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/0557a72ef53b861df53bb6cb663ff395/4bee0baf259f2b3c95aacdebea87e950.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/0557a72ef53b861df53bb6cb663ff395/5283d81c664b43c5f57a3a186d273063.jpeg"
+      ],
+      "potentialAction": {
+        "@type": "OrderAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.ubereats.com/store/ten-thousand-coffee-750-3rd-ave/ZUuAj1M-W1aSkOIkn9RbGg?utm_campaign=order-action&amp;utm_medium=organic",
+          "inLanguage": "English",
+          "actionPlatform": [
+            "https://schema.org/DesktopWebPlatform",
+            "https://schema.org/MobileWebPlatform"
+          ]
+        },
+        "deliveryMethod": [
+          "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+          "http://purl.org/goodrelations/v1#DeliveryModePickUp"
+        ]
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "New York",
+        "addressRegion": "NY",
+        "postalCode": "10017",
+        "addressCountry": "US",
+        "streetAddress": "750 3RD Avenue"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 40.7538516,
+        "longitude": -73.9723516
+      },
+      "telephone": "+16465896770",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 5,
+        "reviewCount": "14"
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Sunday",
+          "opens": "10:30",
+          "closes": "16:30"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "7:30",
+          "closes": "18:30"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Saturday",
+          "opens": "10:30",
+          "closes": "16:30"
+        }
+      ],
+      "deals": [
+        {
+          "uuid": "f0d8b7f0-742b-5b8b-8b0c-9c360d1d176d",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/1c2196299e50bc89f674b755ba96a6ce/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+          "title": "Einspanner",
+          "itemDescription": "Signature Cream Latte Served with NYC (Dark Roast) Blend. 12oz *Best in Iced*",
+          "price": 800,
+          "priceTagline": {
+            "text": "$8.00",
+            "textFormat": "<span>$8.00</span>",
+            "accessibilityText": "$8.00"
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "Einspanner",
+            "textFormat": "<span>Einspanner</span>",
+            "accessibilityText": "Einspanner"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": true,
+          "numAlcoholicItems": 0,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "Signature Cream Latte Served with NYC (Dark Roast) Blend. 12oz *Best in Iced*",
+            "textFormat": "<span style=\"color:#757575\">Signature Cream Latte Served with NYC (Dark Roast) Blend. 12oz *Best in Iced*</span>"
+          },
+          "subsectionUuid": "a825e37b-b44e-5238-b197-11d5dca4dfce",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "maxPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 999,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "increment": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "defaultQuantity": {
+                    "base": {
+                      "high": 0,
+                      "low": 2,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 999,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 2
+                }
+              }
+            ],
+            "pricingInfo": {}
+          },
+          "sectionUuid": "93f38619-0282-5a3d-987c-8b5c3913e940",
+          "promoInfo": {
+            "promotionUUID": "9b4b4dcb-c154-480a-834b-3c167fa0e093",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "Buy 1, Get 1 Free",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "Buy 1, Get 1 Free"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "RECTANGLE",
+              "accessibilityText": "Buy 1, Get 1 Free"
+            }
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$8.00",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$8.00"
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "Einspanner",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "Einspanner"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 6,
+            "endorsementMetadata": {
+              "endorsementType": "most_liked"
+            },
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "isWebPdpSupported": false
+        },
+        {
+          "uuid": "283d5932-a588-5b42-af48-2c1a2a1759e3",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/3b37821df121bf3ba6eb769d41ec0d37/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+          "title": "Americano",
+          "itemDescription": "Served with your choice of NYC (Dark Roast) or Sydney (Light-Medium) Blend.\ndouble-shot for 12oz,\ntriple-shot for 16oz",
+          "price": 550,
+          "priceTagline": {
+            "text": "$5.50",
+            "textFormat": "<span>$5.50</span>",
+            "accessibilityText": "$5.50"
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "Americano",
+            "textFormat": "<span>Americano</span>",
+            "accessibilityText": "Americano"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": true,
+          "numAlcoholicItems": 0,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "Served with your choice of NYC (Dark Roast) or Sydney (Light-Medium) Blend.\ndouble-shot for 12oz,\ntriple-shot for 16oz",
+            "textFormat": "<span style=\"color:#757575\">Served with your choice of NYC (Dark Roast) or Sydney (Light-Medium) Blend.\ndouble-shot for 12oz,\ntriple-shot for 16oz</span>"
+          },
+          "subsectionUuid": "a825e37b-b44e-5238-b197-11d5dca4dfce",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "maxPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 999,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "increment": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "defaultQuantity": {
+                    "base": {
+                      "high": 0,
+                      "low": 2,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 999,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 2
+                }
+              }
+            ],
+            "pricingInfo": {}
+          },
+          "sectionUuid": "93f38619-0282-5a3d-987c-8b5c3913e940",
+          "promoInfo": {
+            "promotionUUID": "9b4b4dcb-c154-480a-834b-3c167fa0e093",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "Buy 1, Get 1 Free",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "Buy 1, Get 1 Free"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "RECTANGLE",
+              "accessibilityText": "Buy 1, Get 1 Free"
+            }
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$5.50",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$5.50"
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "Americano",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "Americano"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 0,
+            "endorsementMetadata": {
+              "endorsementType": "most_liked"
+            },
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "isWebPdpSupported": false
+        },
+        {
+          "uuid": "de928469-b848-5379-85d4-981f82b293e0",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/e5b9d79abebb726525d24758dc2ed7e1/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+          "title": "Almond Cream Croissant",
+          "itemDescription": "",
+          "price": 750,
+          "priceTagline": {
+            "text": "$7.50",
+            "textFormat": "<span>$7.50</span>",
+            "accessibilityText": "$7.50"
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "Almond Cream Croissant",
+            "textFormat": "<span>Almond Cream Croissant</span>",
+            "accessibilityText": "Almond Cream Croissant"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": false,
+          "numAlcoholicItems": 0,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "subsectionUuid": "1e1a81fd-119d-538a-8e62-241a8e78342a",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "maxPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 999,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "increment": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "defaultQuantity": {
+                    "base": {
+                      "high": 0,
+                      "low": 2,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 999,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 2
+                }
+              }
+            ],
+            "pricingInfo": {}
+          },
+          "sectionUuid": "93f38619-0282-5a3d-987c-8b5c3913e940",
+          "promoInfo": {
+            "promotionUUID": "9b4b4dcb-c154-480a-834b-3c167fa0e093",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "Buy 1, Get 1 Free",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "Buy 1, Get 1 Free"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "RECTANGLE",
+              "accessibilityText": "Buy 1, Get 1 Free"
+            }
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$7.50",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$7.50"
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "Almond Cream Croissant",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "Almond Cream Croissant"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 5,
+            "endorsementMetadata": {
+              "endorsementType": "most_liked"
+            },
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "isWebPdpSupported": false
+        }
+      ]
+    },
     {
       "@context": "https://schema.org",
       "@type": "Restaurant",
@@ -25382,43 +25980,26 @@
     {
       "@context": "https://schema.org",
       "@type": "Restaurant",
-      "@id": "https://www.ubereats.com/store/zuckers-bagels-grand-central/KTh8xKZ9RzOy1i5yN8G-lA",
-      "name": "Zucker's Bagels - Grand Central",
+      "@id": "https://www.ubereats.com/store/lenwich-midtown/sF09JNNnTXG6JSkgTljSRA",
+      "name": "Lenwich - Midtown",
       "servesCuisine": [
-        "New American",
-        "Breakfast and Brunch",
-        "Sandwich",
-        "Group Friendly",
-        "Bagels",
-        "Coffee and Tea",
-        "Tea &amp; Coffee",
-        "Deli",
-        "Sandwiches",
-        "Wraps",
-        "Desserts",
-        "Desserts",
-        "Cafe",
-        "Jewish",
-        "Soup",
-        "Vegetarian",
-        "Vegetarian Friendly",
-        "Fast Food",
-        "American"
+        "American",
+        "Sandwich"
       ],
-      "priceRange": "$",
+      "priceRange": "$$",
       "image": [
-        "https://tb-static.uber.com/prod/image-proc/processed_images/44f34250afe918e95d19191b49d655b8/f6deb0afc24fee6f4bd31a35e6bcbd47.jpeg",
-        "https://tb-static.uber.com/prod/image-proc/processed_images/44f34250afe918e95d19191b49d655b8/9b3aae4cf90f897799a5ed357d60e09d.jpeg",
-        "https://tb-static.uber.com/prod/image-proc/processed_images/44f34250afe918e95d19191b49d655b8/fdf52d66534809b650058f41d517d74a.jpeg",
-        "https://tb-static.uber.com/prod/image-proc/processed_images/44f34250afe918e95d19191b49d655b8/8a42ee7a692dfa4155879820804a277f.jpeg",
-        "https://tb-static.uber.com/prod/image-proc/processed_images/44f34250afe918e95d19191b49d655b8/783282f6131ef2258e5bcd87c46aa87e.jpeg",
-        "https://tb-static.uber.com/prod/image-proc/processed_images/44f34250afe918e95d19191b49d655b8/fb86662148be855d931b37d6c1e5fcbe.jpeg"
+        "https://tb-static.uber.com/prod/image-proc/processed_images/4b54b57a6019a04351bca2044b090a9f/08829600257ed8168dd856cafb7446c8.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/4b54b57a6019a04351bca2044b090a9f/560a11f5d26e4cb83686f7810a5f5fe2.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/4b54b57a6019a04351bca2044b090a9f/35927095c71455a8eb90d48f0168bf20.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/4b54b57a6019a04351bca2044b090a9f/66345bbe137cfe4e15769c434c6c397c.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/4b54b57a6019a04351bca2044b090a9f/b92d4926516c2635a39581f43cd533a0.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/4b54b57a6019a04351bca2044b090a9f/885ba8620d45ab36746a0e8c7b85ee66.jpeg"
       ],
       "potentialAction": {
         "@type": "OrderAction",
         "target": {
           "@type": "EntryPoint",
-          "urlTemplate": "https://www.ubereats.com/store/zuckers-bagels-grand-central/KTh8xKZ9RzOy1i5yN8G-lA?utm_campaign=order-action&amp;utm_medium=organic",
+          "urlTemplate": "https://www.ubereats.com/store/lenwich-midtown/sF09JNNnTXG6JSkgTljSRA?utm_campaign=order-action&amp;utm_medium=organic",
           "inLanguage": "English",
           "actionPlatform": [
             "https://schema.org/DesktopWebPlatform",
@@ -25436,75 +26017,73 @@
         "addressRegion": "NY",
         "postalCode": "10017",
         "addressCountry": "US",
-        "streetAddress": "370 Lexington Ave"
+        "streetAddress": "8 East 48th Street"
       },
       "geo": {
         "@type": "GeoCoordinates",
-        "latitude": 40.7507234,
-        "longitude": -73.976732
+        "latitude": 40.7569059,
+        "longitude": -73.9774798
       },
-      "telephone": "+12126611080",
+      "telephone": "+16467670010",
       "aggregateRating": {
         "@type": "AggregateRating",
-        "ratingValue": 4.6,
-        "reviewCount": "2000"
+        "ratingValue": 4.8,
+        "reviewCount": "1500"
       },
       "openingHoursSpecification": [
-        {
-          "@type": "OpeningHoursSpecification",
-          "dayOfWeek": "Sunday",
-          "opens": "7:0",
-          "closes": "14:15"
-        },
         {
           "@type": "OpeningHoursSpecification",
           "dayOfWeek": [
             "Monday",
             "Tuesday",
             "Wednesday",
-            "Thursday",
-            "Friday"
+            "Thursday"
           ],
-          "opens": "7:0",
-          "closes": "17:15"
+          "opens": "7:30",
+          "closes": "16:45"
         },
         {
           "@type": "OpeningHoursSpecification",
-          "dayOfWeek": "Saturday",
-          "opens": "7:0",
-          "closes": "14:15"
+          "dayOfWeek": "Friday",
+          "opens": "8:0",
+          "closes": "15:45"
         }
       ],
       "deals": [
         {
-          "uuid": "046316f2-2c70-5479-8117-1886218db7f1",
-          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/27ede8372b1e1aaa394a16e86ebeab31/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
-          "title": "Plain Cream Cheese Sandwich",
-          "itemDescription": "",
-          "price": 578,
+          "uuid": "9e353315-072b-4e41-91a7-1db3793aa6f4",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/6c5effc8ebdc59c6a0a249d3be63f44c/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+          "title": "Emma's",
+          "itemDescription": "Smoked ham and smoked turkey with swiss cheese, coleslaw and thousand island",
+          "price": 1678,
           "priceTagline": {
-            "text": "$5.78",
-            "textFormat": "<span>$5.78</span>",
-            "accessibilityText": "$5.78"
+            "text": "$16.78",
+            "textFormat": "<span>$16.78</span>",
+            "accessibilityText": "$16.78"
           },
           "spanCount": 2,
           "displayType": "LIST",
           "titleBadge": {
-            "text": "Plain Cream Cheese Sandwich",
-            "textFormat": "<span>Plain Cream Cheese Sandwich</span>",
-            "accessibilityText": "Plain Cream Cheese Sandwich"
+            "text": "Emma's",
+            "textFormat": "<span>Emma&#39;s</span>",
+            "accessibilityText": "Emma's"
           },
           "isSoldOut": false,
           "hasCustomizations": true,
+          "numAlcoholicItems": 0,
           "itemPromotion": {
             "buyXGetYItemPromotion": {
               "buyQuantity": 1,
               "getQuantity": 1,
-              "maxRedemptionCount": 3
+              "maxRedemptionCount": 10
             },
             "type": "buyXGetYItemPromotion"
           },
-          "subsectionUuid": "ab24e3f9-1b93-52dd-aa6f-d6a957c8b669",
+          "itemDescriptionBadge": {
+            "text": "Smoked ham and smoked turkey with swiss cheese, coleslaw and thousand island",
+            "textFormat": "<span style=\"color:#757575\">Smoked ham and smoked turkey with swiss cheese, coleslaw and thousand island</span>"
+          },
+          "subsectionUuid": "f4fa304d-3d60-4969-97ca-03c2fb2495b5",
           "isAvailable": true,
           "purchaseInfo": {
             "purchaseOptions": [
@@ -25552,9 +26131,9 @@
             ],
             "pricingInfo": {}
           },
-          "sectionUuid": "be858431-8a6c-512a-8444-8ce18c7d23a5",
+          "sectionUuid": "cf59c2b2-7bff-53c5-8047-24439bc087f3",
           "promoInfo": {
-            "promotionUUID": "e363b3c1-77db-4a25-b40f-31cb29346dfc",
+            "promotionUUID": "cb98f016-dcb5-4471-b269-60b1207837da",
             "promoBadge": {
               "content": {
                 "richText": {
@@ -25599,7 +26178,46 @@
               {
                 "text": {
                   "text": {
-                    "text": "$5.78",
+                    "text": "$16.78",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": " • ",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "icon": {
+                  "icon": {
+                    "icon": "THUMB_UP_OUTLINE",
+                    "color": "PRIMARY",
+                    "size": "SPACING_UNIT_1_5X"
+                  },
+                  "alignment": "CENTERED"
+                },
+                "type": "icon"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": " 100% (16)",
                     "font": {
                       "style": "PARAGRAPH_SMALL",
                       "weight": "NORMAL"
@@ -25611,14 +26229,14 @@
                 "type": "text"
               }
             ],
-            "accessibilityText": "$5.78"
+            "accessibilityText": "$16.78, 100% of customers liked this based on 16 reviews."
           },
           "headingPrimary": {
             "richTextElements": [
               {
                 "text": {
                   "text": {
-                    "text": "Plain Cream Cheese Sandwich",
+                    "text": "Emma's",
                     "font": {
                       "style": "LABEL_DEFAULT",
                       "weight": "MEDIUM"
@@ -25630,11 +26248,230 @@
                 "type": "text"
               }
             ],
-            "accessibilityText": "Plain Cream Cheese Sandwich"
+            "accessibilityText": "Emma's"
           },
           "itemAvailabilityState": "UNKNOWN",
           "catalogItemAnalyticsData": {
-            "catalogSectionItemPosition": 10,
+            "catalogSectionItemPosition": 1,
+            "endorsementMetadata": {
+              "endorsementType": "ratings",
+              "rating": "100%",
+              "numRatings": 16
+            },
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "isWebPdpSupported": false
+        },
+        {
+          "uuid": "8cb73628-522b-445e-8e60-72af2de9e4f5",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/880e30d33b7e2064197bc43ae465a2bb/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+          "title": "Caesar Salad",
+          "itemDescription": "Romaine lettuce, parmesan cheese and croutons. Recommended with Caesar dressing.",
+          "price": 1078,
+          "priceTagline": {
+            "text": "$10.78",
+            "textFormat": "<span>$10.78</span>",
+            "accessibilityText": "$10.78"
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "Caesar Salad",
+            "textFormat": "<span>Caesar Salad</span>",
+            "accessibilityText": "Caesar Salad"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": true,
+          "numAlcoholicItems": 0,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 10
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "Romaine lettuce, parmesan cheese and croutons. Recommended with Caesar dressing.",
+            "textFormat": "<span style=\"color:#757575\">Romaine lettuce, parmesan cheese and croutons. Recommended with Caesar dressing.</span>"
+          },
+          "subsectionUuid": "2809e27b-b896-5798-993c-b13bad333027",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "maxPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 999,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "increment": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "defaultQuantity": {
+                    "base": {
+                      "high": 0,
+                      "low": 2,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 999,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 2
+                }
+              }
+            ],
+            "pricingInfo": {}
+          },
+          "sectionUuid": "cf59c2b2-7bff-53c5-8047-24439bc087f3",
+          "promoInfo": {
+            "promotionUUID": "cb98f016-dcb5-4471-b269-60b1207837da",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "Buy 1, Get 1 Free",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "Buy 1, Get 1 Free"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "RECTANGLE",
+              "accessibilityText": "Buy 1, Get 1 Free"
+            }
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$10.78",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": " • ",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "icon": {
+                  "icon": {
+                    "icon": "THUMB_UP_OUTLINE",
+                    "color": "PRIMARY",
+                    "size": "SPACING_UNIT_1_5X"
+                  },
+                  "alignment": "CENTERED"
+                },
+                "type": "icon"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": " 96% (99)",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$10.78, 96% of customers liked this based on 99 reviews."
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "Caesar Salad",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "Caesar Salad"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 1,
+            "endorsementMetadata": {
+              "endorsementType": "ratings",
+              "rating": "96%",
+              "numRatings": 99
+            },
             "promoType": "BOGO"
           },
           "imageOverlayElements": null,
@@ -26783,6 +27620,307 @@
             "catalogSectionItemPosition": 3,
             "endorsementMetadata": {
               "endorsementType": "most_liked"
+            },
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "isWebPdpSupported": false
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Restaurant",
+      "@id": "https://www.ubereats.com/store/gregorys-coffee-485-madison-ave/UGbMs22iT-CLhPWKVl26Vg",
+      "name": "Gregorys Coffee (485 Madison Ave)",
+      "servesCuisine": [
+        "Coffee and Tea",
+        "Juice and Smoothies",
+        "Pastry",
+        "Breakfast and Brunch"
+      ],
+      "priceRange": "$$",
+      "image": [
+        "https://tb-static.uber.com/prod/image-proc/processed_images/032b6fe3a8bd28409f09905ca84f7bb1/19ec62ba51fde35ba0aff5b84321c5af.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/032b6fe3a8bd28409f09905ca84f7bb1/c67d558c633281f9c71fc6a90ef470ae.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/032b6fe3a8bd28409f09905ca84f7bb1/8681e511c0910e0052cb155c50f01f89.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/032b6fe3a8bd28409f09905ca84f7bb1/6ea4f72e303000fbf403bbb36f971f85.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/032b6fe3a8bd28409f09905ca84f7bb1/4bee0baf259f2b3c95aacdebea87e950.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/032b6fe3a8bd28409f09905ca84f7bb1/5283d81c664b43c5f57a3a186d273063.jpeg"
+      ],
+      "potentialAction": {
+        "@type": "OrderAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.ubereats.com/store/gregorys-coffee-485-madison-ave/UGbMs22iT-CLhPWKVl26Vg?utm_campaign=order-action&amp;utm_medium=organic",
+          "inLanguage": "English",
+          "actionPlatform": [
+            "https://schema.org/DesktopWebPlatform",
+            "https://schema.org/MobileWebPlatform"
+          ]
+        },
+        "deliveryMethod": [
+          "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+          "http://purl.org/goodrelations/v1#DeliveryModePickUp"
+        ]
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "New York",
+        "addressRegion": "NY",
+        "postalCode": "10022",
+        "addressCountry": "US",
+        "streetAddress": "485 Madison Ave"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 40.7588968,
+        "longitude": -73.9744092
+      },
+      "telephone": "+18772117343",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4.7,
+        "reviewCount": "160"
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Monday",
+          "opens": "8:0",
+          "closes": "15:0"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Tuesday",
+            "Wednesday",
+            "Thursday"
+          ],
+          "opens": "6:30",
+          "closes": "18:0"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Friday",
+          "opens": "6:30",
+          "closes": "16:0"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Saturday",
+          "opens": "8:0",
+          "closes": "16:0"
+        }
+      ],
+      "deals": [
+        {
+          "uuid": "f45d6686-21ae-5437-9dc2-0454b138e785",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/a9f886ac9becf552a998f7ccdcdff232/a19bb09692310dfd41e49a96c424b3a6.jpeg",
+          "title": "The Skinny",
+          "itemDescription": "Egg whites scrambled with organic turkey bacon and white cheddar cheese served on an english muffin. 24 grams of protein 💪340 cal *contains soy, wheat, sesame, milk",
+          "price": 745,
+          "priceTagline": {
+            "text": "$7.45",
+            "textFormat": "<span>$7.45</span>",
+            "accessibilityText": "$7.45"
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "The Skinny",
+            "textFormat": "<span>The Skinny</span>",
+            "accessibilityText": "The Skinny"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": true,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "Egg whites scrambled with organic turkey bacon and white cheddar cheese served on an english muffin. 24 grams of protein 💪340 cal *contains soy, wheat, sesame, milk",
+            "textFormat": "<span style=\"color:#757575\">Egg whites scrambled with organic turkey bacon and white cheddar cheese served on an english muffin. 24 grams of protein 💪340 cal *contains soy, wheat, sesame, milk</span>"
+          },
+          "subsectionUuid": "6501cb47-2b3d-53d9-a9f5-9a646ef25e8e",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "maxPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 999,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "increment": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "defaultQuantity": {
+                    "base": {
+                      "high": 0,
+                      "low": 2,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 999,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 2
+                }
+              }
+            ],
+            "pricingInfo": {}
+          },
+          "sectionUuid": "c3a6e45e-8c7e-58d6-a944-8f2e6b330c15",
+          "promoInfo": {
+            "promotionUUID": "0614c8c1-e30e-440d-ae07-16353c211c0c",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "Buy 1, Get 1 Free",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "Buy 1, Get 1 Free"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "RECTANGLE",
+              "accessibilityText": "Buy 1, Get 1 Free"
+            }
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$7.45",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": " • ",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "icon": {
+                  "icon": {
+                    "icon": "THUMB_UP_OUTLINE",
+                    "color": "PRIMARY",
+                    "size": "SPACING_UNIT_1_5X"
+                  },
+                  "alignment": "CENTERED"
+                },
+                "type": "icon"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": " 66% (3)",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$7.45, 66% of customers liked this based on 3 reviews."
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "The Skinny",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "The Skinny"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 1,
+            "endorsementMetadata": {
+              "endorsementType": "ratings",
+              "rating": "66%",
+              "numRatings": 3
             },
             "promoType": "BOGO"
           },
