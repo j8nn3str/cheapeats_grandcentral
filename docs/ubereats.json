@@ -1,5 +1,5 @@
 {
-  "refreshDateTime": "2025-10-21T17:06:34.198Z",
+  "refreshDateTime": "2025-10-21T18:07:48.020Z",
   "deals": [
     {
       "@context": "https://schema.org",
@@ -26417,6 +26417,324 @@
               "endorsementType": "ratings",
               "rating": "94%",
               "numRatings": 101
+            },
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "isWebPdpSupported": false
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Restaurant",
+      "@id": "https://www.ubereats.com/store/chopt-creative-salad-co-43rd-street/iwhdQnm3SjifqbtMZ91Wrg",
+      "name": "Chopt Creative Salad Co. (43rd Street)",
+      "servesCuisine": [
+        "Healthy",
+        "Salads",
+        "Soup",
+        "Group Friendly"
+      ],
+      "priceRange": "$$",
+      "image": [
+        "https://tb-static.uber.com/prod/image-proc/processed_images/4ad40cf2891cf215c1e4bdc676ec9cb0/fa23f51b9c499b035a68831c96e1821e.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/4ad40cf2891cf215c1e4bdc676ec9cb0/7835428b286acb57646a256c897c0e9e.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/4ad40cf2891cf215c1e4bdc676ec9cb0/0c09274e3b12c8246a05970e1ef9d835.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/4ad40cf2891cf215c1e4bdc676ec9cb0/d9be3fc772fc6c0fd6b3471e291aa823.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/4ad40cf2891cf215c1e4bdc676ec9cb0/cc592037c936600295e9961933037e19.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/4ad40cf2891cf215c1e4bdc676ec9cb0/30be7d11a3ed6f6183354d1933fbb6c7.jpeg"
+      ],
+      "potentialAction": {
+        "@type": "OrderAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.ubereats.com/store/chopt-creative-salad-co-43rd-street/iwhdQnm3SjifqbtMZ91Wrg?utm_campaign=order-action&amp;utm_medium=organic",
+          "inLanguage": "English",
+          "actionPlatform": [
+            "https://schema.org/DesktopWebPlatform",
+            "https://schema.org/MobileWebPlatform"
+          ]
+        },
+        "deliveryMethod": [
+          "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+          "http://purl.org/goodrelations/v1#DeliveryModePickUp"
+        ]
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "New York",
+        "addressRegion": "NY",
+        "postalCode": "10017",
+        "addressCountry": "US",
+        "streetAddress": "666 3rd Ave"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 40.7516073,
+        "longitude": -73.9745794
+      },
+      "telephone": "+16468639052",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4.7,
+        "reviewCount": "1500"
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday"
+          ],
+          "opens": "10:30",
+          "closes": "20:0"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Friday",
+          "opens": "10:30",
+          "closes": "17:0"
+        }
+      ],
+      "deals": [
+        {
+          "uuid": "ac4212e5-5663-54eb-b624-c1055003e806",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/5516bf9ba654f36dde5c110141b91982/5954bcb006b10dbfd0bc160f6370faf3.jpeg",
+          "title": "Craft Your Own Salad",
+          "itemDescription": "Select your greens, four choppings (on us) and your favorite dressings",
+          "price": 1199,
+          "priceTagline": {
+            "text": "$11.99 • 40 - 150 Cal.",
+            "textFormat": "<span>$11.99<span style=\"color:#757575\"> • 40 - 150 Cal.</span></span>",
+            "accessibilityText": "$11.99, 40 - 150 Cal."
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "Craft Your Own Salad",
+            "textFormat": "<span>Craft Your Own Salad</span>",
+            "accessibilityText": "Craft Your Own Salad"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": true,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "Select your greens, four choppings (on us) and your favorite dressings",
+            "textFormat": "<span style=\"color:#757575\">Select your greens, four choppings (on us) and your favorite dressings</span>"
+          },
+          "subsectionUuid": "6948f57e-6fb1-51db-ac98-52a141601331",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "maxPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 999,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "increment": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "defaultQuantity": {
+                    "base": {
+                      "high": 0,
+                      "low": 2,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 999,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 2
+                }
+              }
+            ],
+            "pricingInfo": {}
+          },
+          "sectionUuid": "b8ff36b2-73ff-536e-a0aa-d7b133cbfe2f",
+          "promoInfo": {
+            "promotionUUID": "c10a0ff2-e9a2-4ffb-bf31-855859b51e0a",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "Buy 1, Get 1 Free",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "Buy 1, Get 1 Free"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "RECTANGLE",
+              "accessibilityText": "Buy 1, Get 1 Free"
+            }
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$11.99",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": " • ",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "icon": {
+                  "icon": {
+                    "icon": "THUMB_UP_OUTLINE",
+                    "color": "PRIMARY",
+                    "size": "SPACING_UNIT_1_5X"
+                  },
+                  "alignment": "CENTERED"
+                },
+                "type": "icon"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": " 87% (183)",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": " • ",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_TERTIARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": "40 - 150 Cal.",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_TERTIARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$11.99, 87% of customers liked this based on 183 reviews., 40 - 150 Cal."
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "Craft Your Own Salad",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "Craft Your Own Salad"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 0,
+            "endorsementMetadata": {
+              "endorsementType": "ratings",
+              "rating": "87%",
+              "numRatings": 183
             },
             "promoType": "BOGO"
           },
