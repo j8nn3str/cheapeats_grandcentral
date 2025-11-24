@@ -1,5 +1,5 @@
 {
-  "refreshDateTime": "2025-11-24T22:06:39.897Z",
+  "refreshDateTime": "2025-11-24T23:07:11.407Z",
   "deals": [
     {
       "@context": "https://schema.org",
@@ -25763,6 +25763,502 @@
           "sectionUuid": "aeac726f-a9c8-5ff6-a461-4c626c82a217",
           "promoInfo": {
             "promotionUUID": "4d866ac7-5444-4c14-8e2e-32df3024370d",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "Buy 1, Get 1 Free",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "Buy 1, Get 1 Free"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "RECTANGLE",
+              "accessibilityText": "Buy 1, Get 1 Free"
+            }
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$10.95",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$10.95"
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "Pumpkin Spice Pudding by Magnolia Bakery",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "Pumpkin Spice Pudding by Magnolia Bakery"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 0,
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "isWebPdpSupported": false
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Restaurant",
+      "@id": "https://www.ubereats.com/store/hanu-poke-by-wonder-midtown-east/3QOKG3FgVYSd5w-8kA6YfQ",
+      "name": "Hanu Poke by Wonder (Midtown East)",
+      "servesCuisine": [
+        "Healthy",
+        "Poke",
+        "Sushi",
+        "Gluten Free",
+        "Hawaiian"
+      ],
+      "priceRange": "",
+      "image": [
+        "https://tb-static.uber.com/prod/image-proc/processed_images/c212c60e86a7c518913d6a7fef9a3a37/6a46de29c91d235bc2878fe87fd740f6.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/c212c60e86a7c518913d6a7fef9a3a37/4a9dc0556f3090689240dd59b4617ba7.jpeg"
+      ],
+      "potentialAction": {
+        "@type": "OrderAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.ubereats.com/store/hanu-poke-by-wonder-midtown-east/3QOKG3FgVYSd5w-8kA6YfQ?utm_campaign=order-action&amp;utm_medium=organic",
+          "inLanguage": "English",
+          "actionPlatform": [
+            "https://schema.org/DesktopWebPlatform",
+            "https://schema.org/MobileWebPlatform"
+          ]
+        },
+        "deliveryMethod": [
+          "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+          "http://purl.org/goodrelations/v1#DeliveryModePickUp"
+        ]
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "New York",
+        "addressRegion": "NY",
+        "postalCode": "10017",
+        "addressCountry": "US",
+        "streetAddress": "800 3rd Ave"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 40.7554592,
+        "longitude": -73.9713646
+      },
+      "telephone": "",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 3.3,
+        "reviewCount": "11"
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Sunday",
+            "Monday",
+            "Tuesday",
+            "Wednesday"
+          ],
+          "opens": "10:30",
+          "closes": "23:30"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Friday",
+            "Saturday"
+          ],
+          "opens": "10:30",
+          "closes": "23:30"
+        }
+      ],
+      "deals": [
+        {
+          "uuid": "02e3d428-e9bb-599e-9497-a2592bce2420",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/d0daf08e0a9ccf877be557a9dee0e01d/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+          "title": "Pumpkin Spice Pudding by Magnolia Bakery",
+          "itemDescription": "Indulge in fall flavors with Magnolia Bakery's limited-time Pumpkin Spice Pudding. Creamy, spiced pumpkin pudding is layered with vanilla wafers and decadent cookie butter swirls",
+          "price": 1095,
+          "priceTagline": {
+            "text": "$10.95",
+            "textFormat": "<span>$10.95</span>",
+            "accessibilityText": "$10.95"
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "Pumpkin Spice Pudding by Magnolia Bakery",
+            "textFormat": "<span>Pumpkin Spice Pudding by Magnolia Bakery <img src=\"https://d4p17acsd5wyj.cloudfront.net/bazaar/leaf.png\" width=\"14\" height=\"14\" vertical-align=\"middle\"/></span>",
+            "accessibilityText": "Pumpkin Spice Pudding by Magnolia Bakery, VEGETARIAN"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": false,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "Indulge in fall flavors with Magnolia Bakery's limited-time Pumpkin Spice Pudding. Creamy, spiced pumpkin pudding is layered with vanilla wafers and decadent cookie butter swirls",
+            "textFormat": "<span style=\"color:#757575\">Indulge in fall flavors with Magnolia Bakery&#39;s limited-time Pumpkin Spice Pudding. Creamy, spiced pumpkin pudding is layered with vanilla wafers and decadent cookie butter swirls</span>"
+          },
+          "subsectionUuid": "ce5e0341-33e4-51b7-aa08-199de8b29b34",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "maxPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 999,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "increment": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "defaultQuantity": {
+                    "base": {
+                      "high": 0,
+                      "low": 2,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 999,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 2
+                }
+              }
+            ],
+            "pricingInfo": {}
+          },
+          "sectionUuid": "31c5ae7b-c912-5aab-8fee-00a9bc1956d4",
+          "promoInfo": {
+            "promotionUUID": "5adee1dd-895d-41ab-a36c-956330f7c128",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "Buy 1, Get 1 Free",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "Buy 1, Get 1 Free"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "RECTANGLE",
+              "accessibilityText": "Buy 1, Get 1 Free"
+            }
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$10.95",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$10.95"
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "Pumpkin Spice Pudding by Magnolia Bakery",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "Pumpkin Spice Pudding by Magnolia Bakery"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 0,
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "isWebPdpSupported": false
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Restaurant",
+      "@id": "https://www.ubereats.com/store/tejas-barbecue-by-wonder-midtown-east/oPvIUdyfUsmtCviAHyw_cg",
+      "name": "Tejas Barbecue by Wonder (Midtown East)",
+      "servesCuisine": [
+        "BBQ",
+        "Soul Food",
+        "Comfort Food",
+        "Sandwich",
+        "Sandwiches"
+      ],
+      "priceRange": "",
+      "image": [
+        "https://tb-static.uber.com/prod/image-proc/processed_images/e34067a65d3494fc83b3529db144f512/8b3912aeb4ddaf35be933b04d2d337ad.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/e34067a65d3494fc83b3529db144f512/f8403c421bef668ad381b5e82e546060.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/e34067a65d3494fc83b3529db144f512/7a19de2b442cf39b430becc5fea2ef06.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/e34067a65d3494fc83b3529db144f512/a35eeeca6698a2d3899f60d36c88ed97.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/e34067a65d3494fc83b3529db144f512/c4114ef7f0cc2f8ee04dbb216969493e.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/e34067a65d3494fc83b3529db144f512/9e31c708e4cf73b6e3ea1bd4a9b6e16b.jpeg"
+      ],
+      "potentialAction": {
+        "@type": "OrderAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.ubereats.com/store/tejas-barbecue-by-wonder-midtown-east/oPvIUdyfUsmtCviAHyw_cg?utm_campaign=order-action&amp;utm_medium=organic",
+          "inLanguage": "English",
+          "actionPlatform": [
+            "https://schema.org/DesktopWebPlatform",
+            "https://schema.org/MobileWebPlatform"
+          ]
+        },
+        "deliveryMethod": [
+          "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+          "http://purl.org/goodrelations/v1#DeliveryModePickUp"
+        ]
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "New York",
+        "addressRegion": "NY",
+        "postalCode": "10022",
+        "addressCountry": "US",
+        "streetAddress": "800 Third Ave"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 40.7554049,
+        "longitude": -73.9713069
+      },
+      "telephone": "+18558185806",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4.5,
+        "reviewCount": "19"
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Sunday",
+            "Monday",
+            "Tuesday",
+            "Wednesday"
+          ],
+          "opens": "10:30",
+          "closes": "23:30"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Friday",
+            "Saturday"
+          ],
+          "opens": "10:30",
+          "closes": "23:30"
+        }
+      ],
+      "deals": [
+        {
+          "uuid": "5332d652-8307-57a2-af98-4e8aeab4f03e",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/d0daf08e0a9ccf877be557a9dee0e01d/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+          "title": "Pumpkin Spice Pudding by Magnolia Bakery",
+          "itemDescription": "Indulge in fall flavors with Magnolia Bakery's limited-time Pumpkin Spice Pudding. Creamy, spiced pumpkin pudding is layered with vanilla wafers and decadent cookie butter swirls",
+          "price": 1095,
+          "priceTagline": {
+            "text": "$10.95",
+            "textFormat": "<span>$10.95</span>",
+            "accessibilityText": "$10.95"
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "Pumpkin Spice Pudding by Magnolia Bakery",
+            "textFormat": "<span>Pumpkin Spice Pudding by Magnolia Bakery <img src=\"https://d4p17acsd5wyj.cloudfront.net/bazaar/leaf.png\" width=\"14\" height=\"14\" vertical-align=\"middle\"/></span>",
+            "accessibilityText": "Pumpkin Spice Pudding by Magnolia Bakery, VEGETARIAN"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": false,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "Indulge in fall flavors with Magnolia Bakery's limited-time Pumpkin Spice Pudding. Creamy, spiced pumpkin pudding is layered with vanilla wafers and decadent cookie butter swirls",
+            "textFormat": "<span style=\"color:#757575\">Indulge in fall flavors with Magnolia Bakery&#39;s limited-time Pumpkin Spice Pudding. Creamy, spiced pumpkin pudding is layered with vanilla wafers and decadent cookie butter swirls</span>"
+          },
+          "subsectionUuid": "dda9e6f9-1c34-5817-a26c-5399806a9043",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "maxPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 999,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "increment": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "defaultQuantity": {
+                    "base": {
+                      "high": 0,
+                      "low": 2,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 999,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 2
+                }
+              }
+            ],
+            "pricingInfo": {}
+          },
+          "sectionUuid": "aafaa9f2-0c73-51a3-8f48-b23c66904fe4",
+          "promoInfo": {
+            "promotionUUID": "ec92aa34-56ca-445b-af92-0ea7dd3675fe",
             "promoBadge": {
               "content": {
                 "richText": {
