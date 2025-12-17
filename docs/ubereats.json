@@ -1,5 +1,5 @@
 {
-  "refreshDateTime": "2025-12-16T23:07:03.494Z",
+  "refreshDateTime": "2025-12-17T00:23:14.020Z",
   "deals": [
     {
       "@context": "https://schema.org",
@@ -31502,6 +31502,1046 @@
           "itemAvailabilityState": "UNKNOWN",
           "catalogItemAnalyticsData": {
             "catalogSectionItemPosition": 1,
+            "endorsementMetadata": {
+              "endorsementType": "ratings",
+              "rating": "100%",
+              "numRatings": 3
+            },
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "isWebPdpSupported": false
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Restaurant",
+      "@id": "https://www.ubereats.com/store/chios-taverna-by-michael-symon-wonder-midtown-east/2eTrZoXJWGyPDr7Gjmbe7g",
+      "name": "Chios Taverna by Michael Symon - Wonder (Midtown East)",
+      "servesCuisine": [
+        "Greek",
+        "Mediterranean"
+      ],
+      "priceRange": "",
+      "image": [
+        "https://tb-static.uber.com/prod/image-proc/processed_images/065ff5afcbadb913f3aba6c2fdbbcbdc/8b3912aeb4ddaf35be933b04d2d337ad.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/065ff5afcbadb913f3aba6c2fdbbcbdc/f8403c421bef668ad381b5e82e546060.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/065ff5afcbadb913f3aba6c2fdbbcbdc/7a19de2b442cf39b430becc5fea2ef06.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/065ff5afcbadb913f3aba6c2fdbbcbdc/a35eeeca6698a2d3899f60d36c88ed97.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/065ff5afcbadb913f3aba6c2fdbbcbdc/c4114ef7f0cc2f8ee04dbb216969493e.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/065ff5afcbadb913f3aba6c2fdbbcbdc/9e31c708e4cf73b6e3ea1bd4a9b6e16b.jpeg"
+      ],
+      "potentialAction": {
+        "@type": "OrderAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.ubereats.com/store/chios-taverna-by-michael-symon-wonder-midtown-east/2eTrZoXJWGyPDr7Gjmbe7g?utm_campaign=order-action&amp;utm_medium=organic",
+          "inLanguage": "English",
+          "actionPlatform": [
+            "https://schema.org/DesktopWebPlatform",
+            "https://schema.org/MobileWebPlatform"
+          ]
+        },
+        "deliveryMethod": [
+          "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+          "http://purl.org/goodrelations/v1#DeliveryModePickUp"
+        ]
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "New York",
+        "addressRegion": "NY",
+        "postalCode": "10022",
+        "addressCountry": "US",
+        "streetAddress": "800 Third Ave"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 40.75563,
+        "longitude": -73.97151
+      },
+      "telephone": "+18558185806",
+      "aggregateRating": {},
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "opens": "10:30",
+          "closes": "23:30"
+        }
+      ],
+      "deals": [
+        {
+          "uuid": "3dab2b06-c4a4-510f-b10d-ad9dbfaa202d",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/77b84c3f21932d9d9bd86f036b19d900/0fb376d1da56c05644450062d25c5c84.jpeg",
+          "title": "Beef Souvlaki",
+          "itemDescription": "Chunks of tender beef are marinated overnight and grilled on skewers. Served on flatbread with romaine lettuce, tomatoes, grilled onions, and creamy, cooling tzatziki",
+          "price": 2315,
+          "priceTagline": {
+            "text": "$23.15",
+            "textFormat": "<span>$23.15</span>",
+            "accessibilityText": "$23.15"
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "Beef Souvlaki",
+            "textFormat": "<span>Beef Souvlaki</span>",
+            "accessibilityText": "Beef Souvlaki"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": false,
+          "numAlcoholicItems": 0,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "Chunks of tender beef are marinated overnight and grilled on skewers. Served on flatbread with romaine lettuce, tomatoes, grilled onions, and creamy, cooling tzatziki",
+            "textFormat": "<span style=\"color:#757575\">Chunks of tender beef are marinated overnight and grilled on skewers. Served on flatbread with romaine lettuce, tomatoes, grilled onions, and creamy, cooling tzatziki</span>"
+          },
+          "subsectionUuid": "cb453fe3-fc52-5e7b-b65d-9878fca7974d",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "maxPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 999,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "increment": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "defaultQuantity": {
+                    "base": {
+                      "high": 0,
+                      "low": 2,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 999,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 2
+                }
+              }
+            ],
+            "pricingInfo": {}
+          },
+          "sectionUuid": "26ada96b-74b0-5c0c-8277-59fae5c353bb",
+          "promoInfo": {
+            "promotionUUID": "c4137661-e422-48da-a7af-fcbf02b295af",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "Buy 1, Get 1 Free",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "Buy 1, Get 1 Free"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "RECTANGLE",
+              "accessibilityText": "Buy 1, Get 1 Free"
+            }
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$23.15",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$23.15"
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "Beef Souvlaki",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "Beef Souvlaki"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 2,
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "isWebPdpSupported": false
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Restaurant",
+      "@id": "https://www.ubereats.com/store/alanza-pizza-by-wonder-midtown-east/lS9TFeDLV5Cqkms6-7Rp1w",
+      "name": "Alanza Pizza by Wonder (Midtown East)",
+      "servesCuisine": [
+        "Gluten Free",
+        "Comfort Food",
+        "Italian",
+        "Pizza",
+        "American"
+      ],
+      "priceRange": "",
+      "image": [
+        "https://tb-static.uber.com/prod/image-proc/processed_images/b54e382af8bf18990552b3139bd593ae/8b3912aeb4ddaf35be933b04d2d337ad.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/b54e382af8bf18990552b3139bd593ae/f8403c421bef668ad381b5e82e546060.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/b54e382af8bf18990552b3139bd593ae/7a19de2b442cf39b430becc5fea2ef06.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/b54e382af8bf18990552b3139bd593ae/a35eeeca6698a2d3899f60d36c88ed97.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/b54e382af8bf18990552b3139bd593ae/c4114ef7f0cc2f8ee04dbb216969493e.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/b54e382af8bf18990552b3139bd593ae/9e31c708e4cf73b6e3ea1bd4a9b6e16b.jpeg"
+      ],
+      "potentialAction": {
+        "@type": "OrderAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.ubereats.com/store/alanza-pizza-by-wonder-midtown-east/lS9TFeDLV5Cqkms6-7Rp1w?utm_campaign=order-action&amp;utm_medium=organic",
+          "inLanguage": "English",
+          "actionPlatform": [
+            "https://schema.org/DesktopWebPlatform",
+            "https://schema.org/MobileWebPlatform"
+          ]
+        },
+        "deliveryMethod": [
+          "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+          "http://purl.org/goodrelations/v1#DeliveryModePickUp"
+        ]
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "New York",
+        "addressRegion": "NY",
+        "postalCode": "10022",
+        "addressCountry": "US",
+        "streetAddress": "800 Third Ave"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 40.7554285,
+        "longitude": -73.9712895
+      },
+      "telephone": "+18558185806",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4.9,
+        "reviewCount": "9"
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "opens": "10:30",
+          "closes": "23:30"
+        }
+      ],
+      "deals": [
+        {
+          "uuid": "3300947c-6f3a-5ce1-bfa4-d98cbe96352a",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/ab620abdbdb8b812dd5af3cc593c21af/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+          "title": "Pepperoni Pizza",
+          "itemDescription": "Marinara and mozzarella are topped with crisp pepperoni cups in Alanza's version of the classic favorite. 12\" pie - 6 slices",
+          "price": 1155,
+          "priceTagline": {
+            "text": "$11.55",
+            "textFormat": "<span>$11.55</span>",
+            "accessibilityText": "$11.55"
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "Pepperoni Pizza",
+            "textFormat": "<span>Pepperoni Pizza</span>",
+            "accessibilityText": "Pepperoni Pizza"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": true,
+          "numAlcoholicItems": 0,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "Marinara and mozzarella are topped with crisp pepperoni cups in Alanza's version of the classic favorite. 12\" pie - 6 slices",
+            "textFormat": "<span style=\"color:#757575\">Marinara and mozzarella are topped with crisp pepperoni cups in Alanza&#39;s version of the classic favorite. 12&#34; pie - 6 slices</span>"
+          },
+          "subsectionUuid": "95dff707-a651-50e8-a6fa-2f7593175898",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "maxPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 999,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "increment": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "defaultQuantity": {
+                    "base": {
+                      "high": 0,
+                      "low": 2,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 999,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 2
+                }
+              }
+            ],
+            "pricingInfo": {}
+          },
+          "sectionUuid": "a86efdb0-d915-5612-a833-43e98ee2bb97",
+          "promoInfo": {
+            "promotionUUID": "387a1e51-707d-4bbf-b5eb-54cc802765aa",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "Buy 1, Get 1 Free",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "Buy 1, Get 1 Free"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "RECTANGLE",
+              "accessibilityText": "Buy 1, Get 1 Free"
+            }
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$11.55",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$11.55"
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "Pepperoni Pizza",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "Pepperoni Pizza"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 1,
+            "endorsementMetadata": {
+              "endorsementType": "most_liked"
+            },
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "isWebPdpSupported": false
+        },
+        {
+          "uuid": "601f5f15-b62c-5cae-9935-35621119ef54",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/af733a787fdf08e811412c5ea5368875/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+          "title": "Vodka Pizza",
+          "itemDescription": "A spin on a classic cheese pie, this version replaces marinara with creamy, mildly spicy tomato vodka sauce. Finished with mozzarella, shaved Parmesan, and basil. 12\" pie - 6 slices",
+          "price": 1095,
+          "priceTagline": {
+            "text": "$10.95",
+            "textFormat": "<span>$10.95</span>",
+            "accessibilityText": "$10.95"
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "Vodka Pizza",
+            "textFormat": "<span>Vodka Pizza <img src=\"https://d4p17acsd5wyj.cloudfront.net/bazaar/leaf.png\" width=\"14\" height=\"14\" vertical-align=\"middle\"/></span>",
+            "accessibilityText": "Vodka Pizza, VEGETARIAN"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": true,
+          "numAlcoholicItems": 0,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "A spin on a classic cheese pie, this version replaces marinara with creamy, mildly spicy tomato vodka sauce. Finished with mozzarella, shaved Parmesan, and basil. 12\" pie - 6 slices",
+            "textFormat": "<span style=\"color:#757575\">A spin on a classic cheese pie, this version replaces marinara with creamy, mildly spicy tomato vodka sauce. Finished with mozzarella, shaved Parmesan, and basil. 12&#34; pie - 6 slices</span>"
+          },
+          "subsectionUuid": "95dff707-a651-50e8-a6fa-2f7593175898",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "maxPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 999,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "increment": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "defaultQuantity": {
+                    "base": {
+                      "high": 0,
+                      "low": 2,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 999,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 2
+                }
+              }
+            ],
+            "pricingInfo": {}
+          },
+          "sectionUuid": "a86efdb0-d915-5612-a833-43e98ee2bb97",
+          "promoInfo": {
+            "promotionUUID": "387a1e51-707d-4bbf-b5eb-54cc802765aa",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "Buy 1, Get 1 Free",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "Buy 1, Get 1 Free"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "RECTANGLE",
+              "accessibilityText": "Buy 1, Get 1 Free"
+            }
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$10.95",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$10.95"
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "Vodka Pizza",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "Vodka Pizza"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 2,
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "isWebPdpSupported": false
+        },
+        {
+          "uuid": "c13faaf9-0aa8-524a-af15-0c91716ba97c",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/b25afe9908746b33145e89698db0692c/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+          "title": "Hot Honey & Salami Pizza",
+          "itemDescription": "Spicy salami and Calabrian chile give this pie a bit of heat while honey gives it just a hint of sweetness. Also topped with mozzarella and provolone. 12\" pie - 6 slices",
+          "price": 1215,
+          "priceTagline": {
+            "text": "$12.15",
+            "textFormat": "<span>$12.15</span>",
+            "accessibilityText": "$12.15"
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "Hot Honey & Salami Pizza",
+            "textFormat": "<span>Hot Honey &amp; Salami Pizza</span>",
+            "accessibilityText": "Hot Honey & Salami Pizza"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": true,
+          "numAlcoholicItems": 0,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "Spicy salami and Calabrian chile give this pie a bit of heat while honey gives it just a hint of sweetness. Also topped with mozzarella and provolone. 12\" pie - 6 slices",
+            "textFormat": "<span style=\"color:#757575\">Spicy salami and Calabrian chile give this pie a bit of heat while honey gives it just a hint of sweetness. Also topped with mozzarella and provolone. 12&#34; pie - 6 slices</span>"
+          },
+          "subsectionUuid": "95dff707-a651-50e8-a6fa-2f7593175898",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "maxPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 999,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "increment": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "defaultQuantity": {
+                    "base": {
+                      "high": 0,
+                      "low": 2,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 999,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 2
+                }
+              }
+            ],
+            "pricingInfo": {}
+          },
+          "sectionUuid": "a86efdb0-d915-5612-a833-43e98ee2bb97",
+          "promoInfo": {
+            "promotionUUID": "387a1e51-707d-4bbf-b5eb-54cc802765aa",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "Buy 1, Get 1 Free",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "Buy 1, Get 1 Free"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "RECTANGLE",
+              "accessibilityText": "Buy 1, Get 1 Free"
+            }
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$12.15",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$12.15"
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "Hot Honey & Salami Pizza",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "Hot Honey & Salami Pizza"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 4,
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "isWebPdpSupported": false
+        },
+        {
+          "uuid": "f48562bb-61f9-5803-83d9-018c678ed436",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/cb1c1e94f5328c48e69561eb12a13666/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+          "title": "Cheese Pizza",
+          "itemDescription": "Topped with rich marinara and creamy mozzarella, this simple and delicious pizza is the starting point for all of Alanza's classic red sauce pies. 12\" pie - 6 slices",
+          "price": 1095,
+          "priceTagline": {
+            "text": "$10.95",
+            "textFormat": "<span>$10.95</span>",
+            "accessibilityText": "$10.95"
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "Cheese Pizza",
+            "textFormat": "<span>Cheese Pizza <img src=\"https://d4p17acsd5wyj.cloudfront.net/bazaar/leaf.png\" width=\"14\" height=\"14\" vertical-align=\"middle\"/></span>",
+            "accessibilityText": "Cheese Pizza, VEGETARIAN"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": true,
+          "numAlcoholicItems": 0,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "Topped with rich marinara and creamy mozzarella, this simple and delicious pizza is the starting point for all of Alanza's classic red sauce pies. 12\" pie - 6 slices",
+            "textFormat": "<span style=\"color:#757575\">Topped with rich marinara and creamy mozzarella, this simple and delicious pizza is the starting point for all of Alanza&#39;s classic red sauce pies. 12&#34; pie - 6 slices</span>"
+          },
+          "subsectionUuid": "95dff707-a651-50e8-a6fa-2f7593175898",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "maxPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 999,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "increment": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "defaultQuantity": {
+                    "base": {
+                      "high": 0,
+                      "low": 2,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 999,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 2
+                }
+              }
+            ],
+            "pricingInfo": {}
+          },
+          "sectionUuid": "a86efdb0-d915-5612-a833-43e98ee2bb97",
+          "promoInfo": {
+            "promotionUUID": "387a1e51-707d-4bbf-b5eb-54cc802765aa",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "Buy 1, Get 1 Free",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "Buy 1, Get 1 Free"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "RECTANGLE",
+              "accessibilityText": "Buy 1, Get 1 Free"
+            }
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$10.95",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": " • ",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "icon": {
+                  "icon": {
+                    "icon": "THUMB_UP_OUTLINE",
+                    "color": "PRIMARY",
+                    "size": "SPACING_UNIT_1_5X"
+                  },
+                  "alignment": "CENTERED"
+                },
+                "type": "icon"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": " 100% (3)",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$10.95, 100% of customers liked this based on 3 reviews."
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "Cheese Pizza",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "Cheese Pizza"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 0,
             "endorsementMetadata": {
               "endorsementType": "ratings",
               "rating": "100%",
