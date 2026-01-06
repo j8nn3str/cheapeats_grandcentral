@@ -1,5 +1,5 @@
 {
-  "refreshDateTime": "2026-01-06T12:10:35.506Z",
+  "refreshDateTime": "2026-01-06T13:18:03.478Z",
   "deals": [
     {
       "@context": "https://schema.org",
@@ -25100,6 +25100,528 @@
               "rating": "71%",
               "numRatings": 7
             },
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "isWebPdpSupported": false
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Restaurant",
+      "@id": "https://www.ubereats.com/store/johns-coffee-shop-murray-hill/Mv5rYW0jQ4ukiV68f3xGHQ",
+      "name": "John's Coffee Shop - Murray Hill",
+      "servesCuisine": [
+        "American",
+        "Diners",
+        "Breakfast and Brunch",
+        "Group Friendly"
+      ],
+      "priceRange": "$",
+      "image": [
+        "https://tb-static.uber.com/prod/image-proc/processed_images/96d45c300278c5e0b4f03c74618f4dd1/f6deb0afc24fee6f4bd31a35e6bcbd47.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/96d45c300278c5e0b4f03c74618f4dd1/9b3aae4cf90f897799a5ed357d60e09d.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/96d45c300278c5e0b4f03c74618f4dd1/fdf52d66534809b650058f41d517d74a.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/96d45c300278c5e0b4f03c74618f4dd1/8a42ee7a692dfa4155879820804a277f.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/96d45c300278c5e0b4f03c74618f4dd1/783282f6131ef2258e5bcd87c46aa87e.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/96d45c300278c5e0b4f03c74618f4dd1/fb86662148be855d931b37d6c1e5fcbe.jpeg"
+      ],
+      "potentialAction": {
+        "@type": "OrderAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.ubereats.com/store/johns-coffee-shop-murray-hill/Mv5rYW0jQ4ukiV68f3xGHQ?utm_campaign=order-action&amp;utm_medium=organic",
+          "inLanguage": "English",
+          "actionPlatform": [
+            "https://schema.org/DesktopWebPlatform",
+            "https://schema.org/MobileWebPlatform"
+          ]
+        },
+        "deliveryMethod": [
+          "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+          "http://purl.org/goodrelations/v1#DeliveryModePickUp"
+        ]
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "New York",
+        "addressRegion": "NY",
+        "postalCode": "10017",
+        "addressCountry": "US",
+        "streetAddress": "823 2nd Ave"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 40.751125149283816,
+        "longitude": -73.97153274981277
+      },
+      "telephone": "+12128674955",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4.7,
+        "reviewCount": "1000"
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Sunday",
+          "opens": "8:0",
+          "closes": "15:0"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Sunday",
+          "opens": "8:0",
+          "closes": "15:0"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "8:0",
+          "closes": "15:0"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Saturday",
+          "opens": "8:0",
+          "closes": "15:0"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Saturday",
+          "opens": "8:0",
+          "closes": "15:0"
+        }
+      ],
+      "deals": [
+        {
+          "uuid": "0783ff73-e648-4fd3-8cd0-ae9d91bc7178",
+          "title": "Beef Chili Over Rice",
+          "itemDescription": "Chunky beef with beans of rice pilaf",
+          "price": 1500,
+          "priceTagline": {
+            "text": "$15.00",
+            "textFormat": "<span>$15.00</span>",
+            "accessibilityText": "$15.00"
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "Beef Chili Over Rice",
+            "textFormat": "<span>Beef Chili Over Rice</span>",
+            "accessibilityText": "Beef Chili Over Rice"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": false,
+          "numAlcoholicItems": 0,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "Chunky beef with beans of rice pilaf",
+            "textFormat": "<span style=\"color:#757575\">Chunky beef with beans of rice pilaf</span>"
+          },
+          "subsectionUuid": "cb1f68b3-8eda-4abe-9020-7723a2ef6943",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "soldByUnit": {
+                  "measurementType": "MEASUREMENT_TYPE_COUNT"
+                },
+                "itemQuantityAbbreviation": "",
+                "purchasePriceV2": {
+                  "base": {
+                    "high": 0,
+                    "low": 1500,
+                    "unsigned": false
+                  },
+                  "exponent": -2
+                }
+              }
+            ],
+            "pricingInfo": {}
+          },
+          "sectionUuid": "9afae202-5d91-4898-bda7-d993982be988",
+          "promoInfo": {
+            "promotionUUID": "c22d24c5-ba04-485d-8cc4-fa944068145f",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "Buy 1, Get 1 Free",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "Buy 1, Get 1 Free"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "RECTANGLE",
+              "accessibilityText": "Buy 1, Get 1 Free"
+            }
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$15.00",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$15.00"
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "Beef Chili Over Rice",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "Beef Chili Over Rice"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 7,
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "isWebPdpSupported": false
+        },
+        {
+          "uuid": "049fd599-5a58-4ea3-8fe8-c3cd2537749b",
+          "title": "Veggie Burger LT",
+          "itemDescription": "Veggie Burger, lettuce Tomatoe on a bun",
+          "price": 1100,
+          "priceTagline": {
+            "text": "$11.00",
+            "textFormat": "<span>$11.00</span>",
+            "accessibilityText": "$11.00"
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "Veggie Burger LT",
+            "textFormat": "<span>Veggie Burger LT</span>",
+            "accessibilityText": "Veggie Burger LT"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": false,
+          "numAlcoholicItems": 0,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "Veggie Burger, lettuce Tomatoe on a bun",
+            "textFormat": "<span style=\"color:#757575\">Veggie Burger, lettuce Tomatoe on a bun</span>"
+          },
+          "subsectionUuid": "0520a9cf-ccee-4d93-96b8-ea51b60c0e49",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "soldByUnit": {
+                  "measurementType": "MEASUREMENT_TYPE_COUNT"
+                },
+                "itemQuantityAbbreviation": "",
+                "purchasePriceV2": {
+                  "base": {
+                    "high": 0,
+                    "low": 1100,
+                    "unsigned": false
+                  },
+                  "exponent": -2
+                }
+              }
+            ],
+            "pricingInfo": {}
+          },
+          "sectionUuid": "9afae202-5d91-4898-bda7-d993982be988",
+          "promoInfo": {
+            "promotionUUID": "5d33c445-9cdf-4f9e-aa55-242f814bbc60",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "Buy 1, Get 1 Free",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "Buy 1, Get 1 Free"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "RECTANGLE",
+              "accessibilityText": "Buy 1, Get 1 Free"
+            }
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$11.00",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$11.00"
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "Veggie Burger LT",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "Veggie Burger LT"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 2,
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "isWebPdpSupported": false
+        },
+        {
+          "uuid": "b1922716-492e-4f44-8331-3341e332b304",
+          "title": "Gorgonzola Pear Sachetti",
+          "itemDescription": "(12) smalls purses filled with gorzonzola cheese, pear in  Creamy Pesto Sauce",
+          "price": 2000,
+          "priceTagline": {
+            "text": "$20.00",
+            "textFormat": "<span>$20.00</span>",
+            "accessibilityText": "$20.00"
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "Gorgonzola Pear Sachetti",
+            "textFormat": "<span>Gorgonzola Pear Sachetti</span>",
+            "accessibilityText": "Gorgonzola Pear Sachetti"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": false,
+          "numAlcoholicItems": 0,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "(12) smalls purses filled with gorzonzola cheese, pear in  Creamy Pesto Sauce",
+            "textFormat": "<span style=\"color:#757575\">(12) smalls purses filled with gorzonzola cheese, pear in  Creamy Pesto Sauce</span>"
+          },
+          "subsectionUuid": "cb1f68b3-8eda-4abe-9020-7723a2ef6943",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "soldByUnit": {
+                  "measurementType": "MEASUREMENT_TYPE_COUNT"
+                },
+                "itemQuantityAbbreviation": "",
+                "purchasePriceV2": {
+                  "base": {
+                    "high": 0,
+                    "low": 2000,
+                    "unsigned": false
+                  },
+                  "exponent": -2
+                }
+              }
+            ],
+            "pricingInfo": {}
+          },
+          "sectionUuid": "9afae202-5d91-4898-bda7-d993982be988",
+          "promoInfo": {
+            "promotionUUID": "46181c99-d4ee-4499-bf09-4020fed4dacc",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "Buy 1, Get 1 Free",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "Buy 1, Get 1 Free"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "RECTANGLE",
+              "accessibilityText": "Buy 1, Get 1 Free"
+            }
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$20.00",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$20.00"
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "Gorgonzola Pear Sachetti",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "Gorgonzola Pear Sachetti"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 6,
             "promoType": "BOGO"
           },
           "imageOverlayElements": null,
