@@ -1,4 +1,2956 @@
 {
-  "refreshDateTime": "2026-01-13T07:08:45.397Z",
-  "deals": []
+  "refreshDateTime": "2026-01-13T11:07:02.072Z",
+  "deals": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Restaurant",
+      "@id": "https://www.ubereats.com/store/broad-nosh-bagels-madison/2l-e0jvkVXW-FogVhgN22Q",
+      "name": "Broad Nosh Bagels - Madison",
+      "servesCuisine": [
+        "Breakfast and Brunch",
+        "American",
+        "Sandwiches"
+      ],
+      "priceRange": "",
+      "image": [
+        "https://tb-static.uber.com/prod/image-proc/processed_images/3fc569b6e19064464fdf950d49800b86/bb3c0a72d9475b425c5ee9e6ea716d2f.webp",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/3fc569b6e19064464fdf950d49800b86/1130cd428ee928d351d26efda1178b20.webp",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/3fc569b6e19064464fdf950d49800b86/db9ac6e65b00f2558664e469940eca31.webp",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/3fc569b6e19064464fdf950d49800b86/c86a2d4dc3dc568dc3ddf7b096104ac3.webp",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/3fc569b6e19064464fdf950d49800b86/36251f0b543c447bdd4e9925b1861023.webp",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/3fc569b6e19064464fdf950d49800b86/1da9a9e826d15157cea1c5bb8696f248.webp"
+      ],
+      "potentialAction": {
+        "@type": "OrderAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.ubereats.com/store/broad-nosh-bagels-madison/2l-e0jvkVXW-FogVhgN22Q?utm_campaign=order-action&amp;utm_medium=organic",
+          "inLanguage": "English",
+          "actionPlatform": [
+            "https://schema.org/DesktopWebPlatform",
+            "https://schema.org/MobileWebPlatform"
+          ]
+        },
+        "deliveryMethod": [
+          "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+          "http://purl.org/goodrelations/v1#DeliveryModePickUp"
+        ]
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "New York",
+        "addressRegion": "NY",
+        "postalCode": "10017",
+        "addressCountry": "US",
+        "streetAddress": "425 Madison Avenue"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 40.7570406,
+        "longitude": -73.9758329
+      },
+      "telephone": "+19174091490",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4.6,
+        "reviewCount": "82"
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "opens": "6:0",
+          "closes": "18:0"
+        }
+      ],
+      "deals": [
+        {
+          "uuid": "14861870-55b7-51b1-ae14-34b2a68fd2ce",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/ca06995fefeee188c39e17d972ef1a05/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+          "title": "Scallion Cream Cheese",
+          "itemDescription": "Select from a variety of bagels and complement them with our Scallion cream cheese, customizable with toppings.",
+          "price": 650,
+          "priceTagline": {
+            "text": "$6.50",
+            "textFormat": "<span>$6.50</span>",
+            "accessibilityText": "$6.50"
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "Scallion Cream Cheese",
+            "textFormat": "<span>Scallion Cream Cheese</span>",
+            "accessibilityText": "Scallion Cream Cheese"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": true,
+          "numAlcoholicItems": 0,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "Select from a variety of bagels and complement them with our Scallion cream cheese, customizable with toppings.",
+            "textFormat": "<span style=\"color:#757575\">Select from a variety of bagels and complement them with our Scallion cream cheese, customizable with toppings.</span>"
+          },
+          "subsectionUuid": "216c83ba-121a-52dd-9a91-98ebd62bc54e",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "maxPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 999,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "increment": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "defaultQuantity": {
+                    "base": {
+                      "high": 0,
+                      "low": 2,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 999,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 2
+                }
+              }
+            ],
+            "pricingInfo": {}
+          },
+          "sectionUuid": "457b3a37-952c-5a89-833a-c7f0587adbd7",
+          "promoInfo": {
+            "promotionUUID": "afd29e29-cb1f-4487-9a8c-94ae8c4ae745",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "Buy 1, Get 1 Free",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "Buy 1, Get 1 Free"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "RECTANGLE",
+              "accessibilityText": "Buy 1, Get 1 Free"
+            }
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$6.50",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": " • ",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "icon": {
+                  "icon": {
+                    "icon": "THUMB_UP_OUTLINE",
+                    "color": "PRIMARY",
+                    "size": "SPACING_UNIT_1_5X"
+                  },
+                  "alignment": "CENTERED"
+                },
+                "type": "icon"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": " 71% (7)",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$6.50, 71% of customers liked this based on 7 reviews."
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "Scallion Cream Cheese",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "Scallion Cream Cheese"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 1,
+            "endorsementMetadata": {
+              "endorsementType": "ratings",
+              "rating": "71%",
+              "numRatings": 7
+            },
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "isWebPdpSupported": false
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Restaurant",
+      "@id": "https://www.ubereats.com/store/dunkin-501-5th-ave/WIPCYht2QMORyOAoeVwn5g",
+      "name": "Dunkin' (501 5th Ave)",
+      "servesCuisine": [
+        "Breakfast and Brunch",
+        "Donuts"
+      ],
+      "priceRange": "$",
+      "image": [
+        "https://tb-static.uber.com/prod/image-proc/processed_images/71dc2a76428cc5acb05eb3f2e2ce544f/19ec62ba51fde35ba0aff5b84321c5af.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/71dc2a76428cc5acb05eb3f2e2ce544f/c67d558c633281f9c71fc6a90ef470ae.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/71dc2a76428cc5acb05eb3f2e2ce544f/8681e511c0910e0052cb155c50f01f89.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/71dc2a76428cc5acb05eb3f2e2ce544f/6ea4f72e303000fbf403bbb36f971f85.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/71dc2a76428cc5acb05eb3f2e2ce544f/4bee0baf259f2b3c95aacdebea87e950.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/71dc2a76428cc5acb05eb3f2e2ce544f/5283d81c664b43c5f57a3a186d273063.jpeg"
+      ],
+      "potentialAction": {
+        "@type": "OrderAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.ubereats.com/store/dunkin-501-5th-ave/WIPCYht2QMORyOAoeVwn5g?utm_campaign=order-action&amp;utm_medium=organic",
+          "inLanguage": "English",
+          "actionPlatform": [
+            "https://schema.org/DesktopWebPlatform",
+            "https://schema.org/MobileWebPlatform"
+          ]
+        },
+        "deliveryMethod": [
+          "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+          "http://purl.org/goodrelations/v1#DeliveryModePickUp"
+        ]
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "New York",
+        "addressRegion": "NY",
+        "postalCode": "10017",
+        "addressCountry": "US",
+        "streetAddress": "501 5th Ave"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 40.7532652,
+        "longitude": -73.9807419
+      },
+      "telephone": "+16469924447",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4.7,
+        "reviewCount": "350"
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Sunday",
+          "opens": "6:0",
+          "closes": "22:0"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "5:0",
+          "closes": "23:0"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Saturday",
+          "opens": "6:0",
+          "closes": "23:0"
+        }
+      ],
+      "deals": [
+        {
+          "uuid": "8bbe4708-e0b9-524f-934b-4ef64851eeef",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/ec82b4bd2efcba2297b95c4e0f29df73/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+          "title": "Sausage Egg and Cheese",
+          "itemDescription": "Finding yourself hungry in search of breakfast? Dunkin' brings a tasty blend of egg and cheese, and then adds irresistable sausage to tame any hunger. Consider yourself full.",
+          "price": 786,
+          "priceTagline": {
+            "text": "$7.86 • 640 Cal.",
+            "textFormat": "<span>$7.86<span style=\"color:#757575\"> • 640 Cal.</span></span>",
+            "accessibilityText": "$7.86, 640 Cal."
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "Sausage Egg and Cheese",
+            "textFormat": "<span>Sausage Egg and Cheese</span>",
+            "accessibilityText": "Sausage Egg and Cheese"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": true,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "Finding yourself hungry in search of breakfast? Dunkin' brings a tasty blend of egg and cheese, and then adds irresistable sausage to tame any hunger. Consider yourself full.",
+            "textFormat": "<span style=\"color:#757575\">Finding yourself hungry in search of breakfast? Dunkin&#39; brings a tasty blend of egg and cheese, and then adds irresistable sausage to tame any hunger. Consider yourself full.</span>"
+          },
+          "subsectionUuid": "84e2a2ab-6173-5023-bc2b-961c68340fe5",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "maxPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 999,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "increment": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "defaultQuantity": {
+                    "base": {
+                      "high": 0,
+                      "low": 2,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 999,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 2
+                }
+              }
+            ],
+            "pricingInfo": {}
+          },
+          "sectionUuid": "c6433fed-4587-5873-9247-6792bc29d74f",
+          "promoInfo": {
+            "promotionUUID": "a521871d-52bb-498a-81c6-2ffc7f3adfc5",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "Buy 1, Get 1 Free",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "Buy 1, Get 1 Free"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "RECTANGLE",
+              "accessibilityText": "Buy 1, Get 1 Free"
+            }
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$7.86",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": " • ",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_TERTIARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": "640 Cal.",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_TERTIARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$7.86, 640 Cal."
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "Sausage Egg and Cheese",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "Sausage Egg and Cheese"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 11,
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "isWebPdpSupported": false
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Restaurant",
+      "@id": "https://www.ubereats.com/store/dunkin-42-w-39th-st/ndIzuPEITVO2iNGFeXnCkw",
+      "name": "Dunkin' (42 W 39th St)",
+      "servesCuisine": [
+        "Breakfast &amp; Brunch",
+        "Donuts"
+      ],
+      "priceRange": "$",
+      "image": [
+        "https://tb-static.uber.com/prod/image-proc/processed_images/71dc2a76428cc5acb05eb3f2e2ce544f/19ec62ba51fde35ba0aff5b84321c5af.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/71dc2a76428cc5acb05eb3f2e2ce544f/c67d558c633281f9c71fc6a90ef470ae.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/71dc2a76428cc5acb05eb3f2e2ce544f/8681e511c0910e0052cb155c50f01f89.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/71dc2a76428cc5acb05eb3f2e2ce544f/6ea4f72e303000fbf403bbb36f971f85.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/71dc2a76428cc5acb05eb3f2e2ce544f/4bee0baf259f2b3c95aacdebea87e950.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/71dc2a76428cc5acb05eb3f2e2ce544f/5283d81c664b43c5f57a3a186d273063.jpeg"
+      ],
+      "potentialAction": {
+        "@type": "OrderAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.ubereats.com/store/dunkin-42-w-39th-st/ndIzuPEITVO2iNGFeXnCkw?utm_campaign=order-action&amp;utm_medium=organic",
+          "inLanguage": "English",
+          "actionPlatform": [
+            "https://schema.org/DesktopWebPlatform",
+            "https://schema.org/MobileWebPlatform"
+          ]
+        },
+        "deliveryMethod": [
+          "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+          "http://purl.org/goodrelations/v1#DeliveryModePickUp"
+        ]
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "New York",
+        "addressRegion": "NY",
+        "postalCode": "10018",
+        "addressCountry": "US",
+        "streetAddress": "42 W 39th St"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 40.7523949,
+        "longitude": -73.9844598
+      },
+      "telephone": "+16465908351",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4.3,
+        "reviewCount": "44"
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "5:30",
+          "closes": "17:0"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Saturday",
+          "opens": "7:0",
+          "closes": "14:0"
+        }
+      ],
+      "deals": [
+        {
+          "uuid": "27026234-f15b-5fa1-9665-ed3789f65797",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/ec82b4bd2efcba2297b95c4e0f29df73/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+          "title": "Sausage Egg and Cheese",
+          "itemDescription": "Finding yourself hungry in search of breakfast? Dunkin' brings a tasty blend of egg and cheese, and then adds irresistable sausage to tame any hunger. Consider yourself full.",
+          "price": 786,
+          "priceTagline": {
+            "text": "$7.86 • 640 Cal.",
+            "textFormat": "<span>$7.86<span style=\"color:#757575\"> • 640 Cal.</span></span>",
+            "accessibilityText": "$7.86, 640 Cal."
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "Sausage Egg and Cheese",
+            "textFormat": "<span>Sausage Egg and Cheese</span>",
+            "accessibilityText": "Sausage Egg and Cheese"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": true,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "Finding yourself hungry in search of breakfast? Dunkin' brings a tasty blend of egg and cheese, and then adds irresistable sausage to tame any hunger. Consider yourself full.",
+            "textFormat": "<span style=\"color:#757575\">Finding yourself hungry in search of breakfast? Dunkin&#39; brings a tasty blend of egg and cheese, and then adds irresistable sausage to tame any hunger. Consider yourself full.</span>"
+          },
+          "subsectionUuid": "a85a9bc6-0377-55c6-97a9-cb747248e263",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "maxPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 999,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "increment": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "defaultQuantity": {
+                    "base": {
+                      "high": 0,
+                      "low": 2,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 999,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 2
+                }
+              }
+            ],
+            "pricingInfo": {}
+          },
+          "sectionUuid": "b611d894-7c4a-5034-ad8d-5a748213cb42",
+          "promoInfo": {
+            "promotionUUID": "41721feb-b703-4d4d-a1c8-8e5a5a7513bf",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "Buy 1, Get 1 Free",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "Buy 1, Get 1 Free"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "RECTANGLE",
+              "accessibilityText": "Buy 1, Get 1 Free"
+            }
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$7.86",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": " • ",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_TERTIARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": "640 Cal.",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_TERTIARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$7.86, 640 Cal."
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "Sausage Egg and Cheese",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "Sausage Egg and Cheese"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 6,
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "isWebPdpSupported": false
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Restaurant",
+      "@id": "https://www.ubereats.com/store/gemini-diner-murray-hill/nNPQ4lZUQ5CaSlNVWxHtQQ",
+      "name": "Gemini Diner - Murray Hill",
+      "servesCuisine": [
+        "Sandwich",
+        "Diners",
+        "Salads",
+        "Desserts"
+      ],
+      "priceRange": "$$",
+      "image": [
+        "https://tb-static.uber.com/prod/image-proc/processed_images/96524e39076389a82aab1d2b441a584f/19ec62ba51fde35ba0aff5b84321c5af.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/96524e39076389a82aab1d2b441a584f/c67d558c633281f9c71fc6a90ef470ae.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/96524e39076389a82aab1d2b441a584f/8681e511c0910e0052cb155c50f01f89.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/96524e39076389a82aab1d2b441a584f/6ea4f72e303000fbf403bbb36f971f85.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/96524e39076389a82aab1d2b441a584f/4bee0baf259f2b3c95aacdebea87e950.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/96524e39076389a82aab1d2b441a584f/5283d81c664b43c5f57a3a186d273063.jpeg"
+      ],
+      "potentialAction": {
+        "@type": "OrderAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.ubereats.com/store/gemini-diner-murray-hill/nNPQ4lZUQ5CaSlNVWxHtQQ?utm_campaign=order-action&amp;utm_medium=organic",
+          "inLanguage": "English",
+          "actionPlatform": [
+            "https://schema.org/DesktopWebPlatform",
+            "https://schema.org/MobileWebPlatform"
+          ]
+        },
+        "deliveryMethod": [
+          "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+          "http://purl.org/goodrelations/v1#DeliveryModePickUp"
+        ]
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "New York",
+        "addressRegion": "NY",
+        "postalCode": "10016",
+        "addressCountry": "US",
+        "streetAddress": "641 2nd Ave"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 40.7454698,
+        "longitude": -73.9756438
+      },
+      "telephone": "+12125322143",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4.6,
+        "reviewCount": "5000"
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Sunday",
+          "opens": "0:0",
+          "closes": "23:59"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Monday",
+          "opens": "6:0",
+          "closes": "23:59"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Monday",
+          "opens": "0:0",
+          "closes": "2:0"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Tuesday",
+            "Wednesday"
+          ],
+          "opens": "0:0",
+          "closes": "1:0"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Tuesday",
+            "Wednesday"
+          ],
+          "opens": "6:0",
+          "closes": "23:59"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Thursday",
+          "opens": "6:0",
+          "closes": "23:59"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Friday",
+            "Saturday"
+          ],
+          "opens": "0:0",
+          "closes": "23:59"
+        }
+      ],
+      "deals": [
+        {
+          "uuid": "c0393fad-24ed-4d89-a968-99d8ec8f17a2",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/8f25a547ca0f93ac031367624e8b1c3e/70aa2a4db7f990373ca9c376323e3dea.jpeg",
+          "title": "Grilled Cheese Sandwich",
+          "itemDescription": "Crispy sandwich with melted cheese, served alongside tangy coleslaw and a crunchy pickle.",
+          "price": 1175,
+          "priceTagline": {
+            "text": "$11.75",
+            "textFormat": "<span>$11.75</span>",
+            "accessibilityText": "$11.75"
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "Grilled Cheese Sandwich",
+            "textFormat": "<span>Grilled Cheese Sandwich</span>",
+            "accessibilityText": "Grilled Cheese Sandwich"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": true,
+          "endorsement": {
+            "backgroundColor": {
+              "alpha": 1,
+              "color": "#0E8345"
+            },
+            "text": "#1 most liked",
+            "textColor": {
+              "alpha": 1,
+              "color": "#FFFFF"
+            },
+            "accessibilityText": "#1 most liked",
+            "textBorder": "PILL"
+          },
+          "numAlcoholicItems": 0,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "Crispy sandwich with melted cheese, served alongside tangy coleslaw and a crunchy pickle.",
+            "textFormat": "<span style=\"color:#757575\">Crispy sandwich with melted cheese, served alongside tangy coleslaw and a crunchy pickle.</span>"
+          },
+          "subsectionUuid": "2fd92252-be3e-46ff-b6cc-82e2180de7f0",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "maxPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 999,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "increment": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "defaultQuantity": {
+                    "base": {
+                      "high": 0,
+                      "low": 2,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 999,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 2
+                }
+              }
+            ],
+            "pricingInfo": {}
+          },
+          "sectionUuid": "7bc72948-ecc4-4ad0-b0f4-103ccb083ae3",
+          "promoInfo": {
+            "promotionUUID": "c6a8bf8f-30ad-45b5-a824-625a8eeebe18",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "Buy 1, Get 1 Free",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "Buy 1, Get 1 Free"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "RECTANGLE",
+              "accessibilityText": "Buy 1, Get 1 Free"
+            }
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$11.75",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": " • ",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "icon": {
+                  "icon": {
+                    "icon": "THUMB_UP_OUTLINE",
+                    "color": "PRIMARY",
+                    "size": "SPACING_UNIT_1_5X"
+                  },
+                  "alignment": "CENTERED"
+                },
+                "type": "icon"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": " 90% (229)",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$11.75, 90% of customers liked this based on 229 reviews."
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "Grilled Cheese Sandwich",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "Grilled Cheese Sandwich"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 0,
+            "endorsementMetadata": {
+              "endorsementType": "most_liked"
+            },
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "isWebPdpSupported": false
+        },
+        {
+          "uuid": "d6520502-3db9-4edb-b87f-e5e96ae6c197",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/eaff4196be8e1c00892683dfb9ea41c6/70aa2a4db7f990373ca9c376323e3dea.jpeg",
+          "title": "Smash Burger (Double Patty)",
+          "itemDescription": "Double beef patties with American cheese and special sauce on a soft potato bun.",
+          "price": 1450,
+          "priceTagline": {
+            "text": "$14.50",
+            "textFormat": "<span>$14.50</span>",
+            "accessibilityText": "$14.50"
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "Smash Burger (Double Patty)",
+            "textFormat": "<span>Smash Burger (Double Patty)</span>",
+            "accessibilityText": "Smash Burger (Double Patty)"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": true,
+          "numAlcoholicItems": 0,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "Double beef patties with American cheese and special sauce on a soft potato bun.",
+            "textFormat": "<span style=\"color:#757575\">Double beef patties with American cheese and special sauce on a soft potato bun.</span>"
+          },
+          "subsectionUuid": "547db80d-12f2-495b-86d0-2cc2db4bdfa0",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "maxPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 999,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "increment": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "defaultQuantity": {
+                    "base": {
+                      "high": 0,
+                      "low": 2,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 999,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 2
+                }
+              }
+            ],
+            "pricingInfo": {}
+          },
+          "sectionUuid": "7bc72948-ecc4-4ad0-b0f4-103ccb083ae3",
+          "promoInfo": {
+            "promotionUUID": "167530fb-cccb-46c4-98b4-4a730d38317d",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "Buy 1, Get 1 Free",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "Buy 1, Get 1 Free"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "RECTANGLE",
+              "accessibilityText": "Buy 1, Get 1 Free"
+            }
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$14.50",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": " • ",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "icon": {
+                  "icon": {
+                    "icon": "THUMB_UP_OUTLINE",
+                    "color": "PRIMARY",
+                    "size": "SPACING_UNIT_1_5X"
+                  },
+                  "alignment": "CENTERED"
+                },
+                "type": "icon"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": " 75% (4)",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$14.50, 75% of customers liked this based on 4 reviews."
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "Smash Burger (Double Patty)",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "Smash Burger (Double Patty)"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 2,
+            "endorsementMetadata": {
+              "endorsementType": "ratings",
+              "rating": "75%",
+              "numRatings": 4
+            },
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "isWebPdpSupported": false
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Restaurant",
+      "@id": "https://www.ubereats.com/store/amore/QOsl8GMTQMmTzKc1WVlu7w",
+      "name": "Amorè",
+      "servesCuisine": [
+        "Italian",
+        "Pasta",
+        "Salads",
+        "Vegetarian Friendly",
+        "Comfort Food",
+        "Noodles",
+        "Kids Friendly",
+        "Sandwich",
+        "Healthy"
+      ],
+      "priceRange": "$",
+      "image": [
+        "https://tb-static.uber.com/prod/image-proc/processed_images/c473bdcee585d10385337d19129a0190/f6deb0afc24fee6f4bd31a35e6bcbd47.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/c473bdcee585d10385337d19129a0190/9b3aae4cf90f897799a5ed357d60e09d.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/c473bdcee585d10385337d19129a0190/fdf52d66534809b650058f41d517d74a.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/c473bdcee585d10385337d19129a0190/8a42ee7a692dfa4155879820804a277f.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/c473bdcee585d10385337d19129a0190/783282f6131ef2258e5bcd87c46aa87e.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/c473bdcee585d10385337d19129a0190/fb86662148be855d931b37d6c1e5fcbe.jpeg"
+      ],
+      "potentialAction": {
+        "@type": "OrderAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.ubereats.com/store/amore/QOsl8GMTQMmTzKc1WVlu7w?utm_campaign=order-action&amp;utm_medium=organic",
+          "inLanguage": "English",
+          "actionPlatform": [
+            "https://schema.org/DesktopWebPlatform",
+            "https://schema.org/MobileWebPlatform"
+          ]
+        },
+        "deliveryMethod": [
+          "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+          "http://purl.org/goodrelations/v1#DeliveryModePickUp"
+        ]
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "New York",
+        "addressRegion": "NY",
+        "postalCode": "10016",
+        "addressCountry": "US",
+        "streetAddress": "641 2nd Ave"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 40.7454285,
+        "longitude": -73.975671
+      },
+      "telephone": "+12125322143",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4.3,
+        "reviewCount": "900"
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Sunday",
+          "opens": "0:0",
+          "closes": "23:59"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday"
+          ],
+          "opens": "6:0",
+          "closes": "1:0"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Wednesday",
+          "opens": "6:0",
+          "closes": "0:45"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Thursday",
+            "Friday",
+            "Saturday"
+          ],
+          "opens": "0:0",
+          "closes": "23:59"
+        }
+      ],
+      "deals": [
+        {
+          "uuid": "b5c7b0e5-a199-4803-9ed4-4bc84f85e51a",
+          "title": "Mozzarella Sticks",
+          "itemDescription": "6 pieces served with marinara sauce",
+          "price": 1250,
+          "priceTagline": {
+            "text": "$12.50",
+            "textFormat": "<span>$12.50</span>",
+            "accessibilityText": "$12.50"
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "Mozzarella Sticks",
+            "textFormat": "<span>Mozzarella Sticks</span>",
+            "accessibilityText": "Mozzarella Sticks"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": false,
+          "numAlcoholicItems": 0,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "6 pieces served with marinara sauce",
+            "textFormat": "<span style=\"color:#757575\">6 pieces served with marinara sauce</span>"
+          },
+          "subsectionUuid": "ca8c11f0-5e4e-408d-9e81-8f6b4d54610a",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "maxPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 999,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "increment": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "defaultQuantity": {
+                    "base": {
+                      "high": 0,
+                      "low": 2,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 999,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 2
+                }
+              }
+            ],
+            "pricingInfo": {}
+          },
+          "sectionUuid": "c72807f7-c860-4332-809e-3c0155e9386f",
+          "promoInfo": {
+            "promotionUUID": "373c21b9-cd2c-4b2e-ab8e-0fc612d2ded3",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "Buy 1, Get 1 Free",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "Buy 1, Get 1 Free"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "RECTANGLE",
+              "accessibilityText": "Buy 1, Get 1 Free"
+            }
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$12.50",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": " • ",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "icon": {
+                  "icon": {
+                    "icon": "THUMB_UP_OUTLINE",
+                    "color": "PRIMARY",
+                    "size": "SPACING_UNIT_1_5X"
+                  },
+                  "alignment": "CENTERED"
+                },
+                "type": "icon"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": " 90% (32)",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$12.50, 90% of customers liked this based on 32 reviews."
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "Mozzarella Sticks",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "Mozzarella Sticks"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 1,
+            "endorsementMetadata": {
+              "endorsementType": "ratings",
+              "rating": "90%",
+              "numRatings": 32
+            },
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "isWebPdpSupported": false
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Restaurant",
+      "@id": "https://www.ubereats.com/store/dunkin-376-5th-ave/HlyDO84VRxS6AHw50goWFQ",
+      "name": "Dunkin' (376 5th Ave)",
+      "servesCuisine": [
+        "Breakfast &amp; Brunch",
+        "Donuts"
+      ],
+      "priceRange": "$",
+      "image": [
+        "https://tb-static.uber.com/prod/image-proc/processed_images/71dc2a76428cc5acb05eb3f2e2ce544f/19ec62ba51fde35ba0aff5b84321c5af.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/71dc2a76428cc5acb05eb3f2e2ce544f/c67d558c633281f9c71fc6a90ef470ae.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/71dc2a76428cc5acb05eb3f2e2ce544f/8681e511c0910e0052cb155c50f01f89.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/71dc2a76428cc5acb05eb3f2e2ce544f/6ea4f72e303000fbf403bbb36f971f85.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/71dc2a76428cc5acb05eb3f2e2ce544f/4bee0baf259f2b3c95aacdebea87e950.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/71dc2a76428cc5acb05eb3f2e2ce544f/5283d81c664b43c5f57a3a186d273063.jpeg"
+      ],
+      "potentialAction": {
+        "@type": "OrderAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.ubereats.com/store/dunkin-376-5th-ave/HlyDO84VRxS6AHw50goWFQ?utm_campaign=order-action&amp;utm_medium=organic",
+          "inLanguage": "English",
+          "actionPlatform": [
+            "https://schema.org/DesktopWebPlatform",
+            "https://schema.org/MobileWebPlatform"
+          ]
+        },
+        "deliveryMethod": [
+          "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+          "http://purl.org/goodrelations/v1#DeliveryModePickUp"
+        ]
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "New York",
+        "addressRegion": "NY",
+        "postalCode": "10018",
+        "addressCountry": "US",
+        "streetAddress": "376 5th Ave"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 40.7492767,
+        "longitude": -73.9841981
+      },
+      "telephone": "+10000000000",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4.7,
+        "reviewCount": "300"
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Sunday",
+          "opens": "6:0",
+          "closes": "22:0"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday"
+          ],
+          "opens": "5:0",
+          "closes": "22:0"
+        }
+      ],
+      "deals": [
+        {
+          "uuid": "fb78eee2-b8ef-5231-a1ac-ac7954181c36",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/ec82b4bd2efcba2297b95c4e0f29df73/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+          "title": "Sausage Egg and Cheese",
+          "itemDescription": "Finding yourself hungry in search of breakfast? Dunkin' brings a tasty blend of egg and cheese, and then adds irresistable sausage to tame any hunger. Consider yourself full.",
+          "price": 786,
+          "priceTagline": {
+            "text": "$7.86 • 640 Cal.",
+            "textFormat": "<span>$7.86<span style=\"color:#757575\"> • 640 Cal.</span></span>",
+            "accessibilityText": "$7.86, 640 Cal."
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "Sausage Egg and Cheese",
+            "textFormat": "<span>Sausage Egg and Cheese</span>",
+            "accessibilityText": "Sausage Egg and Cheese"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": true,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "Finding yourself hungry in search of breakfast? Dunkin' brings a tasty blend of egg and cheese, and then adds irresistable sausage to tame any hunger. Consider yourself full.",
+            "textFormat": "<span style=\"color:#757575\">Finding yourself hungry in search of breakfast? Dunkin&#39; brings a tasty blend of egg and cheese, and then adds irresistable sausage to tame any hunger. Consider yourself full.</span>"
+          },
+          "subsectionUuid": "ec3ba23b-3ef4-5b68-b44b-14171b4ad321",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "maxPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 999,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "increment": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "defaultQuantity": {
+                    "base": {
+                      "high": 0,
+                      "low": 2,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 999,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 2
+                }
+              }
+            ],
+            "pricingInfo": {}
+          },
+          "sectionUuid": "b5954036-d9c7-5729-ba7a-e7a1b2b2b1db",
+          "promoInfo": {
+            "promotionUUID": "2b16fffc-5cc6-4f8d-9704-b09166a13a22",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "Buy 1, Get 1 Free",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "Buy 1, Get 1 Free"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "RECTANGLE",
+              "accessibilityText": "Buy 1, Get 1 Free"
+            }
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$7.86",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": " • ",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "icon": {
+                  "icon": {
+                    "icon": "THUMB_UP_OUTLINE",
+                    "color": "PRIMARY",
+                    "size": "SPACING_UNIT_1_5X"
+                  },
+                  "alignment": "CENTERED"
+                },
+                "type": "icon"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": " 100% (6)",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": " • ",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_TERTIARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": "640 Cal.",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_TERTIARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$7.86, 100% of customers liked this based on 6 reviews., 640 Cal."
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "Sausage Egg and Cheese",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "Sausage Egg and Cheese"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 3,
+            "endorsementMetadata": {
+              "endorsementType": "ratings",
+              "rating": "100%",
+              "numRatings": 6
+            },
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "isWebPdpSupported": false
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Restaurant",
+      "@id": "https://www.ubereats.com/store/sammys-halal-food-midtown/tWI520evUvaoAIggXjBXCQ",
+      "name": "Sammy's Halal Food (Midtown)",
+      "servesCuisine": [
+        "Halal",
+        "Chicken",
+        "Middle Eastern"
+      ],
+      "priceRange": "$",
+      "image": [
+        "https://tb-static.uber.com/prod/image-proc/processed_images/86fbcc871de4a297ad84cb2276f4f258/97ef7458dde62fa918635bc21265d9f5.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/86fbcc871de4a297ad84cb2276f4f258/a70f5c9df440d10213e93244e9eb7cad.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/86fbcc871de4a297ad84cb2276f4f258/97e6648b3593c29cb4a6335f976e6d84.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/86fbcc871de4a297ad84cb2276f4f258/93b5fd796682c6d5302cd5bec164fe90.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/86fbcc871de4a297ad84cb2276f4f258/719c6bd2757b08684c0faae44d43159d.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/86fbcc871de4a297ad84cb2276f4f258/3ac2b39ad528f8c8c5dc77c59abb683d.jpeg"
+      ],
+      "potentialAction": {
+        "@type": "OrderAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.ubereats.com/store/sammys-halal-food-midtown/tWI520evUvaoAIggXjBXCQ?utm_campaign=order-action&amp;utm_medium=organic",
+          "inLanguage": "English",
+          "actionPlatform": [
+            "https://schema.org/DesktopWebPlatform",
+            "https://schema.org/MobileWebPlatform"
+          ]
+        },
+        "deliveryMethod": [
+          "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+          "http://purl.org/goodrelations/v1#DeliveryModePickUp"
+        ]
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "New York",
+        "addressRegion": "NY",
+        "postalCode": "10018",
+        "addressCountry": "US",
+        "streetAddress": "109 West 39th Street"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 40.7530174,
+        "longitude": -73.985842
+      },
+      "telephone": "+19174202506",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4.5,
+        "reviewCount": "180"
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Monday",
+          "opens": "11:0",
+          "closes": "23:59"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Tuesday",
+            "Wednesday",
+            "Thursday"
+          ],
+          "opens": "0:0",
+          "closes": "23:59"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Friday",
+          "opens": "0:0",
+          "closes": "16:0"
+        }
+      ],
+      "deals": [
+        {
+          "uuid": "fb6d2fdd-858f-5209-8984-5e74db368bb9",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/33cb05b8aac2b29b49675465cf813008/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+          "title": "SPECIAL COMBO  OVER RICE.",
+          "itemDescription": "A DELICIOUS MEAL OF JUICY CHICKEN MARINATED AND GROUND LAMB MIXED WITH THE FINEST HERBS AND SPICES GRILLED. SERVED OVER OUR BROWN BASMATI RICE ,SALAD AND SAUCE OF YOUR CHOICE.",
+          "price": 1800,
+          "priceTagline": {
+            "text": "$18.00",
+            "textFormat": "<span>$18.00</span>",
+            "accessibilityText": "$18.00"
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "SPECIAL COMBO  OVER RICE.",
+            "textFormat": "<span>SPECIAL COMBO  OVER RICE.</span>",
+            "accessibilityText": "SPECIAL COMBO  OVER RICE."
+          },
+          "isSoldOut": false,
+          "hasCustomizations": true,
+          "numAlcoholicItems": 0,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "A DELICIOUS MEAL OF JUICY CHICKEN MARINATED AND GROUND LAMB MIXED WITH THE FINEST HERBS AND SPICES GRILLED. SERVED OVER OUR BROWN BASMATI RICE ,SALAD AND SAUCE OF YOUR CHOICE.",
+            "textFormat": "<span style=\"color:#757575\">A DELICIOUS MEAL OF JUICY CHICKEN MARINATED AND GROUND LAMB MIXED WITH THE FINEST HERBS AND SPICES GRILLED. SERVED OVER OUR BROWN BASMATI RICE ,SALAD AND SAUCE OF YOUR CHOICE.</span>"
+          },
+          "subsectionUuid": "2e6455c6-6f20-4c57-a890-44e494bfb5b9",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "maxPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 999,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "increment": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "defaultQuantity": {
+                    "base": {
+                      "high": 0,
+                      "low": 2,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 999,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 2
+                }
+              }
+            ],
+            "pricingInfo": {}
+          },
+          "sectionUuid": "56d8958c-2541-521a-8ec0-08cb7fde13f5",
+          "promoInfo": {
+            "promotionUUID": "caca4107-4e1e-4b04-9b76-ee037a01c9e3",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "Buy 1, Get 1 Free",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "Buy 1, Get 1 Free"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "RECTANGLE",
+              "accessibilityText": "Buy 1, Get 1 Free"
+            }
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$18.00",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": " • ",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "icon": {
+                  "icon": {
+                    "icon": "THUMB_UP_OUTLINE",
+                    "color": "PRIMARY",
+                    "size": "SPACING_UNIT_1_5X"
+                  },
+                  "alignment": "CENTERED"
+                },
+                "type": "icon"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": " 72% (11)",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$18.00, 72% of customers liked this based on 11 reviews."
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "SPECIAL COMBO  OVER RICE.",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "SPECIAL COMBO  OVER RICE."
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 4,
+            "endorsementMetadata": {
+              "endorsementType": "ratings",
+              "rating": "72%",
+              "numRatings": 11
+            },
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "isWebPdpSupported": false
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Restaurant",
+      "@id": "https://www.ubereats.com/store/dunkin-150-w-47th-st/uVpQpiXpRmSROoo36bpBaw",
+      "name": "Dunkin' (150 W 47th St)",
+      "servesCuisine": [
+        "Breakfast &amp; Brunch",
+        "Donuts"
+      ],
+      "priceRange": "$",
+      "image": [
+        "https://tb-static.uber.com/prod/image-proc/processed_images/71dc2a76428cc5acb05eb3f2e2ce544f/19ec62ba51fde35ba0aff5b84321c5af.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/71dc2a76428cc5acb05eb3f2e2ce544f/c67d558c633281f9c71fc6a90ef470ae.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/71dc2a76428cc5acb05eb3f2e2ce544f/8681e511c0910e0052cb155c50f01f89.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/71dc2a76428cc5acb05eb3f2e2ce544f/6ea4f72e303000fbf403bbb36f971f85.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/71dc2a76428cc5acb05eb3f2e2ce544f/4bee0baf259f2b3c95aacdebea87e950.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/71dc2a76428cc5acb05eb3f2e2ce544f/5283d81c664b43c5f57a3a186d273063.jpeg"
+      ],
+      "potentialAction": {
+        "@type": "OrderAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.ubereats.com/store/dunkin-150-w-47th-st/uVpQpiXpRmSROoo36bpBaw?utm_campaign=order-action&amp;utm_medium=organic",
+          "inLanguage": "English",
+          "actionPlatform": [
+            "https://schema.org/DesktopWebPlatform",
+            "https://schema.org/MobileWebPlatform"
+          ]
+        },
+        "deliveryMethod": [
+          "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+          "http://purl.org/goodrelations/v1#DeliveryModePickUp"
+        ]
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "New York",
+        "addressRegion": "NY",
+        "postalCode": "10036",
+        "addressCountry": "US",
+        "streetAddress": "150 W 47th St"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 40.7589606,
+        "longitude": -73.983635
+      },
+      "telephone": "+13472063848",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4.3,
+        "reviewCount": "500"
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Sunday",
+          "opens": "5:0",
+          "closes": "0:0"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Monday",
+          "opens": "4:30",
+          "closes": "0:0"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday"
+          ],
+          "opens": "0:0",
+          "closes": "23:59"
+        }
+      ],
+      "deals": [
+        {
+          "uuid": "9a74e70d-2152-5c21-8ab0-889dfc47d9a2",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/ec82b4bd2efcba2297b95c4e0f29df73/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+          "title": "Sausage Egg and Cheese",
+          "itemDescription": "Finding yourself hungry in search of breakfast? Dunkin' brings a tasty blend of egg and cheese, and then adds irresistable sausage to tame any hunger. Consider yourself full.",
+          "price": 811,
+          "priceTagline": {
+            "text": "$8.11 • 640 Cal.",
+            "textFormat": "<span>$8.11<span style=\"color:#757575\"> • 640 Cal.</span></span>",
+            "accessibilityText": "$8.11, 640 Cal."
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "Sausage Egg and Cheese",
+            "textFormat": "<span>Sausage Egg and Cheese</span>",
+            "accessibilityText": "Sausage Egg and Cheese"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": true,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "Finding yourself hungry in search of breakfast? Dunkin' brings a tasty blend of egg and cheese, and then adds irresistable sausage to tame any hunger. Consider yourself full.",
+            "textFormat": "<span style=\"color:#757575\">Finding yourself hungry in search of breakfast? Dunkin&#39; brings a tasty blend of egg and cheese, and then adds irresistable sausage to tame any hunger. Consider yourself full.</span>"
+          },
+          "subsectionUuid": "9240c378-d0b3-5009-bba5-651cf9ef5e77",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "maxPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 999,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "increment": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "defaultQuantity": {
+                    "base": {
+                      "high": 0,
+                      "low": 2,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 999,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 2
+                }
+              }
+            ],
+            "pricingInfo": {}
+          },
+          "sectionUuid": "3e778523-f7ae-5882-ba9d-70030814ea3c",
+          "promoInfo": {
+            "promotionUUID": "acffadb2-3929-49e8-8edf-8929a93e4128",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "Buy 1, Get 1 Free",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "Buy 1, Get 1 Free"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "RECTANGLE",
+              "accessibilityText": "Buy 1, Get 1 Free"
+            }
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$8.11",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": " • ",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "icon": {
+                  "icon": {
+                    "icon": "THUMB_UP_OUTLINE",
+                    "color": "PRIMARY",
+                    "size": "SPACING_UNIT_1_5X"
+                  },
+                  "alignment": "CENTERED"
+                },
+                "type": "icon"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": " 83% (12)",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": " • ",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_TERTIARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": "640 Cal.",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_TERTIARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$8.11, 83% of customers liked this based on 12 reviews., 640 Cal."
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "Sausage Egg and Cheese",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "Sausage Egg and Cheese"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 2,
+            "endorsementMetadata": {
+              "endorsementType": "ratings",
+              "rating": "83%",
+              "numRatings": 12
+            },
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "isWebPdpSupported": false
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Restaurant",
+      "@id": "https://www.ubereats.com/store/dunkin-48-w-37th-st/m2NsNuFHS2y8M_FCUpHCxg",
+      "name": "Dunkin' (48 W 37th St)",
+      "servesCuisine": [
+        "Breakfast &amp; Brunch",
+        "Donuts"
+      ],
+      "priceRange": "$",
+      "image": [
+        "https://tb-static.uber.com/prod/image-proc/processed_images/71dc2a76428cc5acb05eb3f2e2ce544f/19ec62ba51fde35ba0aff5b84321c5af.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/71dc2a76428cc5acb05eb3f2e2ce544f/c67d558c633281f9c71fc6a90ef470ae.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/71dc2a76428cc5acb05eb3f2e2ce544f/8681e511c0910e0052cb155c50f01f89.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/71dc2a76428cc5acb05eb3f2e2ce544f/6ea4f72e303000fbf403bbb36f971f85.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/71dc2a76428cc5acb05eb3f2e2ce544f/4bee0baf259f2b3c95aacdebea87e950.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/71dc2a76428cc5acb05eb3f2e2ce544f/5283d81c664b43c5f57a3a186d273063.jpeg"
+      ],
+      "potentialAction": {
+        "@type": "OrderAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.ubereats.com/store/dunkin-48-w-37th-st/m2NsNuFHS2y8M_FCUpHCxg?utm_campaign=order-action&amp;utm_medium=organic",
+          "inLanguage": "English",
+          "actionPlatform": [
+            "https://schema.org/DesktopWebPlatform",
+            "https://schema.org/MobileWebPlatform"
+          ]
+        },
+        "deliveryMethod": [
+          "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+          "http://purl.org/goodrelations/v1#DeliveryModePickUp"
+        ]
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "New York",
+        "addressRegion": "NY",
+        "postalCode": "10018",
+        "addressCountry": "US",
+        "streetAddress": "48 W 37th St"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 40.7512746,
+        "longitude": -73.9856287
+      },
+      "telephone": "+16465908020",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4.7,
+        "reviewCount": "84"
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "6:0",
+          "closes": "16:0"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Saturday",
+          "opens": "7:0",
+          "closes": "14:0"
+        }
+      ],
+      "deals": [
+        {
+          "uuid": "648880be-20ed-5250-be38-25a24aac6c1a",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/ec82b4bd2efcba2297b95c4e0f29df73/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+          "title": "Sausage Egg and Cheese",
+          "itemDescription": "Finding yourself hungry in search of breakfast? Dunkin' brings a tasty blend of egg and cheese, and then adds irresistable sausage to tame any hunger. Consider yourself full.",
+          "price": 786,
+          "priceTagline": {
+            "text": "$7.86 • 640 Cal.",
+            "textFormat": "<span>$7.86<span style=\"color:#757575\"> • 640 Cal.</span></span>",
+            "accessibilityText": "$7.86, 640 Cal."
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "Sausage Egg and Cheese",
+            "textFormat": "<span>Sausage Egg and Cheese</span>",
+            "accessibilityText": "Sausage Egg and Cheese"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": true,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "Finding yourself hungry in search of breakfast? Dunkin' brings a tasty blend of egg and cheese, and then adds irresistable sausage to tame any hunger. Consider yourself full.",
+            "textFormat": "<span style=\"color:#757575\">Finding yourself hungry in search of breakfast? Dunkin&#39; brings a tasty blend of egg and cheese, and then adds irresistable sausage to tame any hunger. Consider yourself full.</span>"
+          },
+          "subsectionUuid": "40495d41-5f7f-550f-ad24-4f70fc97e6e4",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "maxPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 999,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "increment": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "defaultQuantity": {
+                    "base": {
+                      "high": 0,
+                      "low": 2,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 999,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 2
+                }
+              }
+            ],
+            "pricingInfo": {}
+          },
+          "sectionUuid": "f8767257-2ab7-5122-845a-a1bbd8f041d6",
+          "promoInfo": {
+            "promotionUUID": "d839320c-c291-4173-9aa2-62545e111e29",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "Buy 1, Get 1 Free",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "Buy 1, Get 1 Free"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "RECTANGLE",
+              "accessibilityText": "Buy 1, Get 1 Free"
+            }
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$7.86",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": " • ",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "icon": {
+                  "icon": {
+                    "icon": "THUMB_UP_OUTLINE",
+                    "color": "PRIMARY",
+                    "size": "SPACING_UNIT_1_5X"
+                  },
+                  "alignment": "CENTERED"
+                },
+                "type": "icon"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": " 100% (3)",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": " • ",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_TERTIARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": "640 Cal.",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_TERTIARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$7.86, 100% of customers liked this based on 3 reviews., 640 Cal."
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "Sausage Egg and Cheese",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "Sausage Egg and Cheese"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 2,
+            "endorsementMetadata": {
+              "endorsementType": "ratings",
+              "rating": "100%",
+              "numRatings": 3
+            },
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "isWebPdpSupported": false
+        }
+      ]
+    }
+  ]
 }
