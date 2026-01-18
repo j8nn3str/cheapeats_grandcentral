@@ -1,5 +1,5 @@
 {
-  "refreshDateTime": "2026-01-18T12:09:04.248Z",
+  "refreshDateTime": "2026-01-18T13:13:32.205Z",
   "deals": [
     {
       "@context": "https://schema.org",
@@ -714,6 +714,819 @@
               "rating": "71%",
               "numRatings": 7
             },
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "isWebPdpSupported": false
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Restaurant",
+      "@id": "https://www.ubereats.com/store/johns-coffee-shop-murray-hill/Mv5rYW0jQ4ukiV68f3xGHQ",
+      "name": "John's Coffee Shop - Murray Hill",
+      "servesCuisine": [
+        "American",
+        "Diners",
+        "Breakfast and Brunch",
+        "Group Friendly"
+      ],
+      "priceRange": "$",
+      "image": [
+        "https://tb-static.uber.com/prod/image-proc/processed_images/96d45c300278c5e0b4f03c74618f4dd1/f6deb0afc24fee6f4bd31a35e6bcbd47.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/96d45c300278c5e0b4f03c74618f4dd1/9b3aae4cf90f897799a5ed357d60e09d.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/96d45c300278c5e0b4f03c74618f4dd1/fdf52d66534809b650058f41d517d74a.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/96d45c300278c5e0b4f03c74618f4dd1/8a42ee7a692dfa4155879820804a277f.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/96d45c300278c5e0b4f03c74618f4dd1/783282f6131ef2258e5bcd87c46aa87e.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/96d45c300278c5e0b4f03c74618f4dd1/fb86662148be855d931b37d6c1e5fcbe.jpeg"
+      ],
+      "potentialAction": {
+        "@type": "OrderAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.ubereats.com/store/johns-coffee-shop-murray-hill/Mv5rYW0jQ4ukiV68f3xGHQ?utm_campaign=order-action&amp;utm_medium=organic",
+          "inLanguage": "English",
+          "actionPlatform": [
+            "https://schema.org/DesktopWebPlatform",
+            "https://schema.org/MobileWebPlatform"
+          ]
+        },
+        "deliveryMethod": [
+          "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+          "http://purl.org/goodrelations/v1#DeliveryModePickUp"
+        ]
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "New York",
+        "addressRegion": "NY",
+        "postalCode": "10017",
+        "addressCountry": "US",
+        "streetAddress": "823 2nd Ave"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 40.751125149283816,
+        "longitude": -73.97153274981277
+      },
+      "telephone": "+12128674955",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4.8,
+        "reviewCount": "1000"
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Sunday",
+          "opens": "8:0",
+          "closes": "15:0"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Sunday",
+          "opens": "8:0",
+          "closes": "15:0"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "8:0",
+          "closes": "15:0"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Saturday",
+          "opens": "8:0",
+          "closes": "15:0"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Saturday",
+          "opens": "8:0",
+          "closes": "15:0"
+        }
+      ],
+      "deals": [
+        {
+          "uuid": "0783ff73-e648-4fd3-8cd0-ae9d91bc7178",
+          "title": "Beef Chili Over Rice",
+          "itemDescription": "Chunky beef with beans of rice pilaf",
+          "price": 1500,
+          "priceTagline": {
+            "text": "$15.00",
+            "textFormat": "<span>$15.00</span>",
+            "accessibilityText": "$15.00"
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "Beef Chili Over Rice",
+            "textFormat": "<span>Beef Chili Over Rice</span>",
+            "accessibilityText": "Beef Chili Over Rice"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": false,
+          "numAlcoholicItems": 0,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "Chunky beef with beans of rice pilaf",
+            "textFormat": "<span style=\"color:#757575\">Chunky beef with beans of rice pilaf</span>"
+          },
+          "subsectionUuid": "cb1f68b3-8eda-4abe-9020-7723a2ef6943",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "soldByUnit": {
+                  "measurementType": "MEASUREMENT_TYPE_COUNT"
+                },
+                "itemQuantityAbbreviation": "",
+                "purchasePriceV2": {
+                  "base": {
+                    "high": 0,
+                    "low": 1500,
+                    "unsigned": false
+                  },
+                  "exponent": -2
+                }
+              }
+            ],
+            "pricingInfo": {}
+          },
+          "sectionUuid": "9afae202-5d91-4898-bda7-d993982be988",
+          "promoInfo": {
+            "promotionUUID": "c22d24c5-ba04-485d-8cc4-fa944068145f",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "Buy 1, Get 1 Free",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "Buy 1, Get 1 Free"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "PILL",
+              "accessibilityText": "Buy 1, Get 1 Free"
+            },
+            "badgePosition": "OFF_IMAGE_BELOW_TEXT"
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$15.00",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$15.00"
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "Beef Chili Over Rice",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "Beef Chili Over Rice"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 6,
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "isWebPdpSupported": false
+        },
+        {
+          "uuid": "b1922716-492e-4f44-8331-3341e332b304",
+          "title": "Gorgonzola Pear Sachetti",
+          "itemDescription": "(12) smalls purses filled with gorzonzola cheese, pear in  Creamy Pesto Sauce",
+          "price": 2000,
+          "priceTagline": {
+            "text": "$20.00",
+            "textFormat": "<span>$20.00</span>",
+            "accessibilityText": "$20.00"
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "Gorgonzola Pear Sachetti",
+            "textFormat": "<span>Gorgonzola Pear Sachetti</span>",
+            "accessibilityText": "Gorgonzola Pear Sachetti"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": false,
+          "numAlcoholicItems": 0,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "(12) smalls purses filled with gorzonzola cheese, pear in  Creamy Pesto Sauce",
+            "textFormat": "<span style=\"color:#757575\">(12) smalls purses filled with gorzonzola cheese, pear in  Creamy Pesto Sauce</span>"
+          },
+          "subsectionUuid": "cb1f68b3-8eda-4abe-9020-7723a2ef6943",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "soldByUnit": {
+                  "measurementType": "MEASUREMENT_TYPE_COUNT"
+                },
+                "itemQuantityAbbreviation": "",
+                "purchasePriceV2": {
+                  "base": {
+                    "high": 0,
+                    "low": 2000,
+                    "unsigned": false
+                  },
+                  "exponent": -2
+                }
+              }
+            ],
+            "pricingInfo": {}
+          },
+          "sectionUuid": "9afae202-5d91-4898-bda7-d993982be988",
+          "promoInfo": {
+            "promotionUUID": "46181c99-d4ee-4499-bf09-4020fed4dacc",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "Buy 1, Get 1 Free",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "Buy 1, Get 1 Free"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "PILL",
+              "accessibilityText": "Buy 1, Get 1 Free"
+            },
+            "badgePosition": "OFF_IMAGE_BELOW_TEXT"
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$20.00",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$20.00"
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "Gorgonzola Pear Sachetti",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "Gorgonzola Pear Sachetti"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 5,
+            "endorsementMetadata": {
+              "endorsementType": "most_liked"
+            },
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "isWebPdpSupported": false
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Restaurant",
+      "@id": "https://www.ubereats.com/store/pressed-41st-%26-lexington/5vmXbg-PQFqaN1TXroOsxA",
+      "name": "Pressed - 41st &amp; Lexington",
+      "servesCuisine": [
+        "Juice and Smoothies",
+        "Healthy",
+        "Breakfast and Brunch",
+        "Açaí",
+        "Cafe",
+        "Vegan",
+        "Vegetarian"
+      ],
+      "priceRange": "$$",
+      "image": [
+        "https://tb-static.uber.com/prod/image-proc/processed_images/edd8bf8a9a9e504d9f9d002f2c8b425a/08829600257ed8168dd856cafb7446c8.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/edd8bf8a9a9e504d9f9d002f2c8b425a/560a11f5d26e4cb83686f7810a5f5fe2.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/edd8bf8a9a9e504d9f9d002f2c8b425a/35927095c71455a8eb90d48f0168bf20.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/edd8bf8a9a9e504d9f9d002f2c8b425a/66345bbe137cfe4e15769c434c6c397c.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/edd8bf8a9a9e504d9f9d002f2c8b425a/b92d4926516c2635a39581f43cd533a0.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/edd8bf8a9a9e504d9f9d002f2c8b425a/885ba8620d45ab36746a0e8c7b85ee66.jpeg"
+      ],
+      "potentialAction": {
+        "@type": "OrderAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.ubereats.com/store/pressed-41st-%26-lexington/5vmXbg-PQFqaN1TXroOsxA?utm_campaign=order-action&amp;utm_medium=organic",
+          "inLanguage": "English",
+          "actionPlatform": [
+            "https://schema.org/DesktopWebPlatform",
+            "https://schema.org/MobileWebPlatform"
+          ]
+        },
+        "deliveryMethod": [
+          "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+          "http://purl.org/goodrelations/v1#DeliveryModePickUp"
+        ]
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "New York",
+        "addressRegion": "NY",
+        "postalCode": "10017",
+        "addressCountry": "US",
+        "streetAddress": "369 Lexington Avenue"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 40.7505056,
+        "longitude": -73.9765953
+      },
+      "telephone": "+12129220208",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4.9,
+        "reviewCount": "310"
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Sunday",
+          "opens": "8:0",
+          "closes": "17:30"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "7:0",
+          "closes": "19:30"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Saturday",
+          "opens": "8:0",
+          "closes": "19:30"
+        }
+      ],
+      "deals": [
+        {
+          "uuid": "a1b7507c-44c8-5cdc-b46b-1d15324d1c8e",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/708f9ab0f1784038ee1ed5e415e50bb6/0fb376d1da56c05644450062d25c5c84.jpeg",
+          "title": "Acai Berry Smoothie",
+          "itemDescription": "Elevate your day with our Acai Berry Smoothie, a nutrient-packed blend of tropical flavors + functional benefits. Infused with 500% of your daily vitamin C and chicory root fiber, this smoothie supports immunity, promotes digestion, + fuels your wellness with every sip.",
+          "price": 865,
+          "priceTagline": {
+            "text": "$8.65",
+            "textFormat": "<span>$8.65</span>",
+            "accessibilityText": "$8.65"
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "Acai Berry Smoothie",
+            "textFormat": "<span>Acai Berry Smoothie</span>",
+            "accessibilityText": "Acai Berry Smoothie"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": false,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "Elevate your day with our Acai Berry Smoothie, a nutrient-packed blend of tropical flavors + functional benefits. Infused with 500% of your daily vitamin C and chicory root fiber, this smoothie supports immunity, promotes digestion, + fuels your wellness with every sip.",
+            "textFormat": "<span style=\"color:#757575\">Elevate your day with our Acai Berry Smoothie, a nutrient-packed blend of tropical flavors + functional benefits. Infused with 500% of your daily vitamin C and chicory root fiber, this smoothie supports immunity, promotes digestion, + fuels your wellness with every sip.</span>"
+          },
+          "subsectionUuid": "944ebdd5-5748-502a-8de3-159f428b6dfc",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "soldByUnit": {
+                  "measurementType": "MEASUREMENT_TYPE_COUNT"
+                },
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": 100000,
+                    "exponent": -5
+                  },
+                  "maxPermitted": {
+                    "base": 25000000,
+                    "exponent": -5
+                  },
+                  "increment": {
+                    "base": 100000,
+                    "exponent": -5
+                  },
+                  "defaultQuantity": {
+                    "base": {
+                      "high": 0,
+                      "low": 2,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 250,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 2
+                },
+                "purchasePriceV2": {
+                  "base": {
+                    "high": 0,
+                    "low": 865,
+                    "unsigned": false
+                  },
+                  "exponent": -2
+                }
+              }
+            ],
+            "pricingInfo": {}
+          },
+          "sectionUuid": "2ecaf790-e0c8-5a86-a4eb-22bec912d3c2",
+          "promoInfo": {
+            "promotionUUID": "87c45ac8-d568-4221-a395-59d7acc343b0",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "Buy 1, Get 1 Free",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "Buy 1, Get 1 Free"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "PILL",
+              "accessibilityText": "Buy 1, Get 1 Free"
+            },
+            "badgePosition": "OFF_IMAGE_BELOW_TEXT"
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": true,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$8.65",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$8.65"
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "Acai Berry Smoothie",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "Acai Berry Smoothie"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 1,
+            "endorsementMetadata": {
+              "endorsementType": "most_liked"
+            },
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "isWebPdpSupported": false
+        },
+        {
+          "uuid": "fbc5d164-a1f5-5ac9-b271-8aa3bfe73a4a",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/84ad394c7b276a47cf48b9a3afec04bc/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+          "title": "Spiced Apple Cider",
+          "itemDescription": "Introducing our limited-time Fall special: Spiced Apple Cider! Enjoy the flavor of crisp, cold-pressed apples infused with a grounding blend of ground cinnamon, nutmeg, and cloves. Experience the essence of Fall with this seasonal delight—available for a limited time only!",
+          "price": 865,
+          "priceTagline": {
+            "text": "$8.65",
+            "textFormat": "<span>$8.65</span>",
+            "accessibilityText": "$8.65"
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "Spiced Apple Cider",
+            "textFormat": "<span>Spiced Apple Cider</span>",
+            "accessibilityText": "Spiced Apple Cider"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": false,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "Introducing our limited-time Fall special: Spiced Apple Cider! Enjoy the flavor of crisp, cold-pressed apples infused with a grounding blend of ground cinnamon, nutmeg, and cloves. Experience the essence of Fall with this seasonal delight—available for a limited time only!",
+            "textFormat": "<span style=\"color:#757575\">Introducing our limited-time Fall special: Spiced Apple Cider! Enjoy the flavor of crisp, cold-pressed apples infused with a grounding blend of ground cinnamon, nutmeg, and cloves. Experience the essence of Fall with this seasonal delight—available for a limited time only!</span>"
+          },
+          "subsectionUuid": "7a3c1cf2-bd52-5e15-9539-4c03d3b4efbd",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "soldByUnit": {
+                  "measurementType": "MEASUREMENT_TYPE_COUNT"
+                },
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": 100000,
+                    "exponent": -5
+                  },
+                  "maxPermitted": {
+                    "base": 25000000,
+                    "exponent": -5
+                  },
+                  "increment": {
+                    "base": 100000,
+                    "exponent": -5
+                  },
+                  "defaultQuantity": {
+                    "base": {
+                      "high": 0,
+                      "low": 2,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 250,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 2
+                },
+                "purchasePriceV2": {
+                  "base": {
+                    "high": 0,
+                    "low": 865,
+                    "unsigned": false
+                  },
+                  "exponent": -2
+                }
+              }
+            ],
+            "pricingInfo": {}
+          },
+          "sectionUuid": "2ecaf790-e0c8-5a86-a4eb-22bec912d3c2",
+          "promoInfo": {
+            "promotionUUID": "87c45ac8-d568-4221-a395-59d7acc343b0",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "Buy 1, Get 1 Free",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "Buy 1, Get 1 Free"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "PILL",
+              "accessibilityText": "Buy 1, Get 1 Free"
+            },
+            "badgePosition": "OFF_IMAGE_BELOW_TEXT"
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": true,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$8.65",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$8.65"
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "Spiced Apple Cider",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "Spiced Apple Cider"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 0,
             "promoType": "BOGO"
           },
           "imageOverlayElements": null,
@@ -2472,26 +3285,27 @@
     {
       "@context": "https://schema.org",
       "@type": "Restaurant",
-      "@id": "https://www.ubereats.com/store/salads-here-939-1st-ave/aBRWlEanQ-GzU3iPwbDi_Q",
-      "name": "Salads Here (939 1st Ave)",
+      "@id": "https://www.ubereats.com/store/oakberry-acai-lexington/kYBsmL62U5uuJg_HDBzqBg",
+      "name": "Oakberry Acai (Lexington) ",
       "servesCuisine": [
-        "Healthy",
-        "Salads"
+        "Juice and Smoothies",
+        "Açaí",
+        "Bowls"
       ],
-      "priceRange": "$",
+      "priceRange": "",
       "image": [
-        "https://tb-static.uber.com/prod/image-proc/processed_images/d728c9c3f3f11db4d521001feb1a870b/f6deb0afc24fee6f4bd31a35e6bcbd47.webp",
-        "https://tb-static.uber.com/prod/image-proc/processed_images/d728c9c3f3f11db4d521001feb1a870b/9b3aae4cf90f897799a5ed357d60e09d.webp",
-        "https://tb-static.uber.com/prod/image-proc/processed_images/d728c9c3f3f11db4d521001feb1a870b/fdf52d66534809b650058f41d517d74a.webp",
-        "https://tb-static.uber.com/prod/image-proc/processed_images/d728c9c3f3f11db4d521001feb1a870b/8a42ee7a692dfa4155879820804a277f.webp",
-        "https://tb-static.uber.com/prod/image-proc/processed_images/d728c9c3f3f11db4d521001feb1a870b/783282f6131ef2258e5bcd87c46aa87e.webp",
-        "https://tb-static.uber.com/prod/image-proc/processed_images/d728c9c3f3f11db4d521001feb1a870b/fb86662148be855d931b37d6c1e5fcbe.webp"
+        "https://tb-static.uber.com/prod/image-proc/processed_images/27d906b5518f4ff266bc2ab9c9b843c6/19ec62ba51fde35ba0aff5b84321c5af.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/27d906b5518f4ff266bc2ab9c9b843c6/c67d558c633281f9c71fc6a90ef470ae.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/27d906b5518f4ff266bc2ab9c9b843c6/8681e511c0910e0052cb155c50f01f89.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/27d906b5518f4ff266bc2ab9c9b843c6/6ea4f72e303000fbf403bbb36f971f85.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/27d906b5518f4ff266bc2ab9c9b843c6/4bee0baf259f2b3c95aacdebea87e950.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/27d906b5518f4ff266bc2ab9c9b843c6/5283d81c664b43c5f57a3a186d273063.jpeg"
       ],
       "potentialAction": {
         "@type": "OrderAction",
         "target": {
           "@type": "EntryPoint",
-          "urlTemplate": "https://www.ubereats.com/store/salads-here-939-1st-ave/aBRWlEanQ-GzU3iPwbDi_Q?utm_campaign=order-action&amp;utm_medium=organic",
+          "urlTemplate": "https://www.ubereats.com/store/oakberry-acai-lexington/kYBsmL62U5uuJg_HDBzqBg?utm_campaign=order-action&amp;utm_medium=organic",
           "inLanguage": "English",
           "actionPlatform": [
             "https://schema.org/DesktopWebPlatform",
@@ -2509,81 +3323,63 @@
         "addressRegion": "NY",
         "postalCode": "10022",
         "addressCountry": "US",
-        "streetAddress": "939 1st Ave"
+        "streetAddress": "649 Lexington Avenue"
       },
       "geo": {
         "@type": "GeoCoordinates",
-        "latitude": 40.7550118,
-        "longitude": -73.9655256
+        "latitude": 40.7594401,
+        "longitude": -73.9703425
       },
-      "telephone": "+12123004010",
+      "telephone": "+19299447702",
       "aggregateRating": {
         "@type": "AggregateRating",
-        "ratingValue": 4.5,
-        "reviewCount": "900"
+        "ratingValue": 4.6,
+        "reviewCount": "410"
       },
       "openingHoursSpecification": [
         {
           "@type": "OpeningHoursSpecification",
           "dayOfWeek": "Sunday",
-          "opens": "0:0",
-          "closes": "4:0"
-        },
-        {
-          "@type": "OpeningHoursSpecification",
-          "dayOfWeek": "Sunday",
-          "opens": "6:0",
-          "closes": "20:0"
-        },
-        {
-          "@type": "OpeningHoursSpecification",
-          "dayOfWeek": "Monday",
-          "opens": "6:0",
-          "closes": "23:59"
+          "opens": "8:0",
+          "closes": "21:45"
         },
         {
           "@type": "OpeningHoursSpecification",
           "dayOfWeek": [
+            "Monday",
             "Tuesday",
             "Wednesday",
             "Thursday",
-            "Friday",
-            "Saturday"
+            "Friday"
           ],
-          "opens": "0:0",
-          "closes": "4:0"
+          "opens": "7:0",
+          "closes": "21:45"
         },
         {
           "@type": "OpeningHoursSpecification",
-          "dayOfWeek": [
-            "Tuesday",
-            "Wednesday",
-            "Thursday",
-            "Friday",
-            "Saturday"
-          ],
-          "opens": "6:0",
-          "closes": "23:59"
+          "dayOfWeek": "Saturday",
+          "opens": "8:0",
+          "closes": "21:45"
         }
       ],
       "deals": [
         {
-          "uuid": "9155caa9-d66e-58cc-bc30-e1275a336e6d",
-          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/60de71a298f67ebb49f19519e6f0c694/a19bb09692310dfd41e49a96c424b3a6.jpeg",
-          "title": "Caesar Salad",
-          "itemDescription": "Romaine lettuce, parmesan cheese, and croutons with caesar dressing.",
-          "price": 1509,
+          "uuid": "1b93f7c4-e229-5a23-a35d-8087f78355d9",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/d86416b064bceb6564255cb76452d08e/0fb376d1da56c05644450062d25c5c84.jpeg",
+          "title": "Crunchy Bowl (16 oz)",
+          "itemDescription": "Your Crunchy Acai Bowl will be prepared and sent with the pre-defined chia pudding, granola, strawberries, blueberries and cocoa nibs toppings in a 16oz cup",
+          "price": 1795,
           "priceTagline": {
-            "text": "$15.09",
-            "textFormat": "<span>$15.09</span>",
-            "accessibilityText": "$15.09"
+            "text": "$17.95 • 516 Cal.",
+            "textFormat": "<span>$17.95<span style=\"color:#757575\"> • 516 Cal.</span></span>",
+            "accessibilityText": "$17.95, 516 Cal."
           },
           "spanCount": 2,
           "displayType": "LIST",
           "titleBadge": {
-            "text": "Caesar Salad",
-            "textFormat": "<span>Caesar Salad</span>",
-            "accessibilityText": "Caesar Salad"
+            "text": "Crunchy Bowl (16 oz)",
+            "textFormat": "<span>Crunchy Bowl (16 oz)</span>",
+            "accessibilityText": "Crunchy Bowl (16 oz)"
           },
           "isSoldOut": false,
           "hasCustomizations": true,
@@ -2591,44 +3387,35 @@
             "buyXGetYItemPromotion": {
               "buyQuantity": 1,
               "getQuantity": 1,
-              "maxRedemptionCount": 3
+              "maxRedemptionCount": 5
             },
             "type": "buyXGetYItemPromotion"
           },
           "itemDescriptionBadge": {
-            "text": "Romaine lettuce, parmesan cheese, and croutons with caesar dressing.",
-            "textFormat": "<span style=\"color:#757575\">Romaine lettuce, parmesan cheese, and croutons with caesar dressing.</span>"
+            "text": "Your Crunchy Acai Bowl will be prepared and sent with the pre-defined chia pudding, granola, strawberries, blueberries and cocoa nibs toppings in a 16oz cup",
+            "textFormat": "<span style=\"color:#757575\">Your Crunchy Acai Bowl will be prepared and sent with the pre-defined chia pudding, granola, strawberries, blueberries and cocoa nibs toppings in a 16oz cup</span>"
           },
-          "subsectionUuid": "f5425b06-8540-5839-9825-e90d5c486c65",
+          "subsectionUuid": "b0c2e76c-f38c-5316-ba88-e532ffb508c6",
           "isAvailable": true,
           "purchaseInfo": {
             "purchaseOptions": [
               {
+                "soldByUnit": {
+                  "measurementType": "MEASUREMENT_TYPE_COUNT"
+                },
                 "itemQuantityAbbreviation": "",
                 "quantityConstraintsV2": {
                   "minPermitted": {
-                    "base": {
-                      "high": 0,
-                      "low": 1,
-                      "unsigned": false
-                    },
-                    "exponent": 0
+                    "base": 100000,
+                    "exponent": -5
                   },
                   "maxPermitted": {
-                    "base": {
-                      "high": 0,
-                      "low": 999,
-                      "unsigned": false
-                    },
-                    "exponent": 0
+                    "base": 25000000,
+                    "exponent": -5
                   },
                   "increment": {
-                    "base": {
-                      "high": 0,
-                      "low": 1,
-                      "unsigned": false
-                    },
-                    "exponent": 0
+                    "base": 100000,
+                    "exponent": -5
                   },
                   "defaultQuantity": {
                     "base": {
@@ -2639,17 +3426,25 @@
                     "exponent": 0
                   },
                   "minPermittedNumber": 1,
-                  "maxPermittedNumber": 999,
+                  "maxPermittedNumber": 250,
                   "incrementNumber": 1,
                   "defaultQuantityNumber": 2
+                },
+                "purchasePriceV2": {
+                  "base": {
+                    "high": 0,
+                    "low": 1795,
+                    "unsigned": false
+                  },
+                  "exponent": -2
                 }
               }
             ],
             "pricingInfo": {}
           },
-          "sectionUuid": "e87c36ae-9c19-5276-9e9a-b58867ba19b5",
+          "sectionUuid": "58e193c6-03db-53db-9e39-a1353502e952",
           "promoInfo": {
-            "promotionUUID": "de08083e-92d6-4adf-b6a0-ddd0ee5543b8",
+            "promotionUUID": "65108b14-9fa3-46a9-a9d1-cda4e3ebf087",
             "promoBadge": {
               "content": {
                 "richText": {
@@ -2695,7 +3490,7 @@
               {
                 "text": {
                   "text": {
-                    "text": "$15.09",
+                    "text": "$17.95",
                     "font": {
                       "style": "PARAGRAPH_SMALL",
                       "weight": "NORMAL"
@@ -2714,46 +3509,35 @@
                       "style": "PARAGRAPH_SMALL",
                       "weight": "NORMAL"
                     },
-                    "color": "CONTENT_PRIMARY"
+                    "color": "CONTENT_TERTIARY"
                   },
                   "predefinedDecorations": null
                 },
                 "type": "text"
               },
               {
-                "icon": {
-                  "icon": {
-                    "icon": "THUMB_UP_OUTLINE",
-                    "color": "PRIMARY",
-                    "size": "SPACING_UNIT_1_5X"
-                  },
-                  "alignment": "CENTERED"
-                },
-                "type": "icon"
-              },
-              {
                 "text": {
                   "text": {
-                    "text": " 87% (142)",
+                    "text": "516 Cal.",
                     "font": {
                       "style": "PARAGRAPH_SMALL",
                       "weight": "NORMAL"
                     },
-                    "color": "CONTENT_PRIMARY"
+                    "color": "CONTENT_TERTIARY"
                   },
                   "predefinedDecorations": null
                 },
                 "type": "text"
               }
             ],
-            "accessibilityText": "$15.09, 87% of customers liked this based on 142 reviews."
+            "accessibilityText": "$17.95, 516 Cal."
           },
           "headingPrimary": {
             "richTextElements": [
               {
                 "text": {
                   "text": {
-                    "text": "Caesar Salad",
+                    "text": "Crunchy Bowl (16 oz)",
                     "font": {
                       "style": "LABEL_DEFAULT",
                       "weight": "MEDIUM"
@@ -2765,15 +3549,410 @@
                 "type": "text"
               }
             ],
-            "accessibilityText": "Caesar Salad"
+            "accessibilityText": "Crunchy Bowl (16 oz)"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 1,
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "isWebPdpSupported": false
+        },
+        {
+          "uuid": "4df3c7cc-bb4d-56fc-84a0-f9c735ffdef1",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/cc63283bf33a13204640f1eacd46da93/0fb376d1da56c05644450062d25c5c84.jpeg",
+          "title": "Acai Bucket (32 oz)",
+          "itemDescription": "Take-Home Açaí (32oz bucket).",
+          "price": 3060,
+          "priceTagline": {
+            "text": "$30.60 • 780 Cal.",
+            "textFormat": "<span>$30.60<span style=\"color:#757575\"> • 780 Cal.</span></span>",
+            "accessibilityText": "$30.60, 780 Cal."
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "Acai Bucket (32 oz)",
+            "textFormat": "<span>Acai Bucket (32 oz)</span>",
+            "accessibilityText": "Acai Bucket (32 oz)"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": false,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 5
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "Take-Home Açaí (32oz bucket).",
+            "textFormat": "<span style=\"color:#757575\">Take-Home Açaí (32oz bucket).</span>"
+          },
+          "subsectionUuid": "c000c612-6e01-51a0-a0f4-76d4566ab7a7",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "soldByUnit": {
+                  "measurementType": "MEASUREMENT_TYPE_COUNT"
+                },
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": 100000,
+                    "exponent": -5
+                  },
+                  "maxPermitted": {
+                    "base": 25000000,
+                    "exponent": -5
+                  },
+                  "increment": {
+                    "base": 100000,
+                    "exponent": -5
+                  },
+                  "defaultQuantity": {
+                    "base": {
+                      "high": 0,
+                      "low": 2,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 250,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 2
+                },
+                "purchasePriceV2": {
+                  "base": {
+                    "high": 0,
+                    "low": 3060,
+                    "unsigned": false
+                  },
+                  "exponent": -2
+                }
+              }
+            ],
+            "pricingInfo": {}
+          },
+          "sectionUuid": "58e193c6-03db-53db-9e39-a1353502e952",
+          "promoInfo": {
+            "promotionUUID": "65108b14-9fa3-46a9-a9d1-cda4e3ebf087",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "Buy 1, Get 1 Free",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "Buy 1, Get 1 Free"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "PILL",
+              "accessibilityText": "Buy 1, Get 1 Free"
+            },
+            "badgePosition": "OFF_IMAGE_BELOW_TEXT"
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": true,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$30.60",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": " • ",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_TERTIARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": "780 Cal.",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_TERTIARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$30.60, 780 Cal."
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "Acai Bucket (32 oz)",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "Acai Bucket (32 oz)"
           },
           "itemAvailabilityState": "UNKNOWN",
           "catalogItemAnalyticsData": {
             "catalogSectionItemPosition": 0,
             "endorsementMetadata": {
-              "endorsementType": "ratings",
-              "rating": "87%",
-              "numRatings": 142
+              "endorsementType": "most_liked"
+            },
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "isWebPdpSupported": false
+        },
+        {
+          "uuid": "c2409518-95c8-515e-b69b-d6f2f7565134",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/212952dad3aec909e1e8a071f6e1c8ea/5143f1e218c67c20fe5a4cd33d90b07b.jpeg",
+          "title": "Very Berry (16 oz)",
+          "itemDescription": "Unleash a berry explosion with the Very Berry Smoothie, a harmonious mix of açaí with antioxidant-rich strawberries, blueberries, and raspberries, blended with your choice of refreshing coconut water or premium POM® Pomegranate Juice",
+          "price": 1315,
+          "priceTagline": {
+            "text": "$13.15 • 300 Cal.",
+            "textFormat": "<span>$13.15<span style=\"color:#757575\"> • 300 Cal.</span></span>",
+            "accessibilityText": "$13.15, 300 Cal."
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "Very Berry (16 oz)",
+            "textFormat": "<span>Very Berry (16 oz)</span>",
+            "accessibilityText": "Very Berry (16 oz)"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": true,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 5
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "Unleash a berry explosion with the Very Berry Smoothie, a harmonious mix of açaí with antioxidant-rich strawberries, blueberries, and raspberries, blended with your choice of refreshing coconut water or premium POM® Pomegranate Juice",
+            "textFormat": "<span style=\"color:#757575\">Unleash a berry explosion with the Very Berry Smoothie, a harmonious mix of açaí with antioxidant-rich strawberries, blueberries, and raspberries, blended with your choice of refreshing coconut water or premium POM® Pomegranate Juice</span>"
+          },
+          "subsectionUuid": "66207dbd-8995-5eda-a9a4-4d39bcdbef18",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "soldByUnit": {
+                  "measurementType": "MEASUREMENT_TYPE_COUNT"
+                },
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": 100000,
+                    "exponent": -5
+                  },
+                  "maxPermitted": {
+                    "base": 25000000,
+                    "exponent": -5
+                  },
+                  "increment": {
+                    "base": 100000,
+                    "exponent": -5
+                  },
+                  "defaultQuantity": {
+                    "base": {
+                      "high": 0,
+                      "low": 2,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 250,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 2
+                },
+                "purchasePriceV2": {
+                  "base": {
+                    "high": 0,
+                    "low": 1315,
+                    "unsigned": false
+                  },
+                  "exponent": -2
+                }
+              }
+            ],
+            "pricingInfo": {}
+          },
+          "sectionUuid": "58e193c6-03db-53db-9e39-a1353502e952",
+          "promoInfo": {
+            "promotionUUID": "65108b14-9fa3-46a9-a9d1-cda4e3ebf087",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "Buy 1, Get 1 Free",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "Buy 1, Get 1 Free"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "PILL",
+              "accessibilityText": "Buy 1, Get 1 Free"
+            },
+            "badgePosition": "OFF_IMAGE_BELOW_TEXT"
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$13.15",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": " • ",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_TERTIARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": "300 Cal.",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_TERTIARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$13.15, 300 Cal."
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "Very Berry (16 oz)",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "Very Berry (16 oz)"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 4,
+            "endorsementMetadata": {
+              "endorsementType": "most_liked"
             },
             "promoType": "BOGO"
           },
