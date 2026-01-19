@@ -1,5 +1,5 @@
 {
-  "refreshDateTime": "2026-01-19T20:07:22.759Z",
+  "refreshDateTime": "2026-01-19T21:07:09.289Z",
   "deals": [
     {
       "@context": "https://schema.org",
@@ -27389,6 +27389,486 @@
           "itemAvailabilityState": "UNKNOWN",
           "catalogItemAnalyticsData": {
             "catalogSectionItemPosition": 2,
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "isWebPdpSupported": false
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Restaurant",
+      "@id": "https://www.ubereats.com/store/alanza%3A-traditional-italian-midtown-east/m98IYNKUX76B6ueFhEE38w",
+      "name": "Alanza: Traditional Italian (Midtown East)",
+      "servesCuisine": [
+        "Italian",
+        "Pasta",
+        "Comfort Food"
+      ],
+      "priceRange": "",
+      "image": [
+        "https://tb-static.uber.com/prod/image-proc/processed_images/4a53ef3dd74650c3982c185b464e18f6/6a46de29c91d235bc2878fe87fd740f6.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/4a53ef3dd74650c3982c185b464e18f6/4a9dc0556f3090689240dd59b4617ba7.jpeg"
+      ],
+      "potentialAction": {
+        "@type": "OrderAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.ubereats.com/store/alanza%3A-traditional-italian-midtown-east/m98IYNKUX76B6ueFhEE38w?utm_campaign=order-action&amp;utm_medium=organic",
+          "inLanguage": "English",
+          "actionPlatform": [
+            "https://schema.org/DesktopWebPlatform",
+            "https://schema.org/MobileWebPlatform"
+          ]
+        },
+        "deliveryMethod": [
+          "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+          "http://purl.org/goodrelations/v1#DeliveryModePickUp"
+        ]
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "New York",
+        "addressRegion": "NY",
+        "postalCode": "10017",
+        "addressCountry": "US",
+        "streetAddress": "800 3rd Ave"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 40.75564,
+        "longitude": -73.97135
+      },
+      "telephone": "",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 5,
+        "reviewCount": "2"
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "opens": "10:30",
+          "closes": "23:30"
+        }
+      ],
+      "deals": [
+        {
+          "uuid": "28f7790a-34e0-5eaa-996b-f222131285cb",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/e2ee991fc43e3263e4227df0941d48fd/0fb376d1da56c05644450062d25c5c84.jpeg",
+          "title": "Chicken Milanese",
+          "itemDescription": "A favorite uncle's favorite dish: breaded chicken cutlet, pan-fried and topped with arugula, radicchio, fennel, grape tomatoes, basil, pine nuts, Parmesan, and a tangy lemon vinaigrette",
+          "price": 2135,
+          "priceTagline": {
+            "text": "$21.35",
+            "textFormat": "<span>$21.35</span>",
+            "accessibilityText": "$21.35"
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "Chicken Milanese",
+            "textFormat": "<span>Chicken Milanese</span>",
+            "accessibilityText": "Chicken Milanese"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": false,
+          "numAlcoholicItems": 0,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "A favorite uncle's favorite dish: breaded chicken cutlet, pan-fried and topped with arugula, radicchio, fennel, grape tomatoes, basil, pine nuts, Parmesan, and a tangy lemon vinaigrette",
+            "textFormat": "<span style=\"color:#757575\">A favorite uncle&#39;s favorite dish: breaded chicken cutlet, pan-fried and topped with arugula, radicchio, fennel, grape tomatoes, basil, pine nuts, Parmesan, and a tangy lemon vinaigrette</span>"
+          },
+          "subsectionUuid": "be9143a9-4a06-5b80-b98c-fee023d47ae9",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "maxPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 999,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "increment": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "defaultQuantity": {
+                    "base": {
+                      "high": 0,
+                      "low": 2,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 999,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 2
+                }
+              }
+            ],
+            "pricingInfo": {}
+          },
+          "sectionUuid": "623a9b05-4e21-5fe9-a415-678f41ea2bf4",
+          "promoInfo": {
+            "promotionUUID": "8fea235e-4c1d-4b66-8257-5b57ee7edfc1",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "Buy 1, Get 1 Free",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "Buy 1, Get 1 Free"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "PILL",
+              "accessibilityText": "Buy 1, Get 1 Free"
+            },
+            "badgePosition": "OFF_IMAGE_BELOW_TEXT"
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$21.35",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$21.35"
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "Chicken Milanese",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "Chicken Milanese"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 3,
+            "endorsementMetadata": {
+              "endorsementType": "most_liked"
+            },
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "isWebPdpSupported": false
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Restaurant",
+      "@id": "https://www.ubereats.com/store/bellies%3A-a-kids-menu-midtown-east/bU1bA5nqUHuNe1oPlSxTUA",
+      "name": "Bellies: A Kids Menu (Midtown East)",
+      "servesCuisine": [
+        "Kids Friendly",
+        "Family Friendly",
+        "Pasta",
+        "American",
+        "Burgers"
+      ],
+      "priceRange": "",
+      "image": [
+        "https://tb-static.uber.com/prod/image-proc/processed_images/433d561ae9870a6a0dcb17aa689a909e/891233042e9ada9873fc6d9c4e835eac.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/433d561ae9870a6a0dcb17aa689a909e/0e8f477e8f858732b95bd74b5e07a538.jpeg"
+      ],
+      "potentialAction": {
+        "@type": "OrderAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.ubereats.com/store/bellies%3A-a-kids-menu-midtown-east/bU1bA5nqUHuNe1oPlSxTUA?utm_campaign=order-action&amp;utm_medium=organic",
+          "inLanguage": "English",
+          "actionPlatform": [
+            "https://schema.org/DesktopWebPlatform",
+            "https://schema.org/MobileWebPlatform"
+          ]
+        },
+        "deliveryMethod": [
+          "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+          "http://purl.org/goodrelations/v1#DeliveryModePickUp"
+        ]
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "New York",
+        "addressRegion": "NY",
+        "postalCode": "10017",
+        "addressCountry": "US",
+        "streetAddress": "800 3rd Ave"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 40.75564,
+        "longitude": -73.97135
+      },
+      "telephone": "",
+      "aggregateRating": {},
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "opens": "10:30",
+          "closes": "23:30"
+        }
+      ],
+      "deals": [
+        {
+          "uuid": "626e2a17-f5e1-595a-b62d-71b6718aba19",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/0c5553497a35757c7065dac42823ef95/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+          "title": "Kids Chicken & Rice Bowl",
+          "itemDescription": "Steamed white rice topped with adobo chicken—mild, with a slight tang—shredded romaine lettuce, and a mix of diced tomato and cucumber",
+          "price": 755,
+          "priceTagline": {
+            "text": "$7.55",
+            "textFormat": "<span>$7.55</span>",
+            "accessibilityText": "$7.55"
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "Kids Chicken & Rice Bowl",
+            "textFormat": "<span>Kids Chicken &amp; Rice Bowl <img src=\"https://d4p17acsd5wyj.cloudfront.net/bazaar/grain.png\" width=\"14\" height=\"14\" vertical-align=\"middle\"/></span>",
+            "accessibilityText": "Kids Chicken & Rice Bowl, GLUTEN_FREE"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": false,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "Steamed white rice topped with adobo chicken—mild, with a slight tang—shredded romaine lettuce, and a mix of diced tomato and cucumber",
+            "textFormat": "<span style=\"color:#757575\">Steamed white rice topped with adobo chicken—mild, with a slight tang—shredded romaine lettuce, and a mix of diced tomato and cucumber</span>"
+          },
+          "subsectionUuid": "8c14fbfe-2874-543f-bf75-c26ee075a68c",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "maxPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 999,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "increment": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "defaultQuantity": {
+                    "base": {
+                      "high": 0,
+                      "low": 2,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 999,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 2
+                }
+              }
+            ],
+            "pricingInfo": {}
+          },
+          "sectionUuid": "eec7a5ee-2631-5fd4-addb-675f69b8b6d6",
+          "promoInfo": {
+            "promotionUUID": "82b984e5-42f4-4b1f-89cd-0579ef7a5eba",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "Buy 1, Get 1 Free",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "Buy 1, Get 1 Free"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "PILL",
+              "accessibilityText": "Buy 1, Get 1 Free"
+            },
+            "badgePosition": "OFF_IMAGE_BELOW_TEXT"
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$7.55",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$7.55"
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "Kids Chicken & Rice Bowl",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "Kids Chicken & Rice Bowl"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 7,
             "promoType": "BOGO"
           },
           "imageOverlayElements": null,
