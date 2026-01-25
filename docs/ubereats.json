@@ -1,5 +1,5 @@
 {
-  "refreshDateTime": "2026-01-25T19:08:34.343Z",
+  "refreshDateTime": "2026-01-25T20:07:59.189Z",
   "deals": [
     {
       "@context": "https://schema.org",
@@ -1016,6 +1016,306 @@
           "itemAvailabilityState": "UNKNOWN",
           "catalogItemAnalyticsData": {
             "catalogSectionItemPosition": 2,
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "isWebPdpSupported": false
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Restaurant",
+      "@id": "https://www.ubereats.com/store/muna/ZZEJwoqyVci3Z_e1Z2qmXw",
+      "name": "Muna",
+      "servesCuisine": [
+        "Indian",
+        "Vegetarian",
+        "Asian",
+        "Group Friendly"
+      ],
+      "priceRange": "",
+      "image": [
+        "https://tb-static.uber.com/prod/image-proc/processed_images/d9604cc934c9cba28907e1a3ea04401d/891233042e9ada9873fc6d9c4e835eac.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/d9604cc934c9cba28907e1a3ea04401d/0e8f477e8f858732b95bd74b5e07a538.jpeg"
+      ],
+      "potentialAction": {
+        "@type": "OrderAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.ubereats.com/store/muna/ZZEJwoqyVci3Z_e1Z2qmXw?utm_campaign=order-action&amp;utm_medium=organic",
+          "inLanguage": "English",
+          "actionPlatform": [
+            "https://schema.org/DesktopWebPlatform",
+            "https://schema.org/MobileWebPlatform"
+          ]
+        },
+        "deliveryMethod": [
+          "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+          "http://purl.org/goodrelations/v1#DeliveryModePickUp"
+        ]
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "New York",
+        "addressRegion": "NY",
+        "postalCode": "10017",
+        "addressCountry": "US",
+        "streetAddress": "152 East 46th Street"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 40.7535728,
+        "longitude": -73.9734464
+      },
+      "telephone": "+16462987960",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4.8,
+        "reviewCount": "1500"
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Sunday",
+          "opens": "12:0",
+          "closes": "21:45"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Monday",
+          "opens": "11:0",
+          "closes": "21:30"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "11:0",
+          "closes": "21:45"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Saturday",
+          "opens": "12:0",
+          "closes": "21:45"
+        }
+      ],
+      "deals": [
+        {
+          "uuid": "9f278cd6-4411-45b2-8ede-549ff7053d79",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/2d96635e3805d79cf9fbba56ee27b288/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+          "title": "Garlic Naan",
+          "itemDescription": "Flatbread topped with garlic.\nOur food may contain gluten, dairy, nuts, shellfish, and eggs. Please notify for any allergies.",
+          "price": 599,
+          "priceTagline": {
+            "text": "$5.99",
+            "textFormat": "<span>$5.99</span>",
+            "accessibilityText": "$5.99"
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "Garlic Naan",
+            "textFormat": "<span>Garlic Naan</span>",
+            "accessibilityText": "Garlic Naan"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": false,
+          "numAlcoholicItems": 0,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "Flatbread topped with garlic.\nOur food may contain gluten, dairy, nuts, shellfish, and eggs. Please notify for any allergies.",
+            "textFormat": "<span style=\"color:#757575\">Flatbread topped with garlic.\nOur food may contain gluten, dairy, nuts, shellfish, and eggs. Please notify for any allergies.</span>"
+          },
+          "subsectionUuid": "5aaed777-4b50-4b51-9a11-6580e4c33471",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "maxPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 999,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "increment": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "defaultQuantity": {
+                    "base": {
+                      "high": 0,
+                      "low": 2,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 999,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 2
+                }
+              }
+            ],
+            "pricingInfo": {}
+          },
+          "sectionUuid": "4dffb9de-4437-4671-b667-6ee3c986f2f1",
+          "promoInfo": {
+            "promotionUUID": "f86a96e9-ef3a-4c69-b73a-7d60be634e4a",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "Buy 1, Get 1 Free",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "Buy 1, Get 1 Free"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "PILL",
+              "accessibilityText": "Buy 1, Get 1 Free"
+            },
+            "badgePosition": "OFF_IMAGE_BELOW_TEXT"
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$5.99",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": " • ",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "icon": {
+                  "icon": {
+                    "icon": "THUMB_UP_OUTLINE",
+                    "color": "PRIMARY",
+                    "size": "SPACING_UNIT_1_5X"
+                  },
+                  "alignment": "CENTERED"
+                },
+                "type": "icon"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": " 87% (256)",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$5.99, 87% of customers liked this based on 256 reviews."
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "Garlic Naan",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "Garlic Naan"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 0,
+            "endorsementMetadata": {
+              "endorsementType": "ratings",
+              "rating": "87%",
+              "numRatings": 256
+            },
             "promoType": "BOGO"
           },
           "imageOverlayElements": null,
@@ -20966,492 +21266,6 @@
     {
       "@context": "https://schema.org",
       "@type": "Restaurant",
-      "@id": "https://www.ubereats.com/store/jota-by-jose-andres-midtown-east/uGYtX0vbVP-UU4VDVyQasQ",
-      "name": "Jota by José Andrés (Midtown East)",
-      "servesCuisine": [
-        "Spanish",
-        "Seafood",
-        "Rice Dishes"
-      ],
-      "priceRange": "",
-      "image": [
-        "https://tb-static.uber.com/prod/image-proc/processed_images/0686ec9f4ddeaf4c12e7548674f70a23/8b3912aeb4ddaf35be933b04d2d337ad.jpeg",
-        "https://tb-static.uber.com/prod/image-proc/processed_images/0686ec9f4ddeaf4c12e7548674f70a23/f8403c421bef668ad381b5e82e546060.jpeg",
-        "https://tb-static.uber.com/prod/image-proc/processed_images/0686ec9f4ddeaf4c12e7548674f70a23/7a19de2b442cf39b430becc5fea2ef06.jpeg",
-        "https://tb-static.uber.com/prod/image-proc/processed_images/0686ec9f4ddeaf4c12e7548674f70a23/a35eeeca6698a2d3899f60d36c88ed97.jpeg",
-        "https://tb-static.uber.com/prod/image-proc/processed_images/0686ec9f4ddeaf4c12e7548674f70a23/c4114ef7f0cc2f8ee04dbb216969493e.jpeg",
-        "https://tb-static.uber.com/prod/image-proc/processed_images/0686ec9f4ddeaf4c12e7548674f70a23/9e31c708e4cf73b6e3ea1bd4a9b6e16b.jpeg"
-      ],
-      "potentialAction": {
-        "@type": "OrderAction",
-        "target": {
-          "@type": "EntryPoint",
-          "urlTemplate": "https://www.ubereats.com/store/jota-by-jose-andres-midtown-east/uGYtX0vbVP-UU4VDVyQasQ?utm_campaign=order-action&amp;utm_medium=organic",
-          "inLanguage": "English",
-          "actionPlatform": [
-            "https://schema.org/DesktopWebPlatform",
-            "https://schema.org/MobileWebPlatform"
-          ]
-        },
-        "deliveryMethod": [
-          "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
-          "http://purl.org/goodrelations/v1#DeliveryModePickUp"
-        ]
-      },
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "New York",
-        "addressRegion": "NY",
-        "postalCode": "10022",
-        "addressCountry": "US",
-        "streetAddress": "800 Third Ave"
-      },
-      "geo": {
-        "@type": "GeoCoordinates",
-        "latitude": 40.7554672,
-        "longitude": -73.9713587
-      },
-      "telephone": "+18558185806",
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": 4.4,
-        "reviewCount": "24"
-      },
-      "openingHoursSpecification": [
-        {
-          "@type": "OpeningHoursSpecification",
-          "dayOfWeek": [
-            "Monday",
-            "Tuesday",
-            "Wednesday",
-            "Thursday",
-            "Friday",
-            "Saturday",
-            "Sunday"
-          ],
-          "opens": "10:30",
-          "closes": "23:30"
-        }
-      ],
-      "deals": [
-        {
-          "uuid": "974c05cb-21ea-53bf-a898-e7dfa564190a",
-          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/36cee44f49a9a342afcbe165794916da/0fb376d1da56c05644450062d25c5c84.jpeg",
-          "title": "Pork Coppa Steak",
-          "itemDescription": "Pork coppa (aka shoulder) is revered as one of the most flavor-packed cuts. Rubbed with Spanish paprika, seared, and served with blue cheese, fresh parsley, and olive oil mashed potatoes",
-          "price": 2955,
-          "priceTagline": {
-            "text": "$29.55",
-            "textFormat": "<span>$29.55</span>",
-            "accessibilityText": "$29.55"
-          },
-          "spanCount": 2,
-          "displayType": "LIST",
-          "titleBadge": {
-            "text": "Pork Coppa Steak",
-            "textFormat": "<span>Pork Coppa Steak <img src=\"https://d4p17acsd5wyj.cloudfront.net/bazaar/grain.png\" width=\"14\" height=\"14\" vertical-align=\"middle\"/></span>",
-            "accessibilityText": "Pork Coppa Steak, GLUTEN_FREE"
-          },
-          "isSoldOut": false,
-          "hasCustomizations": true,
-          "numAlcoholicItems": 0,
-          "itemPromotion": {
-            "buyXGetYItemPromotion": {
-              "buyQuantity": 1,
-              "getQuantity": 1,
-              "maxRedemptionCount": 3
-            },
-            "type": "buyXGetYItemPromotion"
-          },
-          "itemDescriptionBadge": {
-            "text": "Pork coppa (aka shoulder) is revered as one of the most flavor-packed cuts. Rubbed with Spanish paprika, seared, and served with blue cheese, fresh parsley, and olive oil mashed potatoes",
-            "textFormat": "<span style=\"color:#757575\">Pork coppa (aka shoulder) is revered as one of the most flavor-packed cuts. Rubbed with Spanish paprika, seared, and served with blue cheese, fresh parsley, and olive oil mashed potatoes</span>"
-          },
-          "subsectionUuid": "3d839191-f5ee-5a80-b656-ceb169fdf38b",
-          "isAvailable": true,
-          "purchaseInfo": {
-            "purchaseOptions": [
-              {
-                "itemQuantityAbbreviation": "",
-                "quantityConstraintsV2": {
-                  "minPermitted": {
-                    "base": {
-                      "high": 0,
-                      "low": 1,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "maxPermitted": {
-                    "base": {
-                      "high": 0,
-                      "low": 999,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "increment": {
-                    "base": {
-                      "high": 0,
-                      "low": 1,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "defaultQuantity": {
-                    "base": {
-                      "high": 0,
-                      "low": 2,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "minPermittedNumber": 1,
-                  "maxPermittedNumber": 999,
-                  "incrementNumber": 1,
-                  "defaultQuantityNumber": 2
-                }
-              }
-            ],
-            "pricingInfo": {}
-          },
-          "sectionUuid": "57b5db8b-cd4f-5045-80a7-cd083b64eb3c",
-          "promoInfo": {
-            "promotionUUID": "72b09c84-ac1a-47cb-8442-6b0c9e5f8ad7",
-            "promoBadge": {
-              "content": {
-                "richText": {
-                  "richTextElements": [
-                    {
-                      "text": {
-                        "text": {
-                          "text": "Buy 1, Get 1 Free",
-                          "font": {
-                            "style": "LABEL_X_SMALL",
-                            "weight": "MEDIUM"
-                          },
-                          "color": "BRAND_CONTENT_ON_PRIMARY"
-                        },
-                        "predefinedDecorations": null
-                      },
-                      "type": "text"
-                    }
-                  ],
-                  "accessibilityText": "Buy 1, Get 1 Free"
-                },
-                "type": "richText"
-              },
-              "hierarchy": "PRIMARY",
-              "color": {
-                "custom": {
-                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
-                },
-                "type": "custom"
-              },
-              "shape": "PILL",
-              "accessibilityText": "Buy 1, Get 1 Free"
-            },
-            "badgePosition": "OFF_IMAGE_BELOW_TEXT"
-          },
-          "quickAddConfig": {
-            "shouldShow": true,
-            "isInteractionEnabled": false,
-            "position": "BOTTOM_TRAILING"
-          },
-          "labelPrimary": {
-            "richTextElements": [
-              {
-                "text": {
-                  "text": {
-                    "text": "$29.55",
-                    "font": {
-                      "style": "PARAGRAPH_SMALL",
-                      "weight": "NORMAL"
-                    },
-                    "color": "CONTENT_PRIMARY"
-                  },
-                  "predefinedDecorations": null
-                },
-                "type": "text"
-              }
-            ],
-            "accessibilityText": "$29.55"
-          },
-          "headingPrimary": {
-            "richTextElements": [
-              {
-                "text": {
-                  "text": {
-                    "text": "Pork Coppa Steak",
-                    "font": {
-                      "style": "LABEL_DEFAULT",
-                      "weight": "MEDIUM"
-                    },
-                    "color": "CONTENT_PRIMARY"
-                  },
-                  "predefinedDecorations": null
-                },
-                "type": "text"
-              }
-            ],
-            "accessibilityText": "Pork Coppa Steak"
-          },
-          "itemAvailabilityState": "UNKNOWN",
-          "catalogItemAnalyticsData": {
-            "catalogSectionItemPosition": 2,
-            "promoType": "BOGO"
-          },
-          "imageOverlayElements": null,
-          "itemThumbnailElements": null,
-          "isWebPdpSupported": false
-        }
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Restaurant",
-      "@id": "https://www.ubereats.com/store/walnut-lane-by-jonathan-waxman-midtown-east/WhPI9SoCUxO368FcOMD4Vw",
-      "name": "Walnut Lane by Jonathan Waxman (Midtown East)",
-      "servesCuisine": [
-        "Comfort Food",
-        "American",
-        "Pasta",
-        "Italian",
-        "Gluten Free"
-      ],
-      "priceRange": "",
-      "image": [
-        "https://tb-static.uber.com/prod/image-proc/processed_images/bba01c48eef7ed912b0b24bd9687e178/8b3912aeb4ddaf35be933b04d2d337ad.jpeg",
-        "https://tb-static.uber.com/prod/image-proc/processed_images/bba01c48eef7ed912b0b24bd9687e178/f8403c421bef668ad381b5e82e546060.jpeg",
-        "https://tb-static.uber.com/prod/image-proc/processed_images/bba01c48eef7ed912b0b24bd9687e178/7a19de2b442cf39b430becc5fea2ef06.jpeg",
-        "https://tb-static.uber.com/prod/image-proc/processed_images/bba01c48eef7ed912b0b24bd9687e178/a35eeeca6698a2d3899f60d36c88ed97.jpeg",
-        "https://tb-static.uber.com/prod/image-proc/processed_images/bba01c48eef7ed912b0b24bd9687e178/c4114ef7f0cc2f8ee04dbb216969493e.jpeg",
-        "https://tb-static.uber.com/prod/image-proc/processed_images/bba01c48eef7ed912b0b24bd9687e178/9e31c708e4cf73b6e3ea1bd4a9b6e16b.jpeg"
-      ],
-      "potentialAction": {
-        "@type": "OrderAction",
-        "target": {
-          "@type": "EntryPoint",
-          "urlTemplate": "https://www.ubereats.com/store/walnut-lane-by-jonathan-waxman-midtown-east/WhPI9SoCUxO368FcOMD4Vw?utm_campaign=order-action&amp;utm_medium=organic",
-          "inLanguage": "English",
-          "actionPlatform": [
-            "https://schema.org/DesktopWebPlatform",
-            "https://schema.org/MobileWebPlatform"
-          ]
-        },
-        "deliveryMethod": [
-          "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
-          "http://purl.org/goodrelations/v1#DeliveryModePickUp"
-        ]
-      },
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "New York",
-        "addressRegion": "NY",
-        "postalCode": "10022",
-        "addressCountry": "US",
-        "streetAddress": "800 Third Ave"
-      },
-      "geo": {
-        "@type": "GeoCoordinates",
-        "latitude": 40.75563,
-        "longitude": -73.97151
-      },
-      "telephone": "+18558185806",
-      "aggregateRating": {},
-      "openingHoursSpecification": [
-        {
-          "@type": "OpeningHoursSpecification",
-          "dayOfWeek": [
-            "Monday",
-            "Tuesday",
-            "Wednesday",
-            "Thursday",
-            "Friday",
-            "Saturday",
-            "Sunday"
-          ],
-          "opens": "10:30",
-          "closes": "23:30"
-        }
-      ],
-      "deals": [
-        {
-          "uuid": "5d149f4f-75b2-5a0c-8f99-34d12f13857e",
-          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/a7edaab11a9243a54ce01775532e41e7/0fb376d1da56c05644450062d25c5c84.jpeg",
-          "title": "Mushroom & Goat Cheese Bruschetta",
-          "itemDescription": "Crunchy, toasted bread and creamy, tart goat cheese are topped with roasted oyster, cremini, and button mushrooms for the perfect starter or side",
-          "price": 1095,
-          "priceTagline": {
-            "text": "$10.95",
-            "textFormat": "<span>$10.95</span>",
-            "accessibilityText": "$10.95"
-          },
-          "spanCount": 2,
-          "displayType": "LIST",
-          "titleBadge": {
-            "text": "Mushroom & Goat Cheese Bruschetta",
-            "textFormat": "<span>Mushroom &amp; Goat Cheese Bruschetta <img src=\"https://d4p17acsd5wyj.cloudfront.net/bazaar/leaf.png\" width=\"14\" height=\"14\" vertical-align=\"middle\"/></span>",
-            "accessibilityText": "Mushroom & Goat Cheese Bruschetta, VEGETARIAN"
-          },
-          "isSoldOut": false,
-          "hasCustomizations": false,
-          "numAlcoholicItems": 0,
-          "itemPromotion": {
-            "buyXGetYItemPromotion": {
-              "buyQuantity": 1,
-              "getQuantity": 1,
-              "maxRedemptionCount": 3
-            },
-            "type": "buyXGetYItemPromotion"
-          },
-          "itemDescriptionBadge": {
-            "text": "Crunchy, toasted bread and creamy, tart goat cheese are topped with roasted oyster, cremini, and button mushrooms for the perfect starter or side",
-            "textFormat": "<span style=\"color:#757575\">Crunchy, toasted bread and creamy, tart goat cheese are topped with roasted oyster, cremini, and button mushrooms for the perfect starter or side</span>"
-          },
-          "subsectionUuid": "c6fe2f13-c25b-5b45-9126-a590e2f610a9",
-          "isAvailable": true,
-          "purchaseInfo": {
-            "purchaseOptions": [
-              {
-                "itemQuantityAbbreviation": "",
-                "quantityConstraintsV2": {
-                  "minPermitted": {
-                    "base": {
-                      "high": 0,
-                      "low": 1,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "maxPermitted": {
-                    "base": {
-                      "high": 0,
-                      "low": 999,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "increment": {
-                    "base": {
-                      "high": 0,
-                      "low": 1,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "defaultQuantity": {
-                    "base": {
-                      "high": 0,
-                      "low": 2,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "minPermittedNumber": 1,
-                  "maxPermittedNumber": 999,
-                  "incrementNumber": 1,
-                  "defaultQuantityNumber": 2
-                }
-              }
-            ],
-            "pricingInfo": {}
-          },
-          "sectionUuid": "e8f3cbe1-8341-5d26-9bbe-f528e521318d",
-          "promoInfo": {
-            "promotionUUID": "f4e886d6-06af-41aa-839a-5367f1b6a6aa",
-            "promoBadge": {
-              "content": {
-                "richText": {
-                  "richTextElements": [
-                    {
-                      "text": {
-                        "text": {
-                          "text": "Buy 1, Get 1 Free",
-                          "font": {
-                            "style": "LABEL_X_SMALL",
-                            "weight": "MEDIUM"
-                          },
-                          "color": "BRAND_CONTENT_ON_PRIMARY"
-                        },
-                        "predefinedDecorations": null
-                      },
-                      "type": "text"
-                    }
-                  ],
-                  "accessibilityText": "Buy 1, Get 1 Free"
-                },
-                "type": "richText"
-              },
-              "hierarchy": "PRIMARY",
-              "color": {
-                "custom": {
-                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
-                },
-                "type": "custom"
-              },
-              "shape": "PILL",
-              "accessibilityText": "Buy 1, Get 1 Free"
-            },
-            "badgePosition": "OFF_IMAGE_BELOW_TEXT"
-          },
-          "quickAddConfig": {
-            "shouldShow": true,
-            "isInteractionEnabled": false,
-            "position": "BOTTOM_TRAILING"
-          },
-          "labelPrimary": {
-            "richTextElements": [
-              {
-                "text": {
-                  "text": {
-                    "text": "$10.95",
-                    "font": {
-                      "style": "PARAGRAPH_SMALL",
-                      "weight": "NORMAL"
-                    },
-                    "color": "CONTENT_PRIMARY"
-                  },
-                  "predefinedDecorations": null
-                },
-                "type": "text"
-              }
-            ],
-            "accessibilityText": "$10.95"
-          },
-          "headingPrimary": {
-            "richTextElements": [
-              {
-                "text": {
-                  "text": {
-                    "text": "Mushroom & Goat Cheese Bruschetta",
-                    "font": {
-                      "style": "LABEL_DEFAULT",
-                      "weight": "MEDIUM"
-                    },
-                    "color": "CONTENT_PRIMARY"
-                  },
-                  "predefinedDecorations": null
-                },
-                "type": "text"
-              }
-            ],
-            "accessibilityText": "Mushroom & Goat Cheese Bruschetta"
-          },
-          "itemAvailabilityState": "UNKNOWN",
-          "catalogItemAnalyticsData": {
-            "catalogSectionItemPosition": 2,
-            "promoType": "BOGO"
-          },
-          "imageOverlayElements": null,
-          "itemThumbnailElements": null,
-          "isWebPdpSupported": false
-        }
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Restaurant",
       "@id": "https://www.ubereats.com/store/chios-greek-taverna-by-michael-symon-midtown-east/2eTrZoXJWGyPDr7Gjmbe7g",
       "name": "Chios Greek Taverna by Michael Symon (Midtown East)",
       "servesCuisine": [
@@ -21862,682 +21676,6 @@
     {
       "@context": "https://schema.org",
       "@type": "Restaurant",
-      "@id": "https://www.ubereats.com/store/alanza-pizza-midtown-east/lS9TFeDLV5Cqkms6-7Rp1w",
-      "name": "Alanza Pizza (Midtown East)",
-      "servesCuisine": [
-        "Gluten Free",
-        "Comfort Food",
-        "Italian",
-        "Pizza",
-        "American"
-      ],
-      "priceRange": "",
-      "image": [
-        "https://tb-static.uber.com/prod/image-proc/processed_images/b54e382af8bf18990552b3139bd593ae/8b3912aeb4ddaf35be933b04d2d337ad.jpeg",
-        "https://tb-static.uber.com/prod/image-proc/processed_images/b54e382af8bf18990552b3139bd593ae/f8403c421bef668ad381b5e82e546060.jpeg",
-        "https://tb-static.uber.com/prod/image-proc/processed_images/b54e382af8bf18990552b3139bd593ae/7a19de2b442cf39b430becc5fea2ef06.jpeg",
-        "https://tb-static.uber.com/prod/image-proc/processed_images/b54e382af8bf18990552b3139bd593ae/a35eeeca6698a2d3899f60d36c88ed97.jpeg",
-        "https://tb-static.uber.com/prod/image-proc/processed_images/b54e382af8bf18990552b3139bd593ae/c4114ef7f0cc2f8ee04dbb216969493e.jpeg",
-        "https://tb-static.uber.com/prod/image-proc/processed_images/b54e382af8bf18990552b3139bd593ae/9e31c708e4cf73b6e3ea1bd4a9b6e16b.jpeg"
-      ],
-      "potentialAction": {
-        "@type": "OrderAction",
-        "target": {
-          "@type": "EntryPoint",
-          "urlTemplate": "https://www.ubereats.com/store/alanza-pizza-midtown-east/lS9TFeDLV5Cqkms6-7Rp1w?utm_campaign=order-action&amp;utm_medium=organic",
-          "inLanguage": "English",
-          "actionPlatform": [
-            "https://schema.org/DesktopWebPlatform",
-            "https://schema.org/MobileWebPlatform"
-          ]
-        },
-        "deliveryMethod": [
-          "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
-          "http://purl.org/goodrelations/v1#DeliveryModePickUp"
-        ]
-      },
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "New York",
-        "addressRegion": "NY",
-        "postalCode": "10022",
-        "addressCountry": "US",
-        "streetAddress": "800 Third Ave"
-      },
-      "geo": {
-        "@type": "GeoCoordinates",
-        "latitude": 40.7554285,
-        "longitude": -73.9712895
-      },
-      "telephone": "+18558185806",
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": 4.3,
-        "reviewCount": "13"
-      },
-      "openingHoursSpecification": [
-        {
-          "@type": "OpeningHoursSpecification",
-          "dayOfWeek": [
-            "Monday",
-            "Tuesday",
-            "Wednesday",
-            "Thursday",
-            "Friday",
-            "Saturday",
-            "Sunday"
-          ],
-          "opens": "10:30",
-          "closes": "23:30"
-        }
-      ],
-      "deals": [
-        {
-          "uuid": "f48562bb-61f9-5803-83d9-018c678ed436",
-          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/cb1c1e94f5328c48e69561eb12a13666/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
-          "title": "Cheese Pizza",
-          "itemDescription": "Topped with rich marinara and creamy mozzarella, this simple and delicious pizza is the starting point for all of Alanza's classic red sauce pies. 12\" pie - 6 slices",
-          "price": 1095,
-          "priceTagline": {
-            "text": "$10.95",
-            "textFormat": "<span>$10.95</span>",
-            "accessibilityText": "$10.95"
-          },
-          "spanCount": 2,
-          "displayType": "LIST",
-          "titleBadge": {
-            "text": "Cheese Pizza",
-            "textFormat": "<span>Cheese Pizza <img src=\"https://d4p17acsd5wyj.cloudfront.net/bazaar/leaf.png\" width=\"14\" height=\"14\" vertical-align=\"middle\"/></span>",
-            "accessibilityText": "Cheese Pizza, VEGETARIAN"
-          },
-          "isSoldOut": false,
-          "hasCustomizations": true,
-          "numAlcoholicItems": 0,
-          "itemPromotion": {
-            "buyXGetYItemPromotion": {
-              "buyQuantity": 1,
-              "getQuantity": 1,
-              "maxRedemptionCount": 3
-            },
-            "type": "buyXGetYItemPromotion"
-          },
-          "itemDescriptionBadge": {
-            "text": "Topped with rich marinara and creamy mozzarella, this simple and delicious pizza is the starting point for all of Alanza's classic red sauce pies. 12\" pie - 6 slices",
-            "textFormat": "<span style=\"color:#757575\">Topped with rich marinara and creamy mozzarella, this simple and delicious pizza is the starting point for all of Alanza&#39;s classic red sauce pies. 12&#34; pie - 6 slices</span>"
-          },
-          "subsectionUuid": "95dff707-a651-50e8-a6fa-2f7593175898",
-          "isAvailable": true,
-          "purchaseInfo": {
-            "purchaseOptions": [
-              {
-                "itemQuantityAbbreviation": "",
-                "quantityConstraintsV2": {
-                  "minPermitted": {
-                    "base": {
-                      "high": 0,
-                      "low": 1,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "maxPermitted": {
-                    "base": {
-                      "high": 0,
-                      "low": 999,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "increment": {
-                    "base": {
-                      "high": 0,
-                      "low": 1,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "defaultQuantity": {
-                    "base": {
-                      "high": 0,
-                      "low": 2,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "minPermittedNumber": 1,
-                  "maxPermittedNumber": 999,
-                  "incrementNumber": 1,
-                  "defaultQuantityNumber": 2
-                }
-              }
-            ],
-            "pricingInfo": {}
-          },
-          "sectionUuid": "a86efdb0-d915-5612-a833-43e98ee2bb97",
-          "promoInfo": {
-            "promotionUUID": "407edde7-4a15-47c5-9806-b714297f9ac6",
-            "promoBadge": {
-              "content": {
-                "richText": {
-                  "richTextElements": [
-                    {
-                      "text": {
-                        "text": {
-                          "text": "Buy 1, Get 1 Free",
-                          "font": {
-                            "style": "LABEL_X_SMALL",
-                            "weight": "MEDIUM"
-                          },
-                          "color": "BRAND_CONTENT_ON_PRIMARY"
-                        },
-                        "predefinedDecorations": null
-                      },
-                      "type": "text"
-                    }
-                  ],
-                  "accessibilityText": "Buy 1, Get 1 Free"
-                },
-                "type": "richText"
-              },
-              "hierarchy": "PRIMARY",
-              "color": {
-                "custom": {
-                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
-                },
-                "type": "custom"
-              },
-              "shape": "PILL",
-              "accessibilityText": "Buy 1, Get 1 Free"
-            },
-            "badgePosition": "OFF_IMAGE_BELOW_TEXT"
-          },
-          "quickAddConfig": {
-            "shouldShow": true,
-            "isInteractionEnabled": false,
-            "position": "BOTTOM_TRAILING"
-          },
-          "labelPrimary": {
-            "richTextElements": [
-              {
-                "text": {
-                  "text": {
-                    "text": "$10.95",
-                    "font": {
-                      "style": "PARAGRAPH_SMALL",
-                      "weight": "NORMAL"
-                    },
-                    "color": "CONTENT_PRIMARY"
-                  },
-                  "predefinedDecorations": null
-                },
-                "type": "text"
-              },
-              {
-                "text": {
-                  "text": {
-                    "text": " • ",
-                    "font": {
-                      "style": "PARAGRAPH_SMALL",
-                      "weight": "NORMAL"
-                    },
-                    "color": "CONTENT_PRIMARY"
-                  },
-                  "predefinedDecorations": null
-                },
-                "type": "text"
-              },
-              {
-                "icon": {
-                  "icon": {
-                    "icon": "THUMB_UP_OUTLINE",
-                    "color": "PRIMARY",
-                    "size": "SPACING_UNIT_1_5X"
-                  },
-                  "alignment": "CENTERED"
-                },
-                "type": "icon"
-              },
-              {
-                "text": {
-                  "text": {
-                    "text": " 80% (5)",
-                    "font": {
-                      "style": "PARAGRAPH_SMALL",
-                      "weight": "NORMAL"
-                    },
-                    "color": "CONTENT_PRIMARY"
-                  },
-                  "predefinedDecorations": null
-                },
-                "type": "text"
-              }
-            ],
-            "accessibilityText": "$10.95, 80% of customers liked this based on 5 reviews."
-          },
-          "headingPrimary": {
-            "richTextElements": [
-              {
-                "text": {
-                  "text": {
-                    "text": "Cheese Pizza",
-                    "font": {
-                      "style": "LABEL_DEFAULT",
-                      "weight": "MEDIUM"
-                    },
-                    "color": "CONTENT_PRIMARY"
-                  },
-                  "predefinedDecorations": null
-                },
-                "type": "text"
-              }
-            ],
-            "accessibilityText": "Cheese Pizza"
-          },
-          "itemAvailabilityState": "UNKNOWN",
-          "catalogItemAnalyticsData": {
-            "catalogSectionItemPosition": 0,
-            "endorsementMetadata": {
-              "endorsementType": "ratings",
-              "rating": "80%",
-              "numRatings": 5
-            },
-            "promoType": "BOGO"
-          },
-          "imageOverlayElements": null,
-          "itemThumbnailElements": null,
-          "isWebPdpSupported": false
-        },
-        {
-          "uuid": "3300947c-6f3a-5ce1-bfa4-d98cbe96352a",
-          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/ab620abdbdb8b812dd5af3cc593c21af/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
-          "title": "Pepperoni Pizza",
-          "itemDescription": "Marinara and mozzarella are topped with crisp pepperoni cups in Alanza's version of the classic favorite. 12\" pie - 6 slices",
-          "price": 1155,
-          "priceTagline": {
-            "text": "$11.55",
-            "textFormat": "<span>$11.55</span>",
-            "accessibilityText": "$11.55"
-          },
-          "spanCount": 2,
-          "displayType": "LIST",
-          "titleBadge": {
-            "text": "Pepperoni Pizza",
-            "textFormat": "<span>Pepperoni Pizza</span>",
-            "accessibilityText": "Pepperoni Pizza"
-          },
-          "isSoldOut": false,
-          "hasCustomizations": true,
-          "numAlcoholicItems": 0,
-          "itemPromotion": {
-            "buyXGetYItemPromotion": {
-              "buyQuantity": 1,
-              "getQuantity": 1,
-              "maxRedemptionCount": 3
-            },
-            "type": "buyXGetYItemPromotion"
-          },
-          "itemDescriptionBadge": {
-            "text": "Marinara and mozzarella are topped with crisp pepperoni cups in Alanza's version of the classic favorite. 12\" pie - 6 slices",
-            "textFormat": "<span style=\"color:#757575\">Marinara and mozzarella are topped with crisp pepperoni cups in Alanza&#39;s version of the classic favorite. 12&#34; pie - 6 slices</span>"
-          },
-          "subsectionUuid": "95dff707-a651-50e8-a6fa-2f7593175898",
-          "isAvailable": true,
-          "purchaseInfo": {
-            "purchaseOptions": [
-              {
-                "itemQuantityAbbreviation": "",
-                "quantityConstraintsV2": {
-                  "minPermitted": {
-                    "base": {
-                      "high": 0,
-                      "low": 1,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "maxPermitted": {
-                    "base": {
-                      "high": 0,
-                      "low": 999,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "increment": {
-                    "base": {
-                      "high": 0,
-                      "low": 1,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "defaultQuantity": {
-                    "base": {
-                      "high": 0,
-                      "low": 2,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "minPermittedNumber": 1,
-                  "maxPermittedNumber": 999,
-                  "incrementNumber": 1,
-                  "defaultQuantityNumber": 2
-                }
-              }
-            ],
-            "pricingInfo": {}
-          },
-          "sectionUuid": "a86efdb0-d915-5612-a833-43e98ee2bb97",
-          "promoInfo": {
-            "promotionUUID": "407edde7-4a15-47c5-9806-b714297f9ac6",
-            "promoBadge": {
-              "content": {
-                "richText": {
-                  "richTextElements": [
-                    {
-                      "text": {
-                        "text": {
-                          "text": "Buy 1, Get 1 Free",
-                          "font": {
-                            "style": "LABEL_X_SMALL",
-                            "weight": "MEDIUM"
-                          },
-                          "color": "BRAND_CONTENT_ON_PRIMARY"
-                        },
-                        "predefinedDecorations": null
-                      },
-                      "type": "text"
-                    }
-                  ],
-                  "accessibilityText": "Buy 1, Get 1 Free"
-                },
-                "type": "richText"
-              },
-              "hierarchy": "PRIMARY",
-              "color": {
-                "custom": {
-                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
-                },
-                "type": "custom"
-              },
-              "shape": "PILL",
-              "accessibilityText": "Buy 1, Get 1 Free"
-            },
-            "badgePosition": "OFF_IMAGE_BELOW_TEXT"
-          },
-          "quickAddConfig": {
-            "shouldShow": true,
-            "isInteractionEnabled": false,
-            "position": "BOTTOM_TRAILING"
-          },
-          "labelPrimary": {
-            "richTextElements": [
-              {
-                "text": {
-                  "text": {
-                    "text": "$11.55",
-                    "font": {
-                      "style": "PARAGRAPH_SMALL",
-                      "weight": "NORMAL"
-                    },
-                    "color": "CONTENT_PRIMARY"
-                  },
-                  "predefinedDecorations": null
-                },
-                "type": "text"
-              },
-              {
-                "text": {
-                  "text": {
-                    "text": " • ",
-                    "font": {
-                      "style": "PARAGRAPH_SMALL",
-                      "weight": "NORMAL"
-                    },
-                    "color": "CONTENT_PRIMARY"
-                  },
-                  "predefinedDecorations": null
-                },
-                "type": "text"
-              },
-              {
-                "icon": {
-                  "icon": {
-                    "icon": "THUMB_UP_OUTLINE",
-                    "color": "PRIMARY",
-                    "size": "SPACING_UNIT_1_5X"
-                  },
-                  "alignment": "CENTERED"
-                },
-                "type": "icon"
-              },
-              {
-                "text": {
-                  "text": {
-                    "text": " 66% (3)",
-                    "font": {
-                      "style": "PARAGRAPH_SMALL",
-                      "weight": "NORMAL"
-                    },
-                    "color": "CONTENT_PRIMARY"
-                  },
-                  "predefinedDecorations": null
-                },
-                "type": "text"
-              }
-            ],
-            "accessibilityText": "$11.55, 66% of customers liked this based on 3 reviews."
-          },
-          "headingPrimary": {
-            "richTextElements": [
-              {
-                "text": {
-                  "text": {
-                    "text": "Pepperoni Pizza",
-                    "font": {
-                      "style": "LABEL_DEFAULT",
-                      "weight": "MEDIUM"
-                    },
-                    "color": "CONTENT_PRIMARY"
-                  },
-                  "predefinedDecorations": null
-                },
-                "type": "text"
-              }
-            ],
-            "accessibilityText": "Pepperoni Pizza"
-          },
-          "itemAvailabilityState": "UNKNOWN",
-          "catalogItemAnalyticsData": {
-            "catalogSectionItemPosition": 1,
-            "endorsementMetadata": {
-              "endorsementType": "ratings",
-              "rating": "66%",
-              "numRatings": 3
-            },
-            "promoType": "BOGO"
-          },
-          "imageOverlayElements": null,
-          "itemThumbnailElements": null,
-          "isWebPdpSupported": false
-        },
-        {
-          "uuid": "601f5f15-b62c-5cae-9935-35621119ef54",
-          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/af733a787fdf08e811412c5ea5368875/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
-          "title": "Vodka Pizza",
-          "itemDescription": "A spin on a classic cheese pie, this version replaces marinara with creamy, mildly spicy tomato vodka sauce. Finished with mozzarella, shaved Parmesan, and basil. 12\" pie - 6 slices",
-          "price": 1095,
-          "priceTagline": {
-            "text": "$10.95",
-            "textFormat": "<span>$10.95</span>",
-            "accessibilityText": "$10.95"
-          },
-          "spanCount": 2,
-          "displayType": "LIST",
-          "titleBadge": {
-            "text": "Vodka Pizza",
-            "textFormat": "<span>Vodka Pizza <img src=\"https://d4p17acsd5wyj.cloudfront.net/bazaar/leaf.png\" width=\"14\" height=\"14\" vertical-align=\"middle\"/></span>",
-            "accessibilityText": "Vodka Pizza, VEGETARIAN"
-          },
-          "isSoldOut": false,
-          "hasCustomizations": true,
-          "numAlcoholicItems": 0,
-          "itemPromotion": {
-            "buyXGetYItemPromotion": {
-              "buyQuantity": 1,
-              "getQuantity": 1,
-              "maxRedemptionCount": 3
-            },
-            "type": "buyXGetYItemPromotion"
-          },
-          "itemDescriptionBadge": {
-            "text": "A spin on a classic cheese pie, this version replaces marinara with creamy, mildly spicy tomato vodka sauce. Finished with mozzarella, shaved Parmesan, and basil. 12\" pie - 6 slices",
-            "textFormat": "<span style=\"color:#757575\">A spin on a classic cheese pie, this version replaces marinara with creamy, mildly spicy tomato vodka sauce. Finished with mozzarella, shaved Parmesan, and basil. 12&#34; pie - 6 slices</span>"
-          },
-          "subsectionUuid": "95dff707-a651-50e8-a6fa-2f7593175898",
-          "isAvailable": true,
-          "purchaseInfo": {
-            "purchaseOptions": [
-              {
-                "itemQuantityAbbreviation": "",
-                "quantityConstraintsV2": {
-                  "minPermitted": {
-                    "base": {
-                      "high": 0,
-                      "low": 1,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "maxPermitted": {
-                    "base": {
-                      "high": 0,
-                      "low": 999,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "increment": {
-                    "base": {
-                      "high": 0,
-                      "low": 1,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "defaultQuantity": {
-                    "base": {
-                      "high": 0,
-                      "low": 2,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "minPermittedNumber": 1,
-                  "maxPermittedNumber": 999,
-                  "incrementNumber": 1,
-                  "defaultQuantityNumber": 2
-                }
-              }
-            ],
-            "pricingInfo": {}
-          },
-          "sectionUuid": "a86efdb0-d915-5612-a833-43e98ee2bb97",
-          "promoInfo": {
-            "promotionUUID": "407edde7-4a15-47c5-9806-b714297f9ac6",
-            "promoBadge": {
-              "content": {
-                "richText": {
-                  "richTextElements": [
-                    {
-                      "text": {
-                        "text": {
-                          "text": "Buy 1, Get 1 Free",
-                          "font": {
-                            "style": "LABEL_X_SMALL",
-                            "weight": "MEDIUM"
-                          },
-                          "color": "BRAND_CONTENT_ON_PRIMARY"
-                        },
-                        "predefinedDecorations": null
-                      },
-                      "type": "text"
-                    }
-                  ],
-                  "accessibilityText": "Buy 1, Get 1 Free"
-                },
-                "type": "richText"
-              },
-              "hierarchy": "PRIMARY",
-              "color": {
-                "custom": {
-                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
-                },
-                "type": "custom"
-              },
-              "shape": "PILL",
-              "accessibilityText": "Buy 1, Get 1 Free"
-            },
-            "badgePosition": "OFF_IMAGE_BELOW_TEXT"
-          },
-          "quickAddConfig": {
-            "shouldShow": true,
-            "isInteractionEnabled": false,
-            "position": "BOTTOM_TRAILING"
-          },
-          "labelPrimary": {
-            "richTextElements": [
-              {
-                "text": {
-                  "text": {
-                    "text": "$10.95",
-                    "font": {
-                      "style": "PARAGRAPH_SMALL",
-                      "weight": "NORMAL"
-                    },
-                    "color": "CONTENT_PRIMARY"
-                  },
-                  "predefinedDecorations": null
-                },
-                "type": "text"
-              }
-            ],
-            "accessibilityText": "$10.95"
-          },
-          "headingPrimary": {
-            "richTextElements": [
-              {
-                "text": {
-                  "text": {
-                    "text": "Vodka Pizza",
-                    "font": {
-                      "style": "LABEL_DEFAULT",
-                      "weight": "MEDIUM"
-                    },
-                    "color": "CONTENT_PRIMARY"
-                  },
-                  "predefinedDecorations": null
-                },
-                "type": "text"
-              }
-            ],
-            "accessibilityText": "Vodka Pizza"
-          },
-          "itemAvailabilityState": "UNKNOWN",
-          "catalogItemAnalyticsData": {
-            "catalogSectionItemPosition": 2,
-            "promoType": "BOGO"
-          },
-          "imageOverlayElements": null,
-          "itemThumbnailElements": null,
-          "isWebPdpSupported": false
-        }
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Restaurant",
       "@id": "https://www.ubereats.com/store/the-mainstay-by-marc-murphy-midtown-east/C0pl5ctxVKG1IkwApL6hDg",
       "name": "The Mainstay by Marc Murphy (Midtown East)",
       "servesCuisine": [
@@ -22767,249 +21905,6 @@
           "itemAvailabilityState": "UNKNOWN",
           "catalogItemAnalyticsData": {
             "catalogSectionItemPosition": 0,
-            "promoType": "BOGO"
-          },
-          "imageOverlayElements": null,
-          "itemThumbnailElements": null,
-          "isWebPdpSupported": false
-        }
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Restaurant",
-      "@id": "https://www.ubereats.com/store/alanza%3A-traditional-italian-midtown-east/m98IYNKUX76B6ueFhEE38w",
-      "name": "Alanza: Traditional Italian (Midtown East)",
-      "servesCuisine": [
-        "Italian",
-        "Pasta",
-        "Comfort Food"
-      ],
-      "priceRange": "",
-      "image": [
-        "https://tb-static.uber.com/prod/image-proc/processed_images/4a53ef3dd74650c3982c185b464e18f6/6a46de29c91d235bc2878fe87fd740f6.jpeg",
-        "https://tb-static.uber.com/prod/image-proc/processed_images/4a53ef3dd74650c3982c185b464e18f6/4a9dc0556f3090689240dd59b4617ba7.jpeg"
-      ],
-      "potentialAction": {
-        "@type": "OrderAction",
-        "target": {
-          "@type": "EntryPoint",
-          "urlTemplate": "https://www.ubereats.com/store/alanza%3A-traditional-italian-midtown-east/m98IYNKUX76B6ueFhEE38w?utm_campaign=order-action&amp;utm_medium=organic",
-          "inLanguage": "English",
-          "actionPlatform": [
-            "https://schema.org/DesktopWebPlatform",
-            "https://schema.org/MobileWebPlatform"
-          ]
-        },
-        "deliveryMethod": [
-          "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
-          "http://purl.org/goodrelations/v1#DeliveryModePickUp"
-        ]
-      },
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "New York",
-        "addressRegion": "NY",
-        "postalCode": "10017",
-        "addressCountry": "US",
-        "streetAddress": "800 3rd Ave"
-      },
-      "geo": {
-        "@type": "GeoCoordinates",
-        "latitude": 40.75564,
-        "longitude": -73.97135
-      },
-      "telephone": "",
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": 5,
-        "reviewCount": "3"
-      },
-      "openingHoursSpecification": [
-        {
-          "@type": "OpeningHoursSpecification",
-          "dayOfWeek": [
-            "Monday",
-            "Tuesday",
-            "Wednesday",
-            "Thursday",
-            "Friday",
-            "Saturday",
-            "Sunday"
-          ],
-          "opens": "10:30",
-          "closes": "23:30"
-        }
-      ],
-      "deals": [
-        {
-          "uuid": "28f7790a-34e0-5eaa-996b-f222131285cb",
-          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/e2ee991fc43e3263e4227df0941d48fd/0fb376d1da56c05644450062d25c5c84.jpeg",
-          "title": "Chicken Milanese",
-          "itemDescription": "A favorite uncle's favorite dish: breaded chicken cutlet, pan-fried and topped with arugula, radicchio, fennel, grape tomatoes, basil, pine nuts, Parmesan, and a tangy lemon vinaigrette",
-          "price": 2135,
-          "priceTagline": {
-            "text": "$21.35",
-            "textFormat": "<span>$21.35</span>",
-            "accessibilityText": "$21.35"
-          },
-          "spanCount": 2,
-          "displayType": "LIST",
-          "titleBadge": {
-            "text": "Chicken Milanese",
-            "textFormat": "<span>Chicken Milanese</span>",
-            "accessibilityText": "Chicken Milanese"
-          },
-          "isSoldOut": false,
-          "hasCustomizations": false,
-          "numAlcoholicItems": 0,
-          "itemPromotion": {
-            "buyXGetYItemPromotion": {
-              "buyQuantity": 1,
-              "getQuantity": 1,
-              "maxRedemptionCount": 3
-            },
-            "type": "buyXGetYItemPromotion"
-          },
-          "itemDescriptionBadge": {
-            "text": "A favorite uncle's favorite dish: breaded chicken cutlet, pan-fried and topped with arugula, radicchio, fennel, grape tomatoes, basil, pine nuts, Parmesan, and a tangy lemon vinaigrette",
-            "textFormat": "<span style=\"color:#757575\">A favorite uncle&#39;s favorite dish: breaded chicken cutlet, pan-fried and topped with arugula, radicchio, fennel, grape tomatoes, basil, pine nuts, Parmesan, and a tangy lemon vinaigrette</span>"
-          },
-          "subsectionUuid": "be9143a9-4a06-5b80-b98c-fee023d47ae9",
-          "isAvailable": true,
-          "purchaseInfo": {
-            "purchaseOptions": [
-              {
-                "itemQuantityAbbreviation": "",
-                "quantityConstraintsV2": {
-                  "minPermitted": {
-                    "base": {
-                      "high": 0,
-                      "low": 1,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "maxPermitted": {
-                    "base": {
-                      "high": 0,
-                      "low": 999,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "increment": {
-                    "base": {
-                      "high": 0,
-                      "low": 1,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "defaultQuantity": {
-                    "base": {
-                      "high": 0,
-                      "low": 2,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "minPermittedNumber": 1,
-                  "maxPermittedNumber": 999,
-                  "incrementNumber": 1,
-                  "defaultQuantityNumber": 2
-                }
-              }
-            ],
-            "pricingInfo": {}
-          },
-          "sectionUuid": "623a9b05-4e21-5fe9-a415-678f41ea2bf4",
-          "promoInfo": {
-            "promotionUUID": "8fea235e-4c1d-4b66-8257-5b57ee7edfc1",
-            "promoBadge": {
-              "content": {
-                "richText": {
-                  "richTextElements": [
-                    {
-                      "text": {
-                        "text": {
-                          "text": "Buy 1, Get 1 Free",
-                          "font": {
-                            "style": "LABEL_X_SMALL",
-                            "weight": "MEDIUM"
-                          },
-                          "color": "BRAND_CONTENT_ON_PRIMARY"
-                        },
-                        "predefinedDecorations": null
-                      },
-                      "type": "text"
-                    }
-                  ],
-                  "accessibilityText": "Buy 1, Get 1 Free"
-                },
-                "type": "richText"
-              },
-              "hierarchy": "PRIMARY",
-              "color": {
-                "custom": {
-                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
-                },
-                "type": "custom"
-              },
-              "shape": "PILL",
-              "accessibilityText": "Buy 1, Get 1 Free"
-            },
-            "badgePosition": "OFF_IMAGE_BELOW_TEXT"
-          },
-          "quickAddConfig": {
-            "shouldShow": true,
-            "isInteractionEnabled": false,
-            "position": "BOTTOM_TRAILING"
-          },
-          "labelPrimary": {
-            "richTextElements": [
-              {
-                "text": {
-                  "text": {
-                    "text": "$21.35",
-                    "font": {
-                      "style": "PARAGRAPH_SMALL",
-                      "weight": "NORMAL"
-                    },
-                    "color": "CONTENT_PRIMARY"
-                  },
-                  "predefinedDecorations": null
-                },
-                "type": "text"
-              }
-            ],
-            "accessibilityText": "$21.35"
-          },
-          "headingPrimary": {
-            "richTextElements": [
-              {
-                "text": {
-                  "text": {
-                    "text": "Chicken Milanese",
-                    "font": {
-                      "style": "LABEL_DEFAULT",
-                      "weight": "MEDIUM"
-                    },
-                    "color": "CONTENT_PRIMARY"
-                  },
-                  "predefinedDecorations": null
-                },
-                "type": "text"
-              }
-            ],
-            "accessibilityText": "Chicken Milanese"
-          },
-          "itemAvailabilityState": "UNKNOWN",
-          "catalogItemAnalyticsData": {
-            "catalogSectionItemPosition": 3,
-            "endorsementMetadata": {
-              "endorsementType": "most_liked"
-            },
             "promoType": "BOGO"
           },
           "imageOverlayElements": null,
@@ -23264,29 +22159,23 @@
     {
       "@context": "https://schema.org",
       "@type": "Restaurant",
-      "@id": "https://www.ubereats.com/store/spice-symphony-midtown-east/DYCwCIELRZe5pXaaj1pDTQ",
-      "name": "Spice Symphony - Midtown East",
+      "@id": "https://www.ubereats.com/store/alanza%3A-traditional-italian-midtown-east/m98IYNKUX76B6ueFhEE38w",
+      "name": "Alanza: Traditional Italian (Midtown East)",
       "servesCuisine": [
-        "Indian",
-        "Chinese",
-        "Vegetarian Friendly",
-        "Family Meals",
-        "Group Friendly"
+        "Italian",
+        "Pasta",
+        "Comfort Food"
       ],
-      "priceRange": "$$",
+      "priceRange": "",
       "image": [
-        "https://tb-static.uber.com/prod/image-proc/processed_images/5839ded65a62c071857a4972c0bc3a9b/f6deb0afc24fee6f4bd31a35e6bcbd47.jpeg",
-        "https://tb-static.uber.com/prod/image-proc/processed_images/5839ded65a62c071857a4972c0bc3a9b/9b3aae4cf90f897799a5ed357d60e09d.jpeg",
-        "https://tb-static.uber.com/prod/image-proc/processed_images/5839ded65a62c071857a4972c0bc3a9b/fdf52d66534809b650058f41d517d74a.jpeg",
-        "https://tb-static.uber.com/prod/image-proc/processed_images/5839ded65a62c071857a4972c0bc3a9b/8a42ee7a692dfa4155879820804a277f.jpeg",
-        "https://tb-static.uber.com/prod/image-proc/processed_images/5839ded65a62c071857a4972c0bc3a9b/783282f6131ef2258e5bcd87c46aa87e.jpeg",
-        "https://tb-static.uber.com/prod/image-proc/processed_images/5839ded65a62c071857a4972c0bc3a9b/fb86662148be855d931b37d6c1e5fcbe.jpeg"
+        "https://tb-static.uber.com/prod/image-proc/processed_images/4a53ef3dd74650c3982c185b464e18f6/6a46de29c91d235bc2878fe87fd740f6.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/4a53ef3dd74650c3982c185b464e18f6/4a9dc0556f3090689240dd59b4617ba7.jpeg"
       ],
       "potentialAction": {
         "@type": "OrderAction",
         "target": {
           "@type": "EntryPoint",
-          "urlTemplate": "https://www.ubereats.com/store/spice-symphony-midtown-east/DYCwCIELRZe5pXaaj1pDTQ?utm_campaign=order-action&amp;utm_medium=organic",
+          "urlTemplate": "https://www.ubereats.com/store/alanza%3A-traditional-italian-midtown-east/m98IYNKUX76B6ueFhEE38w?utm_campaign=order-action&amp;utm_medium=organic",
           "inLanguage": "English",
           "actionPlatform": [
             "https://schema.org/DesktopWebPlatform",
@@ -23304,18 +22193,18 @@
         "addressRegion": "NY",
         "postalCode": "10017",
         "addressCountry": "US",
-        "streetAddress": "150 E 50th St"
+        "streetAddress": "800 3rd Ave"
       },
       "geo": {
         "@type": "GeoCoordinates",
-        "latitude": 40.7560192,
-        "longitude": -73.9716049
+        "latitude": 40.75564,
+        "longitude": -73.97135
       },
-      "telephone": "+12123004869",
+      "telephone": "",
       "aggregateRating": {
         "@type": "AggregateRating",
-        "ratingValue": 4.7,
-        "reviewCount": "3000"
+        "ratingValue": 5,
+        "reviewCount": "3"
       },
       "openingHoursSpecification": [
         {
@@ -23329,56 +22218,284 @@
             "Saturday",
             "Sunday"
           ],
-          "opens": "11:0",
-          "closes": "14:45"
-        },
-        {
-          "@type": "OpeningHoursSpecification",
-          "dayOfWeek": [
-            "Monday",
-            "Tuesday",
-            "Wednesday",
-            "Thursday",
-            "Friday",
-            "Saturday",
-            "Sunday"
-          ],
-          "opens": "11:0",
-          "closes": "14:45"
-        },
-        {
-          "@type": "OpeningHoursSpecification",
-          "dayOfWeek": [
-            "Monday",
-            "Tuesday",
-            "Wednesday",
-            "Thursday",
-            "Friday",
-            "Saturday",
-            "Sunday"
-          ],
-          "opens": "17:0",
-          "closes": "21:45"
+          "opens": "10:30",
+          "closes": "23:30"
         }
       ],
       "deals": [
         {
-          "uuid": "0d9f263a-84bb-5cd1-bc5e-8a92297251c9",
-          "imageUrl": "https://tb-static.uber.com/prod/merchant-menu-ai/images/9e1045c27f1d1537c08c62b8b91015b7_5143f1e218c67c20fe5a4cd33d90b07b.jpeg",
-          "title": "Samosas",
-          "itemDescription": "Traditional Spiced Potato and pea turnover flavored with pomegranate seeds",
-          "price": 1000,
+          "uuid": "28f7790a-34e0-5eaa-996b-f222131285cb",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/e2ee991fc43e3263e4227df0941d48fd/0fb376d1da56c05644450062d25c5c84.jpeg",
+          "title": "Chicken Milanese",
+          "itemDescription": "A favorite uncle's favorite dish: breaded chicken cutlet, pan-fried and topped with arugula, radicchio, fennel, grape tomatoes, basil, pine nuts, Parmesan, and a tangy lemon vinaigrette",
+          "price": 2135,
           "priceTagline": {
-            "text": "$10.00",
-            "textFormat": "<span>$10.00</span>",
-            "accessibilityText": "$10.00"
+            "text": "$21.35",
+            "textFormat": "<span>$21.35</span>",
+            "accessibilityText": "$21.35"
           },
           "spanCount": 2,
           "displayType": "LIST",
           "titleBadge": {
-            "text": "Samosas",
-            "textFormat": "<span>Samosas</span>",
-            "accessibilityText": "Samosas"
+            "text": "Chicken Milanese",
+            "textFormat": "<span>Chicken Milanese</span>",
+            "accessibilityText": "Chicken Milanese"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": false,
+          "numAlcoholicItems": 0,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "A favorite uncle's favorite dish: breaded chicken cutlet, pan-fried and topped with arugula, radicchio, fennel, grape tomatoes, basil, pine nuts, Parmesan, and a tangy lemon vinaigrette",
+            "textFormat": "<span style=\"color:#757575\">A favorite uncle&#39;s favorite dish: breaded chicken cutlet, pan-fried and topped with arugula, radicchio, fennel, grape tomatoes, basil, pine nuts, Parmesan, and a tangy lemon vinaigrette</span>"
+          },
+          "subsectionUuid": "be9143a9-4a06-5b80-b98c-fee023d47ae9",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "maxPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 999,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "increment": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "defaultQuantity": {
+                    "base": {
+                      "high": 0,
+                      "low": 2,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 999,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 2
+                }
+              }
+            ],
+            "pricingInfo": {}
+          },
+          "sectionUuid": "623a9b05-4e21-5fe9-a415-678f41ea2bf4",
+          "promoInfo": {
+            "promotionUUID": "8fea235e-4c1d-4b66-8257-5b57ee7edfc1",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "Buy 1, Get 1 Free",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "Buy 1, Get 1 Free"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "PILL",
+              "accessibilityText": "Buy 1, Get 1 Free"
+            },
+            "badgePosition": "OFF_IMAGE_BELOW_TEXT"
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$21.35",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$21.35"
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "Chicken Milanese",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "Chicken Milanese"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 3,
+            "endorsementMetadata": {
+              "endorsementType": "most_liked"
+            },
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "isWebPdpSupported": false
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Restaurant",
+      "@id": "https://www.ubereats.com/store/charcoal-eats%3A-indian-bowls-rolls-and-more/V5ZWJhyUWqWGjchHy4YSNg",
+      "name": "Charcoal Eats: Indian Bowls, Rolls and More",
+      "servesCuisine": [
+        "Indian",
+        "Pakistani"
+      ],
+      "priceRange": "$$",
+      "image": [
+        "https://tb-static.uber.com/prod/image-proc/processed_images/773713242e4891a9f8cca9fcd5e0c764/19ec62ba51fde35ba0aff5b84321c5af.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/773713242e4891a9f8cca9fcd5e0c764/c67d558c633281f9c71fc6a90ef470ae.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/773713242e4891a9f8cca9fcd5e0c764/8681e511c0910e0052cb155c50f01f89.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/773713242e4891a9f8cca9fcd5e0c764/6ea4f72e303000fbf403bbb36f971f85.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/773713242e4891a9f8cca9fcd5e0c764/4bee0baf259f2b3c95aacdebea87e950.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/773713242e4891a9f8cca9fcd5e0c764/5283d81c664b43c5f57a3a186d273063.jpeg"
+      ],
+      "potentialAction": {
+        "@type": "OrderAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.ubereats.com/store/charcoal-eats%3A-indian-bowls-rolls-and-more/V5ZWJhyUWqWGjchHy4YSNg?utm_campaign=order-action&amp;utm_medium=organic",
+          "inLanguage": "English",
+          "actionPlatform": [
+            "https://schema.org/DesktopWebPlatform",
+            "https://schema.org/MobileWebPlatform"
+          ]
+        },
+        "deliveryMethod": [
+          "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+          "http://purl.org/goodrelations/v1#DeliveryModePickUp"
+        ]
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "New York",
+        "addressRegion": "NY",
+        "postalCode": "10017",
+        "addressCountry": "US",
+        "streetAddress": "Lexington Avenue &amp; East 41st Street"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 40.750861,
+        "longitude": -73.9769341
+      },
+      "telephone": "+16463516904",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4.3,
+        "reviewCount": "600"
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Sunday",
+          "opens": "11:0",
+          "closes": "21:0"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "8:0",
+          "closes": "21:0"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Saturday",
+          "opens": "11:0",
+          "closes": "21:0"
+        }
+      ],
+      "deals": [
+        {
+          "uuid": "9d5b7018-6fc8-5085-9693-794c1cb43510",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/c75c2208a077801e5d5c4615977c7d31/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+          "title": "Tandoori Chicken Sandwich",
+          "itemDescription": "A tandoori chicken sandwich is a vibrant fusion of Indian flavors and Western comfort food, typically featuring succulent chicken marinated in yogurt and a rich blend of spices, then cooked to smoky perfection.",
+          "price": 1099,
+          "priceTagline": {
+            "text": "$10.99",
+            "textFormat": "<span>$10.99</span>",
+            "accessibilityText": "$10.99"
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "Tandoori Chicken Sandwich",
+            "textFormat": "<span>Tandoori Chicken Sandwich</span>",
+            "accessibilityText": "Tandoori Chicken Sandwich"
           },
           "isSoldOut": false,
           "hasCustomizations": false,
@@ -23391,10 +22508,10 @@
             "type": "buyXGetYItemPromotion"
           },
           "itemDescriptionBadge": {
-            "text": "Traditional Spiced Potato and pea turnover flavored with pomegranate seeds",
-            "textFormat": "<span style=\"color:#757575\">Traditional Spiced Potato and pea turnover flavored with pomegranate seeds</span>"
+            "text": "A tandoori chicken sandwich is a vibrant fusion of Indian flavors and Western comfort food, typically featuring succulent chicken marinated in yogurt and a rich blend of spices, then cooked to smoky perfection.",
+            "textFormat": "<span style=\"color:#757575\">A tandoori chicken sandwich is a vibrant fusion of Indian flavors and Western comfort food, typically featuring succulent chicken marinated in yogurt and a rich blend of spices, then cooked to smoky perfection.</span>"
           },
-          "subsectionUuid": "9478f34a-98cd-5029-8c28-1a1a34cf306e",
+          "subsectionUuid": "3ea11974-dbf7-5783-b07a-1a4b822382c9",
           "isAvailable": true,
           "purchaseInfo": {
             "purchaseOptions": [
@@ -23442,9 +22559,9 @@
             ],
             "pricingInfo": {}
           },
-          "sectionUuid": "98fd4e1b-7ddd-5666-9cad-aff2c9bc402b",
+          "sectionUuid": "7a56a9b8-9787-5135-a033-1fb078fb86c2",
           "promoInfo": {
-            "promotionUUID": "849eef1d-fc64-4635-a08e-1d1ffc1cee65",
+            "promotionUUID": "5c61aa20-6233-465f-af11-ae784dc23cf2",
             "promoBadge": {
               "content": {
                 "richText": {
@@ -23490,46 +22607,7 @@
               {
                 "text": {
                   "text": {
-                    "text": "$10.00",
-                    "font": {
-                      "style": "PARAGRAPH_SMALL",
-                      "weight": "NORMAL"
-                    },
-                    "color": "CONTENT_PRIMARY"
-                  },
-                  "predefinedDecorations": null
-                },
-                "type": "text"
-              },
-              {
-                "text": {
-                  "text": {
-                    "text": " • ",
-                    "font": {
-                      "style": "PARAGRAPH_SMALL",
-                      "weight": "NORMAL"
-                    },
-                    "color": "CONTENT_PRIMARY"
-                  },
-                  "predefinedDecorations": null
-                },
-                "type": "text"
-              },
-              {
-                "icon": {
-                  "icon": {
-                    "icon": "THUMB_UP_OUTLINE",
-                    "color": "PRIMARY",
-                    "size": "SPACING_UNIT_1_5X"
-                  },
-                  "alignment": "CENTERED"
-                },
-                "type": "icon"
-              },
-              {
-                "text": {
-                  "text": {
-                    "text": " 94% (189)",
+                    "text": "$10.99",
                     "font": {
                       "style": "PARAGRAPH_SMALL",
                       "weight": "NORMAL"
@@ -23541,14 +22619,14 @@
                 "type": "text"
               }
             ],
-            "accessibilityText": "$10.00, 94% of customers liked this based on 189 reviews."
+            "accessibilityText": "$10.99"
           },
           "headingPrimary": {
             "richTextElements": [
               {
                 "text": {
                   "text": {
-                    "text": "Samosas",
+                    "text": "Tandoori Chicken Sandwich",
                     "font": {
                       "style": "LABEL_DEFAULT",
                       "weight": "MEDIUM"
@@ -23560,16 +22638,11 @@
                 "type": "text"
               }
             ],
-            "accessibilityText": "Samosas"
+            "accessibilityText": "Tandoori Chicken Sandwich"
           },
           "itemAvailabilityState": "UNKNOWN",
           "catalogItemAnalyticsData": {
-            "catalogSectionItemPosition": 0,
-            "endorsementMetadata": {
-              "endorsementType": "ratings",
-              "rating": "94%",
-              "numRatings": 189
-            },
+            "catalogSectionItemPosition": 3,
             "promoType": "BOGO"
           },
           "imageOverlayElements": null,
@@ -23577,449 +22650,22 @@
           "isWebPdpSupported": false
         },
         {
-          "uuid": "67299e4b-11e3-5434-bbe5-5d9c841f429f",
-          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/59ac3031a3c77877cc5c5d9e2619d73b/f47cec1eac1d3b43eccf2318d065819a.jpeg",
-          "title": "Rajma - North Indian Specialty",
-          "itemDescription": "Kidney beans tempered with cumin seeds and whole red chilies. North Indian Specialty",
-          "price": 2000,
+          "uuid": "e5e62abd-04e6-52a3-ad92-0c22c7a06894",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/437a4b68d9aa225e2e0e10130f274c4f/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+          "title": "Tandoori Paneer Sandwich",
+          "itemDescription": "This sandwich begins with a substantial filling of paneer, cheese-like curds marinated in a potent blend of yogurt and classic tandoori spices—smoky paprika, earthy cumin, fragrant coriander, and a hint of fiery chili. The paneer is then charred to perfection, either in a true tandoor or roasted, giving it a smoky depth and a beautifully caramelized exterior.",
+          "price": 1099,
           "priceTagline": {
-            "text": "$20.00",
-            "textFormat": "<span>$20.00</span>",
-            "accessibilityText": "$20.00"
+            "text": "$10.99",
+            "textFormat": "<span>$10.99</span>",
+            "accessibilityText": "$10.99"
           },
           "spanCount": 2,
           "displayType": "LIST",
           "titleBadge": {
-            "text": "Rajma - North Indian Specialty",
-            "textFormat": "<span>Rajma - North Indian Specialty</span>",
-            "accessibilityText": "Rajma - North Indian Specialty"
-          },
-          "isSoldOut": false,
-          "hasCustomizations": true,
-          "itemPromotion": {
-            "buyXGetYItemPromotion": {
-              "buyQuantity": 1,
-              "getQuantity": 1,
-              "maxRedemptionCount": 3
-            },
-            "type": "buyXGetYItemPromotion"
-          },
-          "itemDescriptionBadge": {
-            "text": "Kidney beans tempered with cumin seeds and whole red chilies. North Indian Specialty",
-            "textFormat": "<span style=\"color:#757575\">Kidney beans tempered with cumin seeds and whole red chilies. North Indian Specialty</span>"
-          },
-          "subsectionUuid": "98a1ffa9-5d50-59be-a786-7ffef912719d",
-          "isAvailable": true,
-          "purchaseInfo": {
-            "purchaseOptions": [
-              {
-                "itemQuantityAbbreviation": "",
-                "quantityConstraintsV2": {
-                  "minPermitted": {
-                    "base": {
-                      "high": 0,
-                      "low": 1,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "maxPermitted": {
-                    "base": {
-                      "high": 0,
-                      "low": 999,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "increment": {
-                    "base": {
-                      "high": 0,
-                      "low": 1,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "defaultQuantity": {
-                    "base": {
-                      "high": 0,
-                      "low": 2,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "minPermittedNumber": 1,
-                  "maxPermittedNumber": 999,
-                  "incrementNumber": 1,
-                  "defaultQuantityNumber": 2
-                }
-              }
-            ],
-            "pricingInfo": {}
-          },
-          "sectionUuid": "98fd4e1b-7ddd-5666-9cad-aff2c9bc402b",
-          "promoInfo": {
-            "promotionUUID": "849eef1d-fc64-4635-a08e-1d1ffc1cee65",
-            "promoBadge": {
-              "content": {
-                "richText": {
-                  "richTextElements": [
-                    {
-                      "text": {
-                        "text": {
-                          "text": "Buy 1, Get 1 Free",
-                          "font": {
-                            "style": "LABEL_X_SMALL",
-                            "weight": "MEDIUM"
-                          },
-                          "color": "BRAND_CONTENT_ON_PRIMARY"
-                        },
-                        "predefinedDecorations": null
-                      },
-                      "type": "text"
-                    }
-                  ],
-                  "accessibilityText": "Buy 1, Get 1 Free"
-                },
-                "type": "richText"
-              },
-              "hierarchy": "PRIMARY",
-              "color": {
-                "custom": {
-                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
-                },
-                "type": "custom"
-              },
-              "shape": "PILL",
-              "accessibilityText": "Buy 1, Get 1 Free"
-            },
-            "badgePosition": "OFF_IMAGE_BELOW_TEXT"
-          },
-          "quickAddConfig": {
-            "shouldShow": true,
-            "isInteractionEnabled": false,
-            "position": "BOTTOM_TRAILING"
-          },
-          "labelPrimary": {
-            "richTextElements": [
-              {
-                "text": {
-                  "text": {
-                    "text": "$20.00",
-                    "font": {
-                      "style": "PARAGRAPH_SMALL",
-                      "weight": "NORMAL"
-                    },
-                    "color": "CONTENT_PRIMARY"
-                  },
-                  "predefinedDecorations": null
-                },
-                "type": "text"
-              },
-              {
-                "text": {
-                  "text": {
-                    "text": " • ",
-                    "font": {
-                      "style": "PARAGRAPH_SMALL",
-                      "weight": "NORMAL"
-                    },
-                    "color": "CONTENT_PRIMARY"
-                  },
-                  "predefinedDecorations": null
-                },
-                "type": "text"
-              },
-              {
-                "icon": {
-                  "icon": {
-                    "icon": "THUMB_UP_OUTLINE",
-                    "color": "PRIMARY",
-                    "size": "SPACING_UNIT_1_5X"
-                  },
-                  "alignment": "CENTERED"
-                },
-                "type": "icon"
-              },
-              {
-                "text": {
-                  "text": {
-                    "text": " 64% (14)",
-                    "font": {
-                      "style": "PARAGRAPH_SMALL",
-                      "weight": "NORMAL"
-                    },
-                    "color": "CONTENT_PRIMARY"
-                  },
-                  "predefinedDecorations": null
-                },
-                "type": "text"
-              }
-            ],
-            "accessibilityText": "$20.00, 64% of customers liked this based on 14 reviews."
-          },
-          "headingPrimary": {
-            "richTextElements": [
-              {
-                "text": {
-                  "text": {
-                    "text": "Rajma - North Indian Specialty",
-                    "font": {
-                      "style": "LABEL_DEFAULT",
-                      "weight": "MEDIUM"
-                    },
-                    "color": "CONTENT_PRIMARY"
-                  },
-                  "predefinedDecorations": null
-                },
-                "type": "text"
-              }
-            ],
-            "accessibilityText": "Rajma - North Indian Specialty"
-          },
-          "itemAvailabilityState": "UNKNOWN",
-          "catalogItemAnalyticsData": {
-            "catalogSectionItemPosition": 0,
-            "endorsementMetadata": {
-              "endorsementType": "ratings",
-              "rating": "64%",
-              "numRatings": 14
-            },
-            "promoType": "BOGO"
-          },
-          "imageOverlayElements": null,
-          "itemThumbnailElements": null,
-          "isWebPdpSupported": false
-        },
-        {
-          "uuid": "6d271d8f-4bd8-5f52-98e3-a7685b1de6bd",
-          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/14896c12097f706ab4b1c5b5507756c1/5954bcb006b10dbfd0bc160f6370faf3.jpeg",
-          "title": "Avocado Chicken Kabab",
-          "itemDescription": "Creamy chicken tenders, with cream cheese, yogurt, mace, and green cardamom.",
-          "price": 2400,
-          "priceTagline": {
-            "text": "$24.00",
-            "textFormat": "<span>$24.00</span>",
-            "accessibilityText": "$24.00"
-          },
-          "spanCount": 2,
-          "displayType": "LIST",
-          "titleBadge": {
-            "text": "Avocado Chicken Kabab",
-            "textFormat": "<span>Avocado Chicken Kabab</span>",
-            "accessibilityText": "Avocado Chicken Kabab"
-          },
-          "isSoldOut": false,
-          "hasCustomizations": true,
-          "itemPromotion": {
-            "buyXGetYItemPromotion": {
-              "buyQuantity": 1,
-              "getQuantity": 1,
-              "maxRedemptionCount": 3
-            },
-            "type": "buyXGetYItemPromotion"
-          },
-          "itemDescriptionBadge": {
-            "text": "Creamy chicken tenders, with cream cheese, yogurt, mace, and green cardamom.",
-            "textFormat": "<span style=\"color:#757575\">Creamy chicken tenders, with cream cheese, yogurt, mace, and green cardamom.</span>"
-          },
-          "subsectionUuid": "93c0693b-9fdc-5118-a92f-cd7bfa2b597b",
-          "isAvailable": true,
-          "purchaseInfo": {
-            "purchaseOptions": [
-              {
-                "itemQuantityAbbreviation": "",
-                "quantityConstraintsV2": {
-                  "minPermitted": {
-                    "base": {
-                      "high": 0,
-                      "low": 1,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "maxPermitted": {
-                    "base": {
-                      "high": 0,
-                      "low": 999,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "increment": {
-                    "base": {
-                      "high": 0,
-                      "low": 1,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "defaultQuantity": {
-                    "base": {
-                      "high": 0,
-                      "low": 2,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "minPermittedNumber": 1,
-                  "maxPermittedNumber": 999,
-                  "incrementNumber": 1,
-                  "defaultQuantityNumber": 2
-                }
-              }
-            ],
-            "pricingInfo": {}
-          },
-          "sectionUuid": "98fd4e1b-7ddd-5666-9cad-aff2c9bc402b",
-          "promoInfo": {
-            "promotionUUID": "849eef1d-fc64-4635-a08e-1d1ffc1cee65",
-            "promoBadge": {
-              "content": {
-                "richText": {
-                  "richTextElements": [
-                    {
-                      "text": {
-                        "text": {
-                          "text": "Buy 1, Get 1 Free",
-                          "font": {
-                            "style": "LABEL_X_SMALL",
-                            "weight": "MEDIUM"
-                          },
-                          "color": "BRAND_CONTENT_ON_PRIMARY"
-                        },
-                        "predefinedDecorations": null
-                      },
-                      "type": "text"
-                    }
-                  ],
-                  "accessibilityText": "Buy 1, Get 1 Free"
-                },
-                "type": "richText"
-              },
-              "hierarchy": "PRIMARY",
-              "color": {
-                "custom": {
-                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
-                },
-                "type": "custom"
-              },
-              "shape": "PILL",
-              "accessibilityText": "Buy 1, Get 1 Free"
-            },
-            "badgePosition": "OFF_IMAGE_BELOW_TEXT"
-          },
-          "quickAddConfig": {
-            "shouldShow": true,
-            "isInteractionEnabled": false,
-            "position": "BOTTOM_TRAILING"
-          },
-          "labelPrimary": {
-            "richTextElements": [
-              {
-                "text": {
-                  "text": {
-                    "text": "$24.00",
-                    "font": {
-                      "style": "PARAGRAPH_SMALL",
-                      "weight": "NORMAL"
-                    },
-                    "color": "CONTENT_PRIMARY"
-                  },
-                  "predefinedDecorations": null
-                },
-                "type": "text"
-              },
-              {
-                "text": {
-                  "text": {
-                    "text": " • ",
-                    "font": {
-                      "style": "PARAGRAPH_SMALL",
-                      "weight": "NORMAL"
-                    },
-                    "color": "CONTENT_PRIMARY"
-                  },
-                  "predefinedDecorations": null
-                },
-                "type": "text"
-              },
-              {
-                "icon": {
-                  "icon": {
-                    "icon": "THUMB_UP_OUTLINE",
-                    "color": "PRIMARY",
-                    "size": "SPACING_UNIT_1_5X"
-                  },
-                  "alignment": "CENTERED"
-                },
-                "type": "icon"
-              },
-              {
-                "text": {
-                  "text": {
-                    "text": " 80% (15)",
-                    "font": {
-                      "style": "PARAGRAPH_SMALL",
-                      "weight": "NORMAL"
-                    },
-                    "color": "CONTENT_PRIMARY"
-                  },
-                  "predefinedDecorations": null
-                },
-                "type": "text"
-              }
-            ],
-            "accessibilityText": "$24.00, 80% of customers liked this based on 15 reviews."
-          },
-          "headingPrimary": {
-            "richTextElements": [
-              {
-                "text": {
-                  "text": {
-                    "text": "Avocado Chicken Kabab",
-                    "font": {
-                      "style": "LABEL_DEFAULT",
-                      "weight": "MEDIUM"
-                    },
-                    "color": "CONTENT_PRIMARY"
-                  },
-                  "predefinedDecorations": null
-                },
-                "type": "text"
-              }
-            ],
-            "accessibilityText": "Avocado Chicken Kabab"
-          },
-          "itemAvailabilityState": "UNKNOWN",
-          "catalogItemAnalyticsData": {
-            "catalogSectionItemPosition": 2,
-            "endorsementMetadata": {
-              "endorsementType": "ratings",
-              "rating": "80%",
-              "numRatings": 15
-            },
-            "promoType": "BOGO"
-          },
-          "imageOverlayElements": null,
-          "itemThumbnailElements": null,
-          "isWebPdpSupported": false
-        },
-        {
-          "uuid": "8859c5c8-3560-57cb-b52c-bf5ab0fdd7cf",
-          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/d4a08ae9008b592575e969697fe45ce3/5954bcb006b10dbfd0bc160f6370faf3.jpeg",
-          "title": "Batawada ( Spiced Potato Dumplings)",
-          "price": 1200,
-          "priceTagline": {
-            "text": "$12.00",
-            "textFormat": "<span>$12.00</span>",
-            "accessibilityText": "$12.00"
-          },
-          "spanCount": 2,
-          "displayType": "LIST",
-          "titleBadge": {
-            "text": "Batawada ( Spiced Potato Dumplings)",
-            "textFormat": "<span>Batawada ( Spiced Potato Dumplings)</span>",
-            "accessibilityText": "Batawada ( Spiced Potato Dumplings)"
+            "text": "Tandoori Paneer Sandwich",
+            "textFormat": "<span>Tandoori Paneer Sandwich</span>",
+            "accessibilityText": "Tandoori Paneer Sandwich"
           },
           "isSoldOut": false,
           "hasCustomizations": false,
@@ -24031,7 +22677,11 @@
             },
             "type": "buyXGetYItemPromotion"
           },
-          "subsectionUuid": "9478f34a-98cd-5029-8c28-1a1a34cf306e",
+          "itemDescriptionBadge": {
+            "text": "This sandwich begins with a substantial filling of paneer, cheese-like curds marinated in a potent blend of yogurt and classic tandoori spices—smoky paprika, earthy cumin, fragrant coriander, and a hint of fiery chili. The paneer is then charred to perfection, either in a true tandoor or roasted, giving it a smoky depth and a beautifully caramelized exterior.",
+            "textFormat": "<span style=\"color:#757575\">This sandwich begins with a substantial filling of paneer, cheese-like curds marinated in a potent blend of yogurt and classic tandoori spices—smoky paprika, earthy cumin, fragrant coriander, and a hint of fiery chili. The paneer is then charred to perfection, either in a true tandoor or roasted, giving it a smoky depth and a beautifully caramelized exterior.</span>"
+          },
+          "subsectionUuid": "3ea11974-dbf7-5783-b07a-1a4b822382c9",
           "isAvailable": true,
           "purchaseInfo": {
             "purchaseOptions": [
@@ -24079,9 +22729,9 @@
             ],
             "pricingInfo": {}
           },
-          "sectionUuid": "98fd4e1b-7ddd-5666-9cad-aff2c9bc402b",
+          "sectionUuid": "7a56a9b8-9787-5135-a033-1fb078fb86c2",
           "promoInfo": {
-            "promotionUUID": "849eef1d-fc64-4635-a08e-1d1ffc1cee65",
+            "promotionUUID": "5c61aa20-6233-465f-af11-ae784dc23cf2",
             "promoBadge": {
               "content": {
                 "richText": {
@@ -24127,7 +22777,7 @@
               {
                 "text": {
                   "text": {
-                    "text": "$12.00",
+                    "text": "$10.99",
                     "font": {
                       "style": "PARAGRAPH_SMALL",
                       "weight": "NORMAL"
@@ -24166,7 +22816,7 @@
               {
                 "text": {
                   "text": {
-                    "text": " 89% (97)",
+                    "text": " 83% (6)",
                     "font": {
                       "style": "PARAGRAPH_SMALL",
                       "weight": "NORMAL"
@@ -24178,14 +22828,14 @@
                 "type": "text"
               }
             ],
-            "accessibilityText": "$12.00, 89% of customers liked this based on 97 reviews."
+            "accessibilityText": "$10.99, 83% of customers liked this based on 6 reviews."
           },
           "headingPrimary": {
             "richTextElements": [
               {
                 "text": {
                   "text": {
-                    "text": "Batawada ( Spiced Potato Dumplings)",
+                    "text": "Tandoori Paneer Sandwich",
                     "font": {
                       "style": "LABEL_DEFAULT",
                       "weight": "MEDIUM"
@@ -24197,647 +22847,15 @@
                 "type": "text"
               }
             ],
-            "accessibilityText": "Batawada ( Spiced Potato Dumplings)"
-          },
-          "itemAvailabilityState": "UNKNOWN",
-          "catalogItemAnalyticsData": {
-            "catalogSectionItemPosition": 1,
-            "endorsementMetadata": {
-              "endorsementType": "ratings",
-              "rating": "89%",
-              "numRatings": 97
-            },
-            "promoType": "BOGO"
-          },
-          "imageOverlayElements": null,
-          "itemThumbnailElements": null,
-          "isWebPdpSupported": false
-        },
-        {
-          "uuid": "aa438b7f-c0bb-5f34-ad3b-a720d9355734",
-          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/bf924a653a69f8d042a0dd99e3aad524/f47cec1eac1d3b43eccf2318d065819a.jpeg",
-          "title": "Vegetable Spring Rolls",
-          "price": 1000,
-          "priceTagline": {
-            "text": "$10.00",
-            "textFormat": "<span>$10.00</span>",
-            "accessibilityText": "$10.00"
-          },
-          "spanCount": 2,
-          "displayType": "LIST",
-          "titleBadge": {
-            "text": "Vegetable Spring Rolls",
-            "textFormat": "<span>Vegetable Spring Rolls</span>",
-            "accessibilityText": "Vegetable Spring Rolls"
-          },
-          "isSoldOut": false,
-          "hasCustomizations": false,
-          "itemPromotion": {
-            "buyXGetYItemPromotion": {
-              "buyQuantity": 1,
-              "getQuantity": 1,
-              "maxRedemptionCount": 3
-            },
-            "type": "buyXGetYItemPromotion"
-          },
-          "subsectionUuid": "85e53160-dd77-5e67-9619-97dcd92433c7",
-          "isAvailable": true,
-          "purchaseInfo": {
-            "purchaseOptions": [
-              {
-                "itemQuantityAbbreviation": "",
-                "quantityConstraintsV2": {
-                  "minPermitted": {
-                    "base": {
-                      "high": 0,
-                      "low": 1,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "maxPermitted": {
-                    "base": {
-                      "high": 0,
-                      "low": 999,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "increment": {
-                    "base": {
-                      "high": 0,
-                      "low": 1,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "defaultQuantity": {
-                    "base": {
-                      "high": 0,
-                      "low": 2,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "minPermittedNumber": 1,
-                  "maxPermittedNumber": 999,
-                  "incrementNumber": 1,
-                  "defaultQuantityNumber": 2
-                }
-              }
-            ],
-            "pricingInfo": {}
-          },
-          "sectionUuid": "98fd4e1b-7ddd-5666-9cad-aff2c9bc402b",
-          "promoInfo": {
-            "promotionUUID": "849eef1d-fc64-4635-a08e-1d1ffc1cee65",
-            "promoBadge": {
-              "content": {
-                "richText": {
-                  "richTextElements": [
-                    {
-                      "text": {
-                        "text": {
-                          "text": "Buy 1, Get 1 Free",
-                          "font": {
-                            "style": "LABEL_X_SMALL",
-                            "weight": "MEDIUM"
-                          },
-                          "color": "BRAND_CONTENT_ON_PRIMARY"
-                        },
-                        "predefinedDecorations": null
-                      },
-                      "type": "text"
-                    }
-                  ],
-                  "accessibilityText": "Buy 1, Get 1 Free"
-                },
-                "type": "richText"
-              },
-              "hierarchy": "PRIMARY",
-              "color": {
-                "custom": {
-                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
-                },
-                "type": "custom"
-              },
-              "shape": "PILL",
-              "accessibilityText": "Buy 1, Get 1 Free"
-            },
-            "badgePosition": "OFF_IMAGE_BELOW_TEXT"
-          },
-          "quickAddConfig": {
-            "shouldShow": true,
-            "isInteractionEnabled": false,
-            "position": "BOTTOM_TRAILING"
-          },
-          "labelPrimary": {
-            "richTextElements": [
-              {
-                "text": {
-                  "text": {
-                    "text": "$10.00",
-                    "font": {
-                      "style": "PARAGRAPH_SMALL",
-                      "weight": "NORMAL"
-                    },
-                    "color": "CONTENT_PRIMARY"
-                  },
-                  "predefinedDecorations": null
-                },
-                "type": "text"
-              },
-              {
-                "text": {
-                  "text": {
-                    "text": " • ",
-                    "font": {
-                      "style": "PARAGRAPH_SMALL",
-                      "weight": "NORMAL"
-                    },
-                    "color": "CONTENT_PRIMARY"
-                  },
-                  "predefinedDecorations": null
-                },
-                "type": "text"
-              },
-              {
-                "icon": {
-                  "icon": {
-                    "icon": "THUMB_UP_OUTLINE",
-                    "color": "PRIMARY",
-                    "size": "SPACING_UNIT_1_5X"
-                  },
-                  "alignment": "CENTERED"
-                },
-                "type": "icon"
-              },
-              {
-                "text": {
-                  "text": {
-                    "text": " 74% (31)",
-                    "font": {
-                      "style": "PARAGRAPH_SMALL",
-                      "weight": "NORMAL"
-                    },
-                    "color": "CONTENT_PRIMARY"
-                  },
-                  "predefinedDecorations": null
-                },
-                "type": "text"
-              }
-            ],
-            "accessibilityText": "$10.00, 74% of customers liked this based on 31 reviews."
-          },
-          "headingPrimary": {
-            "richTextElements": [
-              {
-                "text": {
-                  "text": {
-                    "text": "Vegetable Spring Rolls",
-                    "font": {
-                      "style": "LABEL_DEFAULT",
-                      "weight": "MEDIUM"
-                    },
-                    "color": "CONTENT_PRIMARY"
-                  },
-                  "predefinedDecorations": null
-                },
-                "type": "text"
-              }
-            ],
-            "accessibilityText": "Vegetable Spring Rolls"
+            "accessibilityText": "Tandoori Paneer Sandwich"
           },
           "itemAvailabilityState": "UNKNOWN",
           "catalogItemAnalyticsData": {
             "catalogSectionItemPosition": 4,
             "endorsementMetadata": {
               "endorsementType": "ratings",
-              "rating": "74%",
-              "numRatings": 31
-            },
-            "promoType": "BOGO"
-          },
-          "imageOverlayElements": null,
-          "itemThumbnailElements": null,
-          "isWebPdpSupported": false
-        },
-        {
-          "uuid": "e56d4564-6161-5e6e-a53c-847545f5ae55",
-          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/e34307cd23c2ad75504568edb7d5d340/f47cec1eac1d3b43eccf2318d065819a.jpeg",
-          "title": "Yellow Dal Tarka",
-          "itemDescription": "Yellow lenthils tempered with mustard seeds, cumin and whole dry chilies",
-          "price": 2000,
-          "priceTagline": {
-            "text": "$20.00",
-            "textFormat": "<span>$20.00</span>",
-            "accessibilityText": "$20.00"
-          },
-          "spanCount": 2,
-          "displayType": "LIST",
-          "titleBadge": {
-            "text": "Yellow Dal Tarka",
-            "textFormat": "<span>Yellow Dal Tarka</span>",
-            "accessibilityText": "Yellow Dal Tarka"
-          },
-          "isSoldOut": false,
-          "hasCustomizations": true,
-          "itemPromotion": {
-            "buyXGetYItemPromotion": {
-              "buyQuantity": 1,
-              "getQuantity": 1,
-              "maxRedemptionCount": 3
-            },
-            "type": "buyXGetYItemPromotion"
-          },
-          "itemDescriptionBadge": {
-            "text": "Yellow lenthils tempered with mustard seeds, cumin and whole dry chilies",
-            "textFormat": "<span style=\"color:#757575\">Yellow lenthils tempered with mustard seeds, cumin and whole dry chilies</span>"
-          },
-          "subsectionUuid": "ea4da919-94f8-517c-bff7-8e445ffd73e5",
-          "isAvailable": true,
-          "purchaseInfo": {
-            "purchaseOptions": [
-              {
-                "itemQuantityAbbreviation": "",
-                "quantityConstraintsV2": {
-                  "minPermitted": {
-                    "base": {
-                      "high": 0,
-                      "low": 1,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "maxPermitted": {
-                    "base": {
-                      "high": 0,
-                      "low": 999,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "increment": {
-                    "base": {
-                      "high": 0,
-                      "low": 1,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "defaultQuantity": {
-                    "base": {
-                      "high": 0,
-                      "low": 2,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "minPermittedNumber": 1,
-                  "maxPermittedNumber": 999,
-                  "incrementNumber": 1,
-                  "defaultQuantityNumber": 2
-                }
-              }
-            ],
-            "pricingInfo": {}
-          },
-          "sectionUuid": "98fd4e1b-7ddd-5666-9cad-aff2c9bc402b",
-          "promoInfo": {
-            "promotionUUID": "849eef1d-fc64-4635-a08e-1d1ffc1cee65",
-            "promoBadge": {
-              "content": {
-                "richText": {
-                  "richTextElements": [
-                    {
-                      "text": {
-                        "text": {
-                          "text": "Buy 1, Get 1 Free",
-                          "font": {
-                            "style": "LABEL_X_SMALL",
-                            "weight": "MEDIUM"
-                          },
-                          "color": "BRAND_CONTENT_ON_PRIMARY"
-                        },
-                        "predefinedDecorations": null
-                      },
-                      "type": "text"
-                    }
-                  ],
-                  "accessibilityText": "Buy 1, Get 1 Free"
-                },
-                "type": "richText"
-              },
-              "hierarchy": "PRIMARY",
-              "color": {
-                "custom": {
-                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
-                },
-                "type": "custom"
-              },
-              "shape": "PILL",
-              "accessibilityText": "Buy 1, Get 1 Free"
-            },
-            "badgePosition": "OFF_IMAGE_BELOW_TEXT"
-          },
-          "quickAddConfig": {
-            "shouldShow": true,
-            "isInteractionEnabled": false,
-            "position": "BOTTOM_TRAILING"
-          },
-          "labelPrimary": {
-            "richTextElements": [
-              {
-                "text": {
-                  "text": {
-                    "text": "$20.00",
-                    "font": {
-                      "style": "PARAGRAPH_SMALL",
-                      "weight": "NORMAL"
-                    },
-                    "color": "CONTENT_PRIMARY"
-                  },
-                  "predefinedDecorations": null
-                },
-                "type": "text"
-              },
-              {
-                "text": {
-                  "text": {
-                    "text": " • ",
-                    "font": {
-                      "style": "PARAGRAPH_SMALL",
-                      "weight": "NORMAL"
-                    },
-                    "color": "CONTENT_PRIMARY"
-                  },
-                  "predefinedDecorations": null
-                },
-                "type": "text"
-              },
-              {
-                "icon": {
-                  "icon": {
-                    "icon": "THUMB_UP_OUTLINE",
-                    "color": "PRIMARY",
-                    "size": "SPACING_UNIT_1_5X"
-                  },
-                  "alignment": "CENTERED"
-                },
-                "type": "icon"
-              },
-              {
-                "text": {
-                  "text": {
-                    "text": " 92% (63)",
-                    "font": {
-                      "style": "PARAGRAPH_SMALL",
-                      "weight": "NORMAL"
-                    },
-                    "color": "CONTENT_PRIMARY"
-                  },
-                  "predefinedDecorations": null
-                },
-                "type": "text"
-              }
-            ],
-            "accessibilityText": "$20.00, 92% of customers liked this based on 63 reviews."
-          },
-          "headingPrimary": {
-            "richTextElements": [
-              {
-                "text": {
-                  "text": {
-                    "text": "Yellow Dal Tarka",
-                    "font": {
-                      "style": "LABEL_DEFAULT",
-                      "weight": "MEDIUM"
-                    },
-                    "color": "CONTENT_PRIMARY"
-                  },
-                  "predefinedDecorations": null
-                },
-                "type": "text"
-              }
-            ],
-            "accessibilityText": "Yellow Dal Tarka"
-          },
-          "itemAvailabilityState": "UNKNOWN",
-          "catalogItemAnalyticsData": {
-            "catalogSectionItemPosition": 2,
-            "endorsementMetadata": {
-              "endorsementType": "ratings",
-              "rating": "92%",
-              "numRatings": 63
-            },
-            "promoType": "BOGO"
-          },
-          "imageOverlayElements": null,
-          "itemThumbnailElements": null,
-          "isWebPdpSupported": false
-        },
-        {
-          "uuid": "fe0b556b-142c-52e8-895c-9fbf6bfb1bb5",
-          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/a4ec9524e5955d2495099bb44cc0ea26/5954bcb006b10dbfd0bc160f6370faf3.jpeg",
-          "title": "Chicken Tikka Kebab",
-          "price": 2400,
-          "priceTagline": {
-            "text": "$24.00",
-            "textFormat": "<span>$24.00</span>",
-            "accessibilityText": "$24.00"
-          },
-          "spanCount": 2,
-          "displayType": "LIST",
-          "titleBadge": {
-            "text": "Chicken Tikka Kebab",
-            "textFormat": "<span>Chicken Tikka Kebab</span>",
-            "accessibilityText": "Chicken Tikka Kebab"
-          },
-          "isSoldOut": false,
-          "hasCustomizations": true,
-          "itemPromotion": {
-            "buyXGetYItemPromotion": {
-              "buyQuantity": 1,
-              "getQuantity": 1,
-              "maxRedemptionCount": 3
-            },
-            "type": "buyXGetYItemPromotion"
-          },
-          "subsectionUuid": "93c0693b-9fdc-5118-a92f-cd7bfa2b597b",
-          "isAvailable": true,
-          "purchaseInfo": {
-            "purchaseOptions": [
-              {
-                "itemQuantityAbbreviation": "",
-                "quantityConstraintsV2": {
-                  "minPermitted": {
-                    "base": {
-                      "high": 0,
-                      "low": 1,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "maxPermitted": {
-                    "base": {
-                      "high": 0,
-                      "low": 999,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "increment": {
-                    "base": {
-                      "high": 0,
-                      "low": 1,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "defaultQuantity": {
-                    "base": {
-                      "high": 0,
-                      "low": 2,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "minPermittedNumber": 1,
-                  "maxPermittedNumber": 999,
-                  "incrementNumber": 1,
-                  "defaultQuantityNumber": 2
-                }
-              }
-            ],
-            "pricingInfo": {}
-          },
-          "sectionUuid": "98fd4e1b-7ddd-5666-9cad-aff2c9bc402b",
-          "promoInfo": {
-            "promotionUUID": "849eef1d-fc64-4635-a08e-1d1ffc1cee65",
-            "promoBadge": {
-              "content": {
-                "richText": {
-                  "richTextElements": [
-                    {
-                      "text": {
-                        "text": {
-                          "text": "Buy 1, Get 1 Free",
-                          "font": {
-                            "style": "LABEL_X_SMALL",
-                            "weight": "MEDIUM"
-                          },
-                          "color": "BRAND_CONTENT_ON_PRIMARY"
-                        },
-                        "predefinedDecorations": null
-                      },
-                      "type": "text"
-                    }
-                  ],
-                  "accessibilityText": "Buy 1, Get 1 Free"
-                },
-                "type": "richText"
-              },
-              "hierarchy": "PRIMARY",
-              "color": {
-                "custom": {
-                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
-                },
-                "type": "custom"
-              },
-              "shape": "PILL",
-              "accessibilityText": "Buy 1, Get 1 Free"
-            },
-            "badgePosition": "OFF_IMAGE_BELOW_TEXT"
-          },
-          "quickAddConfig": {
-            "shouldShow": true,
-            "isInteractionEnabled": false,
-            "position": "BOTTOM_TRAILING"
-          },
-          "labelPrimary": {
-            "richTextElements": [
-              {
-                "text": {
-                  "text": {
-                    "text": "$24.00",
-                    "font": {
-                      "style": "PARAGRAPH_SMALL",
-                      "weight": "NORMAL"
-                    },
-                    "color": "CONTENT_PRIMARY"
-                  },
-                  "predefinedDecorations": null
-                },
-                "type": "text"
-              },
-              {
-                "text": {
-                  "text": {
-                    "text": " • ",
-                    "font": {
-                      "style": "PARAGRAPH_SMALL",
-                      "weight": "NORMAL"
-                    },
-                    "color": "CONTENT_PRIMARY"
-                  },
-                  "predefinedDecorations": null
-                },
-                "type": "text"
-              },
-              {
-                "icon": {
-                  "icon": {
-                    "icon": "THUMB_UP_OUTLINE",
-                    "color": "PRIMARY",
-                    "size": "SPACING_UNIT_1_5X"
-                  },
-                  "alignment": "CENTERED"
-                },
-                "type": "icon"
-              },
-              {
-                "text": {
-                  "text": {
-                    "text": " 91% (136)",
-                    "font": {
-                      "style": "PARAGRAPH_SMALL",
-                      "weight": "NORMAL"
-                    },
-                    "color": "CONTENT_PRIMARY"
-                  },
-                  "predefinedDecorations": null
-                },
-                "type": "text"
-              }
-            ],
-            "accessibilityText": "$24.00, 91% of customers liked this based on 136 reviews."
-          },
-          "headingPrimary": {
-            "richTextElements": [
-              {
-                "text": {
-                  "text": {
-                    "text": "Chicken Tikka Kebab",
-                    "font": {
-                      "style": "LABEL_DEFAULT",
-                      "weight": "MEDIUM"
-                    },
-                    "color": "CONTENT_PRIMARY"
-                  },
-                  "predefinedDecorations": null
-                },
-                "type": "text"
-              }
-            ],
-            "accessibilityText": "Chicken Tikka Kebab"
-          },
-          "itemAvailabilityState": "UNKNOWN",
-          "catalogItemAnalyticsData": {
-            "catalogSectionItemPosition": 0,
-            "endorsementMetadata": {
-              "endorsementType": "ratings",
-              "rating": "91%",
-              "numRatings": 136
+              "rating": "83%",
+              "numRatings": 6
             },
             "promoType": "BOGO"
           },
@@ -25773,6 +23791,1186 @@
           },
           "imageOverlayElements": null,
           "itemThumbnailElements": null,
+          "isWebPdpSupported": false
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Restaurant",
+      "@id": "https://www.ubereats.com/store/madras-dosa-company-3rd-ave-nyc-829-3rd-avenue/6GFdLvcyUL-L_jBrBx7d2g",
+      "name": "Madras Dosa Company 3rd Ave, NYC (829 3rd Avenue)",
+      "servesCuisine": [
+        "Indian",
+        "Vegetarian",
+        "Asian"
+      ],
+      "priceRange": "$",
+      "image": [
+        "https://tb-static.uber.com/prod/image-proc/processed_images/1c3b2201dd8cdcf2cb34611b29efba31/bb3c0a72d9475b425c5ee9e6ea716d2f.webp",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/1c3b2201dd8cdcf2cb34611b29efba31/1130cd428ee928d351d26efda1178b20.webp",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/1c3b2201dd8cdcf2cb34611b29efba31/db9ac6e65b00f2558664e469940eca31.webp",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/1c3b2201dd8cdcf2cb34611b29efba31/c86a2d4dc3dc568dc3ddf7b096104ac3.webp",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/1c3b2201dd8cdcf2cb34611b29efba31/36251f0b543c447bdd4e9925b1861023.webp",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/1c3b2201dd8cdcf2cb34611b29efba31/1da9a9e826d15157cea1c5bb8696f248.webp"
+      ],
+      "potentialAction": {
+        "@type": "OrderAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.ubereats.com/store/madras-dosa-company-3rd-ave-nyc-829-3rd-avenue/6GFdLvcyUL-L_jBrBx7d2g?utm_campaign=order-action&amp;utm_medium=organic",
+          "inLanguage": "English",
+          "actionPlatform": [
+            "https://schema.org/DesktopWebPlatform",
+            "https://schema.org/MobileWebPlatform"
+          ]
+        },
+        "deliveryMethod": [
+          "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+          "http://purl.org/goodrelations/v1#DeliveryModePickUp"
+        ]
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "New York",
+        "addressRegion": "NY",
+        "postalCode": "10022",
+        "addressCountry": "US",
+        "streetAddress": "829 3rd Avenue"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 40.7561801,
+        "longitude": -73.9702872
+      },
+      "telephone": "+12013817494",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4.6,
+        "reviewCount": "39"
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "opens": "8:0",
+          "closes": "23:0"
+        }
+      ],
+      "deals": [
+        {
+          "uuid": "82ff9d0d-dc20-50a2-afac-e0f25a6deaf9",
+          "title": "Mango Lassi",
+          "itemDescription": "Creamy yogurt drink with mango.",
+          "price": 700,
+          "priceTagline": {
+            "text": "$7.00",
+            "textFormat": "<span>$7.00</span>",
+            "accessibilityText": "$7.00"
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "Mango Lassi",
+            "textFormat": "<span>Mango Lassi</span>",
+            "accessibilityText": "Mango Lassi"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": false,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 1
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "Creamy yogurt drink with mango.",
+            "textFormat": "<span style=\"color:#757575\">Creamy yogurt drink with mango.</span>"
+          },
+          "subsectionUuid": "3695941e-7de4-58ea-b9a0-e5d61f2205ad",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "maxPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 999,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "increment": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "defaultQuantity": {
+                    "base": {
+                      "high": 0,
+                      "low": 2,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 999,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 2
+                }
+              }
+            ],
+            "pricingInfo": {}
+          },
+          "sectionUuid": "7999ce2a-517b-5484-8ee6-f0f4e085802e",
+          "promoInfo": {
+            "promotionUUID": "d11416ad-c310-4f96-8d94-530b4f466260",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "Buy 1, Get 1 Free",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "Buy 1, Get 1 Free"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "PILL",
+              "accessibilityText": "Buy 1, Get 1 Free"
+            },
+            "badgePosition": "OFF_IMAGE_BELOW_TEXT"
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$7.00",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$7.00"
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "Mango Lassi",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "Mango Lassi"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 3,
+            "endorsementMetadata": {
+              "endorsementType": "most_liked"
+            },
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "isWebPdpSupported": false
+        },
+        {
+          "uuid": "22f2bc06-8852-5f65-ade2-4a35624df977",
+          "title": "Masala Lassi",
+          "itemDescription": "Make it spicy.",
+          "price": 700,
+          "priceTagline": {
+            "text": "$7.00",
+            "textFormat": "<span>$7.00</span>",
+            "accessibilityText": "$7.00"
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "Masala Lassi",
+            "textFormat": "<span>Masala Lassi</span>",
+            "accessibilityText": "Masala Lassi"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": true,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 1
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "Make it spicy.",
+            "textFormat": "<span style=\"color:#757575\">Make it spicy.</span>"
+          },
+          "subsectionUuid": "3695941e-7de4-58ea-b9a0-e5d61f2205ad",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "maxPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 999,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "increment": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "defaultQuantity": {
+                    "base": {
+                      "high": 0,
+                      "low": 2,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 999,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 2
+                }
+              }
+            ],
+            "pricingInfo": {}
+          },
+          "sectionUuid": "7999ce2a-517b-5484-8ee6-f0f4e085802e",
+          "promoInfo": {
+            "promotionUUID": "d11416ad-c310-4f96-8d94-530b4f466260",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "Buy 1, Get 1 Free",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "Buy 1, Get 1 Free"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "PILL",
+              "accessibilityText": "Buy 1, Get 1 Free"
+            },
+            "badgePosition": "OFF_IMAGE_BELOW_TEXT"
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$7.00",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$7.00"
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "Masala Lassi",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "Masala Lassi"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 4,
+            "endorsementMetadata": {
+              "endorsementType": "most_liked"
+            },
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "isWebPdpSupported": false
+        },
+        {
+          "uuid": "7a139479-b353-5f95-93bd-18bd21b44869",
+          "title": "Aloo Samosa",
+          "itemDescription": "2 pieces. Vegan.",
+          "price": 900,
+          "priceTagline": {
+            "text": "$9.00",
+            "textFormat": "<span>$9.00</span>",
+            "accessibilityText": "$9.00"
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "Aloo Samosa",
+            "textFormat": "<span>Aloo Samosa</span>",
+            "accessibilityText": "Aloo Samosa"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": false,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 1
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "2 pieces. Vegan.",
+            "textFormat": "<span style=\"color:#757575\">2 pieces. Vegan.</span>"
+          },
+          "subsectionUuid": "694041d6-6010-56d6-a8db-c0d330af7134",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "maxPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 999,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "increment": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "defaultQuantity": {
+                    "base": {
+                      "high": 0,
+                      "low": 2,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 999,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 2
+                }
+              }
+            ],
+            "pricingInfo": {}
+          },
+          "sectionUuid": "7999ce2a-517b-5484-8ee6-f0f4e085802e",
+          "promoInfo": {
+            "promotionUUID": "d11416ad-c310-4f96-8d94-530b4f466260",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "Buy 1, Get 1 Free",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "Buy 1, Get 1 Free"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "PILL",
+              "accessibilityText": "Buy 1, Get 1 Free"
+            },
+            "badgePosition": "OFF_IMAGE_BELOW_TEXT"
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$9.00",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$9.00"
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "Aloo Samosa",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "Aloo Samosa"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 0,
+            "endorsementMetadata": {
+              "endorsementType": "most_liked"
+            },
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "isWebPdpSupported": false
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Restaurant",
+      "@id": "https://www.ubereats.com/store/shake-shack-midtown-east/ok2b6OulTTmKXPr2fm0DJQ",
+      "name": "Shake Shack (Midtown East)",
+      "servesCuisine": [
+        "American",
+        "Burgers",
+        "Group Friendly",
+        "Ice Cream",
+        "Desserts"
+      ],
+      "priceRange": "$",
+      "image": [
+        "https://tb-static.uber.com/prod/image-proc/processed_images/0076000fc0ade2b59f2cb632f6d8fc19/19ec62ba51fde35ba0aff5b84321c5af.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/0076000fc0ade2b59f2cb632f6d8fc19/c67d558c633281f9c71fc6a90ef470ae.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/0076000fc0ade2b59f2cb632f6d8fc19/8681e511c0910e0052cb155c50f01f89.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/0076000fc0ade2b59f2cb632f6d8fc19/6ea4f72e303000fbf403bbb36f971f85.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/0076000fc0ade2b59f2cb632f6d8fc19/4bee0baf259f2b3c95aacdebea87e950.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/0076000fc0ade2b59f2cb632f6d8fc19/5283d81c664b43c5f57a3a186d273063.jpeg"
+      ],
+      "potentialAction": {
+        "@type": "OrderAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.ubereats.com/store/shake-shack-midtown-east/ok2b6OulTTmKXPr2fm0DJQ?utm_campaign=order-action&amp;utm_medium=organic",
+          "inLanguage": "English",
+          "actionPlatform": [
+            "https://schema.org/DesktopWebPlatform",
+            "https://schema.org/MobileWebPlatform"
+          ]
+        },
+        "deliveryMethod": [
+          "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+          "http://purl.org/goodrelations/v1#DeliveryModePickUp"
+        ]
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "New York",
+        "addressRegion": "NY",
+        "postalCode": "10016",
+        "addressCountry": "US",
+        "streetAddress": "600 Third Avenue"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 40.7495312,
+        "longitude": -73.9757467
+      },
+      "telephone": "+16466684882",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4.6,
+        "reviewCount": "10000"
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "opens": "10:30",
+          "closes": "23:59"
+        }
+      ],
+      "deals": [
+        {
+          "uuid": "b11059b0-0277-5013-9f67-fd58b4b3148d",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/207e44fe4c205afdc70c2a251735ef7f/b4665c191b34baf3d0e0fa45dfdd3d1d.jpeg",
+          "title": "Chicken Shack",
+          "itemDescription": "Antibiotic-free, hand-breaded, white-meat chicken breast over lettuce, pickles, and buttermilk herb mayo on a toasted potato bun (Contains: Milk, Egg, Wheat, Sesame)",
+          "price": 1199,
+          "priceTagline": {
+            "text": "$11.99 • 590 Cal.",
+            "textFormat": "<span>$11.99<span style=\"color:#757575\"> • 590 Cal.</span></span>",
+            "accessibilityText": "$11.99, 590 Cal."
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "Chicken Shack",
+            "textFormat": "<span>Chicken Shack</span>",
+            "accessibilityText": "Chicken Shack"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": true,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "Antibiotic-free, hand-breaded, white-meat chicken breast over lettuce, pickles, and buttermilk herb mayo on a toasted potato bun (Contains: Milk, Egg, Wheat, Sesame)",
+            "textFormat": "<span style=\"color:#757575\">Antibiotic-free, hand-breaded, white-meat chicken breast over lettuce, pickles, and buttermilk herb mayo on a toasted potato bun (Contains: Milk, Egg, Wheat, Sesame)</span>"
+          },
+          "subsectionUuid": "674454cb-79e9-5e95-bd47-9e2a175e7b0d",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "soldByUnit": {
+                  "measurementType": "MEASUREMENT_TYPE_COUNT"
+                },
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": 100000,
+                    "exponent": -5
+                  },
+                  "maxPermitted": {
+                    "base": 25000000,
+                    "exponent": -5
+                  },
+                  "increment": {
+                    "base": 100000,
+                    "exponent": -5
+                  },
+                  "defaultQuantity": {
+                    "base": {
+                      "high": 0,
+                      "low": 2,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 250,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 2
+                },
+                "purchasePriceV2": {
+                  "base": {
+                    "high": 0,
+                    "low": 1199,
+                    "unsigned": false
+                  },
+                  "exponent": -2
+                },
+                "pricedByToSoldByUnitConversionInfo": {
+                  "conversionRate": {
+                    "base": {
+                      "high": 0,
+                      "low": 100000,
+                      "unsigned": false
+                    },
+                    "exponent": -5
+                  }
+                }
+              }
+            ],
+            "pricingInfo": {
+              "pricedByUnit": {
+                "measurementType": "MEASUREMENT_TYPE_COUNT"
+              }
+            }
+          },
+          "sectionUuid": "02a5956a-57e5-51f6-a5dd-0770c2e82821",
+          "promoInfo": {
+            "promotionUUID": "835fd163-ad3d-4f71-930d-02532d198855",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "Buy 1, Get 1 Free",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "Buy 1, Get 1 Free"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "PILL",
+              "accessibilityText": "Buy 1, Get 1 Free"
+            },
+            "badgePosition": "OFF_IMAGE_BELOW_TEXT"
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$11.99",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": " • ",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "icon": {
+                  "icon": {
+                    "icon": "THUMB_UP_OUTLINE",
+                    "color": "PRIMARY",
+                    "size": "SPACING_UNIT_1_5X"
+                  },
+                  "alignment": "CENTERED"
+                },
+                "type": "icon"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": " 83% (560)",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": " • ",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_TERTIARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": "590 Cal.",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_TERTIARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$11.99, 83% of customers liked this based on 560 reviews., 590 Cal."
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "Chicken Shack",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "Chicken Shack"
+          },
+          "itemAvailabilityState": "AVAILABLE",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 3,
+            "endorsementMetadata": {
+              "endorsementType": "ratings",
+              "rating": "83%",
+              "numRatings": 560
+            },
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "productInfo": {
+            "productUuid": "b11059b0-0277-5013-9f67-fd58b4b3148d"
+          },
+          "isWebPdpSupported": false
+        },
+        {
+          "uuid": "1ce4ad47-4f05-5fd9-9e96-07caf2603272",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/257d2c7740b21c434020cd9e676f9572/b4665c191b34baf3d0e0fa45dfdd3d1d.jpeg",
+          "title": "Cookies and Cream Shake",
+          "itemDescription": "Chocolate cookie crumbles hand spun with our house-made vanilla frozen custard (contains milk, egg, wheat) \nAdd sprinkles to support GLAAD",
+          "price": 819,
+          "priceTagline": {
+            "text": "$8.19 • 850 Cal.",
+            "textFormat": "<span>$8.19<span style=\"color:#757575\"> • 850 Cal.</span></span>",
+            "accessibilityText": "$8.19, 850 Cal."
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "Cookies and Cream Shake",
+            "textFormat": "<span>Cookies and Cream Shake</span>",
+            "accessibilityText": "Cookies and Cream Shake"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": true,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "Chocolate cookie crumbles hand spun with our house-made vanilla frozen custard (contains milk, egg, wheat) \nAdd sprinkles to support GLAAD",
+            "textFormat": "<span style=\"color:#757575\">Chocolate cookie crumbles hand spun with our house-made vanilla frozen custard (contains milk, egg, wheat) \nAdd sprinkles to support GLAAD</span>"
+          },
+          "subsectionUuid": "74260d8b-5f44-53dd-a94e-a5f7c052283d",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "soldByUnit": {
+                  "measurementType": "MEASUREMENT_TYPE_COUNT"
+                },
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": 100000,
+                    "exponent": -5
+                  },
+                  "maxPermitted": {
+                    "base": 25000000,
+                    "exponent": -5
+                  },
+                  "increment": {
+                    "base": 100000,
+                    "exponent": -5
+                  },
+                  "defaultQuantity": {
+                    "base": {
+                      "high": 0,
+                      "low": 2,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 250,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 2
+                },
+                "purchasePriceV2": {
+                  "base": {
+                    "high": 0,
+                    "low": 819,
+                    "unsigned": false
+                  },
+                  "exponent": -2
+                },
+                "pricedByToSoldByUnitConversionInfo": {
+                  "conversionRate": {
+                    "base": {
+                      "high": 0,
+                      "low": 100000,
+                      "unsigned": false
+                    },
+                    "exponent": -5
+                  }
+                }
+              }
+            ],
+            "pricingInfo": {
+              "pricedByUnit": {
+                "measurementType": "MEASUREMENT_TYPE_COUNT"
+              }
+            }
+          },
+          "sectionUuid": "02a5956a-57e5-51f6-a5dd-0770c2e82821",
+          "promoInfo": {
+            "promotionUUID": "749f5582-1460-414b-8216-dc7bc9fb9985",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "Buy 1, Get 1 Free",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "Buy 1, Get 1 Free"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "PILL",
+              "accessibilityText": "Buy 1, Get 1 Free"
+            },
+            "badgePosition": "OFF_IMAGE_BELOW_TEXT"
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$8.19",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": " • ",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "icon": {
+                  "icon": {
+                    "icon": "THUMB_UP_OUTLINE",
+                    "color": "PRIMARY",
+                    "size": "SPACING_UNIT_1_5X"
+                  },
+                  "alignment": "CENTERED"
+                },
+                "type": "icon"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": " 88% (121)",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": " • ",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_TERTIARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": "850 Cal.",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_TERTIARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$8.19, 88% of customers liked this based on 121 reviews., 850 Cal."
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "Cookies and Cream Shake",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "Cookies and Cream Shake"
+          },
+          "itemAvailabilityState": "AVAILABLE",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 1,
+            "endorsementMetadata": {
+              "endorsementType": "ratings",
+              "rating": "88%",
+              "numRatings": 121
+            },
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "productInfo": {
+            "productUuid": "1ce4ad47-4f05-5fd9-9e96-07caf2603272"
+          },
           "isWebPdpSupported": false
         }
       ]
