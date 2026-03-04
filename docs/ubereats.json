@@ -1,4 +1,5515 @@
 {
-  "refreshDateTime": "2026-03-04T10:12:56.567Z",
-  "deals": []
+  "refreshDateTime": "2026-03-04T11:13:47.351Z",
+  "deals": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Restaurant",
+      "@id": "https://www.ubereats.com/store/gregorys-coffee-12-e-46th-st/vPaJJL_yT_G2mnEzwjVpcQ",
+      "name": "Gregorys Coffee (12 E 46th St)",
+      "servesCuisine": [
+        "Coffee and Tea",
+        "Juice and Smoothies",
+        "Pastry",
+        "Breakfast and Brunch",
+        "Desserts"
+      ],
+      "priceRange": "$$",
+      "image": [
+        "https://tb-static.uber.com/prod/image-proc/processed_images/032b6fe3a8bd28409f09905ca84f7bb1/19ec62ba51fde35ba0aff5b84321c5af.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/032b6fe3a8bd28409f09905ca84f7bb1/c67d558c633281f9c71fc6a90ef470ae.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/032b6fe3a8bd28409f09905ca84f7bb1/8681e511c0910e0052cb155c50f01f89.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/032b6fe3a8bd28409f09905ca84f7bb1/6ea4f72e303000fbf403bbb36f971f85.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/032b6fe3a8bd28409f09905ca84f7bb1/4bee0baf259f2b3c95aacdebea87e950.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/032b6fe3a8bd28409f09905ca84f7bb1/5283d81c664b43c5f57a3a186d273063.jpeg"
+      ],
+      "potentialAction": {
+        "@type": "OrderAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.ubereats.com/store/gregorys-coffee-12-e-46th-st/vPaJJL_yT_G2mnEzwjVpcQ?utm_campaign=order-action&amp;utm_medium=organic",
+          "inLanguage": "English",
+          "actionPlatform": [
+            "https://schema.org/DesktopWebPlatform",
+            "https://schema.org/MobileWebPlatform"
+          ]
+        },
+        "deliveryMethod": [
+          "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+          "http://purl.org/goodrelations/v1#DeliveryModePickUp"
+        ]
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "New York",
+        "addressRegion": "NY",
+        "postalCode": "10017",
+        "addressCountry": "US",
+        "streetAddress": "12 E 46th St"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 40.7557661,
+        "longitude": -73.9780155
+      },
+      "telephone": "+18772317619",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4.8,
+        "reviewCount": 130
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Sunday",
+          "opens": "08:00",
+          "closes": "16:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "06:00",
+          "closes": "19:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Saturday",
+          "opens": "08:00",
+          "closes": "16:00"
+        }
+      ],
+      "deals": [
+        {
+          "uuid": "5181aeed-32d8-513c-9f91-788bb46e8733",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/5b14ab6bf71b70c3f7655f3c7407bdac/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+          "title": "The Skinny",
+          "itemDescription": "Egg whites scrambled with organic turkey bacon and white cheddar cheese served on an english muffin. 24 grams of protein 💪340 cal *contains soy, wheat, sesame, milk",
+          "price": 738,
+          "priceTagline": {
+            "text": "$7.38",
+            "textFormat": "<span>$7.38</span>",
+            "accessibilityText": "$7.38"
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "The Skinny",
+            "textFormat": "<span>The Skinny</span>",
+            "accessibilityText": "The Skinny"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": true,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "Egg whites scrambled with organic turkey bacon and white cheddar cheese served on an english muffin. 24 grams of protein 💪340 cal *contains soy, wheat, sesame, milk",
+            "textFormat": "<span style=\"color:#757575\">Egg whites scrambled with organic turkey bacon and white cheddar cheese served on an english muffin. 24 grams of protein 💪340 cal *contains soy, wheat, sesame, milk</span>"
+          },
+          "subsectionUuid": "ec725b5a-4d37-5bba-892f-75e57813dbdf",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "maxPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 999,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "increment": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "defaultQuantity": {
+                    "base": {
+                      "high": 0,
+                      "low": 2,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 999,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 2
+                }
+              }
+            ],
+            "pricingInfo": {}
+          },
+          "sectionUuid": "d903a00d-32f3-59d7-89dc-171ecb651a3c",
+          "promoInfo": {
+            "promotionUUID": "9a4471f4-cbf9-42b1-a7f6-ff67c07f8326",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "Buy 1, get 1 free",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "Buy 1, get 1 free"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "PILL",
+              "accessibilityText": "Buy 1, get 1 free"
+            },
+            "badgePosition": "OFF_IMAGE_BELOW_TEXT"
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$7.38",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$7.38"
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "The Skinny",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "The Skinny"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 4,
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "isWebPdpSupported": false
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Restaurant",
+      "@id": "https://www.ubereats.com/store/gregorys-coffee-20-e-40th-st/CXxcUvlHQRSChFVQrb9CfA",
+      "name": "Gregorys Coffee (20 E 40th St)",
+      "servesCuisine": [
+        "Coffee and Tea",
+        "Juice and Smoothies",
+        "Pastry",
+        "Desserts",
+        "Group Friendly"
+      ],
+      "priceRange": "$$",
+      "image": [
+        "https://tb-static.uber.com/prod/image-proc/processed_images/032b6fe3a8bd28409f09905ca84f7bb1/19ec62ba51fde35ba0aff5b84321c5af.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/032b6fe3a8bd28409f09905ca84f7bb1/c67d558c633281f9c71fc6a90ef470ae.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/032b6fe3a8bd28409f09905ca84f7bb1/8681e511c0910e0052cb155c50f01f89.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/032b6fe3a8bd28409f09905ca84f7bb1/6ea4f72e303000fbf403bbb36f971f85.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/032b6fe3a8bd28409f09905ca84f7bb1/4bee0baf259f2b3c95aacdebea87e950.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/032b6fe3a8bd28409f09905ca84f7bb1/5283d81c664b43c5f57a3a186d273063.jpeg"
+      ],
+      "potentialAction": {
+        "@type": "OrderAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.ubereats.com/store/gregorys-coffee-20-e-40th-st/CXxcUvlHQRSChFVQrb9CfA?utm_campaign=order-action&amp;utm_medium=organic",
+          "inLanguage": "English",
+          "actionPlatform": [
+            "https://schema.org/DesktopWebPlatform",
+            "https://schema.org/MobileWebPlatform"
+          ]
+        },
+        "deliveryMethod": [
+          "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+          "http://purl.org/goodrelations/v1#DeliveryModePickUp"
+        ]
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "New York",
+        "addressRegion": "NY",
+        "postalCode": "10016",
+        "addressCountry": "US",
+        "streetAddress": "20 E 40th St"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 40.7517344,
+        "longitude": -73.9805292
+      },
+      "telephone": "+18772073358",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4.8,
+        "reviewCount": 310
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Sunday",
+          "opens": "08:00",
+          "closes": "17:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "06:00",
+          "closes": "19:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Saturday",
+          "opens": "08:00",
+          "closes": "17:00"
+        }
+      ],
+      "deals": [
+        {
+          "uuid": "0c10d2d7-3c30-57e7-be23-657c86f150d0",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/5b14ab6bf71b70c3f7655f3c7407bdac/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+          "title": "The Skinny",
+          "itemDescription": "Egg whites scrambled with organic turkey bacon and white cheddar cheese served on an english muffin. 24 grams of protein 💪340 cal *contains soy, wheat, sesame, milk",
+          "price": 738,
+          "priceTagline": {
+            "text": "$7.38",
+            "textFormat": "<span>$7.38</span>",
+            "accessibilityText": "$7.38"
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "The Skinny",
+            "textFormat": "<span>The Skinny</span>",
+            "accessibilityText": "The Skinny"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": true,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "Egg whites scrambled with organic turkey bacon and white cheddar cheese served on an english muffin. 24 grams of protein 💪340 cal *contains soy, wheat, sesame, milk",
+            "textFormat": "<span style=\"color:#757575\">Egg whites scrambled with organic turkey bacon and white cheddar cheese served on an english muffin. 24 grams of protein 💪340 cal *contains soy, wheat, sesame, milk</span>"
+          },
+          "subsectionUuid": "fdb0d5ff-b917-5c03-a8aa-c2a7455af0c6",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "maxPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 999,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "increment": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "defaultQuantity": {
+                    "base": {
+                      "high": 0,
+                      "low": 2,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 999,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 2
+                }
+              }
+            ],
+            "pricingInfo": {}
+          },
+          "sectionUuid": "0a9a60c9-51c9-5830-8810-7063ca3b0f47",
+          "promoInfo": {
+            "promotionUUID": "7dfc6218-b1ec-4107-af85-3e5830536488",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "Buy 1, get 1 free",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "Buy 1, get 1 free"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "PILL",
+              "accessibilityText": "Buy 1, get 1 free"
+            },
+            "badgePosition": "OFF_IMAGE_BELOW_TEXT"
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$7.38",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$7.38"
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "The Skinny",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "The Skinny"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 4,
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "isWebPdpSupported": false
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Restaurant",
+      "@id": "https://www.ubereats.com/store/gregorys-coffee-485-madison-ave/UGbMs22iT-CLhPWKVl26Vg",
+      "name": "Gregorys Coffee (485 Madison Ave)",
+      "servesCuisine": [
+        "Coffee and Tea",
+        "Juice and Smoothies",
+        "Pastry",
+        "Breakfast and Brunch"
+      ],
+      "priceRange": "$$",
+      "image": [
+        "https://tb-static.uber.com/prod/image-proc/processed_images/032b6fe3a8bd28409f09905ca84f7bb1/19ec62ba51fde35ba0aff5b84321c5af.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/032b6fe3a8bd28409f09905ca84f7bb1/c67d558c633281f9c71fc6a90ef470ae.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/032b6fe3a8bd28409f09905ca84f7bb1/8681e511c0910e0052cb155c50f01f89.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/032b6fe3a8bd28409f09905ca84f7bb1/6ea4f72e303000fbf403bbb36f971f85.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/032b6fe3a8bd28409f09905ca84f7bb1/4bee0baf259f2b3c95aacdebea87e950.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/032b6fe3a8bd28409f09905ca84f7bb1/5283d81c664b43c5f57a3a186d273063.jpeg"
+      ],
+      "potentialAction": {
+        "@type": "OrderAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.ubereats.com/store/gregorys-coffee-485-madison-ave/UGbMs22iT-CLhPWKVl26Vg?utm_campaign=order-action&amp;utm_medium=organic",
+          "inLanguage": "English",
+          "actionPlatform": [
+            "https://schema.org/DesktopWebPlatform",
+            "https://schema.org/MobileWebPlatform"
+          ]
+        },
+        "deliveryMethod": [
+          "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+          "http://purl.org/goodrelations/v1#DeliveryModePickUp"
+        ]
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "New York",
+        "addressRegion": "NY",
+        "postalCode": "10022",
+        "addressCountry": "US",
+        "streetAddress": "485 Madison Ave"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 40.7589284,
+        "longitude": -73.9744852
+      },
+      "telephone": "+18772117343",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4.7,
+        "reviewCount": 170
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Monday",
+          "opens": "06:00",
+          "closes": "16:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Tuesday",
+            "Wednesday",
+            "Thursday"
+          ],
+          "opens": "06:00",
+          "closes": "18:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Friday",
+          "opens": "06:00",
+          "closes": "16:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Saturday",
+          "opens": "08:00",
+          "closes": "16:00"
+        }
+      ],
+      "deals": [
+        {
+          "uuid": "1cbd668c-4173-5e04-acea-6917b9cf10a7",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/5b14ab6bf71b70c3f7655f3c7407bdac/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+          "title": "The Skinny",
+          "itemDescription": "Egg whites scrambled with organic turkey bacon and white cheddar cheese served on an english muffin. 24 grams of protein 💪340 cal *contains soy, wheat, sesame, milk",
+          "price": 738,
+          "priceTagline": {
+            "text": "$7.38",
+            "textFormat": "<span>$7.38</span>",
+            "accessibilityText": "$7.38"
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "The Skinny",
+            "textFormat": "<span>The Skinny</span>",
+            "accessibilityText": "The Skinny"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": true,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "Egg whites scrambled with organic turkey bacon and white cheddar cheese served on an english muffin. 24 grams of protein 💪340 cal *contains soy, wheat, sesame, milk",
+            "textFormat": "<span style=\"color:#757575\">Egg whites scrambled with organic turkey bacon and white cheddar cheese served on an english muffin. 24 grams of protein 💪340 cal *contains soy, wheat, sesame, milk</span>"
+          },
+          "subsectionUuid": "6501cb47-2b3d-53d9-a9f5-9a646ef25e8e",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "maxPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 999,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "increment": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "defaultQuantity": {
+                    "base": {
+                      "high": 0,
+                      "low": 2,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 999,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 2
+                }
+              }
+            ],
+            "pricingInfo": {}
+          },
+          "sectionUuid": "c3a6e45e-8c7e-58d6-a944-8f2e6b330c15",
+          "promoInfo": {
+            "promotionUUID": "9aaa54a0-f0c8-49c5-b893-c17fb1d47ad1",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "Buy 1, get 1 free",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "Buy 1, get 1 free"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "PILL",
+              "accessibilityText": "Buy 1, get 1 free"
+            },
+            "badgePosition": "OFF_IMAGE_BELOW_TEXT"
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$7.38",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$7.38"
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "The Skinny",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "The Skinny"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 4,
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "isWebPdpSupported": false
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Restaurant",
+      "@id": "https://www.ubereats.com/store/gregorys-coffee-880-3rd-ave/QRQ30a7WSSqwe8HawRgw-A",
+      "name": "Gregorys Coffee (880 3rd Ave)",
+      "servesCuisine": [
+        "Coffee and Tea",
+        "Juice and Smoothies",
+        "Pastry",
+        "Breakfast and Brunch",
+        "Desserts"
+      ],
+      "priceRange": "$$",
+      "image": [
+        "https://tb-static.uber.com/prod/image-proc/processed_images/032b6fe3a8bd28409f09905ca84f7bb1/19ec62ba51fde35ba0aff5b84321c5af.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/032b6fe3a8bd28409f09905ca84f7bb1/c67d558c633281f9c71fc6a90ef470ae.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/032b6fe3a8bd28409f09905ca84f7bb1/8681e511c0910e0052cb155c50f01f89.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/032b6fe3a8bd28409f09905ca84f7bb1/6ea4f72e303000fbf403bbb36f971f85.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/032b6fe3a8bd28409f09905ca84f7bb1/4bee0baf259f2b3c95aacdebea87e950.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/032b6fe3a8bd28409f09905ca84f7bb1/5283d81c664b43c5f57a3a186d273063.jpeg"
+      ],
+      "potentialAction": {
+        "@type": "OrderAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.ubereats.com/store/gregorys-coffee-880-3rd-ave/QRQ30a7WSSqwe8HawRgw-A?utm_campaign=order-action&amp;utm_medium=organic",
+          "inLanguage": "English",
+          "actionPlatform": [
+            "https://schema.org/DesktopWebPlatform",
+            "https://schema.org/MobileWebPlatform"
+          ]
+        },
+        "deliveryMethod": [
+          "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+          "http://purl.org/goodrelations/v1#DeliveryModePickUp"
+        ]
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "New York",
+        "addressRegion": "NY",
+        "postalCode": "10022",
+        "addressCountry": "US",
+        "streetAddress": "880 3rd Ave"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 40.7579907,
+        "longitude": -73.9693994
+      },
+      "telephone": "+18772125813",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4.7,
+        "reviewCount": 210
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday"
+          ],
+          "opens": "06:00",
+          "closes": "17:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Friday",
+          "opens": "06:00",
+          "closes": "16:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Saturday",
+          "opens": "08:00",
+          "closes": "16:00"
+        }
+      ],
+      "deals": [
+        {
+          "uuid": "f9fca1fc-a019-5e36-84ba-bc37d769d30f",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/5b14ab6bf71b70c3f7655f3c7407bdac/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+          "title": "The Skinny",
+          "itemDescription": "Egg whites scrambled with organic turkey bacon and white cheddar cheese served on an english muffin. 24 grams of protein 💪340 cal *contains soy, wheat, sesame, milk",
+          "price": 738,
+          "priceTagline": {
+            "text": "$7.38",
+            "textFormat": "<span>$7.38</span>",
+            "accessibilityText": "$7.38"
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "The Skinny",
+            "textFormat": "<span>The Skinny</span>",
+            "accessibilityText": "The Skinny"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": true,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "Egg whites scrambled with organic turkey bacon and white cheddar cheese served on an english muffin. 24 grams of protein 💪340 cal *contains soy, wheat, sesame, milk",
+            "textFormat": "<span style=\"color:#757575\">Egg whites scrambled with organic turkey bacon and white cheddar cheese served on an english muffin. 24 grams of protein 💪340 cal *contains soy, wheat, sesame, milk</span>"
+          },
+          "subsectionUuid": "c666b84d-d1df-59ad-9f4c-51bce01b2acc",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "maxPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 999,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "increment": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "defaultQuantity": {
+                    "base": {
+                      "high": 0,
+                      "low": 2,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 999,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 2
+                }
+              }
+            ],
+            "pricingInfo": {}
+          },
+          "sectionUuid": "b0b455fb-26a9-5e7c-9a4f-e6ff5f47e6d8",
+          "promoInfo": {
+            "promotionUUID": "48037373-52e6-4623-9942-45b8c1fdedfe",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "Buy 1, get 1 free",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "Buy 1, get 1 free"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "PILL",
+              "accessibilityText": "Buy 1, get 1 free"
+            },
+            "badgePosition": "OFF_IMAGE_BELOW_TEXT"
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$7.38",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$7.38"
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "The Skinny",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "The Skinny"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 3,
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "isWebPdpSupported": false
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Restaurant",
+      "@id": "https://www.ubereats.com/store/gregorys-coffee-58-w-44th-st/pnqZrUmxQlKrpM7IM0djsQ",
+      "name": "Gregorys Coffee (58 W 44th St)",
+      "servesCuisine": [
+        "Coffee and Tea",
+        "Juice and Smoothies",
+        "Pastry",
+        "Breakfast and Brunch",
+        "Desserts"
+      ],
+      "priceRange": "$$",
+      "image": [
+        "https://tb-static.uber.com/prod/image-proc/processed_images/032b6fe3a8bd28409f09905ca84f7bb1/19ec62ba51fde35ba0aff5b84321c5af.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/032b6fe3a8bd28409f09905ca84f7bb1/c67d558c633281f9c71fc6a90ef470ae.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/032b6fe3a8bd28409f09905ca84f7bb1/8681e511c0910e0052cb155c50f01f89.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/032b6fe3a8bd28409f09905ca84f7bb1/6ea4f72e303000fbf403bbb36f971f85.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/032b6fe3a8bd28409f09905ca84f7bb1/4bee0baf259f2b3c95aacdebea87e950.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/032b6fe3a8bd28409f09905ca84f7bb1/5283d81c664b43c5f57a3a186d273063.jpeg"
+      ],
+      "potentialAction": {
+        "@type": "OrderAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.ubereats.com/store/gregorys-coffee-58-w-44th-st/pnqZrUmxQlKrpM7IM0djsQ?utm_campaign=order-action&amp;utm_medium=organic",
+          "inLanguage": "English",
+          "actionPlatform": [
+            "https://schema.org/DesktopWebPlatform",
+            "https://schema.org/MobileWebPlatform"
+          ]
+        },
+        "deliveryMethod": [
+          "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+          "http://purl.org/goodrelations/v1#DeliveryModePickUp"
+        ]
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "New York",
+        "addressRegion": "NY",
+        "postalCode": "10036",
+        "addressCountry": "US",
+        "streetAddress": "58 West 44th Street"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 40.7559822,
+        "longitude": -73.982627
+      },
+      "telephone": "+18772203219",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4.6,
+        "reviewCount": 230
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Sunday",
+          "opens": "07:00",
+          "closes": "18:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "06:00",
+          "closes": "19:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Saturday",
+          "opens": "07:00",
+          "closes": "18:00"
+        }
+      ],
+      "deals": [
+        {
+          "uuid": "dd767475-66b3-5aed-9e66-ce7202b0b31b",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/5b14ab6bf71b70c3f7655f3c7407bdac/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+          "title": "The Skinny",
+          "itemDescription": "Egg whites scrambled with organic turkey bacon and white cheddar cheese served on an english muffin. 24 grams of protein 💪340 cal *contains soy, wheat, sesame, milk",
+          "price": 738,
+          "priceTagline": {
+            "text": "$7.38",
+            "textFormat": "<span>$7.38</span>",
+            "accessibilityText": "$7.38"
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "The Skinny",
+            "textFormat": "<span>The Skinny</span>",
+            "accessibilityText": "The Skinny"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": true,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "Egg whites scrambled with organic turkey bacon and white cheddar cheese served on an english muffin. 24 grams of protein 💪340 cal *contains soy, wheat, sesame, milk",
+            "textFormat": "<span style=\"color:#757575\">Egg whites scrambled with organic turkey bacon and white cheddar cheese served on an english muffin. 24 grams of protein 💪340 cal *contains soy, wheat, sesame, milk</span>"
+          },
+          "subsectionUuid": "0db7f8cc-c083-5443-a79c-0d229053d008",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "maxPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 999,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "increment": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "defaultQuantity": {
+                    "base": {
+                      "high": 0,
+                      "low": 2,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 999,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 2
+                }
+              }
+            ],
+            "pricingInfo": {}
+          },
+          "sectionUuid": "d2f73392-6f71-50a7-b4d9-98f75ac153b3",
+          "promoInfo": {
+            "promotionUUID": "3671161b-c26c-4a6b-a7e7-05daa3b6d419",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "Buy 1, get 1 free",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "Buy 1, get 1 free"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "PILL",
+              "accessibilityText": "Buy 1, get 1 free"
+            },
+            "badgePosition": "OFF_IMAGE_BELOW_TEXT"
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$7.38",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$7.38"
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "The Skinny",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "The Skinny"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 4,
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "isWebPdpSupported": false
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Restaurant",
+      "@id": "https://www.ubereats.com/store/joe-%26-the-juice-1185-sixth-ave/kxcyxEtDXbqUG1LMSxSoHw",
+      "name": "Joe &amp; The Juice (1185 Sixth Ave)",
+      "servesCuisine": [
+        "Juice and Smoothies",
+        "Sandwich"
+      ],
+      "priceRange": "",
+      "image": [
+        "https://tb-static.uber.com/prod/image-proc/processed_images/fa411a20032b04be6e3be8b47fc6693a/19ec62ba51fde35ba0aff5b84321c5af.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/fa411a20032b04be6e3be8b47fc6693a/c67d558c633281f9c71fc6a90ef470ae.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/fa411a20032b04be6e3be8b47fc6693a/8681e511c0910e0052cb155c50f01f89.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/fa411a20032b04be6e3be8b47fc6693a/6ea4f72e303000fbf403bbb36f971f85.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/fa411a20032b04be6e3be8b47fc6693a/4bee0baf259f2b3c95aacdebea87e950.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/fa411a20032b04be6e3be8b47fc6693a/5283d81c664b43c5f57a3a186d273063.jpeg"
+      ],
+      "potentialAction": {
+        "@type": "OrderAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.ubereats.com/store/joe-%26-the-juice-1185-sixth-ave/kxcyxEtDXbqUG1LMSxSoHw?utm_campaign=order-action&amp;utm_medium=organic",
+          "inLanguage": "English",
+          "actionPlatform": [
+            "https://schema.org/DesktopWebPlatform",
+            "https://schema.org/MobileWebPlatform"
+          ]
+        },
+        "deliveryMethod": [
+          "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+          "http://purl.org/goodrelations/v1#DeliveryModePickUp"
+        ]
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "New York",
+        "addressRegion": "NY",
+        "postalCode": "10036",
+        "addressCountry": "US",
+        "streetAddress": "6th Ave &amp; W 46th St"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 40.7576132,
+        "longitude": -73.9822977
+      },
+      "telephone": "",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4.8,
+        "reviewCount": 18
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "opens": "06:00",
+          "closes": "22:00"
+        }
+      ],
+      "deals": [
+        {
+          "uuid": "e28b2bfb-b3bd-4efb-adef-58fa8d308335",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/a01e8007b367654d0433356ace21a868/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+          "title": "The Steak",
+          "itemDescription": "31G PROTEIN - Joe's Classic Bread, Steak, Parmesan, Pickles, Tomato, Arugula, Honey Mustard Dressing, Salt, Black Pepper",
+          "price": 1690,
+          "priceTagline": {
+            "text": "$16.90 • 556 Cal.",
+            "textFormat": "<span>$16.90<span style=\"color:#757575\"> • 556 Cal.</span></span>",
+            "accessibilityText": "$16.90, 556 Cal."
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "The Steak",
+            "textFormat": "<span>The Steak</span>",
+            "accessibilityText": "The Steak"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": true,
+          "numAlcoholicItems": 0,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "31G PROTEIN - Joe's Classic Bread, Steak, Parmesan, Pickles, Tomato, Arugula, Honey Mustard Dressing, Salt, Black Pepper",
+            "textFormat": "<span style=\"color:#757575\">31G PROTEIN - Joe&#39;s Classic Bread, Steak, Parmesan, Pickles, Tomato, Arugula, Honey Mustard Dressing, Salt, Black Pepper</span>"
+          },
+          "subsectionUuid": "7a19c504-6e2d-4009-bce1-64729b238731",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "maxPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 999,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "increment": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "defaultQuantity": {
+                    "base": {
+                      "high": 0,
+                      "low": 2,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 999,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 2
+                }
+              }
+            ],
+            "pricingInfo": {}
+          },
+          "sectionUuid": "7364ff65-503c-50d7-b0c1-451359eea48f",
+          "promoInfo": {
+            "promotionUUID": "f4db92a5-946b-45fa-a4b7-1fac2dddf747",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "Buy 1, get 1 free",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "Buy 1, get 1 free"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "PILL",
+              "accessibilityText": "Buy 1, get 1 free"
+            },
+            "badgePosition": "OFF_IMAGE_BELOW_TEXT"
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$16.90",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": " • ",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_TERTIARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": "556 Cal.",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_TERTIARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$16.90, 556 Cal."
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "The Steak",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "The Steak"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 1,
+            "endorsementMetadata": {
+              "endorsementType": "most_liked"
+            },
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "isWebPdpSupported": false
+        },
+        {
+          "uuid": "a56c1891-91ef-4770-9ea4-4af4939bdfa8",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/69ecff02760ed9931030c99b5d9f364b/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+          "title": "Phat Joe",
+          "itemDescription": "48G PROTEIN - Joe's Classic Bread,  Chicken, Turkey, Parmesan, Avocado, Tomato, Honey Mustard Dressing, Arugula",
+          "price": 1690,
+          "priceTagline": {
+            "text": "$16.90 • 639 Cal.",
+            "textFormat": "<span>$16.90<span style=\"color:#757575\"> • 639 Cal.</span></span>",
+            "accessibilityText": "$16.90, 639 Cal."
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "Phat Joe",
+            "textFormat": "<span>Phat Joe</span>",
+            "accessibilityText": "Phat Joe"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": true,
+          "numAlcoholicItems": 0,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "48G PROTEIN - Joe's Classic Bread,  Chicken, Turkey, Parmesan, Avocado, Tomato, Honey Mustard Dressing, Arugula",
+            "textFormat": "<span style=\"color:#757575\">48G PROTEIN - Joe&#39;s Classic Bread,  Chicken, Turkey, Parmesan, Avocado, Tomato, Honey Mustard Dressing, Arugula</span>"
+          },
+          "subsectionUuid": "7a19c504-6e2d-4009-bce1-64729b238731",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "maxPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 999,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "increment": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "defaultQuantity": {
+                    "base": {
+                      "high": 0,
+                      "low": 2,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 999,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 2
+                }
+              }
+            ],
+            "pricingInfo": {}
+          },
+          "sectionUuid": "7364ff65-503c-50d7-b0c1-451359eea48f",
+          "promoInfo": {
+            "promotionUUID": "5e48c563-dab1-49c1-b651-9c8eb6c62755",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "Buy 1, get 1 free",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "Buy 1, get 1 free"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "PILL",
+              "accessibilityText": "Buy 1, get 1 free"
+            },
+            "badgePosition": "OFF_IMAGE_BELOW_TEXT"
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$16.90",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": " • ",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_TERTIARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": "639 Cal.",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_TERTIARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$16.90, 639 Cal."
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "Phat Joe",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "Phat Joe"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 0,
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "isWebPdpSupported": false
+        },
+        {
+          "uuid": "6382ea85-fa00-4460-b851-9e6e53789d7f",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/7d55112e2d976b83e5779b59b0bdcf2e/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+          "title": "Vegan Avocado Sandwich",
+          "itemDescription": "Joe's Classic Bread, Vegan Pesto, Avocado, Spinach, Tomato",
+          "price": 1490,
+          "priceTagline": {
+            "text": "$14.90 • 477 Cal.",
+            "textFormat": "<span>$14.90<span style=\"color:#757575\"> • 477 Cal.</span></span>",
+            "accessibilityText": "$14.90, 477 Cal."
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "Vegan Avocado Sandwich",
+            "textFormat": "<span>Vegan Avocado Sandwich</span>",
+            "accessibilityText": "Vegan Avocado Sandwich"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": true,
+          "numAlcoholicItems": 0,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "Joe's Classic Bread, Vegan Pesto, Avocado, Spinach, Tomato",
+            "textFormat": "<span style=\"color:#757575\">Joe&#39;s Classic Bread, Vegan Pesto, Avocado, Spinach, Tomato</span>"
+          },
+          "subsectionUuid": "f0b7b0fe-d16b-497e-bb50-f9d201db20e7",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "maxPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 999,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "increment": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "defaultQuantity": {
+                    "base": {
+                      "high": 0,
+                      "low": 2,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 999,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 2
+                }
+              }
+            ],
+            "pricingInfo": {}
+          },
+          "sectionUuid": "7364ff65-503c-50d7-b0c1-451359eea48f",
+          "promoInfo": {
+            "promotionUUID": "437d62c4-38a2-477e-b3a6-3c5d7144d1cd",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "Buy 1, get 1 free",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "Buy 1, get 1 free"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "PILL",
+              "accessibilityText": "Buy 1, get 1 free"
+            },
+            "badgePosition": "OFF_IMAGE_BELOW_TEXT"
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$14.90",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": " • ",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_TERTIARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": "477 Cal.",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_TERTIARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$14.90, 477 Cal."
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "Vegan Avocado Sandwich",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "Vegan Avocado Sandwich"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 6,
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "isWebPdpSupported": false
+        },
+        {
+          "uuid": "6e116191-d97e-5378-8d8e-7ce319070fdf",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/ad05d6be743e5794f7abf48b21b18c9c/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+          "title": "JOE´s Club Sandwich",
+          "itemDescription": "Chicken, Avocado, Tomato, Vegan Pesto, Joe's Classic Bread",
+          "price": 1490,
+          "priceTagline": {
+            "text": "$14.90 • 524 Cal.",
+            "textFormat": "<span>$14.90<span style=\"color:#757575\"> • 524 Cal.</span></span>",
+            "accessibilityText": "$14.90, 524 Cal."
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "JOE´s Club Sandwich",
+            "textFormat": "<span>JOE´s Club Sandwich</span>",
+            "accessibilityText": "JOE´s Club Sandwich"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": true,
+          "numAlcoholicItems": 0,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "Chicken, Avocado, Tomato, Vegan Pesto, Joe's Classic Bread",
+            "textFormat": "<span style=\"color:#757575\">Chicken, Avocado, Tomato, Vegan Pesto, Joe&#39;s Classic Bread</span>"
+          },
+          "subsectionUuid": "f0b7b0fe-d16b-497e-bb50-f9d201db20e7",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "maxPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 999,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "increment": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "defaultQuantity": {
+                    "base": {
+                      "high": 0,
+                      "low": 2,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 999,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 2
+                }
+              }
+            ],
+            "pricingInfo": {}
+          },
+          "sectionUuid": "7364ff65-503c-50d7-b0c1-451359eea48f",
+          "promoInfo": {
+            "promotionUUID": "40d7cf2c-c9c2-4ca1-a8e9-1465728f8d74",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "Buy 1, get 1 free",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "Buy 1, get 1 free"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "PILL",
+              "accessibilityText": "Buy 1, get 1 free"
+            },
+            "badgePosition": "OFF_IMAGE_BELOW_TEXT"
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$14.90",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": " • ",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_TERTIARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": "524 Cal.",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_TERTIARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$14.90, 524 Cal."
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "JOE´s Club Sandwich",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "JOE´s Club Sandwich"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 2,
+            "endorsementMetadata": {
+              "endorsementType": "most_liked"
+            },
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "isWebPdpSupported": false
+        },
+        {
+          "uuid": "585c74f4-1334-44d0-aa21-7b50fb384aa3",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/351d824a086ece3a2ef4f41f7fb55644/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+          "title": "Avocado Sandwich",
+          "itemDescription": "Vegan Pesto, Avocado, Joe's Classic Bread, Mozzarella, Tomato",
+          "price": 1490,
+          "priceTagline": {
+            "text": "$14.90 • 542 Cal.",
+            "textFormat": "<span>$14.90<span style=\"color:#757575\"> • 542 Cal.</span></span>",
+            "accessibilityText": "$14.90, 542 Cal."
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "Avocado Sandwich",
+            "textFormat": "<span>Avocado Sandwich</span>",
+            "accessibilityText": "Avocado Sandwich"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": true,
+          "numAlcoholicItems": 0,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "Vegan Pesto, Avocado, Joe's Classic Bread, Mozzarella, Tomato",
+            "textFormat": "<span style=\"color:#757575\">Vegan Pesto, Avocado, Joe&#39;s Classic Bread, Mozzarella, Tomato</span>"
+          },
+          "subsectionUuid": "f0b7b0fe-d16b-497e-bb50-f9d201db20e7",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "maxPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 999,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "increment": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "defaultQuantity": {
+                    "base": {
+                      "high": 0,
+                      "low": 2,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 999,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 2
+                }
+              }
+            ],
+            "pricingInfo": {}
+          },
+          "sectionUuid": "7364ff65-503c-50d7-b0c1-451359eea48f",
+          "promoInfo": {
+            "promotionUUID": "40d7cf2c-c9c2-4ca1-a8e9-1465728f8d74",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "Buy 1, get 1 free",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "Buy 1, get 1 free"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "PILL",
+              "accessibilityText": "Buy 1, get 1 free"
+            },
+            "badgePosition": "OFF_IMAGE_BELOW_TEXT"
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$14.90",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": " • ",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_TERTIARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": "542 Cal.",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_TERTIARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$14.90, 542 Cal."
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "Avocado Sandwich",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "Avocado Sandwich"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 1,
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "isWebPdpSupported": false
+        },
+        {
+          "uuid": "f6530f41-56d2-5821-aa92-4642d7c971c3",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/7ac148abb3a7863b226c5af008a8a950/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+          "title": "NEW Prosciutto Sandwich",
+          "itemDescription": "Joe's Classic Bread, Vegan Pesto, Avocado, Mozzarella, Tomato, Prosciutto",
+          "price": 1490,
+          "priceTagline": {
+            "text": "$14.90 • 561 Cal.",
+            "textFormat": "<span>$14.90<span style=\"color:#757575\"> • 561 Cal.</span></span>",
+            "accessibilityText": "$14.90, 561 Cal."
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "NEW Prosciutto Sandwich",
+            "textFormat": "<span>NEW Prosciutto Sandwich</span>",
+            "accessibilityText": "NEW Prosciutto Sandwich"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": true,
+          "numAlcoholicItems": 0,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "Joe's Classic Bread, Vegan Pesto, Avocado, Mozzarella, Tomato, Prosciutto",
+            "textFormat": "<span style=\"color:#757575\">Joe&#39;s Classic Bread, Vegan Pesto, Avocado, Mozzarella, Tomato, Prosciutto</span>"
+          },
+          "subsectionUuid": "f0b7b0fe-d16b-497e-bb50-f9d201db20e7",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "maxPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 999,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "increment": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "defaultQuantity": {
+                    "base": {
+                      "high": 0,
+                      "low": 2,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 999,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 2
+                }
+              }
+            ],
+            "pricingInfo": {}
+          },
+          "sectionUuid": "7364ff65-503c-50d7-b0c1-451359eea48f",
+          "promoInfo": {
+            "promotionUUID": "40d7cf2c-c9c2-4ca1-a8e9-1465728f8d74",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "Buy 1, get 1 free",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "Buy 1, get 1 free"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "PILL",
+              "accessibilityText": "Buy 1, get 1 free"
+            },
+            "badgePosition": "OFF_IMAGE_BELOW_TEXT"
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$14.90",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": " • ",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_TERTIARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": "561 Cal.",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_TERTIARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$14.90, 561 Cal."
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "NEW Prosciutto Sandwich",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "NEW Prosciutto Sandwich"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 0,
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "isWebPdpSupported": false
+        },
+        {
+          "uuid": "f87173b3-2961-4b6e-8610-2203df5df627",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/f2f2a11a410595c5d17378c8adeb5093/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+          "title": "Turkey Sandwich",
+          "itemDescription": "Turkey, Mozzarella, Tomato, Vegan Pesto, Joe's Classic Bread",
+          "price": 1490,
+          "priceTagline": {
+            "text": "$14.90 • 503 Cal.",
+            "textFormat": "<span>$14.90<span style=\"color:#757575\"> • 503 Cal.</span></span>",
+            "accessibilityText": "$14.90, 503 Cal."
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "Turkey Sandwich",
+            "textFormat": "<span>Turkey Sandwich</span>",
+            "accessibilityText": "Turkey Sandwich"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": true,
+          "numAlcoholicItems": 0,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "Turkey, Mozzarella, Tomato, Vegan Pesto, Joe's Classic Bread",
+            "textFormat": "<span style=\"color:#757575\">Turkey, Mozzarella, Tomato, Vegan Pesto, Joe&#39;s Classic Bread</span>"
+          },
+          "subsectionUuid": "f0b7b0fe-d16b-497e-bb50-f9d201db20e7",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "maxPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 999,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "increment": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "defaultQuantity": {
+                    "base": {
+                      "high": 0,
+                      "low": 2,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 999,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 2
+                }
+              }
+            ],
+            "pricingInfo": {}
+          },
+          "sectionUuid": "7364ff65-503c-50d7-b0c1-451359eea48f",
+          "promoInfo": {
+            "promotionUUID": "40d7cf2c-c9c2-4ca1-a8e9-1465728f8d74",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "Buy 1, get 1 free",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "Buy 1, get 1 free"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "PILL",
+              "accessibilityText": "Buy 1, get 1 free"
+            },
+            "badgePosition": "OFF_IMAGE_BELOW_TEXT"
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$14.90",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": " • ",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_TERTIARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": "503 Cal.",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_TERTIARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$14.90, 503 Cal."
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "Turkey Sandwich",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "Turkey Sandwich"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 5,
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "isWebPdpSupported": false
+        },
+        {
+          "uuid": "f15daf11-5123-437f-bdd0-857ba162e79f",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/d9ce9db13257e77d30da2852068ae862/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+          "title": "Tunacado Sandwich",
+          "itemDescription": "Tuna Mousse, Avocado, Tomato, Joe's Classic Bread, Vegan Pesto",
+          "price": 1490,
+          "priceTagline": {
+            "text": "$14.90 • 495 Cal.",
+            "textFormat": "<span>$14.90<span style=\"color:#757575\"> • 495 Cal.</span></span>",
+            "accessibilityText": "$14.90, 495 Cal."
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "Tunacado Sandwich",
+            "textFormat": "<span>Tunacado Sandwich</span>",
+            "accessibilityText": "Tunacado Sandwich"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": true,
+          "numAlcoholicItems": 0,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "Tuna Mousse, Avocado, Tomato, Joe's Classic Bread, Vegan Pesto",
+            "textFormat": "<span style=\"color:#757575\">Tuna Mousse, Avocado, Tomato, Joe&#39;s Classic Bread, Vegan Pesto</span>"
+          },
+          "subsectionUuid": "f0b7b0fe-d16b-497e-bb50-f9d201db20e7",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "maxPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 999,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "increment": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "defaultQuantity": {
+                    "base": {
+                      "high": 0,
+                      "low": 2,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 999,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 2
+                }
+              }
+            ],
+            "pricingInfo": {}
+          },
+          "sectionUuid": "7364ff65-503c-50d7-b0c1-451359eea48f",
+          "promoInfo": {
+            "promotionUUID": "40d7cf2c-c9c2-4ca1-a8e9-1465728f8d74",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "Buy 1, get 1 free",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "Buy 1, get 1 free"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "PILL",
+              "accessibilityText": "Buy 1, get 1 free"
+            },
+            "badgePosition": "OFF_IMAGE_BELOW_TEXT"
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$14.90",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": " • ",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_TERTIARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": "495 Cal.",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_TERTIARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$14.90, 495 Cal."
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "Tunacado Sandwich",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "Tunacado Sandwich"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 4,
+            "endorsementMetadata": {
+              "endorsementType": "most_liked"
+            },
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "isWebPdpSupported": false
+        },
+        {
+          "uuid": "67d7d05b-1b65-46cb-b40d-2f040105d37e",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/58695006fa833b444658b520886233d1/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+          "title": "Spicy Tuna Sandwich",
+          "itemDescription": "Tuna Mousse, Jalapenos, Tabasco, Tomato, Joe's Classic Bread, Vegan Pesto",
+          "price": 1490,
+          "priceTagline": {
+            "text": "$14.90 • 448 Cal.",
+            "textFormat": "<span>$14.90<span style=\"color:#757575\"> • 448 Cal.</span></span>",
+            "accessibilityText": "$14.90, 448 Cal."
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "Spicy Tuna Sandwich",
+            "textFormat": "<span>Spicy Tuna Sandwich</span>",
+            "accessibilityText": "Spicy Tuna Sandwich"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": true,
+          "numAlcoholicItems": 0,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "Tuna Mousse, Jalapenos, Tabasco, Tomato, Joe's Classic Bread, Vegan Pesto",
+            "textFormat": "<span style=\"color:#757575\">Tuna Mousse, Jalapenos, Tabasco, Tomato, Joe&#39;s Classic Bread, Vegan Pesto</span>"
+          },
+          "subsectionUuid": "f0b7b0fe-d16b-497e-bb50-f9d201db20e7",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "maxPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 999,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "increment": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "defaultQuantity": {
+                    "base": {
+                      "high": 0,
+                      "low": 2,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 999,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 2
+                }
+              }
+            ],
+            "pricingInfo": {}
+          },
+          "sectionUuid": "7364ff65-503c-50d7-b0c1-451359eea48f",
+          "promoInfo": {
+            "promotionUUID": "40d7cf2c-c9c2-4ca1-a8e9-1465728f8d74",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "Buy 1, get 1 free",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "Buy 1, get 1 free"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "PILL",
+              "accessibilityText": "Buy 1, get 1 free"
+            },
+            "badgePosition": "OFF_IMAGE_BELOW_TEXT"
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$14.90",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": " • ",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_TERTIARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": "448 Cal.",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_TERTIARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$14.90, 448 Cal."
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "Spicy Tuna Sandwich",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "Spicy Tuna Sandwich"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 3,
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "isWebPdpSupported": false
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Restaurant",
+      "@id": "https://www.ubereats.com/store/gregorys-coffee-551-madison-ave/wPTxCS3XQFySIT9Lbm-lEA",
+      "name": "Gregorys Coffee (551 Madison Ave)",
+      "servesCuisine": [
+        "Coffee and Tea",
+        "Juice and Smoothies",
+        "Pastry",
+        "Desserts"
+      ],
+      "priceRange": "$$",
+      "image": [
+        "https://tb-static.uber.com/prod/image-proc/processed_images/032b6fe3a8bd28409f09905ca84f7bb1/19ec62ba51fde35ba0aff5b84321c5af.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/032b6fe3a8bd28409f09905ca84f7bb1/c67d558c633281f9c71fc6a90ef470ae.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/032b6fe3a8bd28409f09905ca84f7bb1/8681e511c0910e0052cb155c50f01f89.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/032b6fe3a8bd28409f09905ca84f7bb1/6ea4f72e303000fbf403bbb36f971f85.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/032b6fe3a8bd28409f09905ca84f7bb1/4bee0baf259f2b3c95aacdebea87e950.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/032b6fe3a8bd28409f09905ca84f7bb1/5283d81c664b43c5f57a3a186d273063.jpeg"
+      ],
+      "potentialAction": {
+        "@type": "OrderAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.ubereats.com/store/gregorys-coffee-551-madison-ave/wPTxCS3XQFySIT9Lbm-lEA?utm_campaign=order-action&amp;utm_medium=organic",
+          "inLanguage": "English",
+          "actionPlatform": [
+            "https://schema.org/DesktopWebPlatform",
+            "https://schema.org/MobileWebPlatform"
+          ]
+        },
+        "deliveryMethod": [
+          "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+          "http://purl.org/goodrelations/v1#DeliveryModePickUp"
+        ]
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "New York",
+        "addressRegion": "NY",
+        "postalCode": "10022",
+        "addressCountry": "US",
+        "streetAddress": "551 Madison Ave"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 40.7607956,
+        "longitude": -73.9731362
+      },
+      "telephone": "+18772313189",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4.7,
+        "reviewCount": 270
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Sunday",
+          "opens": "08:00",
+          "closes": "16:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Monday",
+          "opens": "06:00",
+          "closes": "16:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "06:00",
+          "closes": "18:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Saturday",
+          "opens": "08:00",
+          "closes": "16:00"
+        }
+      ],
+      "deals": [
+        {
+          "uuid": "380e7a40-3946-5f3f-b2bc-14306696edf3",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/5b14ab6bf71b70c3f7655f3c7407bdac/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+          "title": "The Skinny",
+          "itemDescription": "Egg whites scrambled with organic turkey bacon and white cheddar cheese served on an english muffin. 24 grams of protein 💪340 cal *contains soy, wheat, sesame, milk",
+          "price": 738,
+          "priceTagline": {
+            "text": "$7.38",
+            "textFormat": "<span>$7.38</span>",
+            "accessibilityText": "$7.38"
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "The Skinny",
+            "textFormat": "<span>The Skinny</span>",
+            "accessibilityText": "The Skinny"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": true,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "Egg whites scrambled with organic turkey bacon and white cheddar cheese served on an english muffin. 24 grams of protein 💪340 cal *contains soy, wheat, sesame, milk",
+            "textFormat": "<span style=\"color:#757575\">Egg whites scrambled with organic turkey bacon and white cheddar cheese served on an english muffin. 24 grams of protein 💪340 cal *contains soy, wheat, sesame, milk</span>"
+          },
+          "subsectionUuid": "c9667b2b-c810-554c-92d1-b42002c4ad50",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "maxPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 999,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "increment": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "defaultQuantity": {
+                    "base": {
+                      "high": 0,
+                      "low": 2,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 999,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 2
+                }
+              }
+            ],
+            "pricingInfo": {}
+          },
+          "sectionUuid": "a659e08e-fb20-52cd-bf3a-703e65c807f4",
+          "promoInfo": {
+            "promotionUUID": "b5db3cab-d0b7-4f81-b221-82229145895f",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "Buy 1, get 1 free",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "Buy 1, get 1 free"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "PILL",
+              "accessibilityText": "Buy 1, get 1 free"
+            },
+            "badgePosition": "OFF_IMAGE_BELOW_TEXT"
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$7.38",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$7.38"
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "The Skinny",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "The Skinny"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 4,
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "isWebPdpSupported": false
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Restaurant",
+      "@id": "https://www.ubereats.com/store/joe-%26-the-juice-430-park-avenue/To26GfvASJyO5TJv-5_TKQ",
+      "name": "Joe &amp; The Juice (430 Park Avenue)",
+      "servesCuisine": [
+        "Juice and Smoothies",
+        "Breakfast and Brunch",
+        "Vegetarian",
+        "Healthy",
+        "Sandwich"
+      ],
+      "priceRange": "$",
+      "image": [
+        "https://tb-static.uber.com/prod/image-proc/processed_images/fa411a20032b04be6e3be8b47fc6693a/19ec62ba51fde35ba0aff5b84321c5af.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/fa411a20032b04be6e3be8b47fc6693a/c67d558c633281f9c71fc6a90ef470ae.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/fa411a20032b04be6e3be8b47fc6693a/8681e511c0910e0052cb155c50f01f89.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/fa411a20032b04be6e3be8b47fc6693a/6ea4f72e303000fbf403bbb36f971f85.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/fa411a20032b04be6e3be8b47fc6693a/4bee0baf259f2b3c95aacdebea87e950.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/fa411a20032b04be6e3be8b47fc6693a/5283d81c664b43c5f57a3a186d273063.jpeg"
+      ],
+      "potentialAction": {
+        "@type": "OrderAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.ubereats.com/store/joe-%26-the-juice-430-park-avenue/To26GfvASJyO5TJv-5_TKQ?utm_campaign=order-action&amp;utm_medium=organic",
+          "inLanguage": "English",
+          "actionPlatform": [
+            "https://schema.org/DesktopWebPlatform",
+            "https://schema.org/MobileWebPlatform"
+          ]
+        },
+        "deliveryMethod": [
+          "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+          "http://purl.org/goodrelations/v1#DeliveryModePickUp"
+        ]
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "New York City",
+        "addressRegion": "NY",
+        "postalCode": "10022",
+        "addressCountry": "US",
+        "streetAddress": "430 Park Avenue"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 40.7607902,
+        "longitude": -73.9716337
+      },
+      "telephone": "+16467493655",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4.7,
+        "reviewCount": 2000
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Sunday",
+          "opens": "07:00",
+          "closes": "20:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "06:00",
+          "closes": "21:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Saturday",
+          "opens": "07:00",
+          "closes": "20:00"
+        }
+      ],
+      "deals": [
+        {
+          "uuid": "83edba02-fb36-5536-88df-a05a824a3a88",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/7ac148abb3a7863b226c5af008a8a950/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+          "title": "NEW Prosciutto Sandwich",
+          "itemDescription": "Joe's Classic Bread, Vegan Pesto, Avocado, Mozzarella, Tomato, Prosciutto",
+          "price": 1490,
+          "priceTagline": {
+            "text": "$14.90 • 561 Cal.",
+            "textFormat": "<span>$14.90<span style=\"color:#757575\"> • 561 Cal.</span></span>",
+            "accessibilityText": "$14.90, 561 Cal."
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "NEW Prosciutto Sandwich",
+            "textFormat": "<span>NEW Prosciutto Sandwich</span>",
+            "accessibilityText": "NEW Prosciutto Sandwich"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": true,
+          "numAlcoholicItems": 0,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "Joe's Classic Bread, Vegan Pesto, Avocado, Mozzarella, Tomato, Prosciutto",
+            "textFormat": "<span style=\"color:#757575\">Joe&#39;s Classic Bread, Vegan Pesto, Avocado, Mozzarella, Tomato, Prosciutto</span>"
+          },
+          "subsectionUuid": "b7d0f4c5-43f6-50eb-a0bc-4ff245e46be7",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "maxPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 999,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "increment": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "defaultQuantity": {
+                    "base": {
+                      "high": 0,
+                      "low": 2,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 999,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 2
+                }
+              }
+            ],
+            "pricingInfo": {}
+          },
+          "sectionUuid": "6079d4bd-5f8e-544b-95a8-c067170f3560",
+          "promoInfo": {
+            "promotionUUID": "ff69db6e-a3dd-472d-9a09-0f5d5ef63cfe",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "Buy 1, get 1 free",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "Buy 1, get 1 free"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "PILL",
+              "accessibilityText": "Buy 1, get 1 free"
+            },
+            "badgePosition": "OFF_IMAGE_BELOW_TEXT"
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$14.90",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": " • ",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_TERTIARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": "561 Cal.",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_TERTIARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$14.90, 561 Cal."
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "NEW Prosciutto Sandwich",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "NEW Prosciutto Sandwich"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 0,
+            "endorsementMetadata": {
+              "endorsementType": "most_liked"
+            },
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "isWebPdpSupported": false
+        },
+        {
+          "uuid": "599d2b2f-3a8f-5576-9c70-90b2bb0ef2dc",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/7d55112e2d976b83e5779b59b0bdcf2e/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+          "title": "Vegan Avocado Sandwich",
+          "itemDescription": "Joe's Classic Bread, Vegan Pesto, Avocado, Spinach, Tomato",
+          "price": 1490,
+          "priceTagline": {
+            "text": "$14.90 • 477 Cal.",
+            "textFormat": "<span>$14.90<span style=\"color:#757575\"> • 477 Cal.</span></span>",
+            "accessibilityText": "$14.90, 477 Cal."
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "Vegan Avocado Sandwich",
+            "textFormat": "<span>Vegan Avocado Sandwich</span>",
+            "accessibilityText": "Vegan Avocado Sandwich"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": true,
+          "numAlcoholicItems": 0,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "Joe's Classic Bread, Vegan Pesto, Avocado, Spinach, Tomato",
+            "textFormat": "<span style=\"color:#757575\">Joe&#39;s Classic Bread, Vegan Pesto, Avocado, Spinach, Tomato</span>"
+          },
+          "subsectionUuid": "b7d0f4c5-43f6-50eb-a0bc-4ff245e46be7",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "maxPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 999,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "increment": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "defaultQuantity": {
+                    "base": {
+                      "high": 0,
+                      "low": 2,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 999,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 2
+                }
+              }
+            ],
+            "pricingInfo": {}
+          },
+          "sectionUuid": "6079d4bd-5f8e-544b-95a8-c067170f3560",
+          "promoInfo": {
+            "promotionUUID": "f154e177-b140-4a9a-a59c-1da93c068a7c",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "Buy 1, get 1 free",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "Buy 1, get 1 free"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "PILL",
+              "accessibilityText": "Buy 1, get 1 free"
+            },
+            "badgePosition": "OFF_IMAGE_BELOW_TEXT"
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$14.90",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": " • ",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "icon": {
+                  "icon": {
+                    "icon": "THUMB_UP_OUTLINE",
+                    "color": "PRIMARY",
+                    "size": "SPACING_UNIT_1_5X"
+                  },
+                  "alignment": "CENTERED"
+                },
+                "type": "icon"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": " 100% (3)",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": " • ",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_TERTIARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": "477 Cal.",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_TERTIARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$14.90, 100% of customers liked this based on 3 reviews., 477 Cal."
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "Vegan Avocado Sandwich",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "Vegan Avocado Sandwich"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 6,
+            "endorsementMetadata": {
+              "endorsementType": "ratings",
+              "rating": "100%",
+              "numRatings": 3
+            },
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "isWebPdpSupported": false
+        },
+        {
+          "uuid": "85c1a83d-a24a-57b2-b300-b3a094504e71",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/ad05d6be743e5794f7abf48b21b18c9c/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+          "title": "JOE´s Club Sandwich",
+          "itemDescription": "Chicken, Avocado, Tomato, Vegan Pesto, Joe's Classic Bread",
+          "price": 1490,
+          "priceTagline": {
+            "text": "$14.90 • 524 Cal.",
+            "textFormat": "<span>$14.90<span style=\"color:#757575\"> • 524 Cal.</span></span>",
+            "accessibilityText": "$14.90, 524 Cal."
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "JOE´s Club Sandwich",
+            "textFormat": "<span>JOE´s Club Sandwich</span>",
+            "accessibilityText": "JOE´s Club Sandwich"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": true,
+          "numAlcoholicItems": 0,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "Chicken, Avocado, Tomato, Vegan Pesto, Joe's Classic Bread",
+            "textFormat": "<span style=\"color:#757575\">Chicken, Avocado, Tomato, Vegan Pesto, Joe&#39;s Classic Bread</span>"
+          },
+          "subsectionUuid": "b7d0f4c5-43f6-50eb-a0bc-4ff245e46be7",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "maxPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 999,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "increment": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "defaultQuantity": {
+                    "base": {
+                      "high": 0,
+                      "low": 2,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 999,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 2
+                }
+              }
+            ],
+            "pricingInfo": {}
+          },
+          "sectionUuid": "6079d4bd-5f8e-544b-95a8-c067170f3560",
+          "promoInfo": {
+            "promotionUUID": "d80528ac-8105-4383-99c3-619d3b8b3eeb",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "Buy 1, get 1 free",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "Buy 1, get 1 free"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "PILL",
+              "accessibilityText": "Buy 1, get 1 free"
+            },
+            "badgePosition": "OFF_IMAGE_BELOW_TEXT"
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$14.90",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": " • ",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "icon": {
+                  "icon": {
+                    "icon": "THUMB_UP_OUTLINE",
+                    "color": "PRIMARY",
+                    "size": "SPACING_UNIT_1_5X"
+                  },
+                  "alignment": "CENTERED"
+                },
+                "type": "icon"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": " 81% (11)",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": " • ",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_TERTIARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": "524 Cal.",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_TERTIARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$14.90, 81% of customers liked this based on 11 reviews., 524 Cal."
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "JOE´s Club Sandwich",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "JOE´s Club Sandwich"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 2,
+            "endorsementMetadata": {
+              "endorsementType": "ratings",
+              "rating": "81%",
+              "numRatings": 11
+            },
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "isWebPdpSupported": false
+        },
+        {
+          "uuid": "7d47043d-8899-5424-90fd-9f2e858bcf16",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/351d824a086ece3a2ef4f41f7fb55644/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+          "title": "Avocado Sandwich",
+          "itemDescription": "Vegan Pesto, Avocado, Joe's Classic Bread, Mozzarella, Tomato",
+          "price": 1490,
+          "priceTagline": {
+            "text": "$14.90 • 542 Cal.",
+            "textFormat": "<span>$14.90<span style=\"color:#757575\"> • 542 Cal.</span></span>",
+            "accessibilityText": "$14.90, 542 Cal."
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "Avocado Sandwich",
+            "textFormat": "<span>Avocado Sandwich</span>",
+            "accessibilityText": "Avocado Sandwich"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": true,
+          "numAlcoholicItems": 0,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "Vegan Pesto, Avocado, Joe's Classic Bread, Mozzarella, Tomato",
+            "textFormat": "<span style=\"color:#757575\">Vegan Pesto, Avocado, Joe&#39;s Classic Bread, Mozzarella, Tomato</span>"
+          },
+          "subsectionUuid": "b7d0f4c5-43f6-50eb-a0bc-4ff245e46be7",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "maxPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 999,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "increment": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "defaultQuantity": {
+                    "base": {
+                      "high": 0,
+                      "low": 2,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 999,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 2
+                }
+              }
+            ],
+            "pricingInfo": {}
+          },
+          "sectionUuid": "6079d4bd-5f8e-544b-95a8-c067170f3560",
+          "promoInfo": {
+            "promotionUUID": "af269086-e980-4103-ab35-c4f2aa719d13",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "Buy 1, get 1 free",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "Buy 1, get 1 free"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "PILL",
+              "accessibilityText": "Buy 1, get 1 free"
+            },
+            "badgePosition": "OFF_IMAGE_BELOW_TEXT"
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$14.90",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": " • ",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "icon": {
+                  "icon": {
+                    "icon": "THUMB_UP_OUTLINE",
+                    "color": "PRIMARY",
+                    "size": "SPACING_UNIT_1_5X"
+                  },
+                  "alignment": "CENTERED"
+                },
+                "type": "icon"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": " 80% (5)",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": " • ",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_TERTIARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": "542 Cal.",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_TERTIARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$14.90, 80% of customers liked this based on 5 reviews., 542 Cal."
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "Avocado Sandwich",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "Avocado Sandwich"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 1,
+            "endorsementMetadata": {
+              "endorsementType": "ratings",
+              "rating": "80%",
+              "numRatings": 5
+            },
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "isWebPdpSupported": false
+        },
+        {
+          "uuid": "67b0ceb0-b248-5348-85e8-4b605d6b3b83",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/69ecff02760ed9931030c99b5d9f364b/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+          "title": "Phat Joe",
+          "itemDescription": "48G PROTEIN - Joe's Classic Bread,  Chicken, Turkey, Parmesan, Avocado, Tomato, Honey Mustard Dressing, Arugula",
+          "price": 1690,
+          "priceTagline": {
+            "text": "$16.90 • 639 Cal.",
+            "textFormat": "<span>$16.90<span style=\"color:#757575\"> • 639 Cal.</span></span>",
+            "accessibilityText": "$16.90, 639 Cal."
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "Phat Joe",
+            "textFormat": "<span>Phat Joe</span>",
+            "accessibilityText": "Phat Joe"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": true,
+          "numAlcoholicItems": 0,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "48G PROTEIN - Joe's Classic Bread,  Chicken, Turkey, Parmesan, Avocado, Tomato, Honey Mustard Dressing, Arugula",
+            "textFormat": "<span style=\"color:#757575\">48G PROTEIN - Joe&#39;s Classic Bread,  Chicken, Turkey, Parmesan, Avocado, Tomato, Honey Mustard Dressing, Arugula</span>"
+          },
+          "subsectionUuid": "a7c6e245-7463-52b9-b952-1c358be6f20b",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "maxPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 999,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "increment": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "defaultQuantity": {
+                    "base": {
+                      "high": 0,
+                      "low": 2,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 999,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 2
+                }
+              }
+            ],
+            "pricingInfo": {}
+          },
+          "sectionUuid": "6079d4bd-5f8e-544b-95a8-c067170f3560",
+          "promoInfo": {
+            "promotionUUID": "a8bbd89c-07d5-4b0e-945d-ed02dd07e67e",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "Buy 1, get 1 free",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "Buy 1, get 1 free"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "PILL",
+              "accessibilityText": "Buy 1, get 1 free"
+            },
+            "badgePosition": "OFF_IMAGE_BELOW_TEXT"
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$16.90",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": " • ",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_TERTIARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": "639 Cal.",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_TERTIARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$16.90, 639 Cal."
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "Phat Joe",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "Phat Joe"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 0,
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "isWebPdpSupported": false
+        },
+        {
+          "uuid": "aeb7b9ee-602a-5502-aa92-56e145a13dbc",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/58695006fa833b444658b520886233d1/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+          "title": "Spicy Tuna Sandwich",
+          "itemDescription": "Tuna Mousse, Jalapenos, Tabasco, Tomato, Joe's Classic Bread, Vegan Pesto",
+          "price": 1490,
+          "priceTagline": {
+            "text": "$14.90 • 448 Cal.",
+            "textFormat": "<span>$14.90<span style=\"color:#757575\"> • 448 Cal.</span></span>",
+            "accessibilityText": "$14.90, 448 Cal."
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "Spicy Tuna Sandwich",
+            "textFormat": "<span>Spicy Tuna Sandwich</span>",
+            "accessibilityText": "Spicy Tuna Sandwich"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": true,
+          "numAlcoholicItems": 0,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "Tuna Mousse, Jalapenos, Tabasco, Tomato, Joe's Classic Bread, Vegan Pesto",
+            "textFormat": "<span style=\"color:#757575\">Tuna Mousse, Jalapenos, Tabasco, Tomato, Joe&#39;s Classic Bread, Vegan Pesto</span>"
+          },
+          "subsectionUuid": "b7d0f4c5-43f6-50eb-a0bc-4ff245e46be7",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "maxPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 999,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "increment": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "defaultQuantity": {
+                    "base": {
+                      "high": 0,
+                      "low": 2,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 999,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 2
+                }
+              }
+            ],
+            "pricingInfo": {}
+          },
+          "sectionUuid": "6079d4bd-5f8e-544b-95a8-c067170f3560",
+          "promoInfo": {
+            "promotionUUID": "3aa68d99-5249-40a1-8714-e973dc554204",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "Buy 1, get 1 free",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "Buy 1, get 1 free"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "PILL",
+              "accessibilityText": "Buy 1, get 1 free"
+            },
+            "badgePosition": "OFF_IMAGE_BELOW_TEXT"
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$14.90",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": " • ",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_TERTIARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": "448 Cal.",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_TERTIARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$14.90, 448 Cal."
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "Spicy Tuna Sandwich",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "Spicy Tuna Sandwich"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 3,
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "isWebPdpSupported": false
+        },
+        {
+          "uuid": "c0a10e01-aa58-5883-a6d5-3ce06cc3a4cd",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/a01e8007b367654d0433356ace21a868/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+          "title": "The Steak",
+          "itemDescription": "31G PROTEIN - Joe's Classic Bread, Steak, Parmesan, Pickles, Tomato, Arugula, Honey Mustard Dressing, Salt, Black Pepper",
+          "price": 1690,
+          "priceTagline": {
+            "text": "$16.90 • 556 Cal.",
+            "textFormat": "<span>$16.90<span style=\"color:#757575\"> • 556 Cal.</span></span>",
+            "accessibilityText": "$16.90, 556 Cal."
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "The Steak",
+            "textFormat": "<span>The Steak</span>",
+            "accessibilityText": "The Steak"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": true,
+          "numAlcoholicItems": 0,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "31G PROTEIN - Joe's Classic Bread, Steak, Parmesan, Pickles, Tomato, Arugula, Honey Mustard Dressing, Salt, Black Pepper",
+            "textFormat": "<span style=\"color:#757575\">31G PROTEIN - Joe&#39;s Classic Bread, Steak, Parmesan, Pickles, Tomato, Arugula, Honey Mustard Dressing, Salt, Black Pepper</span>"
+          },
+          "subsectionUuid": "a7c6e245-7463-52b9-b952-1c358be6f20b",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "maxPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 999,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "increment": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "defaultQuantity": {
+                    "base": {
+                      "high": 0,
+                      "low": 2,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 999,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 2
+                }
+              }
+            ],
+            "pricingInfo": {}
+          },
+          "sectionUuid": "6079d4bd-5f8e-544b-95a8-c067170f3560",
+          "promoInfo": {
+            "promotionUUID": "2281662f-8520-456e-8b74-70c4c5f8d54f",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "Buy 1, get 1 free",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "Buy 1, get 1 free"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "PILL",
+              "accessibilityText": "Buy 1, get 1 free"
+            },
+            "badgePosition": "OFF_IMAGE_BELOW_TEXT"
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$16.90",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": " • ",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_TERTIARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": "556 Cal.",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_TERTIARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$16.90, 556 Cal."
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "The Steak",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "The Steak"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 1,
+            "endorsementMetadata": {
+              "endorsementType": "most_liked"
+            },
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "isWebPdpSupported": false
+        },
+        {
+          "uuid": "35b4452f-7346-51da-a74d-086743ae88a9",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/d9ce9db13257e77d30da2852068ae862/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+          "title": "Tunacado Sandwich",
+          "itemDescription": "Tuna Mousse, Avocado, Tomato, Joe's Classic Bread, Vegan Pesto",
+          "price": 1490,
+          "priceTagline": {
+            "text": "$14.90 • 495 Cal.",
+            "textFormat": "<span>$14.90<span style=\"color:#757575\"> • 495 Cal.</span></span>",
+            "accessibilityText": "$14.90, 495 Cal."
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "Tunacado Sandwich",
+            "textFormat": "<span>Tunacado Sandwich</span>",
+            "accessibilityText": "Tunacado Sandwich"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": true,
+          "numAlcoholicItems": 0,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "Tuna Mousse, Avocado, Tomato, Joe's Classic Bread, Vegan Pesto",
+            "textFormat": "<span style=\"color:#757575\">Tuna Mousse, Avocado, Tomato, Joe&#39;s Classic Bread, Vegan Pesto</span>"
+          },
+          "subsectionUuid": "b7d0f4c5-43f6-50eb-a0bc-4ff245e46be7",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "maxPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 999,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "increment": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "defaultQuantity": {
+                    "base": {
+                      "high": 0,
+                      "low": 2,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 999,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 2
+                }
+              }
+            ],
+            "pricingInfo": {}
+          },
+          "sectionUuid": "6079d4bd-5f8e-544b-95a8-c067170f3560",
+          "promoInfo": {
+            "promotionUUID": "1dc7c2f9-cd89-4456-8c0f-7017fc4d88a5",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "Buy 1, get 1 free",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "Buy 1, get 1 free"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "PILL",
+              "accessibilityText": "Buy 1, get 1 free"
+            },
+            "badgePosition": "OFF_IMAGE_BELOW_TEXT"
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$14.90",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": " • ",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "icon": {
+                  "icon": {
+                    "icon": "THUMB_UP_OUTLINE",
+                    "color": "PRIMARY",
+                    "size": "SPACING_UNIT_1_5X"
+                  },
+                  "alignment": "CENTERED"
+                },
+                "type": "icon"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": " 77% (9)",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": " • ",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_TERTIARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": "495 Cal.",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_TERTIARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$14.90, 77% of customers liked this based on 9 reviews., 495 Cal."
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "Tunacado Sandwich",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "Tunacado Sandwich"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 4,
+            "endorsementMetadata": {
+              "endorsementType": "ratings",
+              "rating": "77%",
+              "numRatings": 9
+            },
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "isWebPdpSupported": false
+        },
+        {
+          "uuid": "af2b9722-6e40-5d84-a51d-f3fd720620bc",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/f2f2a11a410595c5d17378c8adeb5093/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+          "title": "Turkey Sandwich",
+          "itemDescription": "Turkey, Mozzarella, Tomato, Vegan Pesto, Joe's Classic Bread",
+          "price": 1490,
+          "priceTagline": {
+            "text": "$14.90 • 503 Cal.",
+            "textFormat": "<span>$14.90<span style=\"color:#757575\"> • 503 Cal.</span></span>",
+            "accessibilityText": "$14.90, 503 Cal."
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "Turkey Sandwich",
+            "textFormat": "<span>Turkey Sandwich</span>",
+            "accessibilityText": "Turkey Sandwich"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": true,
+          "numAlcoholicItems": 0,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "Turkey, Mozzarella, Tomato, Vegan Pesto, Joe's Classic Bread",
+            "textFormat": "<span style=\"color:#757575\">Turkey, Mozzarella, Tomato, Vegan Pesto, Joe&#39;s Classic Bread</span>"
+          },
+          "subsectionUuid": "b7d0f4c5-43f6-50eb-a0bc-4ff245e46be7",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "maxPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 999,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "increment": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "defaultQuantity": {
+                    "base": {
+                      "high": 0,
+                      "low": 2,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 999,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 2
+                }
+              }
+            ],
+            "pricingInfo": {}
+          },
+          "sectionUuid": "6079d4bd-5f8e-544b-95a8-c067170f3560",
+          "promoInfo": {
+            "promotionUUID": "09926bb8-0073-4605-a504-e3d28370ca4e",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "Buy 1, get 1 free",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "Buy 1, get 1 free"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "PILL",
+              "accessibilityText": "Buy 1, get 1 free"
+            },
+            "badgePosition": "OFF_IMAGE_BELOW_TEXT"
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$14.90",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": " • ",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "icon": {
+                  "icon": {
+                    "icon": "THUMB_UP_OUTLINE",
+                    "color": "PRIMARY",
+                    "size": "SPACING_UNIT_1_5X"
+                  },
+                  "alignment": "CENTERED"
+                },
+                "type": "icon"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": " 100% (5)",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": " • ",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_TERTIARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": "503 Cal.",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_TERTIARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$14.90, 100% of customers liked this based on 5 reviews., 503 Cal."
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "Turkey Sandwich",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "Turkey Sandwich"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 5,
+            "endorsementMetadata": {
+              "endorsementType": "ratings",
+              "rating": "100%",
+              "numRatings": 5
+            },
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "isWebPdpSupported": false
+        }
+      ]
+    }
+  ]
 }
