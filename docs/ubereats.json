@@ -1,4 +1,2008 @@
 {
-  "refreshDateTime": "2026-03-09T08:15:18.366Z",
-  "deals": []
+  "refreshDateTime": "2026-03-09T10:20:36.646Z",
+  "deals": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Restaurant",
+      "@id": "https://www.ubereats.com/store/69-el-delicioso/sUzHlTcxWCiWotl6p7l1Lg",
+      "name": "69 El Delicioso",
+      "servesCuisine": [
+        "Colombian",
+        "Mexican",
+        "Latin American",
+        "Empanada"
+      ],
+      "priceRange": "",
+      "image": [
+        "https://tb-static.uber.com/prod/image-proc/processed_images/45dbfbb92d723620f480a2f1edf1ac47/6a46de29c91d235bc2878fe87fd740f6.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/45dbfbb92d723620f480a2f1edf1ac47/4a9dc0556f3090689240dd59b4617ba7.jpeg"
+      ],
+      "potentialAction": {
+        "@type": "OrderAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.ubereats.com/store/69-el-delicioso/sUzHlTcxWCiWotl6p7l1Lg?utm_campaign=order-action&amp;utm_medium=organic",
+          "inLanguage": "English",
+          "actionPlatform": [
+            "https://schema.org/DesktopWebPlatform",
+            "https://schema.org/MobileWebPlatform"
+          ]
+        },
+        "deliveryMethod": [
+          "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+          "http://purl.org/goodrelations/v1#DeliveryModePickUp"
+        ]
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "New York",
+        "addressRegion": "NY",
+        "postalCode": "10017",
+        "addressCountry": "US",
+        "streetAddress": "10 East 46th Street"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 40.75559641674935,
+        "longitude": -73.9781448922397
+      },
+      "telephone": "+16898082569",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4.5,
+        "reviewCount": 100
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Monday",
+          "opens": "06:00",
+          "closes": "16:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "06:00",
+          "closes": "16:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "06:00",
+          "closes": "16:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Saturday",
+          "opens": "06:00",
+          "closes": "16:00"
+        }
+      ],
+      "deals": [
+        {
+          "uuid": "b1e68fcb-cc0e-43a8-8345-c187b20c8e04",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/d6ac20b7f725e83d7d71c44d04e8b349/7f4ae9ca0446cbc23e71d8d395a98428.jpeg",
+          "title": "Chorizo con Arepa",
+          "itemDescription": "Colombian Chorizo sausage served with crispy Corn Bread.",
+          "price": 1250,
+          "priceTagline": {
+            "text": "$12.50",
+            "textFormat": "<span>$12.50</span>",
+            "accessibilityText": "$12.50"
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "Chorizo con Arepa",
+            "textFormat": "<span>Chorizo con Arepa</span>",
+            "accessibilityText": "Chorizo con Arepa"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": false,
+          "numAlcoholicItems": 0,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "Colombian Chorizo sausage served with crispy Corn Bread.",
+            "textFormat": "<span style=\"color:#757575\">Colombian Chorizo sausage served with crispy Corn Bread.</span>"
+          },
+          "subsectionUuid": "d33542a0-d6a4-4592-ab4f-046ffb78e02c",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "maxPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 999,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "increment": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "defaultQuantity": {
+                    "base": {
+                      "high": 0,
+                      "low": 2,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 999,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 2
+                }
+              }
+            ],
+            "pricingInfo": {}
+          },
+          "sectionUuid": "494100ff-29f8-47e0-9415-c038c680561e",
+          "promoInfo": {
+            "promotionUUID": "e0ecf795-8d92-4ef3-acdc-c7457af372b2",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "Buy 1, get 1 free",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "Buy 1, get 1 free"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "PILL",
+              "accessibilityText": "Buy 1, get 1 free"
+            },
+            "badgePosition": "OFF_IMAGE_BELOW_TEXT"
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$12.50",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$12.50"
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "Chorizo con Arepa",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "Chorizo con Arepa"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 1,
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "isWebPdpSupported": false
+        },
+        {
+          "uuid": "0087c9ff-951a-45e8-a250-c1ecd1729992",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/b7c9cb54ffca3593f8a32d710762200c/7f4ae9ca0446cbc23e71d8d395a98428.jpeg",
+          "title": "Ripe Plantain with lots of Cheese",
+          "itemDescription": "",
+          "price": 1250,
+          "priceTagline": {
+            "text": "$12.50",
+            "textFormat": "<span>$12.50</span>",
+            "accessibilityText": "$12.50"
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "Ripe Plantain with lots of Cheese",
+            "textFormat": "<span>Ripe Plantain with lots of Cheese <img src=\"https://d4p17acsd5wyj.cloudfront.net/bazaar/leaf.png\" width=\"14\" height=\"14\" vertical-align=\"middle\"/> <img src=\"https://d4p17acsd5wyj.cloudfront.net/bazaar/vegan.png\" width=\"14\" height=\"14\" vertical-align=\"middle\"/> <img src=\"https://d4p17acsd5wyj.cloudfront.net/bazaar/grain.png\" width=\"14\" height=\"14\" vertical-align=\"middle\"/></span>",
+            "accessibilityText": "Ripe Plantain with lots of Cheese, VEGETARIAN, VEGAN, GLUTEN_FREE"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": false,
+          "numAlcoholicItems": 0,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "subsectionUuid": "d33542a0-d6a4-4592-ab4f-046ffb78e02c",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "maxPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 999,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "increment": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "defaultQuantity": {
+                    "base": {
+                      "high": 0,
+                      "low": 2,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 999,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 2
+                }
+              }
+            ],
+            "pricingInfo": {}
+          },
+          "sectionUuid": "494100ff-29f8-47e0-9415-c038c680561e",
+          "promoInfo": {
+            "promotionUUID": "d516236c-aab5-4c50-a19c-b8c40a44c2ad",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "Buy 1, get 1 free",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "Buy 1, get 1 free"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "PILL",
+              "accessibilityText": "Buy 1, get 1 free"
+            },
+            "badgePosition": "OFF_IMAGE_BELOW_TEXT"
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$12.50",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$12.50"
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "Ripe Plantain with lots of Cheese",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "Ripe Plantain with lots of Cheese"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 6,
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "isWebPdpSupported": false
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Restaurant",
+      "@id": "https://www.ubereats.com/store/gregorys-coffee-20-e-40th-st/CXxcUvlHQRSChFVQrb9CfA",
+      "name": "Gregorys Coffee (20 E 40th St)",
+      "servesCuisine": [
+        "Coffee and Tea",
+        "Juice and Smoothies",
+        "Pastry",
+        "Desserts",
+        "Group Friendly"
+      ],
+      "priceRange": "$$",
+      "image": [
+        "https://tb-static.uber.com/prod/image-proc/processed_images/032b6fe3a8bd28409f09905ca84f7bb1/19ec62ba51fde35ba0aff5b84321c5af.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/032b6fe3a8bd28409f09905ca84f7bb1/c67d558c633281f9c71fc6a90ef470ae.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/032b6fe3a8bd28409f09905ca84f7bb1/8681e511c0910e0052cb155c50f01f89.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/032b6fe3a8bd28409f09905ca84f7bb1/6ea4f72e303000fbf403bbb36f971f85.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/032b6fe3a8bd28409f09905ca84f7bb1/4bee0baf259f2b3c95aacdebea87e950.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/032b6fe3a8bd28409f09905ca84f7bb1/5283d81c664b43c5f57a3a186d273063.jpeg"
+      ],
+      "potentialAction": {
+        "@type": "OrderAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.ubereats.com/store/gregorys-coffee-20-e-40th-st/CXxcUvlHQRSChFVQrb9CfA?utm_campaign=order-action&amp;utm_medium=organic",
+          "inLanguage": "English",
+          "actionPlatform": [
+            "https://schema.org/DesktopWebPlatform",
+            "https://schema.org/MobileWebPlatform"
+          ]
+        },
+        "deliveryMethod": [
+          "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+          "http://purl.org/goodrelations/v1#DeliveryModePickUp"
+        ]
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "New York",
+        "addressRegion": "NY",
+        "postalCode": "10016",
+        "addressCountry": "US",
+        "streetAddress": "20 E 40th St"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 40.7517344,
+        "longitude": -73.9805292
+      },
+      "telephone": "+18772073358",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4.8,
+        "reviewCount": 310
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Sunday",
+          "opens": "08:00",
+          "closes": "17:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "06:00",
+          "closes": "19:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Saturday",
+          "opens": "08:00",
+          "closes": "17:00"
+        }
+      ],
+      "deals": [
+        {
+          "uuid": "0c10d2d7-3c30-57e7-be23-657c86f150d0",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/5b14ab6bf71b70c3f7655f3c7407bdac/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+          "title": "The Skinny",
+          "itemDescription": "Egg whites scrambled with organic turkey bacon and white cheddar cheese served on an english muffin. 24 grams of protein 💪340 cal *contains soy, wheat, sesame, milk",
+          "price": 738,
+          "priceTagline": {
+            "text": "$7.38",
+            "textFormat": "<span>$7.38</span>",
+            "accessibilityText": "$7.38"
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "The Skinny",
+            "textFormat": "<span>The Skinny</span>",
+            "accessibilityText": "The Skinny"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": true,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "Egg whites scrambled with organic turkey bacon and white cheddar cheese served on an english muffin. 24 grams of protein 💪340 cal *contains soy, wheat, sesame, milk",
+            "textFormat": "<span style=\"color:#757575\">Egg whites scrambled with organic turkey bacon and white cheddar cheese served on an english muffin. 24 grams of protein 💪340 cal *contains soy, wheat, sesame, milk</span>"
+          },
+          "subsectionUuid": "fdb0d5ff-b917-5c03-a8aa-c2a7455af0c6",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "maxPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 999,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "increment": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "defaultQuantity": {
+                    "base": {
+                      "high": 0,
+                      "low": 2,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 999,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 2
+                }
+              }
+            ],
+            "pricingInfo": {}
+          },
+          "sectionUuid": "0a9a60c9-51c9-5830-8810-7063ca3b0f47",
+          "promoInfo": {
+            "promotionUUID": "7dfc6218-b1ec-4107-af85-3e5830536488",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "Buy 1, get 1 free",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "Buy 1, get 1 free"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "PILL",
+              "accessibilityText": "Buy 1, get 1 free"
+            },
+            "badgePosition": "OFF_IMAGE_BELOW_TEXT"
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$7.38",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$7.38"
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "The Skinny",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "The Skinny"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 4,
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "isWebPdpSupported": false
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Restaurant",
+      "@id": "https://www.ubereats.com/store/gregorys-coffee-485-madison-ave/UGbMs22iT-CLhPWKVl26Vg",
+      "name": "Gregorys Coffee (485 Madison Ave)",
+      "servesCuisine": [
+        "Coffee and Tea",
+        "Juice and Smoothies",
+        "Pastry",
+        "Breakfast and Brunch"
+      ],
+      "priceRange": "$$",
+      "image": [
+        "https://tb-static.uber.com/prod/image-proc/processed_images/032b6fe3a8bd28409f09905ca84f7bb1/19ec62ba51fde35ba0aff5b84321c5af.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/032b6fe3a8bd28409f09905ca84f7bb1/c67d558c633281f9c71fc6a90ef470ae.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/032b6fe3a8bd28409f09905ca84f7bb1/8681e511c0910e0052cb155c50f01f89.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/032b6fe3a8bd28409f09905ca84f7bb1/6ea4f72e303000fbf403bbb36f971f85.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/032b6fe3a8bd28409f09905ca84f7bb1/4bee0baf259f2b3c95aacdebea87e950.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/032b6fe3a8bd28409f09905ca84f7bb1/5283d81c664b43c5f57a3a186d273063.jpeg"
+      ],
+      "potentialAction": {
+        "@type": "OrderAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.ubereats.com/store/gregorys-coffee-485-madison-ave/UGbMs22iT-CLhPWKVl26Vg?utm_campaign=order-action&amp;utm_medium=organic",
+          "inLanguage": "English",
+          "actionPlatform": [
+            "https://schema.org/DesktopWebPlatform",
+            "https://schema.org/MobileWebPlatform"
+          ]
+        },
+        "deliveryMethod": [
+          "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+          "http://purl.org/goodrelations/v1#DeliveryModePickUp"
+        ]
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "New York",
+        "addressRegion": "NY",
+        "postalCode": "10022",
+        "addressCountry": "US",
+        "streetAddress": "485 Madison Ave"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 40.7589284,
+        "longitude": -73.9744852
+      },
+      "telephone": "+18772117343",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4.6,
+        "reviewCount": 170
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Monday",
+          "opens": "06:00",
+          "closes": "16:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Tuesday",
+            "Wednesday",
+            "Thursday"
+          ],
+          "opens": "06:00",
+          "closes": "18:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Friday",
+          "opens": "06:00",
+          "closes": "16:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Saturday",
+          "opens": "08:00",
+          "closes": "16:00"
+        }
+      ],
+      "deals": [
+        {
+          "uuid": "1cbd668c-4173-5e04-acea-6917b9cf10a7",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/5b14ab6bf71b70c3f7655f3c7407bdac/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+          "title": "The Skinny",
+          "itemDescription": "Egg whites scrambled with organic turkey bacon and white cheddar cheese served on an english muffin. 24 grams of protein 💪340 cal *contains soy, wheat, sesame, milk",
+          "price": 738,
+          "priceTagline": {
+            "text": "$7.38",
+            "textFormat": "<span>$7.38</span>",
+            "accessibilityText": "$7.38"
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "The Skinny",
+            "textFormat": "<span>The Skinny</span>",
+            "accessibilityText": "The Skinny"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": true,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "Egg whites scrambled with organic turkey bacon and white cheddar cheese served on an english muffin. 24 grams of protein 💪340 cal *contains soy, wheat, sesame, milk",
+            "textFormat": "<span style=\"color:#757575\">Egg whites scrambled with organic turkey bacon and white cheddar cheese served on an english muffin. 24 grams of protein 💪340 cal *contains soy, wheat, sesame, milk</span>"
+          },
+          "subsectionUuid": "6501cb47-2b3d-53d9-a9f5-9a646ef25e8e",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "maxPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 999,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "increment": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "defaultQuantity": {
+                    "base": {
+                      "high": 0,
+                      "low": 2,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 999,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 2
+                }
+              }
+            ],
+            "pricingInfo": {}
+          },
+          "sectionUuid": "c3a6e45e-8c7e-58d6-a944-8f2e6b330c15",
+          "promoInfo": {
+            "promotionUUID": "9aaa54a0-f0c8-49c5-b893-c17fb1d47ad1",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "Buy 1, get 1 free",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "Buy 1, get 1 free"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "PILL",
+              "accessibilityText": "Buy 1, get 1 free"
+            },
+            "badgePosition": "OFF_IMAGE_BELOW_TEXT"
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$7.38",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$7.38"
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "The Skinny",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "The Skinny"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 4,
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "isWebPdpSupported": false
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Restaurant",
+      "@id": "https://www.ubereats.com/store/gregorys-coffee-58-w-44th-st/pnqZrUmxQlKrpM7IM0djsQ",
+      "name": "Gregorys Coffee (58 W 44th St)",
+      "servesCuisine": [
+        "Coffee and Tea",
+        "Juice and Smoothies",
+        "Pastry",
+        "Breakfast and Brunch",
+        "Desserts"
+      ],
+      "priceRange": "$$",
+      "image": [
+        "https://tb-static.uber.com/prod/image-proc/processed_images/032b6fe3a8bd28409f09905ca84f7bb1/19ec62ba51fde35ba0aff5b84321c5af.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/032b6fe3a8bd28409f09905ca84f7bb1/c67d558c633281f9c71fc6a90ef470ae.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/032b6fe3a8bd28409f09905ca84f7bb1/8681e511c0910e0052cb155c50f01f89.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/032b6fe3a8bd28409f09905ca84f7bb1/6ea4f72e303000fbf403bbb36f971f85.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/032b6fe3a8bd28409f09905ca84f7bb1/4bee0baf259f2b3c95aacdebea87e950.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/032b6fe3a8bd28409f09905ca84f7bb1/5283d81c664b43c5f57a3a186d273063.jpeg"
+      ],
+      "potentialAction": {
+        "@type": "OrderAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.ubereats.com/store/gregorys-coffee-58-w-44th-st/pnqZrUmxQlKrpM7IM0djsQ?utm_campaign=order-action&amp;utm_medium=organic",
+          "inLanguage": "English",
+          "actionPlatform": [
+            "https://schema.org/DesktopWebPlatform",
+            "https://schema.org/MobileWebPlatform"
+          ]
+        },
+        "deliveryMethod": [
+          "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+          "http://purl.org/goodrelations/v1#DeliveryModePickUp"
+        ]
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "New York",
+        "addressRegion": "NY",
+        "postalCode": "10036",
+        "addressCountry": "US",
+        "streetAddress": "58 West 44th Street"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 40.7559822,
+        "longitude": -73.982627
+      },
+      "telephone": "+18772203219",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4.6,
+        "reviewCount": 230
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Sunday",
+          "opens": "07:00",
+          "closes": "18:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "06:00",
+          "closes": "19:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Saturday",
+          "opens": "07:00",
+          "closes": "18:00"
+        }
+      ],
+      "deals": [
+        {
+          "uuid": "dd767475-66b3-5aed-9e66-ce7202b0b31b",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/5b14ab6bf71b70c3f7655f3c7407bdac/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+          "title": "The Skinny",
+          "itemDescription": "Egg whites scrambled with organic turkey bacon and white cheddar cheese served on an english muffin. 24 grams of protein 💪340 cal *contains soy, wheat, sesame, milk",
+          "price": 738,
+          "priceTagline": {
+            "text": "$7.38",
+            "textFormat": "<span>$7.38</span>",
+            "accessibilityText": "$7.38"
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "The Skinny",
+            "textFormat": "<span>The Skinny</span>",
+            "accessibilityText": "The Skinny"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": true,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "Egg whites scrambled with organic turkey bacon and white cheddar cheese served on an english muffin. 24 grams of protein 💪340 cal *contains soy, wheat, sesame, milk",
+            "textFormat": "<span style=\"color:#757575\">Egg whites scrambled with organic turkey bacon and white cheddar cheese served on an english muffin. 24 grams of protein 💪340 cal *contains soy, wheat, sesame, milk</span>"
+          },
+          "subsectionUuid": "0db7f8cc-c083-5443-a79c-0d229053d008",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "maxPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 999,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "increment": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "defaultQuantity": {
+                    "base": {
+                      "high": 0,
+                      "low": 2,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 999,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 2
+                }
+              }
+            ],
+            "pricingInfo": {}
+          },
+          "sectionUuid": "d2f73392-6f71-50a7-b4d9-98f75ac153b3",
+          "promoInfo": {
+            "promotionUUID": "3671161b-c26c-4a6b-a7e7-05daa3b6d419",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "Buy 1, get 1 free",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "Buy 1, get 1 free"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "PILL",
+              "accessibilityText": "Buy 1, get 1 free"
+            },
+            "badgePosition": "OFF_IMAGE_BELOW_TEXT"
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$7.38",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$7.38"
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "The Skinny",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "The Skinny"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 4,
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "isWebPdpSupported": false
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Restaurant",
+      "@id": "https://www.ubereats.com/store/gregorys-coffee-551-madison-ave/wPTxCS3XQFySIT9Lbm-lEA",
+      "name": "Gregorys Coffee (551 Madison Ave)",
+      "servesCuisine": [
+        "Coffee and Tea",
+        "Juice and Smoothies",
+        "Pastry",
+        "Desserts"
+      ],
+      "priceRange": "$$",
+      "image": [
+        "https://tb-static.uber.com/prod/image-proc/processed_images/032b6fe3a8bd28409f09905ca84f7bb1/19ec62ba51fde35ba0aff5b84321c5af.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/032b6fe3a8bd28409f09905ca84f7bb1/c67d558c633281f9c71fc6a90ef470ae.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/032b6fe3a8bd28409f09905ca84f7bb1/8681e511c0910e0052cb155c50f01f89.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/032b6fe3a8bd28409f09905ca84f7bb1/6ea4f72e303000fbf403bbb36f971f85.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/032b6fe3a8bd28409f09905ca84f7bb1/4bee0baf259f2b3c95aacdebea87e950.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/032b6fe3a8bd28409f09905ca84f7bb1/5283d81c664b43c5f57a3a186d273063.jpeg"
+      ],
+      "potentialAction": {
+        "@type": "OrderAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.ubereats.com/store/gregorys-coffee-551-madison-ave/wPTxCS3XQFySIT9Lbm-lEA?utm_campaign=order-action&amp;utm_medium=organic",
+          "inLanguage": "English",
+          "actionPlatform": [
+            "https://schema.org/DesktopWebPlatform",
+            "https://schema.org/MobileWebPlatform"
+          ]
+        },
+        "deliveryMethod": [
+          "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+          "http://purl.org/goodrelations/v1#DeliveryModePickUp"
+        ]
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "New York",
+        "addressRegion": "NY",
+        "postalCode": "10022",
+        "addressCountry": "US",
+        "streetAddress": "551 Madison Ave"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 40.7607956,
+        "longitude": -73.9731362
+      },
+      "telephone": "+18772313189",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4.7,
+        "reviewCount": 270
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Sunday",
+          "opens": "08:00",
+          "closes": "16:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Monday",
+          "opens": "06:00",
+          "closes": "16:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "06:00",
+          "closes": "18:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Saturday",
+          "opens": "08:00",
+          "closes": "16:00"
+        }
+      ],
+      "deals": [
+        {
+          "uuid": "380e7a40-3946-5f3f-b2bc-14306696edf3",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/5b14ab6bf71b70c3f7655f3c7407bdac/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+          "title": "The Skinny",
+          "itemDescription": "Egg whites scrambled with organic turkey bacon and white cheddar cheese served on an english muffin. 24 grams of protein 💪340 cal *contains soy, wheat, sesame, milk",
+          "price": 738,
+          "priceTagline": {
+            "text": "$7.38",
+            "textFormat": "<span>$7.38</span>",
+            "accessibilityText": "$7.38"
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "The Skinny",
+            "textFormat": "<span>The Skinny</span>",
+            "accessibilityText": "The Skinny"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": true,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "Egg whites scrambled with organic turkey bacon and white cheddar cheese served on an english muffin. 24 grams of protein 💪340 cal *contains soy, wheat, sesame, milk",
+            "textFormat": "<span style=\"color:#757575\">Egg whites scrambled with organic turkey bacon and white cheddar cheese served on an english muffin. 24 grams of protein 💪340 cal *contains soy, wheat, sesame, milk</span>"
+          },
+          "subsectionUuid": "c9667b2b-c810-554c-92d1-b42002c4ad50",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "maxPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 999,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "increment": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "defaultQuantity": {
+                    "base": {
+                      "high": 0,
+                      "low": 2,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 999,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 2
+                }
+              }
+            ],
+            "pricingInfo": {}
+          },
+          "sectionUuid": "a659e08e-fb20-52cd-bf3a-703e65c807f4",
+          "promoInfo": {
+            "promotionUUID": "b5db3cab-d0b7-4f81-b221-82229145895f",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "Buy 1, get 1 free",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "Buy 1, get 1 free"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "PILL",
+              "accessibilityText": "Buy 1, get 1 free"
+            },
+            "badgePosition": "OFF_IMAGE_BELOW_TEXT"
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$7.38",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$7.38"
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "The Skinny",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "The Skinny"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 4,
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "isWebPdpSupported": false
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Restaurant",
+      "@id": "https://www.ubereats.com/store/gemini-diner-murray-hill/nNPQ4lZUQ5CaSlNVWxHtQQ",
+      "name": "Gemini Diner - Murray Hill",
+      "servesCuisine": [
+        "Sandwich",
+        "Diners",
+        "Salads",
+        "Desserts"
+      ],
+      "priceRange": "$$",
+      "image": [
+        "https://tb-static.uber.com/prod/image-proc/processed_images/96524e39076389a82aab1d2b441a584f/19ec62ba51fde35ba0aff5b84321c5af.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/96524e39076389a82aab1d2b441a584f/c67d558c633281f9c71fc6a90ef470ae.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/96524e39076389a82aab1d2b441a584f/8681e511c0910e0052cb155c50f01f89.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/96524e39076389a82aab1d2b441a584f/6ea4f72e303000fbf403bbb36f971f85.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/96524e39076389a82aab1d2b441a584f/4bee0baf259f2b3c95aacdebea87e950.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/96524e39076389a82aab1d2b441a584f/5283d81c664b43c5f57a3a186d273063.jpeg"
+      ],
+      "potentialAction": {
+        "@type": "OrderAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.ubereats.com/store/gemini-diner-murray-hill/nNPQ4lZUQ5CaSlNVWxHtQQ?utm_campaign=order-action&amp;utm_medium=organic",
+          "inLanguage": "English",
+          "actionPlatform": [
+            "https://schema.org/DesktopWebPlatform",
+            "https://schema.org/MobileWebPlatform"
+          ]
+        },
+        "deliveryMethod": [
+          "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+          "http://purl.org/goodrelations/v1#DeliveryModePickUp"
+        ]
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "New York",
+        "addressRegion": "NY",
+        "postalCode": "10016",
+        "addressCountry": "US",
+        "streetAddress": "641 2nd Ave"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 40.7454698,
+        "longitude": -73.9756438
+      },
+      "telephone": "+12125322143",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4.7,
+        "reviewCount": 5000
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Sunday",
+          "opens": "00:00",
+          "closes": "23:59"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Monday",
+          "opens": "00:00",
+          "closes": "02:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Monday",
+          "opens": "05:50",
+          "closes": "23:59"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Tuesday",
+            "Wednesday",
+            "Thursday"
+          ],
+          "opens": "00:00",
+          "closes": "01:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Tuesday",
+            "Wednesday",
+            "Thursday"
+          ],
+          "opens": "05:50",
+          "closes": "23:59"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Friday",
+            "Saturday"
+          ],
+          "opens": "00:00",
+          "closes": "23:59"
+        }
+      ],
+      "deals": [
+        {
+          "uuid": "c0393fad-24ed-4d89-a968-99d8ec8f17a2",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/8f25a547ca0f93ac031367624e8b1c3e/70aa2a4db7f990373ca9c376323e3dea.jpeg",
+          "title": "Grilled Cheese Sandwich",
+          "itemDescription": "Crispy sandwich with melted cheese, served alongside tangy coleslaw and a crunchy pickle.",
+          "price": 1175,
+          "priceTagline": {
+            "text": "$11.75",
+            "textFormat": "<span>$11.75</span>",
+            "accessibilityText": "$11.75"
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "Grilled Cheese Sandwich",
+            "textFormat": "<span>Grilled Cheese Sandwich</span>",
+            "accessibilityText": "Grilled Cheese Sandwich"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": true,
+          "endorsement": {
+            "backgroundColor": {
+              "alpha": 1,
+              "color": "#0E8345"
+            },
+            "text": "#1 most liked",
+            "textColor": {
+              "alpha": 1,
+              "color": "#FFFFF"
+            },
+            "accessibilityText": "#1 most liked",
+            "textBorder": "PILL"
+          },
+          "numAlcoholicItems": 0,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "Crispy sandwich with melted cheese, served alongside tangy coleslaw and a crunchy pickle.",
+            "textFormat": "<span style=\"color:#757575\">Crispy sandwich with melted cheese, served alongside tangy coleslaw and a crunchy pickle.</span>"
+          },
+          "subsectionUuid": "2fd92252-be3e-46ff-b6cc-82e2180de7f0",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "maxPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 999,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "increment": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "defaultQuantity": {
+                    "base": {
+                      "high": 0,
+                      "low": 2,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 999,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 2
+                }
+              }
+            ],
+            "pricingInfo": {}
+          },
+          "sectionUuid": "7bc72948-ecc4-4ad0-b0f4-103ccb083ae3",
+          "promoInfo": {
+            "promotionUUID": "c6a8bf8f-30ad-45b5-a824-625a8eeebe18",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "Buy 1, get 1 free",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "Buy 1, get 1 free"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "PILL",
+              "accessibilityText": "Buy 1, get 1 free"
+            },
+            "badgePosition": "OFF_IMAGE_BELOW_TEXT"
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$11.75",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": " • ",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "icon": {
+                  "icon": {
+                    "icon": "THUMB_UP_OUTLINE",
+                    "color": "PRIMARY",
+                    "size": "SPACING_UNIT_1_5X"
+                  },
+                  "alignment": "CENTERED"
+                },
+                "type": "icon"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": " 90% (230)",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$11.75, 90% of customers liked this based on 230 reviews."
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "Grilled Cheese Sandwich",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "Grilled Cheese Sandwich"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 0,
+            "endorsementMetadata": {
+              "endorsementType": "most_liked"
+            },
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "isWebPdpSupported": false
+        },
+        {
+          "uuid": "d6520502-3db9-4edb-b87f-e5e96ae6c197",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/eaff4196be8e1c00892683dfb9ea41c6/70aa2a4db7f990373ca9c376323e3dea.jpeg",
+          "title": "Smash Burger (Double Patty)",
+          "itemDescription": "Double beef patties with American cheese and special sauce on a soft potato bun.",
+          "price": 1450,
+          "priceTagline": {
+            "text": "$14.50",
+            "textFormat": "<span>$14.50</span>",
+            "accessibilityText": "$14.50"
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "Smash Burger (Double Patty)",
+            "textFormat": "<span>Smash Burger (Double Patty)</span>",
+            "accessibilityText": "Smash Burger (Double Patty)"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": true,
+          "numAlcoholicItems": 0,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "Double beef patties with American cheese and special sauce on a soft potato bun.",
+            "textFormat": "<span style=\"color:#757575\">Double beef patties with American cheese and special sauce on a soft potato bun.</span>"
+          },
+          "subsectionUuid": "547db80d-12f2-495b-86d0-2cc2db4bdfa0",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "maxPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 999,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "increment": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "defaultQuantity": {
+                    "base": {
+                      "high": 0,
+                      "low": 2,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 999,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 2
+                }
+              }
+            ],
+            "pricingInfo": {}
+          },
+          "sectionUuid": "7bc72948-ecc4-4ad0-b0f4-103ccb083ae3",
+          "promoInfo": {
+            "promotionUUID": "167530fb-cccb-46c4-98b4-4a730d38317d",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "Buy 1, get 1 free",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "Buy 1, get 1 free"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "PILL",
+              "accessibilityText": "Buy 1, get 1 free"
+            },
+            "badgePosition": "OFF_IMAGE_BELOW_TEXT"
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$14.50",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": " • ",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "icon": {
+                  "icon": {
+                    "icon": "THUMB_UP_OUTLINE",
+                    "color": "PRIMARY",
+                    "size": "SPACING_UNIT_1_5X"
+                  },
+                  "alignment": "CENTERED"
+                },
+                "type": "icon"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": " 80% (5)",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$14.50, 80% of customers liked this based on 5 reviews."
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "Smash Burger (Double Patty)",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "Smash Burger (Double Patty)"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 4,
+            "endorsementMetadata": {
+              "endorsementType": "ratings",
+              "rating": "80%",
+              "numRatings": 5
+            },
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "isWebPdpSupported": false
+        }
+      ]
+    }
+  ]
 }
