@@ -1,5 +1,5 @@
 {
-  "refreshDateTime": "2026-03-26T19:28:35.541Z",
+  "refreshDateTime": "2026-03-26T20:13:06.317Z",
   "deals": [
     {
       "@context": "https://schema.org",
@@ -2054,6 +2054,301 @@
     {
       "@context": "https://schema.org",
       "@type": "Restaurant",
+      "@id": "https://www.ubereats.com/store/muna/ZZEJwoqyVci3Z_e1Z2qmXw",
+      "name": "Muna",
+      "servesCuisine": [
+        "Indian",
+        "Vegetarian",
+        "Asian",
+        "Group Friendly"
+      ],
+      "priceRange": "",
+      "image": [
+        "https://tb-static.uber.com/prod/image-proc/processed_images/d9604cc934c9cba28907e1a3ea04401d/891233042e9ada9873fc6d9c4e835eac.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/d9604cc934c9cba28907e1a3ea04401d/0e8f477e8f858732b95bd74b5e07a538.jpeg"
+      ],
+      "potentialAction": {
+        "@type": "OrderAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.ubereats.com/store/muna/ZZEJwoqyVci3Z_e1Z2qmXw?utm_campaign=order-action&amp;utm_medium=organic",
+          "inLanguage": "English",
+          "actionPlatform": [
+            "https://schema.org/DesktopWebPlatform",
+            "https://schema.org/MobileWebPlatform"
+          ]
+        },
+        "deliveryMethod": [
+          "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+          "http://purl.org/goodrelations/v1#DeliveryModePickUp"
+        ]
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "New York",
+        "addressRegion": "NY",
+        "postalCode": "10017",
+        "addressCountry": "US",
+        "streetAddress": "152 East 46th Street"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 40.7535728,
+        "longitude": -73.9734464
+      },
+      "telephone": "+16462987960",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4.8,
+        "reviewCount": 1500
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Sunday",
+          "opens": "12:00",
+          "closes": "21:45"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "11:00",
+          "closes": "21:45"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Saturday",
+          "opens": "12:00",
+          "closes": "21:45"
+        }
+      ],
+      "deals": [
+        {
+          "uuid": "9f278cd6-4411-45b2-8ede-549ff7053d79",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/2d96635e3805d79cf9fbba56ee27b288/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+          "title": "Garlic Naan",
+          "itemDescription": "Flatbread topped with garlic.\nOur food may contain gluten, dairy, nuts, shellfish, and eggs. Please notify for any allergies.",
+          "price": 599,
+          "priceTagline": {
+            "text": "$5.99",
+            "textFormat": "<span>$5.99</span>",
+            "accessibilityText": "$5.99"
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "Garlic Naan",
+            "textFormat": "<span>Garlic Naan</span>",
+            "accessibilityText": "Garlic Naan"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": false,
+          "numAlcoholicItems": 0,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "Flatbread topped with garlic.\nOur food may contain gluten, dairy, nuts, shellfish, and eggs. Please notify for any allergies.",
+            "textFormat": "<span style=\"color:#757575\">Flatbread topped with garlic.\nOur food may contain gluten, dairy, nuts, shellfish, and eggs. Please notify for any allergies.</span>"
+          },
+          "subsectionUuid": "5aaed777-4b50-4b51-9a11-6580e4c33471",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "maxPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 999,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "increment": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "defaultQuantity": {
+                    "base": {
+                      "high": 0,
+                      "low": 2,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 999,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 2
+                }
+              }
+            ],
+            "pricingInfo": {}
+          },
+          "sectionUuid": "4dffb9de-4437-4671-b667-6ee3c986f2f1",
+          "promoInfo": {
+            "promotionUUID": "f86a96e9-ef3a-4c69-b73a-7d60be634e4a",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "Buy 1, get 1 free",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "Buy 1, get 1 free"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "PILL",
+              "accessibilityText": "Buy 1, get 1 free"
+            },
+            "badgePosition": "OFF_IMAGE_BELOW_TEXT"
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$5.99",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": " • ",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "icon": {
+                  "icon": {
+                    "icon": "THUMB_UP_OUTLINE",
+                    "color": "PRIMARY",
+                    "size": "SPACING_UNIT_1_5X"
+                  },
+                  "alignment": "CENTERED"
+                },
+                "type": "icon"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": " 86% (264)",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$5.99, 86% of customers liked this based on 264 reviews."
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "Garlic Naan",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "Garlic Naan"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 0,
+            "endorsementMetadata": {
+              "endorsementType": "ratings",
+              "rating": "86%",
+              "numRatings": 264
+            },
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "isWebPdpSupported": false
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Restaurant",
       "@id": "https://www.ubereats.com/store/angelina-bakery-lexington/SPZfrrBRSnmU9727T1706w",
       "name": "Angelina Bakery Lexington",
       "servesCuisine": [
@@ -3179,6 +3474,9 @@
           "itemAvailabilityState": "UNKNOWN",
           "catalogItemAnalyticsData": {
             "catalogSectionItemPosition": 24,
+            "endorsementMetadata": {
+              "endorsementType": "most_liked"
+            },
             "promoType": "BOGO"
           },
           "imageOverlayElements": null,
@@ -4749,395 +5047,6 @@
               "endorsementType": "ratings",
               "rating": "92%",
               "numRatings": 53
-            },
-            "promoType": "BOGO"
-          },
-          "imageOverlayElements": null,
-          "itemThumbnailElements": null,
-          "isWebPdpSupported": false
-        }
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Restaurant",
-      "@id": "https://www.ubereats.com/store/pita-yeero-vanderbilt/4x-sX2T5UtiOoGhAxEeHrQ",
-      "name": "Pita Yeero - Vanderbilt",
-      "servesCuisine": [
-        "Mediterranean",
-        "Greek",
-        "Vegetarian"
-      ],
-      "priceRange": "",
-      "image": [
-        "https://tb-static.uber.com/prod/image-proc/processed_images/146d866c8110ff621a770ce3cbc7509d/e39556ef1e4c4565bc6c7dbd8b90869c.jpeg",
-        "https://tb-static.uber.com/prod/image-proc/processed_images/146d866c8110ff621a770ce3cbc7509d/7915c4a78a9f94ed56316c7c4dc0ec89.jpeg",
-        "https://tb-static.uber.com/prod/image-proc/processed_images/146d866c8110ff621a770ce3cbc7509d/67b1ce06a25a64dc4a71581bb39c36c6.jpeg",
-        "https://tb-static.uber.com/prod/image-proc/processed_images/146d866c8110ff621a770ce3cbc7509d/f3376a06b92224efbe50167fb7cb61e4.jpeg",
-        "https://tb-static.uber.com/prod/image-proc/processed_images/146d866c8110ff621a770ce3cbc7509d/50446f64f31cbefe66558fc47f50a9d6.jpeg",
-        "https://tb-static.uber.com/prod/image-proc/processed_images/146d866c8110ff621a770ce3cbc7509d/c9252e6c6cd289c588c3381bc77b1dfc.jpeg"
-      ],
-      "potentialAction": {
-        "@type": "OrderAction",
-        "target": {
-          "@type": "EntryPoint",
-          "urlTemplate": "https://www.ubereats.com/store/pita-yeero-vanderbilt/4x-sX2T5UtiOoGhAxEeHrQ?utm_campaign=order-action&amp;utm_medium=organic",
-          "inLanguage": "English",
-          "actionPlatform": [
-            "https://schema.org/DesktopWebPlatform",
-            "https://schema.org/MobileWebPlatform"
-          ]
-        },
-        "deliveryMethod": [
-          "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
-          "http://purl.org/goodrelations/v1#DeliveryModePickUp"
-        ]
-      },
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "New York",
-        "addressRegion": "NY",
-        "postalCode": "10169",
-        "addressCountry": "US",
-        "streetAddress": "230 Park Avenue"
-      },
-      "geo": {
-        "@type": "GeoCoordinates",
-        "latitude": 40.7544384,
-        "longitude": -73.9767566
-      },
-      "telephone": "+16465301638",
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": 4.5,
-        "reviewCount": 170
-      },
-      "openingHoursSpecification": [
-        {
-          "@type": "OpeningHoursSpecification",
-          "dayOfWeek": [
-            "Monday",
-            "Tuesday",
-            "Wednesday",
-            "Thursday",
-            "Friday"
-          ],
-          "opens": "11:00",
-          "closes": "20:00"
-        }
-      ],
-      "deals": [
-        {
-          "uuid": "7d7948f1-4357-4cc5-b73b-b5e2debdcf43",
-          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/15fa2981d4443b8e43d68fd417ae0e45/70aa2a4db7f990373ca9c376323e3dea.jpeg",
-          "title": "Pork Souvlaki",
-          "itemDescription": "Comes with pita bread.",
-          "price": 750,
-          "priceTagline": {
-            "text": "$7.50",
-            "textFormat": "<span>$7.50</span>",
-            "accessibilityText": "$7.50"
-          },
-          "spanCount": 2,
-          "displayType": "LIST",
-          "titleBadge": {
-            "text": "Pork Souvlaki",
-            "textFormat": "<span>Pork Souvlaki</span>",
-            "accessibilityText": "Pork Souvlaki"
-          },
-          "isSoldOut": false,
-          "hasCustomizations": false,
-          "numAlcoholicItems": 0,
-          "itemPromotion": {
-            "buyXGetYItemPromotion": {
-              "buyQuantity": 1,
-              "getQuantity": 1,
-              "maxRedemptionCount": 3
-            },
-            "type": "buyXGetYItemPromotion"
-          },
-          "itemDescriptionBadge": {
-            "text": "Comes with pita bread.",
-            "textFormat": "<span style=\"color:#757575\">Comes with pita bread.</span>"
-          },
-          "subsectionUuid": "700de514-329e-4973-b0dc-8a4f6ea407ee",
-          "isAvailable": true,
-          "purchaseInfo": {
-            "purchaseOptions": [
-              {
-                "soldByUnit": {
-                  "measurementType": "MEASUREMENT_TYPE_COUNT"
-                },
-                "itemQuantityAbbreviation": "",
-                "purchasePriceV2": {
-                  "base": {
-                    "high": 0,
-                    "low": 750,
-                    "unsigned": false
-                  },
-                  "exponent": -2
-                }
-              }
-            ],
-            "pricingInfo": {}
-          },
-          "sectionUuid": "06925d78-4a31-581a-b093-1ca5f2df8df0",
-          "promoInfo": {
-            "promotionUUID": "a16e9cee-c618-49e8-8eca-8c41d34e33e7",
-            "promoBadge": {
-              "content": {
-                "richText": {
-                  "richTextElements": [
-                    {
-                      "text": {
-                        "text": {
-                          "text": "Buy 1, get 1 free",
-                          "font": {
-                            "style": "LABEL_X_SMALL",
-                            "weight": "MEDIUM"
-                          },
-                          "color": "BRAND_CONTENT_ON_PRIMARY"
-                        },
-                        "predefinedDecorations": null
-                      },
-                      "type": "text"
-                    }
-                  ],
-                  "accessibilityText": "Buy 1, get 1 free"
-                },
-                "type": "richText"
-              },
-              "hierarchy": "PRIMARY",
-              "color": {
-                "custom": {
-                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
-                },
-                "type": "custom"
-              },
-              "shape": "PILL",
-              "accessibilityText": "Buy 1, get 1 free"
-            },
-            "badgePosition": "OFF_IMAGE_BELOW_TEXT"
-          },
-          "quickAddConfig": {
-            "shouldShow": true,
-            "isInteractionEnabled": false,
-            "position": "BOTTOM_TRAILING"
-          },
-          "labelPrimary": {
-            "richTextElements": [
-              {
-                "text": {
-                  "text": {
-                    "text": "$7.50",
-                    "font": {
-                      "style": "PARAGRAPH_SMALL",
-                      "weight": "NORMAL"
-                    },
-                    "color": "CONTENT_PRIMARY"
-                  },
-                  "predefinedDecorations": null
-                },
-                "type": "text"
-              }
-            ],
-            "accessibilityText": "$7.50"
-          },
-          "headingPrimary": {
-            "richTextElements": [
-              {
-                "text": {
-                  "text": {
-                    "text": "Pork Souvlaki",
-                    "font": {
-                      "style": "LABEL_DEFAULT",
-                      "weight": "MEDIUM"
-                    },
-                    "color": "CONTENT_PRIMARY"
-                  },
-                  "predefinedDecorations": null
-                },
-                "type": "text"
-              }
-            ],
-            "accessibilityText": "Pork Souvlaki"
-          },
-          "itemAvailabilityState": "UNKNOWN",
-          "catalogItemAnalyticsData": {
-            "catalogSectionItemPosition": 1,
-            "promoType": "BOGO"
-          },
-          "imageOverlayElements": null,
-          "itemThumbnailElements": null,
-          "isWebPdpSupported": false
-        },
-        {
-          "uuid": "b16ce9de-791c-4f03-968f-ffb0a53531d9",
-          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/1b843f3dd0583070f01fc5f636631734/bc9c318a9c96996e2d990faf2b0c65f6.jpeg",
-          "title": "Chicken Souvlaki",
-          "itemDescription": "Comes with pita bread.",
-          "price": 750,
-          "priceTagline": {
-            "text": "$7.50",
-            "textFormat": "<span>$7.50</span>",
-            "accessibilityText": "$7.50"
-          },
-          "spanCount": 2,
-          "displayType": "LIST",
-          "titleBadge": {
-            "text": "Chicken Souvlaki",
-            "textFormat": "<span>Chicken Souvlaki</span>",
-            "accessibilityText": "Chicken Souvlaki"
-          },
-          "isSoldOut": false,
-          "hasCustomizations": true,
-          "numAlcoholicItems": 0,
-          "itemPromotion": {
-            "buyXGetYItemPromotion": {
-              "buyQuantity": 1,
-              "getQuantity": 1,
-              "maxRedemptionCount": 3
-            },
-            "type": "buyXGetYItemPromotion"
-          },
-          "itemDescriptionBadge": {
-            "text": "Comes with pita bread.",
-            "textFormat": "<span style=\"color:#757575\">Comes with pita bread.</span>"
-          },
-          "subsectionUuid": "700de514-329e-4973-b0dc-8a4f6ea407ee",
-          "isAvailable": true,
-          "purchaseInfo": {
-            "purchaseOptions": [
-              {
-                "itemQuantityAbbreviation": "",
-                "quantityConstraintsV2": {
-                  "minPermitted": {
-                    "base": {
-                      "high": 0,
-                      "low": 1,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "maxPermitted": {
-                    "base": {
-                      "high": 0,
-                      "low": 999,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "increment": {
-                    "base": {
-                      "high": 0,
-                      "low": 1,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "defaultQuantity": {
-                    "base": {
-                      "high": 0,
-                      "low": 2,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "minPermittedNumber": 1,
-                  "maxPermittedNumber": 999,
-                  "incrementNumber": 1,
-                  "defaultQuantityNumber": 2
-                }
-              }
-            ],
-            "pricingInfo": {}
-          },
-          "sectionUuid": "06925d78-4a31-581a-b093-1ca5f2df8df0",
-          "promoInfo": {
-            "promotionUUID": "1a10b715-972b-4d13-8ed8-bf906ab0330c",
-            "promoBadge": {
-              "content": {
-                "richText": {
-                  "richTextElements": [
-                    {
-                      "text": {
-                        "text": {
-                          "text": "Buy 1, get 1 free",
-                          "font": {
-                            "style": "LABEL_X_SMALL",
-                            "weight": "MEDIUM"
-                          },
-                          "color": "BRAND_CONTENT_ON_PRIMARY"
-                        },
-                        "predefinedDecorations": null
-                      },
-                      "type": "text"
-                    }
-                  ],
-                  "accessibilityText": "Buy 1, get 1 free"
-                },
-                "type": "richText"
-              },
-              "hierarchy": "PRIMARY",
-              "color": {
-                "custom": {
-                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
-                },
-                "type": "custom"
-              },
-              "shape": "PILL",
-              "accessibilityText": "Buy 1, get 1 free"
-            },
-            "badgePosition": "OFF_IMAGE_BELOW_TEXT"
-          },
-          "quickAddConfig": {
-            "shouldShow": true,
-            "isInteractionEnabled": false,
-            "position": "BOTTOM_TRAILING"
-          },
-          "labelPrimary": {
-            "richTextElements": [
-              {
-                "text": {
-                  "text": {
-                    "text": "$7.50",
-                    "font": {
-                      "style": "PARAGRAPH_SMALL",
-                      "weight": "NORMAL"
-                    },
-                    "color": "CONTENT_PRIMARY"
-                  },
-                  "predefinedDecorations": null
-                },
-                "type": "text"
-              }
-            ],
-            "accessibilityText": "$7.50"
-          },
-          "headingPrimary": {
-            "richTextElements": [
-              {
-                "text": {
-                  "text": {
-                    "text": "Chicken Souvlaki",
-                    "font": {
-                      "style": "LABEL_DEFAULT",
-                      "weight": "MEDIUM"
-                    },
-                    "color": "CONTENT_PRIMARY"
-                  },
-                  "predefinedDecorations": null
-                },
-                "type": "text"
-              }
-            ],
-            "accessibilityText": "Chicken Souvlaki"
-          },
-          "itemAvailabilityState": "UNKNOWN",
-          "catalogItemAnalyticsData": {
-            "catalogSectionItemPosition": 0,
-            "endorsementMetadata": {
-              "endorsementType": "most_liked"
             },
             "promoType": "BOGO"
           },
@@ -8211,9 +8120,6 @@
           "itemAvailabilityState": "UNKNOWN",
           "catalogItemAnalyticsData": {
             "catalogSectionItemPosition": 6,
-            "endorsementMetadata": {
-              "endorsementType": "most_liked"
-            },
             "promoType": "BOGO"
           },
           "imageOverlayElements": null,
@@ -9023,6 +8929,9 @@
           "itemAvailabilityState": "UNKNOWN",
           "catalogItemAnalyticsData": {
             "catalogSectionItemPosition": 2,
+            "endorsementMetadata": {
+              "endorsementType": "most_liked"
+            },
             "promoType": "BOGO"
           },
           "imageOverlayElements": null,
@@ -12731,7 +12640,7 @@
               {
                 "text": {
                   "text": {
-                    "text": " 100% (4)",
+                    "text": " 100% (5)",
                     "font": {
                       "style": "PARAGRAPH_SMALL",
                       "weight": "NORMAL"
@@ -12743,7 +12652,7 @@
                 "type": "text"
               }
             ],
-            "accessibilityText": "$13.95, 100% of customers liked this based on 4 reviews."
+            "accessibilityText": "$13.95, 100% of customers liked this based on 5 reviews."
           },
           "headingPrimary": {
             "richTextElements": [
@@ -12770,7 +12679,7 @@
             "endorsementMetadata": {
               "endorsementType": "ratings",
               "rating": "100%",
-              "numRatings": 4
+              "numRatings": 5
             },
             "promoType": "BOGO"
           },
@@ -13368,419 +13277,6 @@
               "rating": "92%",
               "numRatings": 13
             },
-            "promoType": "BOGO"
-          },
-          "imageOverlayElements": null,
-          "itemThumbnailElements": null,
-          "isWebPdpSupported": false
-        }
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Restaurant",
-      "@id": "https://www.ubereats.com/store/pita-yeero-e-43rd-st/DyrbvJnlWFONqfpTejrhuQ",
-      "name": "Pita Yeero - E 43rd St",
-      "servesCuisine": [
-        "Greek",
-        "Mediterranean",
-        "Vegetarian",
-        "Falafel"
-      ],
-      "priceRange": "",
-      "image": [
-        "https://tb-static.uber.com/prod/image-proc/processed_images/4948544fa6d8bf4f3b6a1506a9e78602/97ef7458dde62fa918635bc21265d9f5.jpeg",
-        "https://tb-static.uber.com/prod/image-proc/processed_images/4948544fa6d8bf4f3b6a1506a9e78602/a70f5c9df440d10213e93244e9eb7cad.jpeg",
-        "https://tb-static.uber.com/prod/image-proc/processed_images/4948544fa6d8bf4f3b6a1506a9e78602/97e6648b3593c29cb4a6335f976e6d84.jpeg",
-        "https://tb-static.uber.com/prod/image-proc/processed_images/4948544fa6d8bf4f3b6a1506a9e78602/93b5fd796682c6d5302cd5bec164fe90.jpeg",
-        "https://tb-static.uber.com/prod/image-proc/processed_images/4948544fa6d8bf4f3b6a1506a9e78602/719c6bd2757b08684c0faae44d43159d.jpeg",
-        "https://tb-static.uber.com/prod/image-proc/processed_images/4948544fa6d8bf4f3b6a1506a9e78602/3ac2b39ad528f8c8c5dc77c59abb683d.jpeg"
-      ],
-      "potentialAction": {
-        "@type": "OrderAction",
-        "target": {
-          "@type": "EntryPoint",
-          "urlTemplate": "https://www.ubereats.com/store/pita-yeero-e-43rd-st/DyrbvJnlWFONqfpTejrhuQ?utm_campaign=order-action&amp;utm_medium=organic",
-          "inLanguage": "English",
-          "actionPlatform": [
-            "https://schema.org/DesktopWebPlatform",
-            "https://schema.org/MobileWebPlatform"
-          ]
-        },
-        "deliveryMethod": [
-          "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
-          "http://purl.org/goodrelations/v1#DeliveryModePickUp"
-        ]
-      },
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "New York",
-        "addressRegion": "NY",
-        "postalCode": "10017",
-        "addressCountry": "US",
-        "streetAddress": "684 3rd Avenue"
-      },
-      "geo": {
-        "@type": "GeoCoordinates",
-        "latitude": 40.7516052,
-        "longitude": -73.9741293
-      },
-      "telephone": "+16465301638",
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": 4.6,
-        "reviewCount": 200
-      },
-      "openingHoursSpecification": [
-        {
-          "@type": "OpeningHoursSpecification",
-          "dayOfWeek": [
-            "Monday",
-            "Tuesday",
-            "Wednesday",
-            "Thursday",
-            "Friday"
-          ],
-          "opens": "11:00",
-          "closes": "20:45"
-        }
-      ],
-      "deals": [
-        {
-          "uuid": "7a6ea777-76d3-4bb8-a9f1-db5c6f0556a3",
-          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/1f57ccd119a7f6f0ddc60c694c444ea6/bc9c318a9c96996e2d990faf2b0c65f6.jpeg",
-          "title": "Chicken Souvlaki",
-          "itemDescription": "Comes with pita bread.",
-          "price": 750,
-          "priceTagline": {
-            "text": "$7.50",
-            "textFormat": "<span>$7.50</span>",
-            "accessibilityText": "$7.50"
-          },
-          "spanCount": 2,
-          "displayType": "LIST",
-          "titleBadge": {
-            "text": "Chicken Souvlaki",
-            "textFormat": "<span>Chicken Souvlaki</span>",
-            "accessibilityText": "Chicken Souvlaki"
-          },
-          "isSoldOut": false,
-          "hasCustomizations": true,
-          "numAlcoholicItems": 0,
-          "itemPromotion": {
-            "buyXGetYItemPromotion": {
-              "buyQuantity": 1,
-              "getQuantity": 1,
-              "maxRedemptionCount": 3
-            },
-            "type": "buyXGetYItemPromotion"
-          },
-          "itemDescriptionBadge": {
-            "text": "Comes with pita bread.",
-            "textFormat": "<span style=\"color:#757575\">Comes with pita bread.</span>"
-          },
-          "subsectionUuid": "0ae33da7-bb55-4c8c-bbcd-54c6c47d78d7",
-          "isAvailable": true,
-          "purchaseInfo": {
-            "purchaseOptions": [
-              {
-                "itemQuantityAbbreviation": "",
-                "quantityConstraintsV2": {
-                  "minPermitted": {
-                    "base": {
-                      "high": 0,
-                      "low": 1,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "maxPermitted": {
-                    "base": {
-                      "high": 0,
-                      "low": 999,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "increment": {
-                    "base": {
-                      "high": 0,
-                      "low": 1,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "defaultQuantity": {
-                    "base": {
-                      "high": 0,
-                      "low": 2,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "minPermittedNumber": 1,
-                  "maxPermittedNumber": 999,
-                  "incrementNumber": 1,
-                  "defaultQuantityNumber": 2
-                }
-              }
-            ],
-            "pricingInfo": {}
-          },
-          "sectionUuid": "d97589a9-beac-537a-afa9-b4b54e0c754a",
-          "promoInfo": {
-            "promotionUUID": "5dc20b5b-c9fa-4818-a29f-c0950d91bc75",
-            "promoBadge": {
-              "content": {
-                "richText": {
-                  "richTextElements": [
-                    {
-                      "text": {
-                        "text": {
-                          "text": "Buy 1, get 1 free",
-                          "font": {
-                            "style": "LABEL_X_SMALL",
-                            "weight": "MEDIUM"
-                          },
-                          "color": "BRAND_CONTENT_ON_PRIMARY"
-                        },
-                        "predefinedDecorations": null
-                      },
-                      "type": "text"
-                    }
-                  ],
-                  "accessibilityText": "Buy 1, get 1 free"
-                },
-                "type": "richText"
-              },
-              "hierarchy": "PRIMARY",
-              "color": {
-                "custom": {
-                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
-                },
-                "type": "custom"
-              },
-              "shape": "PILL",
-              "accessibilityText": "Buy 1, get 1 free"
-            },
-            "badgePosition": "OFF_IMAGE_BELOW_TEXT"
-          },
-          "quickAddConfig": {
-            "shouldShow": true,
-            "isInteractionEnabled": false,
-            "position": "BOTTOM_TRAILING"
-          },
-          "labelPrimary": {
-            "richTextElements": [
-              {
-                "text": {
-                  "text": {
-                    "text": "$7.50",
-                    "font": {
-                      "style": "PARAGRAPH_SMALL",
-                      "weight": "NORMAL"
-                    },
-                    "color": "CONTENT_PRIMARY"
-                  },
-                  "predefinedDecorations": null
-                },
-                "type": "text"
-              }
-            ],
-            "accessibilityText": "$7.50"
-          },
-          "headingPrimary": {
-            "richTextElements": [
-              {
-                "text": {
-                  "text": {
-                    "text": "Chicken Souvlaki",
-                    "font": {
-                      "style": "LABEL_DEFAULT",
-                      "weight": "MEDIUM"
-                    },
-                    "color": "CONTENT_PRIMARY"
-                  },
-                  "predefinedDecorations": null
-                },
-                "type": "text"
-              }
-            ],
-            "accessibilityText": "Chicken Souvlaki"
-          },
-          "itemAvailabilityState": "UNKNOWN",
-          "catalogItemAnalyticsData": {
-            "catalogSectionItemPosition": 0,
-            "promoType": "BOGO"
-          },
-          "imageOverlayElements": null,
-          "itemThumbnailElements": null,
-          "isWebPdpSupported": false
-        },
-        {
-          "uuid": "013a9ed0-7bdb-4377-9f80-eeceb413bd24",
-          "title": "Pork Souvlaki",
-          "itemDescription": "Comes with pita bread.",
-          "price": 750,
-          "priceTagline": {
-            "text": "$7.50",
-            "textFormat": "<span>$7.50</span>",
-            "accessibilityText": "$7.50"
-          },
-          "spanCount": 2,
-          "displayType": "LIST",
-          "titleBadge": {
-            "text": "Pork Souvlaki",
-            "textFormat": "<span>Pork Souvlaki</span>",
-            "accessibilityText": "Pork Souvlaki"
-          },
-          "isSoldOut": false,
-          "hasCustomizations": true,
-          "numAlcoholicItems": 0,
-          "itemPromotion": {
-            "buyXGetYItemPromotion": {
-              "buyQuantity": 1,
-              "getQuantity": 1,
-              "maxRedemptionCount": 3
-            },
-            "type": "buyXGetYItemPromotion"
-          },
-          "itemDescriptionBadge": {
-            "text": "Comes with pita bread.",
-            "textFormat": "<span style=\"color:#757575\">Comes with pita bread.</span>"
-          },
-          "subsectionUuid": "0ae33da7-bb55-4c8c-bbcd-54c6c47d78d7",
-          "isAvailable": true,
-          "purchaseInfo": {
-            "purchaseOptions": [
-              {
-                "itemQuantityAbbreviation": "",
-                "quantityConstraintsV2": {
-                  "minPermitted": {
-                    "base": {
-                      "high": 0,
-                      "low": 1,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "maxPermitted": {
-                    "base": {
-                      "high": 0,
-                      "low": 999,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "increment": {
-                    "base": {
-                      "high": 0,
-                      "low": 1,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "defaultQuantity": {
-                    "base": {
-                      "high": 0,
-                      "low": 2,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "minPermittedNumber": 1,
-                  "maxPermittedNumber": 999,
-                  "incrementNumber": 1,
-                  "defaultQuantityNumber": 2
-                }
-              }
-            ],
-            "pricingInfo": {}
-          },
-          "sectionUuid": "d97589a9-beac-537a-afa9-b4b54e0c754a",
-          "promoInfo": {
-            "promotionUUID": "cee9088d-fba9-4f2b-96be-f9ac94f91637",
-            "promoBadge": {
-              "content": {
-                "richText": {
-                  "richTextElements": [
-                    {
-                      "text": {
-                        "text": {
-                          "text": "Buy 1, get 1 free",
-                          "font": {
-                            "style": "LABEL_X_SMALL",
-                            "weight": "MEDIUM"
-                          },
-                          "color": "BRAND_CONTENT_ON_PRIMARY"
-                        },
-                        "predefinedDecorations": null
-                      },
-                      "type": "text"
-                    }
-                  ],
-                  "accessibilityText": "Buy 1, get 1 free"
-                },
-                "type": "richText"
-              },
-              "hierarchy": "PRIMARY",
-              "color": {
-                "custom": {
-                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
-                },
-                "type": "custom"
-              },
-              "shape": "PILL",
-              "accessibilityText": "Buy 1, get 1 free"
-            },
-            "badgePosition": "OFF_IMAGE_BELOW_TEXT"
-          },
-          "quickAddConfig": {
-            "shouldShow": true,
-            "isInteractionEnabled": false,
-            "position": "BOTTOM_TRAILING"
-          },
-          "labelPrimary": {
-            "richTextElements": [
-              {
-                "text": {
-                  "text": {
-                    "text": "$7.50",
-                    "font": {
-                      "style": "PARAGRAPH_SMALL",
-                      "weight": "NORMAL"
-                    },
-                    "color": "CONTENT_PRIMARY"
-                  },
-                  "predefinedDecorations": null
-                },
-                "type": "text"
-              }
-            ],
-            "accessibilityText": "$7.50"
-          },
-          "headingPrimary": {
-            "richTextElements": [
-              {
-                "text": {
-                  "text": {
-                    "text": "Pork Souvlaki",
-                    "font": {
-                      "style": "LABEL_DEFAULT",
-                      "weight": "MEDIUM"
-                    },
-                    "color": "CONTENT_PRIMARY"
-                  },
-                  "predefinedDecorations": null
-                },
-                "type": "text"
-              }
-            ],
-            "accessibilityText": "Pork Souvlaki"
-          },
-          "itemAvailabilityState": "UNKNOWN",
-          "catalogItemAnalyticsData": {
-            "catalogSectionItemPosition": 1,
             "promoType": "BOGO"
           },
           "imageOverlayElements": null,
