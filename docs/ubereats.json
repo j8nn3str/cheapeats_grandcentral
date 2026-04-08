@@ -1,4 +1,1885 @@
 {
-  "refreshDateTime": "2026-04-08T13:34:16.000Z",
-  "deals": []
+  "refreshDateTime": "2026-04-08T14:37:55.322Z",
+  "deals": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Restaurant",
+      "@id": "https://www.ubereats.com/store/subway-716-3rd-ave/tSJC3eM7QPi9waaOIAxeLA",
+      "name": "Subway (716 3RD AVE)",
+      "servesCuisine": [
+        "Sandwich",
+        "Fast Food",
+        "American",
+        "Salads",
+        "Healthy"
+      ],
+      "priceRange": "$",
+      "image": [
+        "https://tb-static.uber.com/prod/image-proc/processed_images/7395ce689f35022d67f54652ee16d0f5/19ec62ba51fde35ba0aff5b84321c5af.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/7395ce689f35022d67f54652ee16d0f5/c67d558c633281f9c71fc6a90ef470ae.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/7395ce689f35022d67f54652ee16d0f5/8681e511c0910e0052cb155c50f01f89.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/7395ce689f35022d67f54652ee16d0f5/6ea4f72e303000fbf403bbb36f971f85.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/7395ce689f35022d67f54652ee16d0f5/4bee0baf259f2b3c95aacdebea87e950.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/7395ce689f35022d67f54652ee16d0f5/5283d81c664b43c5f57a3a186d273063.jpeg"
+      ],
+      "potentialAction": {
+        "@type": "OrderAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.ubereats.com/store/subway-716-3rd-ave/tSJC3eM7QPi9waaOIAxeLA?utm_campaign=order-action&amp;utm_medium=organic",
+          "inLanguage": "English",
+          "actionPlatform": [
+            "https://schema.org/DesktopWebPlatform",
+            "https://schema.org/MobileWebPlatform"
+          ]
+        },
+        "deliveryMethod": [
+          "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+          "http://purl.org/goodrelations/v1#DeliveryModePickUp"
+        ]
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "New York",
+        "addressRegion": "NY",
+        "postalCode": "10017",
+        "addressCountry": "US",
+        "streetAddress": "716 3rd Ave"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 40.7526899,
+        "longitude": -73.9732916
+      },
+      "telephone": "+16464904535",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4.5,
+        "reviewCount": 1000
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "opens": "00:00",
+          "closes": "23:59"
+        }
+      ],
+      "deals": [
+        {
+          "uuid": "fca54695-ba60-5eaa-a573-04ea8c58ce80",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/b271afa0599e4906bc1c699250561586/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+          "title": "Oven-Roasted Turkey (6'')",
+          "itemDescription": "Oven-roasted Turkey, provolone cheese, lettuce, tomatoes, onions & mayo served on our freshly baked Artisan Italian bread.",
+          "price": 1001,
+          "priceTagline": {
+            "text": "$10.01",
+            "textFormat": "<span>$10.01</span>",
+            "accessibilityText": "$10.01"
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "Oven-Roasted Turkey (6'')",
+            "textFormat": "<span>Oven-Roasted Turkey (6&#39;&#39;)</span>",
+            "accessibilityText": "Oven-Roasted Turkey (6'')"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": true,
+          "numAlcoholicItems": 0,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "Oven-roasted Turkey, provolone cheese, lettuce, tomatoes, onions & mayo served on our freshly baked Artisan Italian bread.",
+            "textFormat": "<span style=\"color:#757575\">Oven-roasted Turkey, provolone cheese, lettuce, tomatoes, onions &amp; mayo served on our freshly baked Artisan Italian bread.</span>"
+          },
+          "subsectionUuid": "10246916-f216-555e-b8b9-31f1eb448075",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "maxPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 999,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "increment": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "defaultQuantity": {
+                    "base": {
+                      "high": 0,
+                      "low": 2,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 999,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 2
+                }
+              }
+            ],
+            "pricingInfo": {}
+          },
+          "sectionUuid": "292598fe-d379-51b1-a441-778f8513e1f2",
+          "promoInfo": {
+            "promotionUUID": "d4b07912-c96c-4a3f-b539-a4ed56dc3a0b",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "Buy 1, get 1 free",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "Buy 1, get 1 free"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "PILL",
+              "accessibilityText": "Buy 1, get 1 free"
+            },
+            "badgePosition": "OFF_IMAGE_BELOW_TEXT"
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$10.01",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$10.01"
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "Oven-Roasted Turkey (6'')",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "Oven-Roasted Turkey (6'')"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 27,
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "isWebPdpSupported": false
+        },
+        {
+          "uuid": "9d992041-f894-5723-bc3b-f53b26db7258",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/52cc0640ab3315a83787dae48f5dc7cb/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+          "title": "Spicy Italian (6'')",
+          "itemDescription": "Spicy Pepperoni, Genoa salami, provolone cheese, jalapenos, lettuce, tomatoes, onions & mayo served on our freshly baked Artisan bread.",
+          "price": 950,
+          "priceTagline": {
+            "text": "$9.50",
+            "textFormat": "<span>$9.50</span>",
+            "accessibilityText": "$9.50"
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "Spicy Italian (6'')",
+            "textFormat": "<span>Spicy Italian (6&#39;&#39;)</span>",
+            "accessibilityText": "Spicy Italian (6'')"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": true,
+          "numAlcoholicItems": 0,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "Spicy Pepperoni, Genoa salami, provolone cheese, jalapenos, lettuce, tomatoes, onions & mayo served on our freshly baked Artisan bread.",
+            "textFormat": "<span style=\"color:#757575\">Spicy Pepperoni, Genoa salami, provolone cheese, jalapenos, lettuce, tomatoes, onions &amp; mayo served on our freshly baked Artisan bread.</span>"
+          },
+          "subsectionUuid": "10246916-f216-555e-b8b9-31f1eb448075",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "maxPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 999,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "increment": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "defaultQuantity": {
+                    "base": {
+                      "high": 0,
+                      "low": 2,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 999,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 2
+                }
+              }
+            ],
+            "pricingInfo": {}
+          },
+          "sectionUuid": "292598fe-d379-51b1-a441-778f8513e1f2",
+          "promoInfo": {
+            "promotionUUID": "7d376963-2a41-4dc7-a578-3254ef045f97",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "Buy 1, get 1 free",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "Buy 1, get 1 free"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "PILL",
+              "accessibilityText": "Buy 1, get 1 free"
+            },
+            "badgePosition": "OFF_IMAGE_BELOW_TEXT"
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$9.50",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$9.50"
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "Spicy Italian (6'')",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "Spicy Italian (6'')"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 19,
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "isWebPdpSupported": false
+        },
+        {
+          "uuid": "93612a6c-cc14-5867-9d32-18b3feae060b",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/46baf9b84b45c59a55e93fed5545954a/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+          "title": "Sweet Onion Chicken Teriyaki® (6'')",
+          "itemDescription": "Tender Grilled chicken, American cheese, Sweet Onion Teriyaki sauce, lettuce, tomatoes & onions served on our freshly baked Hearty Multigrain bread.",
+          "price": 1069,
+          "priceTagline": {
+            "text": "$10.69",
+            "textFormat": "<span>$10.69</span>",
+            "accessibilityText": "$10.69"
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "Sweet Onion Chicken Teriyaki® (6'')",
+            "textFormat": "<span>Sweet Onion Chicken Teriyaki® (6&#39;&#39;)</span>",
+            "accessibilityText": "Sweet Onion Chicken Teriyaki® (6'')"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": true,
+          "numAlcoholicItems": 0,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "Tender Grilled chicken, American cheese, Sweet Onion Teriyaki sauce, lettuce, tomatoes & onions served on our freshly baked Hearty Multigrain bread.",
+            "textFormat": "<span style=\"color:#757575\">Tender Grilled chicken, American cheese, Sweet Onion Teriyaki sauce, lettuce, tomatoes &amp; onions served on our freshly baked Hearty Multigrain bread.</span>"
+          },
+          "subsectionUuid": "10246916-f216-555e-b8b9-31f1eb448075",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "maxPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 999,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "increment": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "defaultQuantity": {
+                    "base": {
+                      "high": 0,
+                      "low": 2,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 999,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 2
+                }
+              }
+            ],
+            "pricingInfo": {}
+          },
+          "sectionUuid": "292598fe-d379-51b1-a441-778f8513e1f2",
+          "promoInfo": {
+            "promotionUUID": "710feebb-0a7c-4911-b8b4-94f9b30eca0c",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "Buy 1, get 1 free",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "Buy 1, get 1 free"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "PILL",
+              "accessibilityText": "Buy 1, get 1 free"
+            },
+            "badgePosition": "OFF_IMAGE_BELOW_TEXT"
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$10.69",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$10.69"
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "Sweet Onion Chicken Teriyaki® (6'')",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "Sweet Onion Chicken Teriyaki® (6'')"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 13,
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "isWebPdpSupported": false
+        },
+        {
+          "uuid": "7cc490ec-e2ee-5f66-8efa-bbf5db3b03e1",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/23ab29f4dfe751f7709501e82c67077c/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+          "title": "Tuna (6'')",
+          "itemDescription": "100% wild caught Tuna salad, provolone cheese, lettuce, tomatoes & onions served on our freshly baked Artisan Italian bread.",
+          "price": 1001,
+          "priceTagline": {
+            "text": "$10.01",
+            "textFormat": "<span>$10.01</span>",
+            "accessibilityText": "$10.01"
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "Tuna (6'')",
+            "textFormat": "<span>Tuna (6&#39;&#39;)</span>",
+            "accessibilityText": "Tuna (6'')"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": true,
+          "numAlcoholicItems": 0,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "100% wild caught Tuna salad, provolone cheese, lettuce, tomatoes & onions served on our freshly baked Artisan Italian bread.",
+            "textFormat": "<span style=\"color:#757575\">100% wild caught Tuna salad, provolone cheese, lettuce, tomatoes &amp; onions served on our freshly baked Artisan Italian bread.</span>"
+          },
+          "subsectionUuid": "10246916-f216-555e-b8b9-31f1eb448075",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "maxPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 999,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "increment": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "defaultQuantity": {
+                    "base": {
+                      "high": 0,
+                      "low": 2,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 999,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 2
+                }
+              }
+            ],
+            "pricingInfo": {}
+          },
+          "sectionUuid": "292598fe-d379-51b1-a441-778f8513e1f2",
+          "promoInfo": {
+            "promotionUUID": "0400cc50-08e9-4f6a-a6db-c659157c1237",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "Buy 1, get 1 free",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "Buy 1, get 1 free"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "PILL",
+              "accessibilityText": "Buy 1, get 1 free"
+            },
+            "badgePosition": "OFF_IMAGE_BELOW_TEXT"
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$10.01",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$10.01"
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "Tuna (6'')",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "Tuna (6'')"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 35,
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "isWebPdpSupported": false
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Restaurant",
+      "@id": "https://www.ubereats.com/store/cinco-de-mayo-authentic-mexican-cuisine/tcK201VEUNKmobxMDdUwbg",
+      "name": "Cinco De Mayo Authentic Mexican Cuisine",
+      "servesCuisine": [
+        "Mexican",
+        "Latin American",
+        "New Mexican",
+        "Tacos",
+        "Burritos",
+        "Chicken",
+        "Family Friendly",
+        "Family Meals",
+        "Group Friendly"
+      ],
+      "priceRange": "",
+      "image": [
+        "https://tb-static.uber.com/prod/image-proc/processed_images/3d9a14656bbc3e8c47c1bc7dd1844dcc/08829600257ed8168dd856cafb7446c8.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/3d9a14656bbc3e8c47c1bc7dd1844dcc/560a11f5d26e4cb83686f7810a5f5fe2.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/3d9a14656bbc3e8c47c1bc7dd1844dcc/35927095c71455a8eb90d48f0168bf20.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/3d9a14656bbc3e8c47c1bc7dd1844dcc/66345bbe137cfe4e15769c434c6c397c.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/3d9a14656bbc3e8c47c1bc7dd1844dcc/b92d4926516c2635a39581f43cd533a0.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/3d9a14656bbc3e8c47c1bc7dd1844dcc/885ba8620d45ab36746a0e8c7b85ee66.jpeg"
+      ],
+      "potentialAction": {
+        "@type": "OrderAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.ubereats.com/store/cinco-de-mayo-authentic-mexican-cuisine/tcK201VEUNKmobxMDdUwbg?utm_campaign=order-action&amp;utm_medium=organic",
+          "inLanguage": "English",
+          "actionPlatform": [
+            "https://schema.org/DesktopWebPlatform",
+            "https://schema.org/MobileWebPlatform"
+          ]
+        },
+        "deliveryMethod": [
+          "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+          "http://purl.org/goodrelations/v1#DeliveryModePickUp"
+        ]
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "New York",
+        "addressRegion": "NY",
+        "postalCode": "10017",
+        "addressCountry": "US",
+        "streetAddress": "153 East 43rd Street"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 40.7514958,
+        "longitude": -73.9743185
+      },
+      "telephone": "+12126822197",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4.7,
+        "reviewCount": 2000
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Sunday",
+          "opens": "11:30",
+          "closes": "21:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Monday",
+          "opens": "10:30",
+          "closes": "21:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Tuesday",
+            "Wednesday"
+          ],
+          "opens": "10:30",
+          "closes": "22:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "10:30",
+          "closes": "23:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Saturday",
+          "opens": "11:30",
+          "closes": "22:00"
+        }
+      ],
+      "deals": [
+        {
+          "uuid": "211268e1-b638-58fa-8b52-501e372f9765",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/5ff6d7a42638d880bb8d7ef7c8e5baf8/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+          "title": "Gym Bowl (BOGO)",
+          "itemDescription": "Brown rice, black or pinto beans, pico de gallo and grilled chicken topped with guacamole",
+          "price": 2178,
+          "priceTagline": {
+            "text": "$21.78",
+            "textFormat": "<span>$21.78</span>",
+            "accessibilityText": "$21.78"
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "Gym Bowl (BOGO)",
+            "textFormat": "<span>Gym Bowl (BOGO)</span>",
+            "accessibilityText": "Gym Bowl (BOGO)"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": true,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "Brown rice, black or pinto beans, pico de gallo and grilled chicken topped with guacamole",
+            "textFormat": "<span style=\"color:#757575\">Brown rice, black or pinto beans, pico de gallo and grilled chicken topped with guacamole</span>"
+          },
+          "subsectionUuid": "7170af77-d75e-512f-b3ff-8b6e29cbae82",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "maxPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 999,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "increment": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "defaultQuantity": {
+                    "base": {
+                      "high": 0,
+                      "low": 2,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 999,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 2
+                }
+              }
+            ],
+            "pricingInfo": {}
+          },
+          "sectionUuid": "9779556c-586c-51a3-972c-5a608ebd8103",
+          "promoInfo": {
+            "promotionUUID": "4655e9da-4f72-4f4f-a690-7b860687a838",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "Buy 1, get 1 free",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "Buy 1, get 1 free"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "PILL",
+              "accessibilityText": "Buy 1, get 1 free"
+            },
+            "badgePosition": "OFF_IMAGE_BELOW_TEXT"
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$21.78",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$21.78"
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "Gym Bowl (BOGO)",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "Gym Bowl (BOGO)"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 0,
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "isWebPdpSupported": false
+        },
+        {
+          "uuid": "35f3f198-f444-5ae9-8d8c-0ddfe4e5e206",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/369ae82868b56d810e7ebc4c9702343f/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+          "title": "Cinco de Mayo Plate (BOGO)",
+          "itemDescription": "Grilled chicken, yellow or brown rice, pinto or black beans, pico de gallo, Muenster cheese, guacamole, topped with green sauce",
+          "price": 2093,
+          "priceTagline": {
+            "text": "$20.93",
+            "textFormat": "<span>$20.93</span>",
+            "accessibilityText": "$20.93"
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "Cinco de Mayo Plate (BOGO)",
+            "textFormat": "<span>Cinco de Mayo Plate (BOGO)</span>",
+            "accessibilityText": "Cinco de Mayo Plate (BOGO)"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": false,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "Grilled chicken, yellow or brown rice, pinto or black beans, pico de gallo, Muenster cheese, guacamole, topped with green sauce",
+            "textFormat": "<span style=\"color:#757575\">Grilled chicken, yellow or brown rice, pinto or black beans, pico de gallo, Muenster cheese, guacamole, topped with green sauce</span>"
+          },
+          "subsectionUuid": "7170af77-d75e-512f-b3ff-8b6e29cbae82",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "maxPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 999,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "increment": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "defaultQuantity": {
+                    "base": {
+                      "high": 0,
+                      "low": 2,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 999,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 2
+                }
+              }
+            ],
+            "pricingInfo": {}
+          },
+          "sectionUuid": "9779556c-586c-51a3-972c-5a608ebd8103",
+          "promoInfo": {
+            "promotionUUID": "4655e9da-4f72-4f4f-a690-7b860687a838",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "Buy 1, get 1 free",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "Buy 1, get 1 free"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "PILL",
+              "accessibilityText": "Buy 1, get 1 free"
+            },
+            "badgePosition": "OFF_IMAGE_BELOW_TEXT"
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$20.93",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$20.93"
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "Cinco de Mayo Plate (BOGO)",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "Cinco de Mayo Plate (BOGO)"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 5,
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "isWebPdpSupported": false
+        },
+        {
+          "uuid": "676490f8-f71e-5c40-8ae8-0b747b578d94",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/d35698b12064ee0a6f572c3c7d84dff5/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+          "title": "Quesadilla - Chicken (BOGO)",
+          "itemDescription": "Flour or whole wheat tortilla, melted Muenster cheese. On side: pico de gallo, sour cream avocado tomatillo green sauce",
+          "price": 1771,
+          "priceTagline": {
+            "text": "$17.71",
+            "textFormat": "<span>$17.71</span>",
+            "accessibilityText": "$17.71"
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "Quesadilla - Chicken (BOGO)",
+            "textFormat": "<span>Quesadilla - Chicken (BOGO)</span>",
+            "accessibilityText": "Quesadilla - Chicken (BOGO)"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": true,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "Flour or whole wheat tortilla, melted Muenster cheese. On side: pico de gallo, sour cream avocado tomatillo green sauce",
+            "textFormat": "<span style=\"color:#757575\">Flour or whole wheat tortilla, melted Muenster cheese. On side: pico de gallo, sour cream avocado tomatillo green sauce</span>"
+          },
+          "subsectionUuid": "7170af77-d75e-512f-b3ff-8b6e29cbae82",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "maxPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 999,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "increment": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "defaultQuantity": {
+                    "base": {
+                      "high": 0,
+                      "low": 2,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 999,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 2
+                }
+              }
+            ],
+            "pricingInfo": {}
+          },
+          "sectionUuid": "9779556c-586c-51a3-972c-5a608ebd8103",
+          "promoInfo": {
+            "promotionUUID": "4655e9da-4f72-4f4f-a690-7b860687a838",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "Buy 1, get 1 free",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "Buy 1, get 1 free"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "PILL",
+              "accessibilityText": "Buy 1, get 1 free"
+            },
+            "badgePosition": "OFF_IMAGE_BELOW_TEXT"
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$17.71",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$17.71"
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "Quesadilla - Chicken (BOGO)",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "Quesadilla - Chicken (BOGO)"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 2,
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "isWebPdpSupported": false
+        },
+        {
+          "uuid": "aec261e2-8040-5e59-b9c7-3e1525d06f1d",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/bdf9fe942fc3ccfe43eaebf66cd32356/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+          "title": "Chicken Birria Tacos (3)",
+          "itemDescription": "6\" inches corn tortilla, chopped birria, Muenster cheese, onions and cilantro. 4 oz birria consome and limes on side",
+          "price": 1759,
+          "priceTagline": {
+            "text": "$17.59",
+            "textFormat": "<span>$17.59</span>",
+            "accessibilityText": "$17.59"
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "Chicken Birria Tacos (3)",
+            "textFormat": "<span>Chicken Birria Tacos (3)</span>",
+            "accessibilityText": "Chicken Birria Tacos (3)"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": true,
+          "numAlcoholicItems": 0,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "6\" inches corn tortilla, chopped birria, Muenster cheese, onions and cilantro. 4 oz birria consome and limes on side",
+            "textFormat": "<span style=\"color:#757575\">6&#34; inches corn tortilla, chopped birria, Muenster cheese, onions and cilantro. 4 oz birria consome and limes on side</span>"
+          },
+          "subsectionUuid": "3074aef0-d413-572b-b7bf-bd8a15ecc223",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "maxPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 999,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "increment": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "defaultQuantity": {
+                    "base": {
+                      "high": 0,
+                      "low": 2,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 999,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 2
+                }
+              }
+            ],
+            "pricingInfo": {}
+          },
+          "sectionUuid": "9779556c-586c-51a3-972c-5a608ebd8103",
+          "promoInfo": {
+            "promotionUUID": "4655e9da-4f72-4f4f-a690-7b860687a838",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "Buy 1, get 1 free",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "Buy 1, get 1 free"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "PILL",
+              "accessibilityText": "Buy 1, get 1 free"
+            },
+            "badgePosition": "OFF_IMAGE_BELOW_TEXT"
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$17.59",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$17.59"
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "Chicken Birria Tacos (3)",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "Chicken Birria Tacos (3)"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 1,
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "isWebPdpSupported": false
+        },
+        {
+          "uuid": "e248108b-b910-5a0f-aca0-d2fdbc1bd65b",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/7ce867ac5557fafbf109d4e720d7ea4e/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+          "title": "Quesabirria Chicken (BOGO)",
+          "itemDescription": "Flour tortilla with cheese and chicken birria.",
+          "price": 2323,
+          "priceTagline": {
+            "text": "$23.23",
+            "textFormat": "<span>$23.23</span>",
+            "accessibilityText": "$23.23"
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "Quesabirria Chicken (BOGO)",
+            "textFormat": "<span>Quesabirria Chicken (BOGO)</span>",
+            "accessibilityText": "Quesabirria Chicken (BOGO)"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": false,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "Flour tortilla with cheese and chicken birria.",
+            "textFormat": "<span style=\"color:#757575\">Flour tortilla with cheese and chicken birria.</span>"
+          },
+          "subsectionUuid": "7170af77-d75e-512f-b3ff-8b6e29cbae82",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "maxPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 999,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "increment": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "defaultQuantity": {
+                    "base": {
+                      "high": 0,
+                      "low": 2,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 999,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 2
+                }
+              }
+            ],
+            "pricingInfo": {}
+          },
+          "sectionUuid": "9779556c-586c-51a3-972c-5a608ebd8103",
+          "promoInfo": {
+            "promotionUUID": "4655e9da-4f72-4f4f-a690-7b860687a838",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "Buy 1, get 1 free",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "Buy 1, get 1 free"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "PILL",
+              "accessibilityText": "Buy 1, get 1 free"
+            },
+            "badgePosition": "OFF_IMAGE_BELOW_TEXT"
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$23.23",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$23.23"
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "Quesabirria Chicken (BOGO)",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "Quesabirria Chicken (BOGO)"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 4,
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "isWebPdpSupported": false
+        },
+        {
+          "uuid": "7bdf0451-4e74-5a90-994b-9c3190cac012",
+          "title": "Chips and Salsa",
+          "itemDescription": "Corn tortilla chips and homemade sweet red salsa",
+          "price": 496,
+          "priceTagline": {
+            "text": "$4.96",
+            "textFormat": "<span>$4.96</span>",
+            "accessibilityText": "$4.96"
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "Chips and Salsa",
+            "textFormat": "<span>Chips and Salsa</span>",
+            "accessibilityText": "Chips and Salsa"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": false,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "Corn tortilla chips and homemade sweet red salsa",
+            "textFormat": "<span style=\"color:#757575\">Corn tortilla chips and homemade sweet red salsa</span>"
+          },
+          "subsectionUuid": "7170af77-d75e-512f-b3ff-8b6e29cbae82",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "maxPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 999,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "increment": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "defaultQuantity": {
+                    "base": {
+                      "high": 0,
+                      "low": 2,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 999,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 2
+                }
+              }
+            ],
+            "pricingInfo": {}
+          },
+          "sectionUuid": "9779556c-586c-51a3-972c-5a608ebd8103",
+          "promoInfo": {
+            "promotionUUID": "4655e9da-4f72-4f4f-a690-7b860687a838",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "Buy 1, get 1 free",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "Buy 1, get 1 free"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "PILL",
+              "accessibilityText": "Buy 1, get 1 free"
+            },
+            "badgePosition": "OFF_IMAGE_BELOW_TEXT"
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$4.96",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$4.96"
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "Chips and Salsa",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "Chips and Salsa"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 8,
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "isWebPdpSupported": false
+        }
+      ]
+    }
+  ]
 }
