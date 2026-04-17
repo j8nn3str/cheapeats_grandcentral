@@ -1,5 +1,5 @@
 {
-  "refreshDateTime": "2026-04-17T19:27:07.176Z",
+  "refreshDateTime": "2026-04-17T20:17:19.837Z",
   "deals": [
     {
       "@context": "https://schema.org",
@@ -943,28 +943,33 @@
     {
       "@context": "https://schema.org",
       "@type": "Restaurant",
-      "@id": "https://www.ubereats.com/store/gai-chicken-and-rice-east-45th/s4UgpA3CQG6ac4pamGEaMw",
-      "name": "GAI Chicken and Rice - East 45th",
+      "@id": "https://www.ubereats.com/store/cinco-de-mayo-authentic-mexican-cuisine/tcK201VEUNKmobxMDdUwbg",
+      "name": "Cinco De Mayo Authentic Mexican Cuisine",
       "servesCuisine": [
-        "Thai",
-        "Asian",
-        "Fast Food",
-        "Fried Chicken"
+        "Mexican",
+        "Latin American",
+        "New Mexican",
+        "Tacos",
+        "Burritos",
+        "Chicken",
+        "Family Friendly",
+        "Family Meals",
+        "Group Friendly"
       ],
-      "priceRange": "$",
+      "priceRange": "",
       "image": [
-        "https://tb-static.uber.com/prod/image-proc/processed_images/08d9fee655c102f305fa032ef9cb2e5d/ffd640b0f9bc72838f2ebbee501a5d4b.jpeg",
-        "https://tb-static.uber.com/prod/image-proc/processed_images/08d9fee655c102f305fa032ef9cb2e5d/820883a48567670acbd720bc76391291.jpeg",
-        "https://tb-static.uber.com/prod/image-proc/processed_images/08d9fee655c102f305fa032ef9cb2e5d/1153e79d90aa7e9dd2351e1aa8dc4e16.jpeg",
-        "https://tb-static.uber.com/prod/image-proc/processed_images/08d9fee655c102f305fa032ef9cb2e5d/1651207c9cb2a7942b37b3f3e4a0b899.jpeg",
-        "https://tb-static.uber.com/prod/image-proc/processed_images/08d9fee655c102f305fa032ef9cb2e5d/445a4b2618e10f7db95d4f17a85b117d.jpeg",
-        "https://tb-static.uber.com/prod/image-proc/processed_images/08d9fee655c102f305fa032ef9cb2e5d/c73ecc27d2a9eaa735b1ee95304ba588.jpeg"
+        "https://tb-static.uber.com/prod/image-proc/processed_images/3d9a14656bbc3e8c47c1bc7dd1844dcc/08829600257ed8168dd856cafb7446c8.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/3d9a14656bbc3e8c47c1bc7dd1844dcc/560a11f5d26e4cb83686f7810a5f5fe2.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/3d9a14656bbc3e8c47c1bc7dd1844dcc/35927095c71455a8eb90d48f0168bf20.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/3d9a14656bbc3e8c47c1bc7dd1844dcc/66345bbe137cfe4e15769c434c6c397c.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/3d9a14656bbc3e8c47c1bc7dd1844dcc/b92d4926516c2635a39581f43cd533a0.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/3d9a14656bbc3e8c47c1bc7dd1844dcc/885ba8620d45ab36746a0e8c7b85ee66.jpeg"
       ],
       "potentialAction": {
         "@type": "OrderAction",
         "target": {
           "@type": "EntryPoint",
-          "urlTemplate": "https://www.ubereats.com/store/gai-chicken-and-rice-east-45th/s4UgpA3CQG6ac4pamGEaMw?utm_campaign=order-action&amp;utm_medium=organic",
+          "urlTemplate": "https://www.ubereats.com/store/cinco-de-mayo-authentic-mexican-cuisine/tcK201VEUNKmobxMDdUwbg?utm_campaign=order-action&amp;utm_medium=organic",
           "inLanguage": "English",
           "actionPlatform": [
             "https://schema.org/DesktopWebPlatform",
@@ -982,63 +987,75 @@
         "addressRegion": "NY",
         "postalCode": "10017",
         "addressCountry": "US",
-        "streetAddress": "158 East 45th"
+        "streetAddress": "153 East 43rd Street"
       },
       "geo": {
         "@type": "GeoCoordinates",
-        "latitude": 40.7528853,
-        "longitude": -73.9732533
+        "latitude": 40.7514958,
+        "longitude": -73.9743185
       },
-      "telephone": "+19176756642",
+      "telephone": "+12126822197",
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": 4.8,
-        "reviewCount": 4000
+        "reviewCount": 2000
       },
       "openingHoursSpecification": [
         {
           "@type": "OpeningHoursSpecification",
           "dayOfWeek": "Sunday",
-          "opens": "11:00",
-          "closes": "20:45"
+          "opens": "11:30",
+          "closes": "21:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Monday",
+          "opens": "10:30",
+          "closes": "21:00"
         },
         {
           "@type": "OpeningHoursSpecification",
           "dayOfWeek": [
-            "Monday",
             "Tuesday",
-            "Wednesday",
+            "Wednesday"
+          ],
+          "opens": "10:30",
+          "closes": "22:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
             "Thursday",
             "Friday"
           ],
-          "opens": "11:00",
-          "closes": "22:45"
+          "opens": "10:30",
+          "closes": "23:00"
         },
         {
           "@type": "OpeningHoursSpecification",
           "dayOfWeek": "Saturday",
-          "opens": "11:00",
-          "closes": "20:45"
+          "opens": "11:30",
+          "closes": "22:00"
         }
       ],
       "deals": [
         {
-          "uuid": "59275f58-f4c3-5105-9668-6ac7cf9ea92e",
-          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/832ceb98e8e9cafb1300627704f09adb/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
-          "title": "ROASTED CHICKEN SALAD",
-          "itemDescription": "Fresh green leaf lettuce topped with our roasted chicken thighs, accompanied by your choice of toppings and dressing.",
-          "price": 1385,
+          "uuid": "211268e1-b638-58fa-8b52-501e372f9765",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/5ff6d7a42638d880bb8d7ef7c8e5baf8/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+          "title": "Gym Bowl (BOGO)",
+          "itemDescription": "Brown rice, black or pinto beans, pico de gallo and grilled chicken topped with guacamole",
+          "price": 2178,
           "priceTagline": {
-            "text": "$13.85",
-            "textFormat": "<span>$13.85</span>",
-            "accessibilityText": "$13.85"
+            "text": "$21.78",
+            "textFormat": "<span>$21.78</span>",
+            "accessibilityText": "$21.78"
           },
           "spanCount": 2,
           "displayType": "LIST",
           "titleBadge": {
-            "text": "ROASTED CHICKEN SALAD",
-            "textFormat": "<span>ROASTED CHICKEN SALAD</span>",
-            "accessibilityText": "ROASTED CHICKEN SALAD"
+            "text": "Gym Bowl (BOGO)",
+            "textFormat": "<span>Gym Bowl (BOGO)</span>",
+            "accessibilityText": "Gym Bowl (BOGO)"
           },
           "isSoldOut": false,
           "hasCustomizations": true,
@@ -1051,10 +1068,10 @@
             "type": "buyXGetYItemPromotion"
           },
           "itemDescriptionBadge": {
-            "text": "Fresh green leaf lettuce topped with our roasted chicken thighs, accompanied by your choice of toppings and dressing.",
-            "textFormat": "<span style=\"color:#757575\">Fresh green leaf lettuce topped with our roasted chicken thighs, accompanied by your choice of toppings and dressing.</span>"
+            "text": "Brown rice, black or pinto beans, pico de gallo and grilled chicken topped with guacamole",
+            "textFormat": "<span style=\"color:#757575\">Brown rice, black or pinto beans, pico de gallo and grilled chicken topped with guacamole</span>"
           },
-          "subsectionUuid": "c23b81c7-3061-5cf0-8689-82eaead69859",
+          "subsectionUuid": "7170af77-d75e-512f-b3ff-8b6e29cbae82",
           "isAvailable": true,
           "purchaseInfo": {
             "purchaseOptions": [
@@ -1102,9 +1119,9 @@
             ],
             "pricingInfo": {}
           },
-          "sectionUuid": "1a4792f9-f93e-553b-8e3f-fdec4cc1093a",
+          "sectionUuid": "9779556c-586c-51a3-972c-5a608ebd8103",
           "promoInfo": {
-            "promotionUUID": "0885c23e-175d-4e3d-a1ef-017c8c18197e",
+            "promotionUUID": "4655e9da-4f72-4f4f-a690-7b860687a838",
             "promoBadge": {
               "content": {
                 "richText": {
@@ -1150,7 +1167,7 @@
               {
                 "text": {
                   "text": {
-                    "text": "$13.85",
+                    "text": "$21.78",
                     "font": {
                       "style": "PARAGRAPH_SMALL",
                       "weight": "NORMAL"
@@ -1189,7 +1206,7 @@
               {
                 "text": {
                   "text": {
-                    "text": " 83% (12)",
+                    "text": " 100% (16)",
                     "font": {
                       "style": "PARAGRAPH_SMALL",
                       "weight": "NORMAL"
@@ -1201,14 +1218,14 @@
                 "type": "text"
               }
             ],
-            "accessibilityText": "$13.85, 83% of customers liked this based on 12 reviews."
+            "accessibilityText": "$21.78, 100% of customers liked this based on 16 reviews."
           },
           "headingPrimary": {
             "richTextElements": [
               {
                 "text": {
                   "text": {
-                    "text": "ROASTED CHICKEN SALAD",
+                    "text": "Gym Bowl (BOGO)",
                     "font": {
                       "style": "LABEL_DEFAULT",
                       "weight": "MEDIUM"
@@ -1220,126 +1237,39 @@
                 "type": "text"
               }
             ],
-            "accessibilityText": "ROASTED CHICKEN SALAD"
+            "accessibilityText": "Gym Bowl (BOGO)"
           },
           "itemAvailabilityState": "UNKNOWN",
           "catalogItemAnalyticsData": {
-            "catalogSectionItemPosition": 2,
+            "catalogSectionItemPosition": 0,
             "endorsementMetadata": {
               "endorsementType": "ratings",
-              "rating": "83%",
-              "numRatings": 12
+              "rating": "100%",
+              "numRatings": 16
             },
             "promoType": "BOGO"
           },
           "imageOverlayElements": null,
           "itemThumbnailElements": null,
           "isWebPdpSupported": false
-        }
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Restaurant",
-      "@id": "https://www.ubereats.com/store/allora-145-e-47th-st/8vwSGObBW66TmbXb-BKVdg",
-      "name": "Allora (145 E 47th St)",
-      "servesCuisine": [
-        "Italian",
-        "Steak",
-        "Pasta"
-      ],
-      "priceRange": "$$$",
-      "image": [
-        "https://tb-static.uber.com/prod/image-proc/processed_images/1a55ceaa7562ec763ac99b327453f8d5/19ec62ba51fde35ba0aff5b84321c5af.jpeg",
-        "https://tb-static.uber.com/prod/image-proc/processed_images/1a55ceaa7562ec763ac99b327453f8d5/c67d558c633281f9c71fc6a90ef470ae.jpeg",
-        "https://tb-static.uber.com/prod/image-proc/processed_images/1a55ceaa7562ec763ac99b327453f8d5/8681e511c0910e0052cb155c50f01f89.jpeg",
-        "https://tb-static.uber.com/prod/image-proc/processed_images/1a55ceaa7562ec763ac99b327453f8d5/6ea4f72e303000fbf403bbb36f971f85.jpeg",
-        "https://tb-static.uber.com/prod/image-proc/processed_images/1a55ceaa7562ec763ac99b327453f8d5/4bee0baf259f2b3c95aacdebea87e950.jpeg",
-        "https://tb-static.uber.com/prod/image-proc/processed_images/1a55ceaa7562ec763ac99b327453f8d5/5283d81c664b43c5f57a3a186d273063.jpeg"
-      ],
-      "potentialAction": {
-        "@type": "OrderAction",
-        "target": {
-          "@type": "EntryPoint",
-          "urlTemplate": "https://www.ubereats.com/store/allora-145-e-47th-st/8vwSGObBW66TmbXb-BKVdg?utm_campaign=order-action&amp;utm_medium=organic",
-          "inLanguage": "English",
-          "actionPlatform": [
-            "https://schema.org/DesktopWebPlatform",
-            "https://schema.org/MobileWebPlatform"
-          ]
-        },
-        "deliveryMethod": [
-          "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
-          "http://purl.org/goodrelations/v1#DeliveryModePickUp"
-        ]
-      },
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "New York",
-        "addressRegion": "NY",
-        "postalCode": "10017",
-        "addressCountry": "US",
-        "streetAddress": "145 E 47th St"
-      },
-      "geo": {
-        "@type": "GeoCoordinates",
-        "latitude": 40.7544071,
-        "longitude": -73.9726957
-      },
-      "telephone": "+12127549800",
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": 5,
-        "reviewCount": 2
-      },
-      "openingHoursSpecification": [
-        {
-          "@type": "OpeningHoursSpecification",
-          "dayOfWeek": [
-            "Monday",
-            "Tuesday",
-            "Wednesday",
-            "Thursday",
-            "Friday",
-            "Saturday",
-            "Sunday"
-          ],
-          "opens": "11:00",
-          "closes": "17:00"
         },
         {
-          "@type": "OpeningHoursSpecification",
-          "dayOfWeek": [
-            "Monday",
-            "Tuesday",
-            "Wednesday",
-            "Thursday",
-            "Friday",
-            "Saturday",
-            "Sunday"
-          ],
-          "opens": "17:00",
-          "closes": "22:45"
-        }
-      ],
-      "deals": [
-        {
-          "uuid": "dc70476d-0001-5401-80d6-a2b6f866c93c",
-          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/705632d3a9777a5982b4c4be5e697934/70aa2a4db7f990373ca9c376323e3dea.jpeg",
-          "title": "Rigatoni Alla Bolognese",
-          "itemDescription": "Rigatoni with meat sauce.",
-          "price": 2700,
+          "uuid": "35f3f198-f444-5ae9-8d8c-0ddfe4e5e206",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/369ae82868b56d810e7ebc4c9702343f/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+          "title": "Cinco de Mayo Plate (BOGO)",
+          "itemDescription": "Grilled chicken, yellow or brown rice, pinto or black beans, pico de gallo, Muenster cheese, guacamole, topped with green sauce",
+          "price": 2093,
           "priceTagline": {
-            "text": "$27.00",
-            "textFormat": "<span>$27.00</span>",
-            "accessibilityText": "$27.00"
+            "text": "$20.93",
+            "textFormat": "<span>$20.93</span>",
+            "accessibilityText": "$20.93"
           },
           "spanCount": 2,
           "displayType": "LIST",
           "titleBadge": {
-            "text": "Rigatoni Alla Bolognese",
-            "textFormat": "<span>Rigatoni Alla Bolognese</span>",
-            "accessibilityText": "Rigatoni Alla Bolognese"
+            "text": "Cinco de Mayo Plate (BOGO)",
+            "textFormat": "<span>Cinco de Mayo Plate (BOGO)</span>",
+            "accessibilityText": "Cinco de Mayo Plate (BOGO)"
           },
           "isSoldOut": false,
           "hasCustomizations": false,
@@ -1352,10 +1282,10 @@
             "type": "buyXGetYItemPromotion"
           },
           "itemDescriptionBadge": {
-            "text": "Rigatoni with meat sauce.",
-            "textFormat": "<span style=\"color:#757575\">Rigatoni with meat sauce.</span>"
+            "text": "Grilled chicken, yellow or brown rice, pinto or black beans, pico de gallo, Muenster cheese, guacamole, topped with green sauce",
+            "textFormat": "<span style=\"color:#757575\">Grilled chicken, yellow or brown rice, pinto or black beans, pico de gallo, Muenster cheese, guacamole, topped with green sauce</span>"
           },
-          "subsectionUuid": "1b9f135c-395b-58bf-8710-c40a6e03dd46",
+          "subsectionUuid": "7170af77-d75e-512f-b3ff-8b6e29cbae82",
           "isAvailable": true,
           "purchaseInfo": {
             "purchaseOptions": [
@@ -1403,9 +1333,9 @@
             ],
             "pricingInfo": {}
           },
-          "sectionUuid": "c6be3c59-55e0-5606-b405-b4eba17fff6b",
+          "sectionUuid": "9779556c-586c-51a3-972c-5a608ebd8103",
           "promoInfo": {
-            "promotionUUID": "50166a52-b996-44ff-87b3-71368d2d2045",
+            "promotionUUID": "4655e9da-4f72-4f4f-a690-7b860687a838",
             "promoBadge": {
               "content": {
                 "richText": {
@@ -1451,7 +1381,7 @@
               {
                 "text": {
                   "text": {
-                    "text": "$27.00",
+                    "text": "$20.93",
                     "font": {
                       "style": "PARAGRAPH_SMALL",
                       "weight": "NORMAL"
@@ -1463,14 +1393,14 @@
                 "type": "text"
               }
             ],
-            "accessibilityText": "$27.00"
+            "accessibilityText": "$20.93"
           },
           "headingPrimary": {
             "richTextElements": [
               {
                 "text": {
                   "text": {
-                    "text": "Rigatoni Alla Bolognese",
+                    "text": "Cinco de Mayo Plate (BOGO)",
                     "font": {
                       "style": "LABEL_DEFAULT",
                       "weight": "MEDIUM"
@@ -1482,597 +1412,7 @@
                 "type": "text"
               }
             ],
-            "accessibilityText": "Rigatoni Alla Bolognese"
-          },
-          "itemAvailabilityState": "UNKNOWN",
-          "catalogItemAnalyticsData": {
-            "catalogSectionItemPosition": 3,
-            "endorsementMetadata": {
-              "endorsementType": "most_liked"
-            },
-            "promoType": "BOGO"
-          },
-          "imageOverlayElements": null,
-          "itemThumbnailElements": null,
-          "isWebPdpSupported": false
-        }
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Restaurant",
-      "@id": "https://www.ubereats.com/store/playa-bowls-230-park-ave/zCveh7j0R8GRWmxOdj238Q",
-      "name": "Playa Bowls (230 Park ave)",
-      "servesCuisine": [
-        "Kosher",
-        "Juice and Smoothies",
-        "Vegetarian Friendly",
-        "Açaí"
-      ],
-      "priceRange": "$",
-      "image": [
-        "https://tb-static.uber.com/prod/image-proc/processed_images/8ef5f40de4635ad2eca8dc1be7913103/19ec62ba51fde35ba0aff5b84321c5af.jpeg",
-        "https://tb-static.uber.com/prod/image-proc/processed_images/8ef5f40de4635ad2eca8dc1be7913103/c67d558c633281f9c71fc6a90ef470ae.jpeg",
-        "https://tb-static.uber.com/prod/image-proc/processed_images/8ef5f40de4635ad2eca8dc1be7913103/8681e511c0910e0052cb155c50f01f89.jpeg",
-        "https://tb-static.uber.com/prod/image-proc/processed_images/8ef5f40de4635ad2eca8dc1be7913103/6ea4f72e303000fbf403bbb36f971f85.jpeg",
-        "https://tb-static.uber.com/prod/image-proc/processed_images/8ef5f40de4635ad2eca8dc1be7913103/4bee0baf259f2b3c95aacdebea87e950.jpeg",
-        "https://tb-static.uber.com/prod/image-proc/processed_images/8ef5f40de4635ad2eca8dc1be7913103/5283d81c664b43c5f57a3a186d273063.jpeg"
-      ],
-      "potentialAction": {
-        "@type": "OrderAction",
-        "target": {
-          "@type": "EntryPoint",
-          "urlTemplate": "https://www.ubereats.com/store/playa-bowls-230-park-ave/zCveh7j0R8GRWmxOdj238Q?utm_campaign=order-action&amp;utm_medium=organic",
-          "inLanguage": "English",
-          "actionPlatform": [
-            "https://schema.org/DesktopWebPlatform",
-            "https://schema.org/MobileWebPlatform"
-          ]
-        },
-        "deliveryMethod": [
-          "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
-          "http://purl.org/goodrelations/v1#DeliveryModePickUp"
-        ]
-      },
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "New York",
-        "addressRegion": "NY",
-        "postalCode": "10169",
-        "addressCountry": "US",
-        "streetAddress": "230 Park Ave Urban Space Vanderbilt"
-      },
-      "geo": {
-        "@type": "GeoCoordinates",
-        "latitude": 40.7543586,
-        "longitude": -73.9766028
-      },
-      "telephone": "+19172315259",
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": 4.8,
-        "reviewCount": 1500
-      },
-      "openingHoursSpecification": [
-        {
-          "@type": "OpeningHoursSpecification",
-          "dayOfWeek": [
-            "Monday",
-            "Tuesday",
-            "Wednesday",
-            "Thursday"
-          ],
-          "opens": "07:00",
-          "closes": "21:00"
-        },
-        {
-          "@type": "OpeningHoursSpecification",
-          "dayOfWeek": "Friday",
-          "opens": "08:00",
-          "closes": "17:00"
-        }
-      ],
-      "deals": [
-        {
-          "uuid": "0856d0ad-200b-5749-9bc3-c319f7028bf2",
-          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/684234a178054274da2dc8461b0a549e/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
-          "title": "Superberry Cloud Bowl",
-          "itemDescription": "Half Acai Power Base (Playa Acai mixed with chocolate protein), Half Blue Spirulina Power Base (Playa Coconut® Blend, banana, blue spirulina, vanilla protein & coconut milk) topped with blueberry flax granola, strawberry, blueberry, coco whip & honey",
-          "price": 1895,
-          "priceTagline": {
-            "text": "$18.95",
-            "textFormat": "<span>$18.95</span>",
-            "accessibilityText": "$18.95"
-          },
-          "spanCount": 2,
-          "displayType": "LIST",
-          "titleBadge": {
-            "text": "Superberry Cloud Bowl",
-            "textFormat": "<span>Superberry Cloud Bowl</span>",
-            "accessibilityText": "Superberry Cloud Bowl"
-          },
-          "isSoldOut": false,
-          "hasCustomizations": true,
-          "itemPromotion": {
-            "buyXGetYItemPromotion": {
-              "buyQuantity": 1,
-              "getQuantity": 1,
-              "maxRedemptionCount": 3
-            },
-            "type": "buyXGetYItemPromotion"
-          },
-          "itemDescriptionBadge": {
-            "text": "Half Acai Power Base (Playa Acai mixed with chocolate protein), Half Blue Spirulina Power Base (Playa Coconut® Blend, banana, blue spirulina, vanilla protein & coconut milk) topped with blueberry flax granola, strawberry, blueberry, coco whip & honey",
-            "textFormat": "<span style=\"color:#757575\">Half Acai Power Base (Playa Acai mixed with chocolate protein), Half Blue Spirulina Power Base (Playa Coconut® Blend, banana, blue spirulina, vanilla protein &amp; coconut milk) topped with blueberry flax granola, strawberry, blueberry, coco whip &amp; honey</span>"
-          },
-          "subsectionUuid": "f60fedba-13c7-5b9b-a5b0-d71bc2d15e3c",
-          "isAvailable": true,
-          "purchaseInfo": {
-            "purchaseOptions": [
-              {
-                "itemQuantityAbbreviation": "",
-                "quantityConstraintsV2": {
-                  "minPermitted": {
-                    "base": {
-                      "high": 0,
-                      "low": 1,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "maxPermitted": {
-                    "base": {
-                      "high": 0,
-                      "low": 999,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "increment": {
-                    "base": {
-                      "high": 0,
-                      "low": 1,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "defaultQuantity": {
-                    "base": {
-                      "high": 0,
-                      "low": 2,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "minPermittedNumber": 1,
-                  "maxPermittedNumber": 999,
-                  "incrementNumber": 1,
-                  "defaultQuantityNumber": 2
-                }
-              }
-            ],
-            "pricingInfo": {}
-          },
-          "sectionUuid": "d94d7fa0-5099-5e5c-ba9b-0314ced183d3",
-          "promoInfo": {
-            "promotionUUID": "35e3130b-7ff9-41d4-af28-e3e1f0de1dfa",
-            "promoBadge": {
-              "content": {
-                "richText": {
-                  "richTextElements": [
-                    {
-                      "text": {
-                        "text": {
-                          "text": "Buy 1, get 1 free",
-                          "font": {
-                            "style": "LABEL_X_SMALL",
-                            "weight": "MEDIUM"
-                          },
-                          "color": "BRAND_CONTENT_ON_PRIMARY"
-                        },
-                        "predefinedDecorations": null
-                      },
-                      "type": "text"
-                    }
-                  ],
-                  "accessibilityText": "Buy 1, get 1 free"
-                },
-                "type": "richText"
-              },
-              "hierarchy": "PRIMARY",
-              "color": {
-                "custom": {
-                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
-                },
-                "type": "custom"
-              },
-              "shape": "PILL",
-              "accessibilityText": "Buy 1, get 1 free"
-            },
-            "badgePosition": "OFF_IMAGE_BELOW_TEXT"
-          },
-          "quickAddConfig": {
-            "shouldShow": true,
-            "isInteractionEnabled": false,
-            "position": "BOTTOM_TRAILING"
-          },
-          "labelPrimary": {
-            "richTextElements": [
-              {
-                "text": {
-                  "text": {
-                    "text": "$18.95",
-                    "font": {
-                      "style": "PARAGRAPH_SMALL",
-                      "weight": "NORMAL"
-                    },
-                    "color": "CONTENT_PRIMARY"
-                  },
-                  "predefinedDecorations": null
-                },
-                "type": "text"
-              }
-            ],
-            "accessibilityText": "$18.95"
-          },
-          "headingPrimary": {
-            "richTextElements": [
-              {
-                "text": {
-                  "text": {
-                    "text": "Superberry Cloud Bowl",
-                    "font": {
-                      "style": "LABEL_DEFAULT",
-                      "weight": "MEDIUM"
-                    },
-                    "color": "CONTENT_PRIMARY"
-                  },
-                  "predefinedDecorations": null
-                },
-                "type": "text"
-              }
-            ],
-            "accessibilityText": "Superberry Cloud Bowl"
-          },
-          "itemAvailabilityState": "UNKNOWN",
-          "catalogItemAnalyticsData": {
-            "catalogSectionItemPosition": 0,
-            "promoType": "BOGO"
-          },
-          "imageOverlayElements": null,
-          "itemThumbnailElements": null,
-          "isWebPdpSupported": false
-        },
-        {
-          "uuid": "1377953e-efa4-5f46-8740-1d153995f0bb",
-          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/74f5b2e429883e9d4fa815622bbfc3c9/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
-          "title": "Superberry Cloud Smoothie",
-          "itemDescription": "Playa Acai Base, banana, strawberry, chocolate protein, coconut milk & coco whip",
-          "price": 1195,
-          "priceTagline": {
-            "text": "$11.95",
-            "textFormat": "<span>$11.95</span>",
-            "accessibilityText": "$11.95"
-          },
-          "spanCount": 2,
-          "displayType": "LIST",
-          "titleBadge": {
-            "text": "Superberry Cloud Smoothie",
-            "textFormat": "<span>Superberry Cloud Smoothie</span>",
-            "accessibilityText": "Superberry Cloud Smoothie"
-          },
-          "isSoldOut": false,
-          "hasCustomizations": true,
-          "itemPromotion": {
-            "buyXGetYItemPromotion": {
-              "buyQuantity": 1,
-              "getQuantity": 1,
-              "maxRedemptionCount": 3
-            },
-            "type": "buyXGetYItemPromotion"
-          },
-          "itemDescriptionBadge": {
-            "text": "Playa Acai Base, banana, strawberry, chocolate protein, coconut milk & coco whip",
-            "textFormat": "<span style=\"color:#757575\">Playa Acai Base, banana, strawberry, chocolate protein, coconut milk &amp; coco whip</span>"
-          },
-          "subsectionUuid": "f60fedba-13c7-5b9b-a5b0-d71bc2d15e3c",
-          "isAvailable": true,
-          "purchaseInfo": {
-            "purchaseOptions": [
-              {
-                "itemQuantityAbbreviation": "",
-                "quantityConstraintsV2": {
-                  "minPermitted": {
-                    "base": {
-                      "high": 0,
-                      "low": 1,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "maxPermitted": {
-                    "base": {
-                      "high": 0,
-                      "low": 999,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "increment": {
-                    "base": {
-                      "high": 0,
-                      "low": 1,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "defaultQuantity": {
-                    "base": {
-                      "high": 0,
-                      "low": 2,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "minPermittedNumber": 1,
-                  "maxPermittedNumber": 999,
-                  "incrementNumber": 1,
-                  "defaultQuantityNumber": 2
-                }
-              }
-            ],
-            "pricingInfo": {}
-          },
-          "sectionUuid": "d94d7fa0-5099-5e5c-ba9b-0314ced183d3",
-          "promoInfo": {
-            "promotionUUID": "35e3130b-7ff9-41d4-af28-e3e1f0de1dfa",
-            "promoBadge": {
-              "content": {
-                "richText": {
-                  "richTextElements": [
-                    {
-                      "text": {
-                        "text": {
-                          "text": "Buy 1, get 1 free",
-                          "font": {
-                            "style": "LABEL_X_SMALL",
-                            "weight": "MEDIUM"
-                          },
-                          "color": "BRAND_CONTENT_ON_PRIMARY"
-                        },
-                        "predefinedDecorations": null
-                      },
-                      "type": "text"
-                    }
-                  ],
-                  "accessibilityText": "Buy 1, get 1 free"
-                },
-                "type": "richText"
-              },
-              "hierarchy": "PRIMARY",
-              "color": {
-                "custom": {
-                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
-                },
-                "type": "custom"
-              },
-              "shape": "PILL",
-              "accessibilityText": "Buy 1, get 1 free"
-            },
-            "badgePosition": "OFF_IMAGE_BELOW_TEXT"
-          },
-          "quickAddConfig": {
-            "shouldShow": true,
-            "isInteractionEnabled": false,
-            "position": "BOTTOM_TRAILING"
-          },
-          "labelPrimary": {
-            "richTextElements": [
-              {
-                "text": {
-                  "text": {
-                    "text": "$11.95",
-                    "font": {
-                      "style": "PARAGRAPH_SMALL",
-                      "weight": "NORMAL"
-                    },
-                    "color": "CONTENT_PRIMARY"
-                  },
-                  "predefinedDecorations": null
-                },
-                "type": "text"
-              }
-            ],
-            "accessibilityText": "$11.95"
-          },
-          "headingPrimary": {
-            "richTextElements": [
-              {
-                "text": {
-                  "text": {
-                    "text": "Superberry Cloud Smoothie",
-                    "font": {
-                      "style": "LABEL_DEFAULT",
-                      "weight": "MEDIUM"
-                    },
-                    "color": "CONTENT_PRIMARY"
-                  },
-                  "predefinedDecorations": null
-                },
-                "type": "text"
-              }
-            ],
-            "accessibilityText": "Superberry Cloud Smoothie"
-          },
-          "itemAvailabilityState": "UNKNOWN",
-          "catalogItemAnalyticsData": {
-            "catalogSectionItemPosition": 2,
-            "promoType": "BOGO"
-          },
-          "imageOverlayElements": null,
-          "itemThumbnailElements": null,
-          "isWebPdpSupported": false
-        },
-        {
-          "uuid": "2eaa09fb-64ab-56ba-822c-7b81bc650a42",
-          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/9a102d71e102eeda70bf740af0906056/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
-          "title": "Golden Cloud Smoothie",
-          "itemDescription": "Pineapple, banana, mango, vanilla protein, coconut milk & coco whip",
-          "price": 1195,
-          "priceTagline": {
-            "text": "$11.95",
-            "textFormat": "<span>$11.95</span>",
-            "accessibilityText": "$11.95"
-          },
-          "spanCount": 2,
-          "displayType": "LIST",
-          "titleBadge": {
-            "text": "Golden Cloud Smoothie",
-            "textFormat": "<span>Golden Cloud Smoothie</span>",
-            "accessibilityText": "Golden Cloud Smoothie"
-          },
-          "isSoldOut": false,
-          "hasCustomizations": true,
-          "itemPromotion": {
-            "buyXGetYItemPromotion": {
-              "buyQuantity": 1,
-              "getQuantity": 1,
-              "maxRedemptionCount": 3
-            },
-            "type": "buyXGetYItemPromotion"
-          },
-          "itemDescriptionBadge": {
-            "text": "Pineapple, banana, mango, vanilla protein, coconut milk & coco whip",
-            "textFormat": "<span style=\"color:#757575\">Pineapple, banana, mango, vanilla protein, coconut milk &amp; coco whip</span>"
-          },
-          "subsectionUuid": "f60fedba-13c7-5b9b-a5b0-d71bc2d15e3c",
-          "isAvailable": true,
-          "purchaseInfo": {
-            "purchaseOptions": [
-              {
-                "itemQuantityAbbreviation": "",
-                "quantityConstraintsV2": {
-                  "minPermitted": {
-                    "base": {
-                      "high": 0,
-                      "low": 1,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "maxPermitted": {
-                    "base": {
-                      "high": 0,
-                      "low": 999,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "increment": {
-                    "base": {
-                      "high": 0,
-                      "low": 1,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "defaultQuantity": {
-                    "base": {
-                      "high": 0,
-                      "low": 2,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "minPermittedNumber": 1,
-                  "maxPermittedNumber": 999,
-                  "incrementNumber": 1,
-                  "defaultQuantityNumber": 2
-                }
-              }
-            ],
-            "pricingInfo": {}
-          },
-          "sectionUuid": "d94d7fa0-5099-5e5c-ba9b-0314ced183d3",
-          "promoInfo": {
-            "promotionUUID": "35e3130b-7ff9-41d4-af28-e3e1f0de1dfa",
-            "promoBadge": {
-              "content": {
-                "richText": {
-                  "richTextElements": [
-                    {
-                      "text": {
-                        "text": {
-                          "text": "Buy 1, get 1 free",
-                          "font": {
-                            "style": "LABEL_X_SMALL",
-                            "weight": "MEDIUM"
-                          },
-                          "color": "BRAND_CONTENT_ON_PRIMARY"
-                        },
-                        "predefinedDecorations": null
-                      },
-                      "type": "text"
-                    }
-                  ],
-                  "accessibilityText": "Buy 1, get 1 free"
-                },
-                "type": "richText"
-              },
-              "hierarchy": "PRIMARY",
-              "color": {
-                "custom": {
-                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
-                },
-                "type": "custom"
-              },
-              "shape": "PILL",
-              "accessibilityText": "Buy 1, get 1 free"
-            },
-            "badgePosition": "OFF_IMAGE_BELOW_TEXT"
-          },
-          "quickAddConfig": {
-            "shouldShow": true,
-            "isInteractionEnabled": false,
-            "position": "BOTTOM_TRAILING"
-          },
-          "labelPrimary": {
-            "richTextElements": [
-              {
-                "text": {
-                  "text": {
-                    "text": "$11.95",
-                    "font": {
-                      "style": "PARAGRAPH_SMALL",
-                      "weight": "NORMAL"
-                    },
-                    "color": "CONTENT_PRIMARY"
-                  },
-                  "predefinedDecorations": null
-                },
-                "type": "text"
-              }
-            ],
-            "accessibilityText": "$11.95"
-          },
-          "headingPrimary": {
-            "richTextElements": [
-              {
-                "text": {
-                  "text": {
-                    "text": "Golden Cloud Smoothie",
-                    "font": {
-                      "style": "LABEL_DEFAULT",
-                      "weight": "MEDIUM"
-                    },
-                    "color": "CONTENT_PRIMARY"
-                  },
-                  "predefinedDecorations": null
-                },
-                "type": "text"
-              }
-            ],
-            "accessibilityText": "Golden Cloud Smoothie"
+            "accessibilityText": "Cinco de Mayo Plate (BOGO)"
           },
           "itemAvailabilityState": "UNKNOWN",
           "catalogItemAnalyticsData": {
@@ -2084,22 +1424,22 @@
           "isWebPdpSupported": false
         },
         {
-          "uuid": "c52ef20c-f924-586f-b7bc-3ce9413564bf",
-          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/9deb840ddb2c293e7f4aeb8c159afe28/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
-          "title": "Tropical Acai Bowl",
-          "itemDescription": "Acai bowl blended with pure acai topped with granola, banana, pineapple, coconut flakes & honey.",
-          "price": 1695,
+          "uuid": "676490f8-f71e-5c40-8ae8-0b747b578d94",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/d35698b12064ee0a6f572c3c7d84dff5/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+          "title": "Quesadilla - Chicken (BOGO)",
+          "itemDescription": "Flour or whole wheat tortilla, melted Muenster cheese. On side: pico de gallo, sour cream avocado tomatillo green sauce",
+          "price": 1771,
           "priceTagline": {
-            "text": "$16.95",
-            "textFormat": "<span>$16.95</span>",
-            "accessibilityText": "$16.95"
+            "text": "$17.71",
+            "textFormat": "<span>$17.71</span>",
+            "accessibilityText": "$17.71"
           },
           "spanCount": 2,
           "displayType": "LIST",
           "titleBadge": {
-            "text": "Tropical Acai Bowl",
-            "textFormat": "<span>Tropical Acai Bowl</span>",
-            "accessibilityText": "Tropical Acai Bowl"
+            "text": "Quesadilla - Chicken (BOGO)",
+            "textFormat": "<span>Quesadilla - Chicken (BOGO)</span>",
+            "accessibilityText": "Quesadilla - Chicken (BOGO)"
           },
           "isSoldOut": false,
           "hasCustomizations": true,
@@ -2112,10 +1452,10 @@
             "type": "buyXGetYItemPromotion"
           },
           "itemDescriptionBadge": {
-            "text": "Acai bowl blended with pure acai topped with granola, banana, pineapple, coconut flakes & honey.",
-            "textFormat": "<span style=\"color:#757575\">Acai bowl blended with pure acai topped with granola, banana, pineapple, coconut flakes &amp; honey.</span>"
+            "text": "Flour or whole wheat tortilla, melted Muenster cheese. On side: pico de gallo, sour cream avocado tomatillo green sauce",
+            "textFormat": "<span style=\"color:#757575\">Flour or whole wheat tortilla, melted Muenster cheese. On side: pico de gallo, sour cream avocado tomatillo green sauce</span>"
           },
-          "subsectionUuid": "60ac294d-1572-5731-9f99-72372ef754eb",
+          "subsectionUuid": "7170af77-d75e-512f-b3ff-8b6e29cbae82",
           "isAvailable": true,
           "purchaseInfo": {
             "purchaseOptions": [
@@ -2163,9 +1503,9 @@
             ],
             "pricingInfo": {}
           },
-          "sectionUuid": "d94d7fa0-5099-5e5c-ba9b-0314ced183d3",
+          "sectionUuid": "9779556c-586c-51a3-972c-5a608ebd8103",
           "promoInfo": {
-            "promotionUUID": "35e3130b-7ff9-41d4-af28-e3e1f0de1dfa",
+            "promotionUUID": "4655e9da-4f72-4f4f-a690-7b860687a838",
             "promoBadge": {
               "content": {
                 "richText": {
@@ -2211,7 +1551,7 @@
               {
                 "text": {
                   "text": {
-                    "text": "$16.95",
+                    "text": "$17.71",
                     "font": {
                       "style": "PARAGRAPH_SMALL",
                       "weight": "NORMAL"
@@ -2250,7 +1590,7 @@
               {
                 "text": {
                   "text": {
-                    "text": " 100% (6)",
+                    "text": " 81% (33)",
                     "font": {
                       "style": "PARAGRAPH_SMALL",
                       "weight": "NORMAL"
@@ -2262,14 +1602,14 @@
                 "type": "text"
               }
             ],
-            "accessibilityText": "$16.95, 100% of customers liked this based on 6 reviews."
+            "accessibilityText": "$17.71, 81% of customers liked this based on 33 reviews."
           },
           "headingPrimary": {
             "richTextElements": [
               {
                 "text": {
                   "text": {
-                    "text": "Tropical Acai Bowl",
+                    "text": "Quesadilla - Chicken (BOGO)",
                     "font": {
                       "style": "LABEL_DEFAULT",
                       "weight": "MEDIUM"
@@ -2281,2143 +1621,16 @@
                 "type": "text"
               }
             ],
-            "accessibilityText": "Tropical Acai Bowl"
-          },
-          "itemAvailabilityState": "UNKNOWN",
-          "catalogItemAnalyticsData": {
-            "catalogSectionItemPosition": 3,
-            "endorsementMetadata": {
-              "endorsementType": "ratings",
-              "rating": "100%",
-              "numRatings": 6
-            },
-            "promoType": "BOGO"
-          },
-          "imageOverlayElements": null,
-          "itemThumbnailElements": null,
-          "isWebPdpSupported": false
-        },
-        {
-          "uuid": "c8b5eb94-5fa0-5356-86d0-23f1aa52df8a",
-          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/6683ad6a2bcd3b9ca3d5325636ecae02/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
-          "title": "Power Acai Bowl",
-          "itemDescription": "Acai bowl blended with pure acai & chocolate whey protein topped with granola, banana & peanut butter.",
-          "price": 1695,
-          "priceTagline": {
-            "text": "$16.95",
-            "textFormat": "<span>$16.95</span>",
-            "accessibilityText": "$16.95"
-          },
-          "spanCount": 2,
-          "displayType": "LIST",
-          "titleBadge": {
-            "text": "Power Acai Bowl",
-            "textFormat": "<span>Power Acai Bowl</span>",
-            "accessibilityText": "Power Acai Bowl"
-          },
-          "isSoldOut": false,
-          "hasCustomizations": true,
-          "itemPromotion": {
-            "buyXGetYItemPromotion": {
-              "buyQuantity": 1,
-              "getQuantity": 1,
-              "maxRedemptionCount": 3
-            },
-            "type": "buyXGetYItemPromotion"
-          },
-          "itemDescriptionBadge": {
-            "text": "Acai bowl blended with pure acai & chocolate whey protein topped with granola, banana & peanut butter.",
-            "textFormat": "<span style=\"color:#757575\">Acai bowl blended with pure acai &amp; chocolate whey protein topped with granola, banana &amp; peanut butter.</span>"
-          },
-          "subsectionUuid": "60ac294d-1572-5731-9f99-72372ef754eb",
-          "isAvailable": true,
-          "purchaseInfo": {
-            "purchaseOptions": [
-              {
-                "itemQuantityAbbreviation": "",
-                "quantityConstraintsV2": {
-                  "minPermitted": {
-                    "base": {
-                      "high": 0,
-                      "low": 1,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "maxPermitted": {
-                    "base": {
-                      "high": 0,
-                      "low": 999,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "increment": {
-                    "base": {
-                      "high": 0,
-                      "low": 1,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "defaultQuantity": {
-                    "base": {
-                      "high": 0,
-                      "low": 2,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "minPermittedNumber": 1,
-                  "maxPermittedNumber": 999,
-                  "incrementNumber": 1,
-                  "defaultQuantityNumber": 2
-                }
-              }
-            ],
-            "pricingInfo": {}
-          },
-          "sectionUuid": "d94d7fa0-5099-5e5c-ba9b-0314ced183d3",
-          "promoInfo": {
-            "promotionUUID": "35e3130b-7ff9-41d4-af28-e3e1f0de1dfa",
-            "promoBadge": {
-              "content": {
-                "richText": {
-                  "richTextElements": [
-                    {
-                      "text": {
-                        "text": {
-                          "text": "Buy 1, get 1 free",
-                          "font": {
-                            "style": "LABEL_X_SMALL",
-                            "weight": "MEDIUM"
-                          },
-                          "color": "BRAND_CONTENT_ON_PRIMARY"
-                        },
-                        "predefinedDecorations": null
-                      },
-                      "type": "text"
-                    }
-                  ],
-                  "accessibilityText": "Buy 1, get 1 free"
-                },
-                "type": "richText"
-              },
-              "hierarchy": "PRIMARY",
-              "color": {
-                "custom": {
-                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
-                },
-                "type": "custom"
-              },
-              "shape": "PILL",
-              "accessibilityText": "Buy 1, get 1 free"
-            },
-            "badgePosition": "OFF_IMAGE_BELOW_TEXT"
-          },
-          "quickAddConfig": {
-            "shouldShow": true,
-            "isInteractionEnabled": false,
-            "position": "BOTTOM_TRAILING"
-          },
-          "labelPrimary": {
-            "richTextElements": [
-              {
-                "text": {
-                  "text": {
-                    "text": "$16.95",
-                    "font": {
-                      "style": "PARAGRAPH_SMALL",
-                      "weight": "NORMAL"
-                    },
-                    "color": "CONTENT_PRIMARY"
-                  },
-                  "predefinedDecorations": null
-                },
-                "type": "text"
-              },
-              {
-                "text": {
-                  "text": {
-                    "text": " • ",
-                    "font": {
-                      "style": "PARAGRAPH_SMALL",
-                      "weight": "NORMAL"
-                    },
-                    "color": "CONTENT_PRIMARY"
-                  },
-                  "predefinedDecorations": null
-                },
-                "type": "text"
-              },
-              {
-                "icon": {
-                  "icon": {
-                    "icon": "THUMB_UP_OUTLINE",
-                    "color": "PRIMARY",
-                    "size": "SPACING_UNIT_1_5X"
-                  },
-                  "alignment": "CENTERED"
-                },
-                "type": "icon"
-              },
-              {
-                "text": {
-                  "text": {
-                    "text": " 92% (53)",
-                    "font": {
-                      "style": "PARAGRAPH_SMALL",
-                      "weight": "NORMAL"
-                    },
-                    "color": "CONTENT_PRIMARY"
-                  },
-                  "predefinedDecorations": null
-                },
-                "type": "text"
-              }
-            ],
-            "accessibilityText": "$16.95, 92% of customers liked this based on 53 reviews."
-          },
-          "headingPrimary": {
-            "richTextElements": [
-              {
-                "text": {
-                  "text": {
-                    "text": "Power Acai Bowl",
-                    "font": {
-                      "style": "LABEL_DEFAULT",
-                      "weight": "MEDIUM"
-                    },
-                    "color": "CONTENT_PRIMARY"
-                  },
-                  "predefinedDecorations": null
-                },
-                "type": "text"
-              }
-            ],
-            "accessibilityText": "Power Acai Bowl"
-          },
-          "itemAvailabilityState": "UNKNOWN",
-          "catalogItemAnalyticsData": {
-            "catalogSectionItemPosition": 1,
-            "endorsementMetadata": {
-              "endorsementType": "ratings",
-              "rating": "92%",
-              "numRatings": 53
-            },
-            "promoType": "BOGO"
-          },
-          "imageOverlayElements": null,
-          "itemThumbnailElements": null,
-          "isWebPdpSupported": false
-        },
-        {
-          "uuid": "e0b99f94-b4bc-501a-b94d-e14d882d4fc0",
-          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/1d493f3f846ca64c8521b249b6d7eb30/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
-          "title": "Build Your Own Bowl",
-          "itemDescription": "",
-          "price": 1695,
-          "priceTagline": {
-            "text": "$16.95",
-            "textFormat": "<span>$16.95</span>",
-            "accessibilityText": "$16.95"
-          },
-          "spanCount": 2,
-          "displayType": "LIST",
-          "titleBadge": {
-            "text": "Build Your Own Bowl",
-            "textFormat": "<span>Build Your Own Bowl</span>",
-            "accessibilityText": "Build Your Own Bowl"
-          },
-          "isSoldOut": false,
-          "hasCustomizations": true,
-          "itemPromotion": {
-            "buyXGetYItemPromotion": {
-              "buyQuantity": 1,
-              "getQuantity": 1,
-              "maxRedemptionCount": 3
-            },
-            "type": "buyXGetYItemPromotion"
-          },
-          "subsectionUuid": "5680f008-6299-5704-9f2e-07f06c501326",
-          "isAvailable": true,
-          "purchaseInfo": {
-            "purchaseOptions": [
-              {
-                "itemQuantityAbbreviation": "",
-                "quantityConstraintsV2": {
-                  "minPermitted": {
-                    "base": {
-                      "high": 0,
-                      "low": 1,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "maxPermitted": {
-                    "base": {
-                      "high": 0,
-                      "low": 999,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "increment": {
-                    "base": {
-                      "high": 0,
-                      "low": 1,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "defaultQuantity": {
-                    "base": {
-                      "high": 0,
-                      "low": 2,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "minPermittedNumber": 1,
-                  "maxPermittedNumber": 999,
-                  "incrementNumber": 1,
-                  "defaultQuantityNumber": 2
-                }
-              }
-            ],
-            "pricingInfo": {}
-          },
-          "sectionUuid": "d94d7fa0-5099-5e5c-ba9b-0314ced183d3",
-          "promoInfo": {
-            "promotionUUID": "35e3130b-7ff9-41d4-af28-e3e1f0de1dfa",
-            "promoBadge": {
-              "content": {
-                "richText": {
-                  "richTextElements": [
-                    {
-                      "text": {
-                        "text": {
-                          "text": "Buy 1, get 1 free",
-                          "font": {
-                            "style": "LABEL_X_SMALL",
-                            "weight": "MEDIUM"
-                          },
-                          "color": "BRAND_CONTENT_ON_PRIMARY"
-                        },
-                        "predefinedDecorations": null
-                      },
-                      "type": "text"
-                    }
-                  ],
-                  "accessibilityText": "Buy 1, get 1 free"
-                },
-                "type": "richText"
-              },
-              "hierarchy": "PRIMARY",
-              "color": {
-                "custom": {
-                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
-                },
-                "type": "custom"
-              },
-              "shape": "PILL",
-              "accessibilityText": "Buy 1, get 1 free"
-            },
-            "badgePosition": "OFF_IMAGE_BELOW_TEXT"
-          },
-          "quickAddConfig": {
-            "shouldShow": true,
-            "isInteractionEnabled": false,
-            "position": "BOTTOM_TRAILING"
-          },
-          "labelPrimary": {
-            "richTextElements": [
-              {
-                "text": {
-                  "text": {
-                    "text": "$16.95",
-                    "font": {
-                      "style": "PARAGRAPH_SMALL",
-                      "weight": "NORMAL"
-                    },
-                    "color": "CONTENT_PRIMARY"
-                  },
-                  "predefinedDecorations": null
-                },
-                "type": "text"
-              },
-              {
-                "text": {
-                  "text": {
-                    "text": " • ",
-                    "font": {
-                      "style": "PARAGRAPH_SMALL",
-                      "weight": "NORMAL"
-                    },
-                    "color": "CONTENT_PRIMARY"
-                  },
-                  "predefinedDecorations": null
-                },
-                "type": "text"
-              },
-              {
-                "icon": {
-                  "icon": {
-                    "icon": "THUMB_UP_OUTLINE",
-                    "color": "PRIMARY",
-                    "size": "SPACING_UNIT_1_5X"
-                  },
-                  "alignment": "CENTERED"
-                },
-                "type": "icon"
-              },
-              {
-                "text": {
-                  "text": {
-                    "text": " 82% (29)",
-                    "font": {
-                      "style": "PARAGRAPH_SMALL",
-                      "weight": "NORMAL"
-                    },
-                    "color": "CONTENT_PRIMARY"
-                  },
-                  "predefinedDecorations": null
-                },
-                "type": "text"
-              }
-            ],
-            "accessibilityText": "$16.95, 82% of customers liked this based on 29 reviews."
-          },
-          "headingPrimary": {
-            "richTextElements": [
-              {
-                "text": {
-                  "text": {
-                    "text": "Build Your Own Bowl",
-                    "font": {
-                      "style": "LABEL_DEFAULT",
-                      "weight": "MEDIUM"
-                    },
-                    "color": "CONTENT_PRIMARY"
-                  },
-                  "predefinedDecorations": null
-                },
-                "type": "text"
-              }
-            ],
-            "accessibilityText": "Build Your Own Bowl"
-          },
-          "itemAvailabilityState": "UNKNOWN",
-          "catalogItemAnalyticsData": {
-            "catalogSectionItemPosition": 0,
-            "endorsementMetadata": {
-              "endorsementType": "ratings",
-              "rating": "82%",
-              "numRatings": 29
-            },
-            "promoType": "BOGO"
-          },
-          "imageOverlayElements": null,
-          "itemThumbnailElements": null,
-          "isWebPdpSupported": false
-        }
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Restaurant",
-      "@id": "https://www.ubereats.com/store/smoothie-bar/s4y1T5nZR9OX7jHTT-iHZw",
-      "name": "Smoothie Bar",
-      "servesCuisine": [
-        "Juice and Smoothies",
-        "Breakfast and Brunch",
-        "Vegetarian",
-        "Healthy"
-      ],
-      "priceRange": "$",
-      "image": [
-        "https://tb-static.uber.com/prod/image-proc/processed_images/a9b90c2f9e12077ca5e2e8f6b811083b/f6deb0afc24fee6f4bd31a35e6bcbd47.jpeg",
-        "https://tb-static.uber.com/prod/image-proc/processed_images/a9b90c2f9e12077ca5e2e8f6b811083b/9b3aae4cf90f897799a5ed357d60e09d.jpeg",
-        "https://tb-static.uber.com/prod/image-proc/processed_images/a9b90c2f9e12077ca5e2e8f6b811083b/fdf52d66534809b650058f41d517d74a.jpeg",
-        "https://tb-static.uber.com/prod/image-proc/processed_images/a9b90c2f9e12077ca5e2e8f6b811083b/8a42ee7a692dfa4155879820804a277f.jpeg",
-        "https://tb-static.uber.com/prod/image-proc/processed_images/a9b90c2f9e12077ca5e2e8f6b811083b/783282f6131ef2258e5bcd87c46aa87e.jpeg",
-        "https://tb-static.uber.com/prod/image-proc/processed_images/a9b90c2f9e12077ca5e2e8f6b811083b/fb86662148be855d931b37d6c1e5fcbe.jpeg"
-      ],
-      "potentialAction": {
-        "@type": "OrderAction",
-        "target": {
-          "@type": "EntryPoint",
-          "urlTemplate": "https://www.ubereats.com/store/smoothie-bar/s4y1T5nZR9OX7jHTT-iHZw?utm_campaign=order-action&amp;utm_medium=organic",
-          "inLanguage": "English",
-          "actionPlatform": [
-            "https://schema.org/DesktopWebPlatform",
-            "https://schema.org/MobileWebPlatform"
-          ]
-        },
-        "deliveryMethod": [
-          "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
-          "http://purl.org/goodrelations/v1#DeliveryModePickUp"
-        ]
-      },
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Manhattan",
-        "addressRegion": "NY",
-        "postalCode": "10017",
-        "addressCountry": "US",
-        "streetAddress": "700 3rd Avenue"
-      },
-      "geo": {
-        "@type": "GeoCoordinates",
-        "latitude": 40.7520202,
-        "longitude": -73.973726
-      },
-      "telephone": "+12128670887",
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": 4.8,
-        "reviewCount": 800
-      },
-      "openingHoursSpecification": [
-        {
-          "@type": "OpeningHoursSpecification",
-          "dayOfWeek": "Sunday",
-          "opens": "09:00",
-          "closes": "18:30"
-        },
-        {
-          "@type": "OpeningHoursSpecification",
-          "dayOfWeek": [
-            "Monday",
-            "Tuesday",
-            "Wednesday",
-            "Thursday",
-            "Friday"
-          ],
-          "opens": "06:30",
-          "closes": "19:30"
-        },
-        {
-          "@type": "OpeningHoursSpecification",
-          "dayOfWeek": "Saturday",
-          "opens": "09:00",
-          "closes": "18:30"
-        }
-      ],
-      "deals": [
-        {
-          "uuid": "6f7b7d12-bc50-46a6-aff4-1dc59ec4e6ae",
-          "title": "Peanut Butter Smoothie",
-          "itemDescription": "Banana, strawberry, almond milk, and peanut butter blended with ice.",
-          "price": 1195,
-          "priceTagline": {
-            "text": "$11.95",
-            "textFormat": "<span>$11.95</span>",
-            "accessibilityText": "$11.95"
-          },
-          "spanCount": 2,
-          "displayType": "LIST",
-          "titleBadge": {
-            "text": "Peanut Butter Smoothie",
-            "textFormat": "<span>Peanut Butter Smoothie</span>",
-            "accessibilityText": "Peanut Butter Smoothie"
-          },
-          "isSoldOut": false,
-          "hasCustomizations": true,
-          "numAlcoholicItems": 0,
-          "itemPromotion": {
-            "buyXGetYItemPromotion": {
-              "buyQuantity": 1,
-              "getQuantity": 1,
-              "maxRedemptionCount": 3
-            },
-            "type": "buyXGetYItemPromotion"
-          },
-          "itemDescriptionBadge": {
-            "text": "Banana, strawberry, almond milk, and peanut butter blended with ice.",
-            "textFormat": "<span style=\"color:#757575\">Banana, strawberry, almond milk, and peanut butter blended with ice.</span>"
-          },
-          "subsectionUuid": "4a822a5f-3129-57c6-b2b1-de3c902ae3f9",
-          "isAvailable": true,
-          "purchaseInfo": {
-            "purchaseOptions": [
-              {
-                "itemQuantityAbbreviation": "",
-                "quantityConstraintsV2": {
-                  "minPermitted": {
-                    "base": {
-                      "high": 0,
-                      "low": 1,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "maxPermitted": {
-                    "base": {
-                      "high": 0,
-                      "low": 999,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "increment": {
-                    "base": {
-                      "high": 0,
-                      "low": 1,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "defaultQuantity": {
-                    "base": {
-                      "high": 0,
-                      "low": 2,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "minPermittedNumber": 1,
-                  "maxPermittedNumber": 999,
-                  "incrementNumber": 1,
-                  "defaultQuantityNumber": 2
-                }
-              }
-            ],
-            "pricingInfo": {}
-          },
-          "sectionUuid": "007db7f2-6003-57f3-ab54-6355c6fbd680",
-          "promoInfo": {
-            "promotionUUID": "90c68249-9d1e-41ae-a6c7-e2b91b5e9f79",
-            "promoBadge": {
-              "content": {
-                "richText": {
-                  "richTextElements": [
-                    {
-                      "text": {
-                        "text": {
-                          "text": "Buy 1, get 1 free",
-                          "font": {
-                            "style": "LABEL_X_SMALL",
-                            "weight": "MEDIUM"
-                          },
-                          "color": "BRAND_CONTENT_ON_PRIMARY"
-                        },
-                        "predefinedDecorations": null
-                      },
-                      "type": "text"
-                    }
-                  ],
-                  "accessibilityText": "Buy 1, get 1 free"
-                },
-                "type": "richText"
-              },
-              "hierarchy": "PRIMARY",
-              "color": {
-                "custom": {
-                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
-                },
-                "type": "custom"
-              },
-              "shape": "PILL",
-              "accessibilityText": "Buy 1, get 1 free"
-            },
-            "badgePosition": "OFF_IMAGE_BELOW_TEXT"
-          },
-          "quickAddConfig": {
-            "shouldShow": true,
-            "isInteractionEnabled": false,
-            "position": "BOTTOM_TRAILING"
-          },
-          "labelPrimary": {
-            "richTextElements": [
-              {
-                "text": {
-                  "text": {
-                    "text": "$11.95",
-                    "font": {
-                      "style": "PARAGRAPH_SMALL",
-                      "weight": "NORMAL"
-                    },
-                    "color": "CONTENT_PRIMARY"
-                  },
-                  "predefinedDecorations": null
-                },
-                "type": "text"
-              },
-              {
-                "text": {
-                  "text": {
-                    "text": " • ",
-                    "font": {
-                      "style": "PARAGRAPH_SMALL",
-                      "weight": "NORMAL"
-                    },
-                    "color": "CONTENT_PRIMARY"
-                  },
-                  "predefinedDecorations": null
-                },
-                "type": "text"
-              },
-              {
-                "icon": {
-                  "icon": {
-                    "icon": "THUMB_UP_OUTLINE",
-                    "color": "PRIMARY",
-                    "size": "SPACING_UNIT_1_5X"
-                  },
-                  "alignment": "CENTERED"
-                },
-                "type": "icon"
-              },
-              {
-                "text": {
-                  "text": {
-                    "text": " 100% (4)",
-                    "font": {
-                      "style": "PARAGRAPH_SMALL",
-                      "weight": "NORMAL"
-                    },
-                    "color": "CONTENT_PRIMARY"
-                  },
-                  "predefinedDecorations": null
-                },
-                "type": "text"
-              }
-            ],
-            "accessibilityText": "$11.95, 100% of customers liked this based on 4 reviews."
-          },
-          "headingPrimary": {
-            "richTextElements": [
-              {
-                "text": {
-                  "text": {
-                    "text": "Peanut Butter Smoothie",
-                    "font": {
-                      "style": "LABEL_DEFAULT",
-                      "weight": "MEDIUM"
-                    },
-                    "color": "CONTENT_PRIMARY"
-                  },
-                  "predefinedDecorations": null
-                },
-                "type": "text"
-              }
-            ],
-            "accessibilityText": "Peanut Butter Smoothie"
-          },
-          "itemAvailabilityState": "UNKNOWN",
-          "catalogItemAnalyticsData": {
-            "catalogSectionItemPosition": 3,
-            "endorsementMetadata": {
-              "endorsementType": "ratings",
-              "rating": "100%",
-              "numRatings": 4
-            },
-            "promoType": "BOGO"
-          },
-          "imageOverlayElements": null,
-          "itemThumbnailElements": null,
-          "isWebPdpSupported": false
-        },
-        {
-          "uuid": "77f66c05-c708-405b-8fb2-940e367ae190",
-          "title": "Fat Burner Tropical Smoothie",
-          "itemDescription": "Mango, pineapple, coconut water, spinach, and kale.",
-          "price": 1395,
-          "priceTagline": {
-            "text": "$13.95",
-            "textFormat": "<span>$13.95</span>",
-            "accessibilityText": "$13.95"
-          },
-          "spanCount": 2,
-          "displayType": "LIST",
-          "titleBadge": {
-            "text": "Fat Burner Tropical Smoothie",
-            "textFormat": "<span>Fat Burner Tropical Smoothie</span>",
-            "accessibilityText": "Fat Burner Tropical Smoothie"
-          },
-          "isSoldOut": false,
-          "hasCustomizations": true,
-          "itemPromotion": {
-            "buyXGetYItemPromotion": {
-              "buyQuantity": 1,
-              "getQuantity": 1,
-              "maxRedemptionCount": 3
-            },
-            "type": "buyXGetYItemPromotion"
-          },
-          "itemDescriptionBadge": {
-            "text": "Mango, pineapple, coconut water, spinach, and kale.",
-            "textFormat": "<span style=\"color:#757575\">Mango, pineapple, coconut water, spinach, and kale.</span>"
-          },
-          "subsectionUuid": "be94064c-2fcb-4577-834b-55495bd7ed91",
-          "isAvailable": true,
-          "purchaseInfo": {
-            "purchaseOptions": [
-              {
-                "itemQuantityAbbreviation": "",
-                "quantityConstraintsV2": {
-                  "minPermitted": {
-                    "base": {
-                      "high": 0,
-                      "low": 1,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "maxPermitted": {
-                    "base": {
-                      "high": 0,
-                      "low": 999,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "increment": {
-                    "base": {
-                      "high": 0,
-                      "low": 1,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "defaultQuantity": {
-                    "base": {
-                      "high": 0,
-                      "low": 2,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "minPermittedNumber": 1,
-                  "maxPermittedNumber": 999,
-                  "incrementNumber": 1,
-                  "defaultQuantityNumber": 2
-                }
-              }
-            ],
-            "pricingInfo": {}
-          },
-          "sectionUuid": "007db7f2-6003-57f3-ab54-6355c6fbd680",
-          "promoInfo": {
-            "promotionUUID": "90c68249-9d1e-41ae-a6c7-e2b91b5e9f79",
-            "promoBadge": {
-              "content": {
-                "richText": {
-                  "richTextElements": [
-                    {
-                      "text": {
-                        "text": {
-                          "text": "Buy 1, get 1 free",
-                          "font": {
-                            "style": "LABEL_X_SMALL",
-                            "weight": "MEDIUM"
-                          },
-                          "color": "BRAND_CONTENT_ON_PRIMARY"
-                        },
-                        "predefinedDecorations": null
-                      },
-                      "type": "text"
-                    }
-                  ],
-                  "accessibilityText": "Buy 1, get 1 free"
-                },
-                "type": "richText"
-              },
-              "hierarchy": "PRIMARY",
-              "color": {
-                "custom": {
-                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
-                },
-                "type": "custom"
-              },
-              "shape": "PILL",
-              "accessibilityText": "Buy 1, get 1 free"
-            },
-            "badgePosition": "OFF_IMAGE_BELOW_TEXT"
-          },
-          "quickAddConfig": {
-            "shouldShow": true,
-            "isInteractionEnabled": false,
-            "position": "BOTTOM_TRAILING"
-          },
-          "labelPrimary": {
-            "richTextElements": [
-              {
-                "text": {
-                  "text": {
-                    "text": "$13.95",
-                    "font": {
-                      "style": "PARAGRAPH_SMALL",
-                      "weight": "NORMAL"
-                    },
-                    "color": "CONTENT_PRIMARY"
-                  },
-                  "predefinedDecorations": null
-                },
-                "type": "text"
-              },
-              {
-                "text": {
-                  "text": {
-                    "text": " • ",
-                    "font": {
-                      "style": "PARAGRAPH_SMALL",
-                      "weight": "NORMAL"
-                    },
-                    "color": "CONTENT_PRIMARY"
-                  },
-                  "predefinedDecorations": null
-                },
-                "type": "text"
-              },
-              {
-                "icon": {
-                  "icon": {
-                    "icon": "THUMB_UP_OUTLINE",
-                    "color": "PRIMARY",
-                    "size": "SPACING_UNIT_1_5X"
-                  },
-                  "alignment": "CENTERED"
-                },
-                "type": "icon"
-              },
-              {
-                "text": {
-                  "text": {
-                    "text": " 100% (9)",
-                    "font": {
-                      "style": "PARAGRAPH_SMALL",
-                      "weight": "NORMAL"
-                    },
-                    "color": "CONTENT_PRIMARY"
-                  },
-                  "predefinedDecorations": null
-                },
-                "type": "text"
-              }
-            ],
-            "accessibilityText": "$13.95, 100% of customers liked this based on 9 reviews."
-          },
-          "headingPrimary": {
-            "richTextElements": [
-              {
-                "text": {
-                  "text": {
-                    "text": "Fat Burner Tropical Smoothie",
-                    "font": {
-                      "style": "LABEL_DEFAULT",
-                      "weight": "MEDIUM"
-                    },
-                    "color": "CONTENT_PRIMARY"
-                  },
-                  "predefinedDecorations": null
-                },
-                "type": "text"
-              }
-            ],
-            "accessibilityText": "Fat Burner Tropical Smoothie"
-          },
-          "itemAvailabilityState": "UNKNOWN",
-          "catalogItemAnalyticsData": {
-            "catalogSectionItemPosition": 3,
-            "endorsementMetadata": {
-              "endorsementType": "ratings",
-              "rating": "100%",
-              "numRatings": 9
-            },
-            "promoType": "BOGO"
-          },
-          "imageOverlayElements": null,
-          "itemThumbnailElements": null,
-          "isWebPdpSupported": false
-        },
-        {
-          "uuid": "7b9cdd19-88b6-465b-b556-3202896364e0",
-          "title": "High Fiber Smoothie",
-          "itemDescription": "Kale, banana, apple, lemon, cucumber, and spinach.",
-          "price": 1395,
-          "priceTagline": {
-            "text": "$13.95",
-            "textFormat": "<span>$13.95</span>",
-            "accessibilityText": "$13.95"
-          },
-          "spanCount": 2,
-          "displayType": "LIST",
-          "titleBadge": {
-            "text": "High Fiber Smoothie",
-            "textFormat": "<span>High Fiber Smoothie</span>",
-            "accessibilityText": "High Fiber Smoothie"
-          },
-          "isSoldOut": false,
-          "hasCustomizations": true,
-          "itemPromotion": {
-            "buyXGetYItemPromotion": {
-              "buyQuantity": 1,
-              "getQuantity": 1,
-              "maxRedemptionCount": 3
-            },
-            "type": "buyXGetYItemPromotion"
-          },
-          "itemDescriptionBadge": {
-            "text": "Kale, banana, apple, lemon, cucumber, and spinach.",
-            "textFormat": "<span style=\"color:#757575\">Kale, banana, apple, lemon, cucumber, and spinach.</span>"
-          },
-          "subsectionUuid": "be94064c-2fcb-4577-834b-55495bd7ed91",
-          "isAvailable": true,
-          "purchaseInfo": {
-            "purchaseOptions": [
-              {
-                "itemQuantityAbbreviation": "",
-                "quantityConstraintsV2": {
-                  "minPermitted": {
-                    "base": {
-                      "high": 0,
-                      "low": 1,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "maxPermitted": {
-                    "base": {
-                      "high": 0,
-                      "low": 999,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "increment": {
-                    "base": {
-                      "high": 0,
-                      "low": 1,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "defaultQuantity": {
-                    "base": {
-                      "high": 0,
-                      "low": 2,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "minPermittedNumber": 1,
-                  "maxPermittedNumber": 999,
-                  "incrementNumber": 1,
-                  "defaultQuantityNumber": 2
-                }
-              }
-            ],
-            "pricingInfo": {}
-          },
-          "sectionUuid": "007db7f2-6003-57f3-ab54-6355c6fbd680",
-          "promoInfo": {
-            "promotionUUID": "90c68249-9d1e-41ae-a6c7-e2b91b5e9f79",
-            "promoBadge": {
-              "content": {
-                "richText": {
-                  "richTextElements": [
-                    {
-                      "text": {
-                        "text": {
-                          "text": "Buy 1, get 1 free",
-                          "font": {
-                            "style": "LABEL_X_SMALL",
-                            "weight": "MEDIUM"
-                          },
-                          "color": "BRAND_CONTENT_ON_PRIMARY"
-                        },
-                        "predefinedDecorations": null
-                      },
-                      "type": "text"
-                    }
-                  ],
-                  "accessibilityText": "Buy 1, get 1 free"
-                },
-                "type": "richText"
-              },
-              "hierarchy": "PRIMARY",
-              "color": {
-                "custom": {
-                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
-                },
-                "type": "custom"
-              },
-              "shape": "PILL",
-              "accessibilityText": "Buy 1, get 1 free"
-            },
-            "badgePosition": "OFF_IMAGE_BELOW_TEXT"
-          },
-          "quickAddConfig": {
-            "shouldShow": true,
-            "isInteractionEnabled": false,
-            "position": "BOTTOM_TRAILING"
-          },
-          "labelPrimary": {
-            "richTextElements": [
-              {
-                "text": {
-                  "text": {
-                    "text": "$13.95",
-                    "font": {
-                      "style": "PARAGRAPH_SMALL",
-                      "weight": "NORMAL"
-                    },
-                    "color": "CONTENT_PRIMARY"
-                  },
-                  "predefinedDecorations": null
-                },
-                "type": "text"
-              },
-              {
-                "text": {
-                  "text": {
-                    "text": " • ",
-                    "font": {
-                      "style": "PARAGRAPH_SMALL",
-                      "weight": "NORMAL"
-                    },
-                    "color": "CONTENT_PRIMARY"
-                  },
-                  "predefinedDecorations": null
-                },
-                "type": "text"
-              },
-              {
-                "icon": {
-                  "icon": {
-                    "icon": "THUMB_UP_OUTLINE",
-                    "color": "PRIMARY",
-                    "size": "SPACING_UNIT_1_5X"
-                  },
-                  "alignment": "CENTERED"
-                },
-                "type": "icon"
-              },
-              {
-                "text": {
-                  "text": {
-                    "text": " 100% (8)",
-                    "font": {
-                      "style": "PARAGRAPH_SMALL",
-                      "weight": "NORMAL"
-                    },
-                    "color": "CONTENT_PRIMARY"
-                  },
-                  "predefinedDecorations": null
-                },
-                "type": "text"
-              }
-            ],
-            "accessibilityText": "$13.95, 100% of customers liked this based on 8 reviews."
-          },
-          "headingPrimary": {
-            "richTextElements": [
-              {
-                "text": {
-                  "text": {
-                    "text": "High Fiber Smoothie",
-                    "font": {
-                      "style": "LABEL_DEFAULT",
-                      "weight": "MEDIUM"
-                    },
-                    "color": "CONTENT_PRIMARY"
-                  },
-                  "predefinedDecorations": null
-                },
-                "type": "text"
-              }
-            ],
-            "accessibilityText": "High Fiber Smoothie"
-          },
-          "itemAvailabilityState": "UNKNOWN",
-          "catalogItemAnalyticsData": {
-            "catalogSectionItemPosition": 9,
-            "endorsementMetadata": {
-              "endorsementType": "ratings",
-              "rating": "100%",
-              "numRatings": 8
-            },
-            "promoType": "BOGO"
-          },
-          "imageOverlayElements": null,
-          "itemThumbnailElements": null,
-          "isWebPdpSupported": false
-        },
-        {
-          "uuid": "885ae126-40b2-47d0-8046-011e7dad701d",
-          "title": "Creamy Acai Bowl",
-          "itemDescription": "Organic Acai blended with- Banana, strawberry, blueberry, and yogurt(Frozen/Regular), topped with- Granola, strawberry, blueberry, and banana.",
-          "price": 1895,
-          "priceTagline": {
-            "text": "$18.95",
-            "textFormat": "<span>$18.95</span>",
-            "accessibilityText": "$18.95"
-          },
-          "spanCount": 2,
-          "displayType": "LIST",
-          "titleBadge": {
-            "text": "Creamy Acai Bowl",
-            "textFormat": "<span>Creamy Acai Bowl</span>",
-            "accessibilityText": "Creamy Acai Bowl"
-          },
-          "isSoldOut": false,
-          "hasCustomizations": true,
-          "numAlcoholicItems": 0,
-          "itemPromotion": {
-            "buyXGetYItemPromotion": {
-              "buyQuantity": 1,
-              "getQuantity": 1,
-              "maxRedemptionCount": 3
-            },
-            "type": "buyXGetYItemPromotion"
-          },
-          "itemDescriptionBadge": {
-            "text": "Organic Acai blended with- Banana, strawberry, blueberry, and yogurt(Frozen/Regular), topped with- Granola, strawberry, blueberry, and banana.",
-            "textFormat": "<span style=\"color:#757575\">Organic Acai blended with- Banana, strawberry, blueberry, and yogurt(Frozen/Regular), topped with- Granola, strawberry, blueberry, and banana.</span>"
-          },
-          "subsectionUuid": "a6e34412-5e4f-495a-8f27-d338eb3c9ec5",
-          "isAvailable": true,
-          "purchaseInfo": {
-            "purchaseOptions": [
-              {
-                "itemQuantityAbbreviation": "",
-                "quantityConstraintsV2": {
-                  "minPermitted": {
-                    "base": {
-                      "high": 0,
-                      "low": 1,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "maxPermitted": {
-                    "base": {
-                      "high": 0,
-                      "low": 999,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "increment": {
-                    "base": {
-                      "high": 0,
-                      "low": 1,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "defaultQuantity": {
-                    "base": {
-                      "high": 0,
-                      "low": 2,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "minPermittedNumber": 1,
-                  "maxPermittedNumber": 999,
-                  "incrementNumber": 1,
-                  "defaultQuantityNumber": 2
-                }
-              }
-            ],
-            "pricingInfo": {}
-          },
-          "sectionUuid": "007db7f2-6003-57f3-ab54-6355c6fbd680",
-          "promoInfo": {
-            "promotionUUID": "90c68249-9d1e-41ae-a6c7-e2b91b5e9f79",
-            "promoBadge": {
-              "content": {
-                "richText": {
-                  "richTextElements": [
-                    {
-                      "text": {
-                        "text": {
-                          "text": "Buy 1, get 1 free",
-                          "font": {
-                            "style": "LABEL_X_SMALL",
-                            "weight": "MEDIUM"
-                          },
-                          "color": "BRAND_CONTENT_ON_PRIMARY"
-                        },
-                        "predefinedDecorations": null
-                      },
-                      "type": "text"
-                    }
-                  ],
-                  "accessibilityText": "Buy 1, get 1 free"
-                },
-                "type": "richText"
-              },
-              "hierarchy": "PRIMARY",
-              "color": {
-                "custom": {
-                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
-                },
-                "type": "custom"
-              },
-              "shape": "PILL",
-              "accessibilityText": "Buy 1, get 1 free"
-            },
-            "badgePosition": "OFF_IMAGE_BELOW_TEXT"
-          },
-          "quickAddConfig": {
-            "shouldShow": true,
-            "isInteractionEnabled": false,
-            "position": "BOTTOM_TRAILING"
-          },
-          "labelPrimary": {
-            "richTextElements": [
-              {
-                "text": {
-                  "text": {
-                    "text": "$18.95",
-                    "font": {
-                      "style": "PARAGRAPH_SMALL",
-                      "weight": "NORMAL"
-                    },
-                    "color": "CONTENT_PRIMARY"
-                  },
-                  "predefinedDecorations": null
-                },
-                "type": "text"
-              }
-            ],
-            "accessibilityText": "$18.95"
-          },
-          "headingPrimary": {
-            "richTextElements": [
-              {
-                "text": {
-                  "text": {
-                    "text": "Creamy Acai Bowl",
-                    "font": {
-                      "style": "LABEL_DEFAULT",
-                      "weight": "MEDIUM"
-                    },
-                    "color": "CONTENT_PRIMARY"
-                  },
-                  "predefinedDecorations": null
-                },
-                "type": "text"
-              }
-            ],
-            "accessibilityText": "Creamy Acai Bowl"
-          },
-          "itemAvailabilityState": "UNKNOWN",
-          "catalogItemAnalyticsData": {
-            "catalogSectionItemPosition": 6,
-            "promoType": "BOGO"
-          },
-          "imageOverlayElements": null,
-          "itemThumbnailElements": null,
-          "isWebPdpSupported": false
-        },
-        {
-          "uuid": "8c4ed247-53ef-4d95-b853-46b2cc553c5b",
-          "title": "Peanut Butter Acai Bowl",
-          "itemDescription": "Organic Acai blended with-Banana, peanut butter, blueberry, and strawberry topped with- Granola, strawberry, peanut butter, and banana.",
-          "price": 1995,
-          "priceTagline": {
-            "text": "$19.95",
-            "textFormat": "<span>$19.95</span>",
-            "accessibilityText": "$19.95"
-          },
-          "spanCount": 2,
-          "displayType": "LIST",
-          "titleBadge": {
-            "text": "Peanut Butter Acai Bowl",
-            "textFormat": "<span>Peanut Butter Acai Bowl</span>",
-            "accessibilityText": "Peanut Butter Acai Bowl"
-          },
-          "isSoldOut": false,
-          "hasCustomizations": true,
-          "numAlcoholicItems": 0,
-          "itemPromotion": {
-            "buyXGetYItemPromotion": {
-              "buyQuantity": 1,
-              "getQuantity": 1,
-              "maxRedemptionCount": 3
-            },
-            "type": "buyXGetYItemPromotion"
-          },
-          "itemDescriptionBadge": {
-            "text": "Organic Acai blended with-Banana, peanut butter, blueberry, and strawberry topped with- Granola, strawberry, peanut butter, and banana.",
-            "textFormat": "<span style=\"color:#757575\">Organic Acai blended with-Banana, peanut butter, blueberry, and strawberry topped with- Granola, strawberry, peanut butter, and banana.</span>"
-          },
-          "subsectionUuid": "a6e34412-5e4f-495a-8f27-d338eb3c9ec5",
-          "isAvailable": true,
-          "purchaseInfo": {
-            "purchaseOptions": [
-              {
-                "itemQuantityAbbreviation": "",
-                "quantityConstraintsV2": {
-                  "minPermitted": {
-                    "base": {
-                      "high": 0,
-                      "low": 1,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "maxPermitted": {
-                    "base": {
-                      "high": 0,
-                      "low": 999,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "increment": {
-                    "base": {
-                      "high": 0,
-                      "low": 1,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "defaultQuantity": {
-                    "base": {
-                      "high": 0,
-                      "low": 2,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "minPermittedNumber": 1,
-                  "maxPermittedNumber": 999,
-                  "incrementNumber": 1,
-                  "defaultQuantityNumber": 2
-                }
-              }
-            ],
-            "pricingInfo": {}
-          },
-          "sectionUuid": "007db7f2-6003-57f3-ab54-6355c6fbd680",
-          "promoInfo": {
-            "promotionUUID": "90c68249-9d1e-41ae-a6c7-e2b91b5e9f79",
-            "promoBadge": {
-              "content": {
-                "richText": {
-                  "richTextElements": [
-                    {
-                      "text": {
-                        "text": {
-                          "text": "Buy 1, get 1 free",
-                          "font": {
-                            "style": "LABEL_X_SMALL",
-                            "weight": "MEDIUM"
-                          },
-                          "color": "BRAND_CONTENT_ON_PRIMARY"
-                        },
-                        "predefinedDecorations": null
-                      },
-                      "type": "text"
-                    }
-                  ],
-                  "accessibilityText": "Buy 1, get 1 free"
-                },
-                "type": "richText"
-              },
-              "hierarchy": "PRIMARY",
-              "color": {
-                "custom": {
-                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
-                },
-                "type": "custom"
-              },
-              "shape": "PILL",
-              "accessibilityText": "Buy 1, get 1 free"
-            },
-            "badgePosition": "OFF_IMAGE_BELOW_TEXT"
-          },
-          "quickAddConfig": {
-            "shouldShow": true,
-            "isInteractionEnabled": false,
-            "position": "BOTTOM_TRAILING"
-          },
-          "labelPrimary": {
-            "richTextElements": [
-              {
-                "text": {
-                  "text": {
-                    "text": "$19.95",
-                    "font": {
-                      "style": "PARAGRAPH_SMALL",
-                      "weight": "NORMAL"
-                    },
-                    "color": "CONTENT_PRIMARY"
-                  },
-                  "predefinedDecorations": null
-                },
-                "type": "text"
-              },
-              {
-                "text": {
-                  "text": {
-                    "text": " • ",
-                    "font": {
-                      "style": "PARAGRAPH_SMALL",
-                      "weight": "NORMAL"
-                    },
-                    "color": "CONTENT_PRIMARY"
-                  },
-                  "predefinedDecorations": null
-                },
-                "type": "text"
-              },
-              {
-                "icon": {
-                  "icon": {
-                    "icon": "THUMB_UP_OUTLINE",
-                    "color": "PRIMARY",
-                    "size": "SPACING_UNIT_1_5X"
-                  },
-                  "alignment": "CENTERED"
-                },
-                "type": "icon"
-              },
-              {
-                "text": {
-                  "text": {
-                    "text": " 100% (15)",
-                    "font": {
-                      "style": "PARAGRAPH_SMALL",
-                      "weight": "NORMAL"
-                    },
-                    "color": "CONTENT_PRIMARY"
-                  },
-                  "predefinedDecorations": null
-                },
-                "type": "text"
-              }
-            ],
-            "accessibilityText": "$19.95, 100% of customers liked this based on 15 reviews."
-          },
-          "headingPrimary": {
-            "richTextElements": [
-              {
-                "text": {
-                  "text": {
-                    "text": "Peanut Butter Acai Bowl",
-                    "font": {
-                      "style": "LABEL_DEFAULT",
-                      "weight": "MEDIUM"
-                    },
-                    "color": "CONTENT_PRIMARY"
-                  },
-                  "predefinedDecorations": null
-                },
-                "type": "text"
-              }
-            ],
-            "accessibilityText": "Peanut Butter Acai Bowl"
-          },
-          "itemAvailabilityState": "UNKNOWN",
-          "catalogItemAnalyticsData": {
-            "catalogSectionItemPosition": 1,
-            "endorsementMetadata": {
-              "endorsementType": "ratings",
-              "rating": "100%",
-              "numRatings": 15
-            },
-            "promoType": "BOGO"
-          },
-          "imageOverlayElements": null,
-          "itemThumbnailElements": null,
-          "isWebPdpSupported": false
-        },
-        {
-          "uuid": "984358f6-d60e-45df-9399-e7e34a7c6ef5",
-          "title": "Mango Smoothie Bowl",
-          "itemDescription": "Blended mango topped with strawberry, pineapple, and coconut flake.",
-          "price": 1995,
-          "priceTagline": {
-            "text": "$19.95",
-            "textFormat": "<span>$19.95</span>",
-            "accessibilityText": "$19.95"
-          },
-          "spanCount": 2,
-          "displayType": "LIST",
-          "titleBadge": {
-            "text": "Mango Smoothie Bowl",
-            "textFormat": "<span>Mango Smoothie Bowl</span>",
-            "accessibilityText": "Mango Smoothie Bowl"
-          },
-          "isSoldOut": false,
-          "hasCustomizations": true,
-          "itemPromotion": {
-            "buyXGetYItemPromotion": {
-              "buyQuantity": 1,
-              "getQuantity": 1,
-              "maxRedemptionCount": 3
-            },
-            "type": "buyXGetYItemPromotion"
-          },
-          "itemDescriptionBadge": {
-            "text": "Blended mango topped with strawberry, pineapple, and coconut flake.",
-            "textFormat": "<span style=\"color:#757575\">Blended mango topped with strawberry, pineapple, and coconut flake.</span>"
-          },
-          "subsectionUuid": "2825e2cd-f371-469e-9809-781fdbbd2257",
-          "isAvailable": true,
-          "purchaseInfo": {
-            "purchaseOptions": [
-              {
-                "itemQuantityAbbreviation": "",
-                "quantityConstraintsV2": {
-                  "minPermitted": {
-                    "base": {
-                      "high": 0,
-                      "low": 1,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "maxPermitted": {
-                    "base": {
-                      "high": 0,
-                      "low": 999,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "increment": {
-                    "base": {
-                      "high": 0,
-                      "low": 1,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "defaultQuantity": {
-                    "base": {
-                      "high": 0,
-                      "low": 2,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "minPermittedNumber": 1,
-                  "maxPermittedNumber": 999,
-                  "incrementNumber": 1,
-                  "defaultQuantityNumber": 2
-                }
-              }
-            ],
-            "pricingInfo": {}
-          },
-          "sectionUuid": "007db7f2-6003-57f3-ab54-6355c6fbd680",
-          "promoInfo": {
-            "promotionUUID": "90c68249-9d1e-41ae-a6c7-e2b91b5e9f79",
-            "promoBadge": {
-              "content": {
-                "richText": {
-                  "richTextElements": [
-                    {
-                      "text": {
-                        "text": {
-                          "text": "Buy 1, get 1 free",
-                          "font": {
-                            "style": "LABEL_X_SMALL",
-                            "weight": "MEDIUM"
-                          },
-                          "color": "BRAND_CONTENT_ON_PRIMARY"
-                        },
-                        "predefinedDecorations": null
-                      },
-                      "type": "text"
-                    }
-                  ],
-                  "accessibilityText": "Buy 1, get 1 free"
-                },
-                "type": "richText"
-              },
-              "hierarchy": "PRIMARY",
-              "color": {
-                "custom": {
-                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
-                },
-                "type": "custom"
-              },
-              "shape": "PILL",
-              "accessibilityText": "Buy 1, get 1 free"
-            },
-            "badgePosition": "OFF_IMAGE_BELOW_TEXT"
-          },
-          "quickAddConfig": {
-            "shouldShow": true,
-            "isInteractionEnabled": false,
-            "position": "BOTTOM_TRAILING"
-          },
-          "labelPrimary": {
-            "richTextElements": [
-              {
-                "text": {
-                  "text": {
-                    "text": "$19.95",
-                    "font": {
-                      "style": "PARAGRAPH_SMALL",
-                      "weight": "NORMAL"
-                    },
-                    "color": "CONTENT_PRIMARY"
-                  },
-                  "predefinedDecorations": null
-                },
-                "type": "text"
-              },
-              {
-                "text": {
-                  "text": {
-                    "text": " • ",
-                    "font": {
-                      "style": "PARAGRAPH_SMALL",
-                      "weight": "NORMAL"
-                    },
-                    "color": "CONTENT_PRIMARY"
-                  },
-                  "predefinedDecorations": null
-                },
-                "type": "text"
-              },
-              {
-                "icon": {
-                  "icon": {
-                    "icon": "THUMB_UP_OUTLINE",
-                    "color": "PRIMARY",
-                    "size": "SPACING_UNIT_1_5X"
-                  },
-                  "alignment": "CENTERED"
-                },
-                "type": "icon"
-              },
-              {
-                "text": {
-                  "text": {
-                    "text": " 85% (7)",
-                    "font": {
-                      "style": "PARAGRAPH_SMALL",
-                      "weight": "NORMAL"
-                    },
-                    "color": "CONTENT_PRIMARY"
-                  },
-                  "predefinedDecorations": null
-                },
-                "type": "text"
-              }
-            ],
-            "accessibilityText": "$19.95, 85% of customers liked this based on 7 reviews."
-          },
-          "headingPrimary": {
-            "richTextElements": [
-              {
-                "text": {
-                  "text": {
-                    "text": "Mango Smoothie Bowl",
-                    "font": {
-                      "style": "LABEL_DEFAULT",
-                      "weight": "MEDIUM"
-                    },
-                    "color": "CONTENT_PRIMARY"
-                  },
-                  "predefinedDecorations": null
-                },
-                "type": "text"
-              }
-            ],
-            "accessibilityText": "Mango Smoothie Bowl"
-          },
-          "itemAvailabilityState": "UNKNOWN",
-          "catalogItemAnalyticsData": {
-            "catalogSectionItemPosition": 3,
-            "endorsementMetadata": {
-              "endorsementType": "ratings",
-              "rating": "85%",
-              "numRatings": 7
-            },
-            "promoType": "BOGO"
-          },
-          "imageOverlayElements": null,
-          "itemThumbnailElements": null,
-          "isWebPdpSupported": false
-        },
-        {
-          "uuid": "a61cbce5-9f9b-4ebc-a1a8-33a08a0c686f",
-          "title": "Green Immune Booster Smoothie",
-          "itemDescription": "Spinach, kale, mango, pineapple, kiwi, and lemon.",
-          "price": 1395,
-          "priceTagline": {
-            "text": "$13.95",
-            "textFormat": "<span>$13.95</span>",
-            "accessibilityText": "$13.95"
-          },
-          "spanCount": 2,
-          "displayType": "LIST",
-          "titleBadge": {
-            "text": "Green Immune Booster Smoothie",
-            "textFormat": "<span>Green Immune Booster Smoothie</span>",
-            "accessibilityText": "Green Immune Booster Smoothie"
-          },
-          "isSoldOut": false,
-          "hasCustomizations": true,
-          "itemPromotion": {
-            "buyXGetYItemPromotion": {
-              "buyQuantity": 1,
-              "getQuantity": 1,
-              "maxRedemptionCount": 3
-            },
-            "type": "buyXGetYItemPromotion"
-          },
-          "itemDescriptionBadge": {
-            "text": "Spinach, kale, mango, pineapple, kiwi, and lemon.",
-            "textFormat": "<span style=\"color:#757575\">Spinach, kale, mango, pineapple, kiwi, and lemon.</span>"
-          },
-          "subsectionUuid": "be94064c-2fcb-4577-834b-55495bd7ed91",
-          "isAvailable": true,
-          "purchaseInfo": {
-            "purchaseOptions": [
-              {
-                "itemQuantityAbbreviation": "",
-                "quantityConstraintsV2": {
-                  "minPermitted": {
-                    "base": {
-                      "high": 0,
-                      "low": 1,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "maxPermitted": {
-                    "base": {
-                      "high": 0,
-                      "low": 999,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "increment": {
-                    "base": {
-                      "high": 0,
-                      "low": 1,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "defaultQuantity": {
-                    "base": {
-                      "high": 0,
-                      "low": 2,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "minPermittedNumber": 1,
-                  "maxPermittedNumber": 999,
-                  "incrementNumber": 1,
-                  "defaultQuantityNumber": 2
-                }
-              }
-            ],
-            "pricingInfo": {}
-          },
-          "sectionUuid": "007db7f2-6003-57f3-ab54-6355c6fbd680",
-          "promoInfo": {
-            "promotionUUID": "90c68249-9d1e-41ae-a6c7-e2b91b5e9f79",
-            "promoBadge": {
-              "content": {
-                "richText": {
-                  "richTextElements": [
-                    {
-                      "text": {
-                        "text": {
-                          "text": "Buy 1, get 1 free",
-                          "font": {
-                            "style": "LABEL_X_SMALL",
-                            "weight": "MEDIUM"
-                          },
-                          "color": "BRAND_CONTENT_ON_PRIMARY"
-                        },
-                        "predefinedDecorations": null
-                      },
-                      "type": "text"
-                    }
-                  ],
-                  "accessibilityText": "Buy 1, get 1 free"
-                },
-                "type": "richText"
-              },
-              "hierarchy": "PRIMARY",
-              "color": {
-                "custom": {
-                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
-                },
-                "type": "custom"
-              },
-              "shape": "PILL",
-              "accessibilityText": "Buy 1, get 1 free"
-            },
-            "badgePosition": "OFF_IMAGE_BELOW_TEXT"
-          },
-          "quickAddConfig": {
-            "shouldShow": true,
-            "isInteractionEnabled": false,
-            "position": "BOTTOM_TRAILING"
-          },
-          "labelPrimary": {
-            "richTextElements": [
-              {
-                "text": {
-                  "text": {
-                    "text": "$13.95",
-                    "font": {
-                      "style": "PARAGRAPH_SMALL",
-                      "weight": "NORMAL"
-                    },
-                    "color": "CONTENT_PRIMARY"
-                  },
-                  "predefinedDecorations": null
-                },
-                "type": "text"
-              },
-              {
-                "text": {
-                  "text": {
-                    "text": " • ",
-                    "font": {
-                      "style": "PARAGRAPH_SMALL",
-                      "weight": "NORMAL"
-                    },
-                    "color": "CONTENT_PRIMARY"
-                  },
-                  "predefinedDecorations": null
-                },
-                "type": "text"
-              },
-              {
-                "icon": {
-                  "icon": {
-                    "icon": "THUMB_UP_OUTLINE",
-                    "color": "PRIMARY",
-                    "size": "SPACING_UNIT_1_5X"
-                  },
-                  "alignment": "CENTERED"
-                },
-                "type": "icon"
-              },
-              {
-                "text": {
-                  "text": {
-                    "text": " 100% (11)",
-                    "font": {
-                      "style": "PARAGRAPH_SMALL",
-                      "weight": "NORMAL"
-                    },
-                    "color": "CONTENT_PRIMARY"
-                  },
-                  "predefinedDecorations": null
-                },
-                "type": "text"
-              }
-            ],
-            "accessibilityText": "$13.95, 100% of customers liked this based on 11 reviews."
-          },
-          "headingPrimary": {
-            "richTextElements": [
-              {
-                "text": {
-                  "text": {
-                    "text": "Green Immune Booster Smoothie",
-                    "font": {
-                      "style": "LABEL_DEFAULT",
-                      "weight": "MEDIUM"
-                    },
-                    "color": "CONTENT_PRIMARY"
-                  },
-                  "predefinedDecorations": null
-                },
-                "type": "text"
-              }
-            ],
-            "accessibilityText": "Green Immune Booster Smoothie"
-          },
-          "itemAvailabilityState": "UNKNOWN",
-          "catalogItemAnalyticsData": {
-            "catalogSectionItemPosition": 6,
-            "endorsementMetadata": {
-              "endorsementType": "ratings",
-              "rating": "100%",
-              "numRatings": 11
-            },
-            "promoType": "BOGO"
-          },
-          "imageOverlayElements": null,
-          "itemThumbnailElements": null,
-          "isWebPdpSupported": false
-        },
-        {
-          "uuid": "c7e4ae05-a7a2-415e-b981-39052b5b5099",
-          "title": "Cold Buster Smoothie",
-          "itemDescription": "Orange, mango, and banana.",
-          "price": 1395,
-          "priceTagline": {
-            "text": "$13.95",
-            "textFormat": "<span>$13.95</span>",
-            "accessibilityText": "$13.95"
-          },
-          "spanCount": 2,
-          "displayType": "LIST",
-          "titleBadge": {
-            "text": "Cold Buster Smoothie",
-            "textFormat": "<span>Cold Buster Smoothie</span>",
-            "accessibilityText": "Cold Buster Smoothie"
-          },
-          "isSoldOut": false,
-          "hasCustomizations": true,
-          "itemPromotion": {
-            "buyXGetYItemPromotion": {
-              "buyQuantity": 1,
-              "getQuantity": 1,
-              "maxRedemptionCount": 3
-            },
-            "type": "buyXGetYItemPromotion"
-          },
-          "itemDescriptionBadge": {
-            "text": "Orange, mango, and banana.",
-            "textFormat": "<span style=\"color:#757575\">Orange, mango, and banana.</span>"
-          },
-          "subsectionUuid": "be94064c-2fcb-4577-834b-55495bd7ed91",
-          "isAvailable": true,
-          "purchaseInfo": {
-            "purchaseOptions": [
-              {
-                "itemQuantityAbbreviation": "",
-                "quantityConstraintsV2": {
-                  "minPermitted": {
-                    "base": {
-                      "high": 0,
-                      "low": 1,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "maxPermitted": {
-                    "base": {
-                      "high": 0,
-                      "low": 999,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "increment": {
-                    "base": {
-                      "high": 0,
-                      "low": 1,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "defaultQuantity": {
-                    "base": {
-                      "high": 0,
-                      "low": 2,
-                      "unsigned": false
-                    },
-                    "exponent": 0
-                  },
-                  "minPermittedNumber": 1,
-                  "maxPermittedNumber": 999,
-                  "incrementNumber": 1,
-                  "defaultQuantityNumber": 2
-                }
-              }
-            ],
-            "pricingInfo": {}
-          },
-          "sectionUuid": "007db7f2-6003-57f3-ab54-6355c6fbd680",
-          "promoInfo": {
-            "promotionUUID": "90c68249-9d1e-41ae-a6c7-e2b91b5e9f79",
-            "promoBadge": {
-              "content": {
-                "richText": {
-                  "richTextElements": [
-                    {
-                      "text": {
-                        "text": {
-                          "text": "Buy 1, get 1 free",
-                          "font": {
-                            "style": "LABEL_X_SMALL",
-                            "weight": "MEDIUM"
-                          },
-                          "color": "BRAND_CONTENT_ON_PRIMARY"
-                        },
-                        "predefinedDecorations": null
-                      },
-                      "type": "text"
-                    }
-                  ],
-                  "accessibilityText": "Buy 1, get 1 free"
-                },
-                "type": "richText"
-              },
-              "hierarchy": "PRIMARY",
-              "color": {
-                "custom": {
-                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
-                },
-                "type": "custom"
-              },
-              "shape": "PILL",
-              "accessibilityText": "Buy 1, get 1 free"
-            },
-            "badgePosition": "OFF_IMAGE_BELOW_TEXT"
-          },
-          "quickAddConfig": {
-            "shouldShow": true,
-            "isInteractionEnabled": false,
-            "position": "BOTTOM_TRAILING"
-          },
-          "labelPrimary": {
-            "richTextElements": [
-              {
-                "text": {
-                  "text": {
-                    "text": "$13.95",
-                    "font": {
-                      "style": "PARAGRAPH_SMALL",
-                      "weight": "NORMAL"
-                    },
-                    "color": "CONTENT_PRIMARY"
-                  },
-                  "predefinedDecorations": null
-                },
-                "type": "text"
-              }
-            ],
-            "accessibilityText": "$13.95"
-          },
-          "headingPrimary": {
-            "richTextElements": [
-              {
-                "text": {
-                  "text": {
-                    "text": "Cold Buster Smoothie",
-                    "font": {
-                      "style": "LABEL_DEFAULT",
-                      "weight": "MEDIUM"
-                    },
-                    "color": "CONTENT_PRIMARY"
-                  },
-                  "predefinedDecorations": null
-                },
-                "type": "text"
-              }
-            ],
-            "accessibilityText": "Cold Buster Smoothie"
+            "accessibilityText": "Quesadilla - Chicken (BOGO)"
           },
           "itemAvailabilityState": "UNKNOWN",
           "catalogItemAnalyticsData": {
             "catalogSectionItemPosition": 2,
+            "endorsementMetadata": {
+              "endorsementType": "ratings",
+              "rating": "81%",
+              "numRatings": 33
+            },
             "promoType": "BOGO"
           },
           "imageOverlayElements": null,
@@ -4425,21 +1638,22 @@
           "isWebPdpSupported": false
         },
         {
-          "uuid": "cc93a383-e116-4426-81a0-0d221b116849",
-          "title": "PB Yogurt Shake",
-          "itemDescription": "Banana, strawberry, yogurt, skim milk, and peanut butter.",
-          "price": 1195,
+          "uuid": "aec261e2-8040-5e59-b9c7-3e1525d06f1d",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/bdf9fe942fc3ccfe43eaebf66cd32356/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+          "title": "Chicken Birria Tacos (3)",
+          "itemDescription": "6\" inches corn tortilla, chopped birria, Muenster cheese, onions and cilantro. 4 oz birria consome and limes on side",
+          "price": 1759,
           "priceTagline": {
-            "text": "$11.95",
-            "textFormat": "<span>$11.95</span>",
-            "accessibilityText": "$11.95"
+            "text": "$17.59",
+            "textFormat": "<span>$17.59</span>",
+            "accessibilityText": "$17.59"
           },
           "spanCount": 2,
           "displayType": "LIST",
           "titleBadge": {
-            "text": "PB Yogurt Shake",
-            "textFormat": "<span>PB Yogurt Shake</span>",
-            "accessibilityText": "PB Yogurt Shake"
+            "text": "Chicken Birria Tacos (3)",
+            "textFormat": "<span>Chicken Birria Tacos (3)</span>",
+            "accessibilityText": "Chicken Birria Tacos (3)"
           },
           "isSoldOut": false,
           "hasCustomizations": true,
@@ -4453,10 +1667,10 @@
             "type": "buyXGetYItemPromotion"
           },
           "itemDescriptionBadge": {
-            "text": "Banana, strawberry, yogurt, skim milk, and peanut butter.",
-            "textFormat": "<span style=\"color:#757575\">Banana, strawberry, yogurt, skim milk, and peanut butter.</span>"
+            "text": "6\" inches corn tortilla, chopped birria, Muenster cheese, onions and cilantro. 4 oz birria consome and limes on side",
+            "textFormat": "<span style=\"color:#757575\">6&#34; inches corn tortilla, chopped birria, Muenster cheese, onions and cilantro. 4 oz birria consome and limes on side</span>"
           },
-          "subsectionUuid": "c911c7df-637a-4a7f-85b2-d3328e8c53f9",
+          "subsectionUuid": "3074aef0-d413-572b-b7bf-bd8a15ecc223",
           "isAvailable": true,
           "purchaseInfo": {
             "purchaseOptions": [
@@ -4504,9 +1718,9 @@
             ],
             "pricingInfo": {}
           },
-          "sectionUuid": "007db7f2-6003-57f3-ab54-6355c6fbd680",
+          "sectionUuid": "9779556c-586c-51a3-972c-5a608ebd8103",
           "promoInfo": {
-            "promotionUUID": "90c68249-9d1e-41ae-a6c7-e2b91b5e9f79",
+            "promotionUUID": "4655e9da-4f72-4f4f-a690-7b860687a838",
             "promoBadge": {
               "content": {
                 "richText": {
@@ -4552,7 +1766,46 @@
               {
                 "text": {
                   "text": {
-                    "text": "$11.95",
+                    "text": "$17.59",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": " • ",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              },
+              {
+                "icon": {
+                  "icon": {
+                    "icon": "THUMB_UP_OUTLINE",
+                    "color": "PRIMARY",
+                    "size": "SPACING_UNIT_1_5X"
+                  },
+                  "alignment": "CENTERED"
+                },
+                "type": "icon"
+              },
+              {
+                "text": {
+                  "text": {
+                    "text": " 93% (16)",
                     "font": {
                       "style": "PARAGRAPH_SMALL",
                       "weight": "NORMAL"
@@ -4564,14 +1817,14 @@
                 "type": "text"
               }
             ],
-            "accessibilityText": "$11.95"
+            "accessibilityText": "$17.59, 93% of customers liked this based on 16 reviews."
           },
           "headingPrimary": {
             "richTextElements": [
               {
                 "text": {
                   "text": {
-                    "text": "PB Yogurt Shake",
+                    "text": "Chicken Birria Tacos (3)",
                     "font": {
                       "style": "LABEL_DEFAULT",
                       "weight": "MEDIUM"
@@ -4583,7 +1836,182 @@
                 "type": "text"
               }
             ],
-            "accessibilityText": "PB Yogurt Shake"
+            "accessibilityText": "Chicken Birria Tacos (3)"
+          },
+          "itemAvailabilityState": "UNKNOWN",
+          "catalogItemAnalyticsData": {
+            "catalogSectionItemPosition": 1,
+            "endorsementMetadata": {
+              "endorsementType": "ratings",
+              "rating": "93%",
+              "numRatings": 16
+            },
+            "promoType": "BOGO"
+          },
+          "imageOverlayElements": null,
+          "itemThumbnailElements": null,
+          "isWebPdpSupported": false
+        },
+        {
+          "uuid": "e248108b-b910-5a0f-aca0-d2fdbc1bd65b",
+          "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/7ce867ac5557fafbf109d4e720d7ea4e/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+          "title": "Quesabirria Chicken (BOGO)",
+          "itemDescription": "Flour tortilla with cheese and chicken birria.",
+          "price": 2323,
+          "priceTagline": {
+            "text": "$23.23",
+            "textFormat": "<span>$23.23</span>",
+            "accessibilityText": "$23.23"
+          },
+          "spanCount": 2,
+          "displayType": "LIST",
+          "titleBadge": {
+            "text": "Quesabirria Chicken (BOGO)",
+            "textFormat": "<span>Quesabirria Chicken (BOGO)</span>",
+            "accessibilityText": "Quesabirria Chicken (BOGO)"
+          },
+          "isSoldOut": false,
+          "hasCustomizations": false,
+          "itemPromotion": {
+            "buyXGetYItemPromotion": {
+              "buyQuantity": 1,
+              "getQuantity": 1,
+              "maxRedemptionCount": 3
+            },
+            "type": "buyXGetYItemPromotion"
+          },
+          "itemDescriptionBadge": {
+            "text": "Flour tortilla with cheese and chicken birria.",
+            "textFormat": "<span style=\"color:#757575\">Flour tortilla with cheese and chicken birria.</span>"
+          },
+          "subsectionUuid": "7170af77-d75e-512f-b3ff-8b6e29cbae82",
+          "isAvailable": true,
+          "purchaseInfo": {
+            "purchaseOptions": [
+              {
+                "itemQuantityAbbreviation": "",
+                "quantityConstraintsV2": {
+                  "minPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "maxPermitted": {
+                    "base": {
+                      "high": 0,
+                      "low": 999,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "increment": {
+                    "base": {
+                      "high": 0,
+                      "low": 1,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "defaultQuantity": {
+                    "base": {
+                      "high": 0,
+                      "low": 2,
+                      "unsigned": false
+                    },
+                    "exponent": 0
+                  },
+                  "minPermittedNumber": 1,
+                  "maxPermittedNumber": 999,
+                  "incrementNumber": 1,
+                  "defaultQuantityNumber": 2
+                }
+              }
+            ],
+            "pricingInfo": {}
+          },
+          "sectionUuid": "9779556c-586c-51a3-972c-5a608ebd8103",
+          "promoInfo": {
+            "promotionUUID": "4655e9da-4f72-4f4f-a690-7b860687a838",
+            "promoBadge": {
+              "content": {
+                "richText": {
+                  "richTextElements": [
+                    {
+                      "text": {
+                        "text": {
+                          "text": "Buy 1, get 1 free",
+                          "font": {
+                            "style": "LABEL_X_SMALL",
+                            "weight": "MEDIUM"
+                          },
+                          "color": "BRAND_CONTENT_ON_PRIMARY"
+                        },
+                        "predefinedDecorations": null
+                      },
+                      "type": "text"
+                    }
+                  ],
+                  "accessibilityText": "Buy 1, get 1 free"
+                },
+                "type": "richText"
+              },
+              "hierarchy": "PRIMARY",
+              "color": {
+                "custom": {
+                  "backgroundColor": "BRAND_BACKGROUND_PRIMARY"
+                },
+                "type": "custom"
+              },
+              "shape": "PILL",
+              "accessibilityText": "Buy 1, get 1 free"
+            },
+            "badgePosition": "OFF_IMAGE_BELOW_TEXT"
+          },
+          "quickAddConfig": {
+            "shouldShow": true,
+            "isInteractionEnabled": false,
+            "position": "BOTTOM_TRAILING"
+          },
+          "labelPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "$23.23",
+                    "font": {
+                      "style": "PARAGRAPH_SMALL",
+                      "weight": "NORMAL"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "$23.23"
+          },
+          "headingPrimary": {
+            "richTextElements": [
+              {
+                "text": {
+                  "text": {
+                    "text": "Quesabirria Chicken (BOGO)",
+                    "font": {
+                      "style": "LABEL_DEFAULT",
+                      "weight": "MEDIUM"
+                    },
+                    "color": "CONTENT_PRIMARY"
+                  },
+                  "predefinedDecorations": null
+                },
+                "type": "text"
+              }
+            ],
+            "accessibilityText": "Quesabirria Chicken (BOGO)"
           },
           "itemAvailabilityState": "UNKNOWN",
           "catalogItemAnalyticsData": {
@@ -4595,25 +2023,24 @@
           "isWebPdpSupported": false
         },
         {
-          "uuid": "ce37eff1-f1bb-441c-bdaa-d382c76810cf",
-          "title": "Green Detox Smoothie",
-          "itemDescription": "Kiwi, banana, pineapple, celery, and spinach.",
-          "price": 1395,
+          "uuid": "7bdf0451-4e74-5a90-994b-9c3190cac012",
+          "title": "Chips and Salsa",
+          "itemDescription": "Corn tortilla chips and homemade sweet red salsa",
+          "price": 496,
           "priceTagline": {
-            "text": "$13.95",
-            "textFormat": "<span>$13.95</span>",
-            "accessibilityText": "$13.95"
+            "text": "$4.96",
+            "textFormat": "<span>$4.96</span>",
+            "accessibilityText": "$4.96"
           },
           "spanCount": 2,
           "displayType": "LIST",
           "titleBadge": {
-            "text": "Green Detox Smoothie",
-            "textFormat": "<span>Green Detox Smoothie</span>",
-            "accessibilityText": "Green Detox Smoothie"
+            "text": "Chips and Salsa",
+            "textFormat": "<span>Chips and Salsa</span>",
+            "accessibilityText": "Chips and Salsa"
           },
           "isSoldOut": false,
-          "hasCustomizations": true,
-          "numAlcoholicItems": 0,
+          "hasCustomizations": false,
           "itemPromotion": {
             "buyXGetYItemPromotion": {
               "buyQuantity": 1,
@@ -4623,10 +2050,10 @@
             "type": "buyXGetYItemPromotion"
           },
           "itemDescriptionBadge": {
-            "text": "Kiwi, banana, pineapple, celery, and spinach.",
-            "textFormat": "<span style=\"color:#757575\">Kiwi, banana, pineapple, celery, and spinach.</span>"
+            "text": "Corn tortilla chips and homemade sweet red salsa",
+            "textFormat": "<span style=\"color:#757575\">Corn tortilla chips and homemade sweet red salsa</span>"
           },
-          "subsectionUuid": "be94064c-2fcb-4577-834b-55495bd7ed91",
+          "subsectionUuid": "7170af77-d75e-512f-b3ff-8b6e29cbae82",
           "isAvailable": true,
           "purchaseInfo": {
             "purchaseOptions": [
@@ -4674,9 +2101,9 @@
             ],
             "pricingInfo": {}
           },
-          "sectionUuid": "007db7f2-6003-57f3-ab54-6355c6fbd680",
+          "sectionUuid": "9779556c-586c-51a3-972c-5a608ebd8103",
           "promoInfo": {
-            "promotionUUID": "90c68249-9d1e-41ae-a6c7-e2b91b5e9f79",
+            "promotionUUID": "4655e9da-4f72-4f4f-a690-7b860687a838",
             "promoBadge": {
               "content": {
                 "richText": {
@@ -4722,7 +2149,7 @@
               {
                 "text": {
                   "text": {
-                    "text": "$13.95",
+                    "text": "$4.96",
                     "font": {
                       "style": "PARAGRAPH_SMALL",
                       "weight": "NORMAL"
@@ -4761,7 +2188,7 @@
               {
                 "text": {
                   "text": {
-                    "text": " 100% (30)",
+                    "text": " 100% (7)",
                     "font": {
                       "style": "PARAGRAPH_SMALL",
                       "weight": "NORMAL"
@@ -4773,14 +2200,14 @@
                 "type": "text"
               }
             ],
-            "accessibilityText": "$13.95, 100% of customers liked this based on 30 reviews."
+            "accessibilityText": "$4.96, 100% of customers liked this based on 7 reviews."
           },
           "headingPrimary": {
             "richTextElements": [
               {
                 "text": {
                   "text": {
-                    "text": "Green Detox Smoothie",
+                    "text": "Chips and Salsa",
                     "font": {
                       "style": "LABEL_DEFAULT",
                       "weight": "MEDIUM"
@@ -4792,15 +2219,15 @@
                 "type": "text"
               }
             ],
-            "accessibilityText": "Green Detox Smoothie"
+            "accessibilityText": "Chips and Salsa"
           },
           "itemAvailabilityState": "UNKNOWN",
           "catalogItemAnalyticsData": {
-            "catalogSectionItemPosition": 1,
+            "catalogSectionItemPosition": 8,
             "endorsementMetadata": {
               "endorsementType": "ratings",
               "rating": "100%",
-              "numRatings": 30
+              "numRatings": 7
             },
             "promoType": "BOGO"
           },
